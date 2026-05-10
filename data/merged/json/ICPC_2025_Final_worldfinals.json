@@ -1,0 +1,7554 @@
+{
+  "contest_name": {
+    "zh-CN": "The 49th ICPC World Finals",
+    "fallback": "The 49th ICPC World Finals"
+  },
+  "problem_ids": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L"
+  ],
+  "standings": [
+    {
+      "team_name": "St. Petersburg State University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 1,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 11,
+      "penalty": 1478,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 255
+        },
+        "1": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 53
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 37
+        },
+        "4": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 150
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 20
+        },
+        "6": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 298
+        },
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 195
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 42
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 81
+        },
+        "10": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 128
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 19
+        }
+      }
+    },
+    {
+      "team_name": "The University of Tokyo",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 2,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 10,
+      "penalty": 1116,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 206
+        },
+        "1": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 271
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 25
+        },
+        "4": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 184
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 34
+        },
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 95
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 66
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 72
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 126
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 17
+        }
+      }
+    },
+    {
+      "team_name": "Beijing Jiaotong University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 3,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 10,
+      "penalty": 1425,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 225
+        },
+        "1": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 204
+        },
+        "2": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 57
+        },
+        "4": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 270
+        },
+        "5": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 52
+        },
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 132
+        },
+        "8": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 84
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 107
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 148
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 6
+        }
+      }
+    },
+    {
+      "team_name": "Tsinghua University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 4,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 9,
+      "penalty": 865,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 139
+        },
+        "2": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 33
+        },
+        "4": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 174
+        },
+        "5": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 27
+        },
+        "6": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 71
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 87
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 84
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 157
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 13
+        }
+      }
+    },
+    {
+      "team_name": "Peking University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 5,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 9,
+      "penalty": 887,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 180
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 14
+        },
+        "4": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 168
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 50
+        },
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 113
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 57
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 76
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 183
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 26
+        }
+      }
+    },
+    {
+      "team_name": "Harvard University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 6,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 9,
+      "penalty": 995,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 124
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 35
+        },
+        "4": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 238
+        },
+        "5": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 78
+        },
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 190
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 62
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 101
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 69
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 18
+        }
+      }
+    },
+    {
+      "team_name": "University of Zagreb",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 7,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 9,
+      "penalty": 1075,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 176
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 15
+        },
+        "4": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 242
+        },
+        "5": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 77
+        },
+        "7": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 175
+        },
+        "8": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 64
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 64
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 118
+        },
+        "11": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 24
+        }
+      }
+    },
+    {
+      "team_name": "Massachusetts Institute of Technology",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 8,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 9,
+      "penalty": 1123,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 233
+        },
+        "1": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 14
+        },
+        "4": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 113
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 36
+        },
+        "7": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 204
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 50
+        },
+        "9": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 121
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 145
+        },
+        "11": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 27
+        }
+      }
+    },
+    {
+      "team_name": "University of Science and Technology of China",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 9,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 9,
+      "penalty": 1128,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 224
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 41
+        },
+        "4": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 286
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 31
+        },
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 229
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 55
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 85
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 123
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 14
+        }
+      }
+    },
+    {
+      "team_name": "Seoul National University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 10,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 9,
+      "penalty": 1133,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 201
+        },
+        "1": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 282
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 32
+        },
+        "5": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 58
+        },
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 160
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 46
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 79
+        },
+        "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 161
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 14
+        }
+      }
+    },
+    {
+      "team_name": "University of Novi Sad",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 11,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 9,
+      "penalty": 1175,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 244
+        },
+        "1": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 39
+        },
+        "4": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 259
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 26
+        },
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 158
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 49
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 96
+        },
+        "10": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 208
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 16
+        }
+      }
+    },
+    {
+      "team_name": "Saratov State University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 12,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 9,
+      "penalty": 1191,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 203
+        },
+        "1": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 37
+        },
+        "4": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 238
+        },
+        "5": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 74
+        },
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 146
+        },
+        "8": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 104
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 111
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 164
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 14
+        }
+      }
+    },
+    {
+      "team_name": "Karlsruhe Institute of Technology",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 13,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 9,
+      "penalty": 1199,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 133
+        },
+        "1": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 45
+        },
+        "4": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 292
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 59
+        },
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 207
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 23
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 92
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 234
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 34
+        }
+      }
+    },
+    {
+      "team_name": "University of Maryland",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 14,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 9,
+      "penalty": 1239,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 106
+        },
+        "1": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 17
+        },
+        "4": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 233
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 65
+        },
+        "7": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 258
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 43
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 225
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 164
+        },
+        "11": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 48
+        }
+      }
+    },
+    {
+      "team_name": "National Taiwan University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 15,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 9,
+      "penalty": 1256,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 190
+        },
+        "3": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 45
+        },
+        "4": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 278
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 116
+        },
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 182
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 118
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 77
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 173
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 17
+        }
+      }
+    },
+    {
+      "team_name": "Sharif University of Technology",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 16,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 9,
+      "penalty": 1329,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 73
+        },
+        "1": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 23
+        },
+        "4": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 244
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 44
+        },
+        "7": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 257
+        },
+        "8": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 136
+        },
+        "9": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 158
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 213
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 21
+        }
+      }
+    },
+    {
+      "team_name": "Arizona State University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 17,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 9,
+      "penalty": 1331,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 254
+        },
+        "1": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 298
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 40
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 94
+        },
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 169
+        },
+        "8": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 69
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 125
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 199
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 23
+        }
+      }
+    },
+    {
+      "team_name": "HSE University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 18,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 8,
+      "penalty": 653,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 168
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 38
+        },
+        "4": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "5": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 32
+        },
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 144
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 56
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 72
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 91
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        }
+      }
+    },
+    {
+      "team_name": "Carnegie Mellon University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 19,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 8,
+      "penalty": 766,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 217
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 37
+        },
+        "4": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 51
+        },
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 179
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 61
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 74
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 118
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 9
+        }
+      }
+    },
+    {
+      "team_name": "University of Illinois Urbana-Champaign",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 20,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 8,
+      "penalty": 774,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 252
+        },
+        "3": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 36
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 17
+        },
+        "6": {
+          "solved": false,
+          "tries": 16,
+          "time_mins": 0
+        },
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 104
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 87
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 60
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 162
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 16
+        }
+      }
+    },
+    {
+      "team_name": "Zhongshan (Sun Yat-sen) University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 21,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 8,
+      "penalty": 800,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 276
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 36
+        },
+        "4": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 24
+        },
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 104
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 46
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 92
+        },
+        "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 151
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        }
+      }
+    },
+    {
+      "team_name": "KAIST",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 22,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 8,
+      "penalty": 829,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 259
+        },
+        "1": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 159
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 25
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 68
+        },
+        "6": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "7": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 42
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 81
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 143
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 32
+        }
+      }
+    },
+    {
+      "team_name": "Zhejiang University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 23,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 8,
+      "penalty": 871,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 186
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 29
+        },
+        "4": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 45
+        },
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 144
+        },
+        "8": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 104
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 115
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 175
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 13
+        }
+      }
+    },
+    {
+      "team_name": "Kyoto University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 24,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 8,
+      "penalty": 880,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 209
+        },
+        "1": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 36
+        },
+        "4": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "5": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 82
+        },
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 153
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 59
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 120
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 146
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 15
+        }
+      }
+    },
+    {
+      "team_name": "National University of Singapore",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 25,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 8,
+      "penalty": 923,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 119
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 16
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 29
+        },
+        "6": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 270
+        },
+        "7": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 85
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 45
+        },
+        "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 299
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 20
+        }
+      }
+    },
+    {
+      "team_name": "Harbin Institute of Technology",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 26,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 8,
+      "penalty": 948,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 238
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 70
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 58
+        },
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 147
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 78
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 89
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 231
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 17
+        }
+      }
+    },
+    {
+      "team_name": "Institute of Science Tokyo",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 27,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 8,
+      "penalty": 975,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 221
+        },
+        "1": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 67
+        },
+        "4": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 33
+        },
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 211
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 75
+        },
+        "9": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 147
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 144
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 17
+        }
+      }
+    },
+    {
+      "team_name": "Shanghai University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 28,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 8,
+      "penalty": 1009,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 263
+        },
+        "1": {
+          "solved": false,
+          "tries": 11,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 74
+        },
+        "5": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 57
+        },
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 154
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 99
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 66
+        },
+        "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 222
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 14
+        }
+      }
+    },
+    {
+      "team_name": "Hasso Plattner Institute",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 29,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 8,
+      "penalty": 1034,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 260
+        },
+        "1": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 39
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 66
+        },
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 151
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 75
+        },
+        "9": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 134
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 202
+        },
+        "11": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 27
+        }
+      }
+    },
+    {
+      "team_name": "Shanghai Jiao Tong University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 30,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 8,
+      "penalty": 1059,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 241
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 20
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 35
+        },
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 173
+        },
+        "8": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 63
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 114
+        },
+        "10": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 279
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 14
+        }
+      }
+    },
+    {
+      "team_name": "Beihang University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 31,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 8,
+      "penalty": 1060,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 194
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 39
+        },
+        "4": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 67
+        },
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 213
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 57
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 113
+        },
+        "10": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 284
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 13
+        }
+      }
+    },
+    {
+      "team_name": "University of Science, VNU-HCM",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 32,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 8,
+      "penalty": 1090,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 220
+        },
+        "2": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 38
+        },
+        "4": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 26
+        },
+        "7": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 238
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 90
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 131
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 250
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 17
+        }
+      }
+    },
+    {
+      "team_name": "University of California, Berkeley",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 33,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 8,
+      "penalty": 1092,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 267
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 35
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 54
+        },
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 203
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 94
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 113
+        },
+        "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 287
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 19
+        }
+      }
+    },
+    {
+      "team_name": "Central South University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 34,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 8,
+      "penalty": 1139,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 296
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 41
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 61
+        },
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 194
+        },
+        "8": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 106
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 142
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 242
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 17
+        }
+      }
+    },
+    {
+      "team_name": "BINUS University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 35,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 8,
+      "penalty": 1159,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 294
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 41
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 61
+        },
+        "7": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 271
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 82
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 132
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 203
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 15
+        }
+      }
+    },
+    {
+      "team_name": "ETH Zürich",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 36,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 8,
+      "penalty": 1236,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 221
+        },
+        "1": {
+          "solved": false,
+          "tries": 13,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 89
+        },
+        "5": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 121
+        },
+        "7": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 246
+        },
+        "8": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 40
+        },
+        "9": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 141
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 189
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 29
+        }
+      }
+    },
+    {
+      "team_name": "Korea University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 37,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 8,
+      "penalty": 1258,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 292
+        },
+        "1": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 99
+        },
+        "5": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 59
+        },
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 284
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 32
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 112
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 159
+        },
+        "11": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 41
+        }
+      }
+    },
+    {
+      "team_name": "Moscow State University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 38,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 8,
+      "penalty": 1261,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 279
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 53
+        },
+        "4": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "5": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 63
+        },
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 218
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 92
+        },
+        "9": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 149
+        },
+        "10": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 229
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 18
+        }
+      }
+    },
+    {
+      "team_name": "Università di Pisa",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 39,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 8,
+      "penalty": 1343,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 257
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 89
+        },
+        "5": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 55
+        },
+        "7": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 294
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 99
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 191
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 74
+        },
+        "11": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 44
+        }
+      }
+    },
+    {
+      "team_name": "Delft University of Technology",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 40,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 7,
+      "penalty": 603,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "1": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 22
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 59
+        },
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 109
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 133
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 88
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 159
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 13
+        }
+      }
+    },
+    {
+      "team_name": "Pohang University of Science and Technology",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 41,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 7,
+      "penalty": 692,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 256
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 21
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 55
+        },
+        "7": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 86
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 44
+        },
+        "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 164
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 26
+        }
+      }
+    },
+    {
+      "team_name": "Jagiellonian University in Krakow",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 42,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 7,
+      "penalty": 718,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "1": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 40
+        },
+        "4": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 135
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 50
+        },
+        "7": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 57
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 103
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 233
+        },
+        "11": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 20
+        }
+      }
+    },
+    {
+      "team_name": "University of Wroclaw",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 43,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 7,
+      "penalty": 722,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 268
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 35
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 53
+        },
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 131
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 86
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 64
+        },
+        "10": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "11": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 45
+        }
+      }
+    },
+    {
+      "team_name": "The University of British Columbia",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 44,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 7,
+      "penalty": 774,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 26
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 42
+        },
+        "7": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 219
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 69
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 86
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 250
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 22
+        }
+      }
+    },
+    {
+      "team_name": "University of Hong Kong",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 45,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 7,
+      "penalty": 783,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 44
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 59
+        },
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 161
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 81
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 108
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 261
+        },
+        "11": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 29
+        }
+      }
+    },
+    {
+      "team_name": "UNSW Sydney",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 46,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 7,
+      "penalty": 787,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 145
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 30
+        },
+        "4": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "5": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 61
+        },
+        "6": {
+          "solved": false,
+          "tries": 8,
+          "time_mins": 0
+        },
+        "8": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 86
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 116
+        },
+        "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 173
+        },
+        "11": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 36
+        }
+      }
+    },
+    {
+      "team_name": "The University of Chicago",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 47,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 7,
+      "penalty": 804,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "1": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 261
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 28
+        },
+        "5": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 84
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 81
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 35
+        },
+        "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 146
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 49
+        }
+      }
+    },
+    {
+      "team_name": "De La Salle University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 48,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 7,
+      "penalty": 805,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 48
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 25
+        },
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 217
+        },
+        "8": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 78
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 117
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 232
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 28
+        }
+      }
+    },
+    {
+      "team_name": "Georgia Institute of Technology",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 49,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 7,
+      "penalty": 826,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 19
+        },
+        "4": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 65
+        },
+        "7": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 274
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 99
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 90
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 212
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 27
+        }
+      }
+    },
+    {
+      "team_name": "University of Cambridge",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 50,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 7,
+      "penalty": 827,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 37
+        },
+        "5": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 77
+        },
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 269
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 121
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 136
+        },
+        "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 92
+        },
+        "11": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 35
+        }
+      }
+    },
+    {
+      "team_name": "Texas A&M University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 51,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 7,
+      "penalty": 828,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 20
+        },
+        "5": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 59
+        },
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 158
+        },
+        "8": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 114
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 71
+        },
+        "10": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 228
+        },
+        "11": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 38
+        }
+      }
+    },
+    {
+      "team_name": "University of Central Florida",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 52,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 7,
+      "penalty": 882,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 273
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 20
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 42
+        },
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 204
+        },
+        "8": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 132
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 109
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 22
+        }
+      }
+    },
+    {
+      "team_name": "Moscow Aviation Institute",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 53,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 7,
+      "penalty": 914,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 46
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 75
+        },
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 282
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 64
+        },
+        "9": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 194
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 143
+        },
+        "11": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 30
+        }
+      }
+    },
+    {
+      "team_name": "Ecole Polytechnique Fédérale de Lausanne",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 54,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 7,
+      "penalty": 921,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 44
+        },
+        "5": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 99
+        },
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 224
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 76
+        },
+        "9": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 168
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 175
+        },
+        "11": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 35
+        }
+      }
+    },
+    {
+      "team_name": "Union University - Faculty of Computer Science",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 55,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 7,
+      "penalty": 925,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "1": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 84
+        },
+        "4": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 142
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 42
+        },
+        "7": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 261
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 75
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 153
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 28
+        }
+      }
+    },
+    {
+      "team_name": "St. Petersburg ITMO University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 56,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 7,
+      "penalty": 929,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 16
+        },
+        "4": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 43
+        },
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 192
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 108
+        },
+        "9": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 182
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 297
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 31
+        }
+      }
+    },
+    {
+      "team_name": "Astana IT University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 57,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 7,
+      "penalty": 953,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 50
+        },
+        "5": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 86
+        },
+        "7": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 187
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 58
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 198
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 259
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 15
+        }
+      }
+    },
+    {
+      "team_name": "University of Warsaw",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 58,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 7,
+      "penalty": 967,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 43
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 65
+        },
+        "7": {
+          "solved": true,
+          "tries": 6,
+          "time_mins": 193
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 69
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 226
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 212
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 19
+        }
+      }
+    },
+    {
+      "team_name": "Rutgers University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 59,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 7,
+      "penalty": 987,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 75
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 56
+        },
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 248
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 123
+        },
+        "9": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 165
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 227
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 13
+        }
+      }
+    },
+    {
+      "team_name": "Chennai Mathematical Institute",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 60,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 7,
+      "penalty": 992,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 43
+        },
+        "4": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 260
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 66
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 118
+        },
+        "9": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 155
+        },
+        "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 188
+        },
+        "11": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 22
+        }
+      }
+    },
+    {
+      "team_name": "International IT University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 61,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 7,
+      "penalty": 1005,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 69
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 89
+        },
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 220
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 121
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 169
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 277
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 20
+        }
+      }
+    },
+    {
+      "team_name": "Belarusian State University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 62,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 7,
+      "penalty": 1011,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 47
+        },
+        "4": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 289
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 79
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 103
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 124
+        },
+        "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 191
+        },
+        "11": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 38
+        }
+      }
+    },
+    {
+      "team_name": "Brigham Young University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 63,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 7,
+      "penalty": 1196,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "1": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 247
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 65
+        },
+        "5": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 85
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 133
+        },
+        "9": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 228
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 298
+        },
+        "11": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 20
+        }
+      }
+    },
+    {
+      "team_name": "Nanjing University of Science and Technology",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 64,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 7,
+      "penalty": 1340,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 278
+        },
+        "3": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 80
+        },
+        "5": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 107
+        },
+        "8": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 114
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 147
+        },
+        "10": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 293
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 21
+        }
+      }
+    },
+    {
+      "team_name": "University of California, Los Angeles",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 65,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 6,
+      "penalty": 436,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "1": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 28
+        },
+        "5": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 43
+        },
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 119
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 78
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 87
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 21
+        }
+      }
+    },
+    {
+      "team_name": "Universidade Federal de Minas Gerais",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 66,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 6,
+      "penalty": 475,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 37
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 49
+        },
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 180
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 86
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 105
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 18
+        }
+      }
+    },
+    {
+      "team_name": "University of Toronto",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 67,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 6,
+      "penalty": 544,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 47
+        },
+        "5": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 58
+        },
+        "7": {
+          "solved": false,
+          "tries": 15,
+          "time_mins": 0
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 72
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 110
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 185
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 32
+        }
+      }
+    },
+    {
+      "team_name": "National Economics University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 68,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 6,
+      "penalty": 560,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 20
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 50
+        },
+        "7": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "8": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 99
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 106
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 238
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 27
+        }
+      }
+    },
+    {
+      "team_name": "The University of Texas at Dallas",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 69,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 6,
+      "penalty": 590,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 58
+        },
+        "5": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 40
+        },
+        "7": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 197
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 100
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 74
+        },
+        "11": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 21
+        }
+      }
+    },
+    {
+      "team_name": "Beijing University of Posts and Telecommunications",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 70,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 6,
+      "penalty": 596,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 67
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 48
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 69
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 221
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 170
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 21
+        }
+      }
+    },
+    {
+      "team_name": "Nanjing University of Aeronautics and Astronautics",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 71,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 6,
+      "penalty": 599,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 71
+        },
+        "5": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 42
+        },
+        "7": {
+          "solved": false,
+          "tries": 11,
+          "time_mins": 0
+        },
+        "8": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 54
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 90
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 290
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        }
+      }
+    },
+    {
+      "team_name": "Indian Institute of Technology - Indore",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 72,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 6,
+      "penalty": 611,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 81
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 56
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 106
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 140
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 191
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 17
+        }
+      }
+    },
+    {
+      "team_name": "International Institute of Information Technology, Hyderabad",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 73,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 6,
+      "penalty": 639,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 17
+        },
+        "5": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 77
+        },
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 202
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 121
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 171
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 31
+        }
+      }
+    },
+    {
+      "team_name": "National Yang Ming Chiao Tung University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 74,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 6,
+      "penalty": 658,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 40
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 59
+        },
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 264
+        },
+        "8": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 111
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 124
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 20
+        }
+      }
+    },
+    {
+      "team_name": "University of Tartu",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 75,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 6,
+      "penalty": 725,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 71
+        },
+        "4": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 266
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 90
+        },
+        "7": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 110
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 150
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 38
+        }
+      }
+    },
+    {
+      "team_name": "Universidad de Buenos Aires - FCEN",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 76,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 6,
+      "penalty": 725,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 45
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 67
+        },
+        "7": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 281
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 125
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 104
+        },
+        "10": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 23
+        }
+      }
+    },
+    {
+      "team_name": "Ecole Polytechnique",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 77,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 6,
+      "penalty": 726,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 77
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 52
+        },
+        "7": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "8": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 87
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 119
+        },
+        "10": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 257
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 14
+        }
+      }
+    },
+    {
+      "team_name": "University of Belgrade",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 78,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 6,
+      "penalty": 782,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "2": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 59
+        },
+        "5": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 112
+        },
+        "8": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 97
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 175
+        },
+        "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 199
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 40
+        }
+      }
+    },
+    {
+      "team_name": "Neapolis University Pafos",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 79,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 6,
+      "penalty": 791,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "1": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 76
+        },
+        "5": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 39
+        },
+        "7": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 289
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 100
+        },
+        "9": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 143
+        },
+        "10": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        },
+        "11": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 24
+        }
+      }
+    },
+    {
+      "team_name": "National Institute of Technology, Tokuyama College",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 80,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 6,
+      "penalty": 803,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 65
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 35
+        },
+        "7": {
+          "solved": true,
+          "tries": 8,
+          "time_mins": 247
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 90
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 127
+        },
+        "10": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 79
+        }
+      }
+    },
+    {
+      "team_name": "Saarland University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 81,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 6,
+      "penalty": 808,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 62
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 43
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 115
+        },
+        "9": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 224
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 290
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 34
+        }
+      }
+    },
+    {
+      "team_name": "Southern University of Science and Technology",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 82,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 6,
+      "penalty": 826,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 36
+        },
+        "5": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 58
+        },
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 240
+        },
+        "8": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 277
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 78
+        },
+        "10": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 17
+        }
+      }
+    },
+    {
+      "team_name": "University of Tehran",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 83,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 6,
+      "penalty": 847,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 58
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 125
+        },
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 289
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 171
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 94
+        },
+        "10": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "11": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 50
+        }
+      }
+    },
+    {
+      "team_name": "Ural Federal University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 84,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 6,
+      "penalty": 872,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 73
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 98
+        },
+        "7": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 112
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 251
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 266
+        },
+        "11": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 52
+        }
+      }
+    },
+    {
+      "team_name": "Universiteit Utrecht",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 85,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 6,
+      "penalty": 908,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 59
+        },
+        "5": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 93
+        },
+        "7": {
+          "solved": false,
+          "tries": 9,
+          "time_mins": 0
+        },
+        "8": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 215
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 132
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 249
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 20
+        }
+      }
+    },
+    {
+      "team_name": "Universidad Nacional de Rosario",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 86,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 6,
+      "penalty": 996,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 85
+        },
+        "5": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 99
+        },
+        "7": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "8": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 205
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 156
+        },
+        "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 297
+        },
+        "11": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 54
+        }
+      }
+    },
+    {
+      "team_name": "Petrozavodsk State University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 87,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 6,
+      "penalty": 1004,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 60
+        },
+        "4": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "5": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 153
+        },
+        "7": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 296
+        },
+        "8": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 121
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 203
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 31
+        }
+      }
+    },
+    {
+      "team_name": "University of Melbourne",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 88,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 6,
+      "penalty": 1047,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": false,
+          "tries": 10,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 119
+        },
+        "5": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 195
+        },
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 280
+        },
+        "8": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 89
+        },
+        "9": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 165
+        },
+        "10": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 19
+        }
+      }
+    },
+    {
+      "team_name": "Moscow Institute of Physics and Technology",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 89,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 307,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 69
+        },
+        "4": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 82
+        },
+        "7": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 66
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 46
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 24
+        }
+      }
+    },
+    {
+      "team_name": "University of Science and Technology - The University of Danang",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 90,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 378,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 35
+        },
+        "5": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 63
+        },
+        "7": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 104
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 116
+        },
+        "10": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 20
+        }
+      }
+    },
+    {
+      "team_name": "Indian Institute of Technology - Kanpur",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 91,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 415,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 51
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 79
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 136
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 107
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 22
+        }
+      }
+    },
+    {
+      "team_name": "Universidade Federal de Campina Grande",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 92,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 429,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 34
+        },
+        "5": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 102
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 59
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 165
+        },
+        "11": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 29
+        }
+      }
+    },
+    {
+      "team_name": "Arab Academy for Science, Technology and Maritime Transport - Cairo",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 93,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 452,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 72
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 48
+        },
+        "8": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 96
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 142
+        },
+        "11": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 34
+        }
+      }
+    },
+    {
+      "team_name": "National University of Science and Technology \"MISIS\"",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 94,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 459,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 75
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 23
+        },
+        "8": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 130
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 147
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 64
+        }
+      }
+    },
+    {
+      "team_name": "Duke University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 95,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 472,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 49
+        },
+        "5": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 58
+        },
+        "8": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 113
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 155
+        },
+        "10": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 17
+        }
+      }
+    },
+    {
+      "team_name": "Ecole Polytechnique de Tunisie",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 96,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 486,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 35
+        },
+        "5": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 81
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 116
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 152
+        },
+        "10": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "11": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 22
+        }
+      }
+    },
+    {
+      "team_name": "Indian Institute of Technology - Delhi",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 97,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 486,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 57
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 83
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 99
+        },
+        "9": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 177
+        },
+        "10": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 30
+        }
+      }
+    },
+    {
+      "team_name": "Indian Institute of Technology - Roorkee",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 98,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 528,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 95
+        },
+        "5": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 68
+        },
+        "8": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 118
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 147
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 20
+        }
+      }
+    },
+    {
+      "team_name": "Universidad Nacional de Ingeniería - FC",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 99,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 544,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 102
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 44
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 120
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 214
+        },
+        "10": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 24
+        }
+      }
+    },
+    {
+      "team_name": "Instituto Militar de Engenharia",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 100,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 554,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 103
+        },
+        "5": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 105
+        },
+        "7": {
+          "solved": false,
+          "tries": 16,
+          "time_mins": 0
+        },
+        "8": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 108
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 146
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        }
+      }
+    },
+    {
+      "team_name": "ADA University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 101,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 557,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 54
+        },
+        "5": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 87
+        },
+        "7": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 79
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 273
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 24
+        }
+      }
+    },
+    {
+      "team_name": "Universidade de São Paulo",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 102,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 558,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 118
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 34
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 46
+        },
+        "8": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 259
+        },
+        "9": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "10": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "11": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 21
+        }
+      }
+    },
+    {
+      "team_name": "Indian Institute of Technology - Bombay",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 103,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 599,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 68
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 168
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 198
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 132
+        },
+        "10": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 13
+        }
+      }
+    },
+    {
+      "team_name": "Assiut University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 104,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 613,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 53
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 102
+        },
+        "7": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "8": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 179
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 194
+        },
+        "11": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 25
+        }
+      }
+    },
+    {
+      "team_name": "Jordan University of Science and Technology",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 105,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 638,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 57
+        },
+        "4": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "5": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 103
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 158
+        },
+        "9": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 237
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 23
+        }
+      }
+    },
+    {
+      "team_name": "Syrian Virtual University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 106,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 646,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 70
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 63
+        },
+        "8": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 151
+        },
+        "9": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 276
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 26
+        }
+      }
+    },
+    {
+      "team_name": "BRAC University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 107,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 648,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 54
+        },
+        "5": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 140
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 205
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 152
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 37
+        }
+      }
+    },
+    {
+      "team_name": "Nizhny Novgorod State University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 108,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 648,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 98
+        },
+        "5": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 105
+        },
+        "7": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 59
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 243
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 43
+        }
+      }
+    },
+    {
+      "team_name": "Indian Institute of Technology - Kharagpur",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 109,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 660,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 77
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 103
+        },
+        "8": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 147
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 251
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 22
+        }
+      }
+    },
+    {
+      "team_name": "Universidad Nacional de La Plata",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 110,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 676,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "1": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 95
+        },
+        "4": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 60
+        },
+        "7": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "8": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 121
+        },
+        "9": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 209
+        },
+        "10": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "11": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 91
+        }
+      }
+    },
+    {
+      "team_name": "Universidad Nacional de Colombia - Bogotá",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 111,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 685,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 33
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 83
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 132
+        },
+        "9": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 282
+        },
+        "11": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 55
+        }
+      }
+    },
+    {
+      "team_name": "Universidade Federal de Pernambuco",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 112,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 707,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 137
+        },
+        "5": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 34
+        },
+        "8": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 230
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 182
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 44
+        }
+      }
+    },
+    {
+      "team_name": "Innopolis University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 113,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 710,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 75
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 89
+        },
+        "7": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "8": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 136
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 217
+        },
+        "11": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 73
+        }
+      }
+    },
+    {
+      "team_name": "Institut National des Sciences Appliquées et de Technologie",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 114,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 711,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 87
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 150
+        },
+        "7": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 185
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 244
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 25
+        }
+      }
+    },
+    {
+      "team_name": "Sohag University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 115,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 725,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 76
+        },
+        "5": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 115
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 135
+        },
+        "9": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 216
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 23
+        }
+      }
+    },
+    {
+      "team_name": "Carnegie Mellon University in Qatar",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 116,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 729,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 89
+        },
+        "4": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "5": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 85
+        },
+        "8": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 143
+        },
+        "9": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 268
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 24
+        }
+      }
+    },
+    {
+      "team_name": "Indian Institute of Technology - Varanasi",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 117,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 738,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 139
+        },
+        "5": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 87
+        },
+        "8": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 193
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 169
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 30
+        }
+      }
+    },
+    {
+      "team_name": "Universidad de Chile",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 118,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 758,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 49
+        },
+        "5": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 111
+        },
+        "6": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "7": {
+          "solved": false,
+          "tries": 9,
+          "time_mins": 0
+        },
+        "8": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 143
+        },
+        "9": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 292
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 23
+        }
+      }
+    },
+    {
+      "team_name": "Universidad Mayor de San Simón",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 119,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 760,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "0": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 78
+        },
+        "5": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 172
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 111
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 294
+        },
+        "10": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "11": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 45
+        }
+      }
+    },
+    {
+      "team_name": "Shahjalal University of Science and Technology",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 120,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 773,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 64
+        },
+        "5": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 138
+        },
+        "8": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 115
+        },
+        "9": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 247
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 49
+        }
+      }
+    },
+    {
+      "team_name": "Purdue University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 121,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 784,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 69
+        },
+        "5": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 224
+        },
+        "7": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 73
+        },
+        "9": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 187
+        },
+        "11": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 31
+        }
+      }
+    },
+    {
+      "team_name": "Damascus University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 122,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 794,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 76
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 108
+        },
+        "7": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "8": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 153
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 201
+        },
+        "11": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 116
+        }
+      }
+    },
+    {
+      "team_name": "Ain Shams University - Faculty of Computer and Information Sciences",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 123,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 809,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 83
+        },
+        "5": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 119
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 186
+        },
+        "9": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 271
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 70
+        }
+      }
+    },
+    {
+      "team_name": "Instituto Tecnológico de Costa Rica campus Alajuela",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 124,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 832,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 141
+        },
+        "5": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 74
+        },
+        "7": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 165
+        },
+        "9": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 281
+        },
+        "11": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 31
+        }
+      }
+    },
+    {
+      "team_name": "National Institute of Technology Tiruchirappalli",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 125,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 855,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 84
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 129
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 180
+        },
+        "9": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 298
+        },
+        "11": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 64
+        }
+      }
+    },
+    {
+      "team_name": "Arab Academy for Science, Technology and Maritime Transport - Alameen",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 126,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 898,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 84
+        },
+        "5": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 154
+        },
+        "8": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 197
+        },
+        "9": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 298
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 25
+        }
+      }
+    },
+    {
+      "team_name": "Baku Higher Oil School",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 127,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 944,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 49
+        },
+        "5": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 115
+        },
+        "8": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 294
+        },
+        "9": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 263
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 23
+        }
+      }
+    },
+    {
+      "team_name": "Universidade Estadual de Campinas",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 128,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 1038,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 53
+        },
+        "5": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 188
+        },
+        "8": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 287
+        },
+        "9": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 291
+        },
+        "11": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 19
+        }
+      }
+    },
+    {
+      "team_name": "Arab Academy for Science, Technology and Maritime Transport - Smart Village",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 129,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 4,
+      "penalty": 383,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 52
+        },
+        "5": {
+          "solved": false,
+          "tries": 8,
+          "time_mins": 0
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 131
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 174
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 26
+        }
+      }
+    },
+    {
+      "team_name": "Cairo University - Faculty of Computers and Artificial Intelligence",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 130,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 4,
+      "penalty": 453,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 23
+        },
+        "5": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 214
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 116
+        },
+        "9": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 40
+        }
+      }
+    },
+    {
+      "team_name": "Universidad Autónoma de Yucatán",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 131,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 4,
+      "penalty": 474,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 111
+        },
+        "5": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 136
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 74
+        },
+        "9": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "11": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 53
+        }
+      }
+    },
+    {
+      "team_name": "Universidad de La Habana",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 132,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 4,
+      "penalty": 510,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 108
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 99
+        },
+        "8": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 193
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 30
+        }
+      }
+    },
+    {
+      "team_name": "Homs University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 133,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 4,
+      "penalty": 582,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 99
+        },
+        "5": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 202
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 137
+        },
+        "9": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 44
+        }
+      }
+    },
+    {
+      "team_name": "Universidade Federal de Alagoas",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 134,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 4,
+      "penalty": 705,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 91
+        },
+        "5": {
+          "solved": true,
+          "tries": 6,
+          "time_mins": 186
+        },
+        "8": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 212
+        },
+        "9": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 36
+        }
+      }
+    },
+    {
+      "team_name": "NU-FAST Karachi",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 135,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 303,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 101
+        },
+        "5": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 128
+        },
+        "9": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 34
+        }
+      }
+    },
+    {
+      "team_name": "University of Balamand",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 136,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 342,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 153
+        },
+        "5": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 111
+        },
+        "9": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 38
+        }
+      }
+    },
+    {
+      "team_name": "The University of Jordan",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 137,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 829,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 7,
+          "time_mins": 293
+        },
+        "5": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        },
+        "8": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 267
+        },
+        "9": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "11": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 49
+        }
+      }
+    },
+    {
+      "team_name": "Universidad Panamericana Campus Bonaterra",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 138,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 2,
+      "penalty": 175,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 112
+        },
+        "5": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "8": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "11": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 63
+        }
+      }
+    },
+    {
+      "team_name": "Kardan University",
+      "school": "",
+      "member1": null,
+      "member2": null,
+      "member3": null,
+      "rank": 139,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 0,
+      "penalty": 0,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "3": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "11": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        }
+      }
+    }
+  ]
+}

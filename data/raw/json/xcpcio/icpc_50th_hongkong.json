@@ -1,0 +1,5132 @@
+{
+  "contest_name": "The 50th ICPC Asia Hong Kong Regional Contest",
+  "problem_ids": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L"
+  ],
+  "standings": [
+    {
+      "team_name": "Naive Birds",
+      "school": "Peking University",
+      "member1": "Weicheng Wang",
+      "member2": "Jianfeng Zhu",
+      "member3": "Yichen Li",
+      "rank": 1,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 8,
+      "penalty": 897,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Gold",
+      "coach": "Qinjian Zhang",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 7
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 33
+        },
+        "1": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 47
+        },
+        "9": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 68
+        },
+        "8": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 82
+        },
+        "5": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 122
+        },
+        "2": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 134
+        },
+        "6": {
+          "solved": false,
+          "tries": 27,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 281
+        }
+      }
+    },
+    {
+      "team_name": "DeepSleep",
+      "school": "Fudan University",
+      "member1": "Shenghao Zhang",
+      "member2": "Ruizao Wang",
+      "member3": "Xiangyu Zhu",
+      "rank": 2,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 8,
+      "penalty": 936,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Gold",
+      "coach": "Weiwei Sun",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 7
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 40
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 47
+        },
+        "1": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 91
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 105
+        },
+        "8": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 142
+        },
+        "2": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 185
+        },
+        "6": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 235
+        },
+        "3": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Stella Primus",
+      "school": "Shanghai Jiao Tong University",
+      "member1": "Chongye Yang",
+      "member2": "Junyi Li",
+      "member3": "Xingxun Tang",
+      "rank": 3,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 8,
+      "penalty": 1351,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Gold",
+      "coach": "Yong Yu",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 7
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 32
+        },
+        "1": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 111
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 118
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 132
+        },
+        "5": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 291
+        },
+        "6": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 252
+        },
+        "2": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 285
+        }
+      }
+    },
+    {
+      "team_name": "CQOI Flames",
+      "school": "Harbin Institute of Technology",
+      "member1": "Peijian Du",
+      "member2": "Zhijian Fang",
+      "member3": "Junsen Lei",
+      "rank": 4,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 7,
+      "penalty": 1086,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Gold",
+      "coach": "Wenbo Zhao",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 4
+        },
+        "1": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 56
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 72
+        },
+        "9": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 125
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 120
+        },
+        "5": {
+          "solved": true,
+          "tries": 6,
+          "time_mins": 219
+        },
+        "6": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 286
+        }
+      }
+    },
+    {
+      "team_name": "Mynoghra",
+      "school": "The Chinese University of Hong Kong, Shenzhen",
+      "member1": "Mofei Zhou",
+      "member2": "Jianian Chen",
+      "member3": "Zecheng Wang",
+      "rank": 5,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 6,
+      "penalty": 681,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Gold",
+      "coach": "Yixiang Fang",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 4
+        },
+        "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 52
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 64
+        },
+        "1": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 104
+        },
+        "8": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 131
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 284
+        },
+        "2": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Nice Nature",
+      "school": "Xiamen University of Technology",
+      "member1": "Shiwei Hong",
+      "member2": "Zimo Zhang",
+      "member3": null,
+      "rank": 6,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 6,
+      "penalty": 768,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Gold",
+      "coach": "Weijiang Zhang",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 18
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 15
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 48
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 126
+        },
+        "5": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 206
+        },
+        "1": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 231
+        },
+        "6": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Hot Kpop Union",
+      "school": "The University of Hong Kong",
+      "member1": "Qixuan Li",
+      "member2": "Yuchen Wu",
+      "member3": "Mingfei Xia",
+      "rank": 7,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 6,
+      "penalty": 787,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Gold",
+      "coach": "Qipeng Kuang",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 51
+        },
+        "1": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 135
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 119
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 149
+        },
+        "5": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "2": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 280
+        }
+      }
+    },
+    {
+      "team_name": "The Defect",
+      "school": "Jilin University",
+      "member1": "Zhihang Yu",
+      "member2": "Pengxu Chen",
+      "member3": "Zibo Xu",
+      "rank": 8,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 6,
+      "penalty": 807,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Gold",
+      "coach": "Shuai Lyu",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 6
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 37
+        },
+        "9": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 101
+        },
+        "1": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 122
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 145
+        },
+        "5": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "2": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 293
+        }
+      }
+    },
+    {
+      "team_name": "SUSTech-Lyaki",
+      "school": "Southern University of Science and Technology",
+      "member1": "Chuxi Yi",
+      "member2": "Weikun Pu",
+      "member3": "Kai'an Chen",
+      "rank": 9,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 6,
+      "penalty": 831,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Gold",
+      "coach": "Bo Tang",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 6
+        },
+        "1": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 39
+        },
+        "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 66
+        },
+        "9": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 145
+        },
+        "8": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 150
+        },
+        "6": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 283
+        },
+        "5": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Rinsed to Remote",
+      "school": "Xi'an Jiaotong University",
+      "member1": "Ruheng Chen",
+      "member2": "Jiapeng Yin",
+      "member3": "Yichen Fang",
+      "rank": 10,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 6,
+      "penalty": 853,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Gold",
+      "coach": "Longxiang Wang",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 10
+        },
+        "8": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 62
+        },
+        "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 77
+        },
+        "9": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 269
+        },
+        "1": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 141
+        },
+        "5": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 192
+        },
+        "2": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Wine-filled Fishball Pie",
+      "school": "The Chinese University of Hong Kong",
+      "member1": "Hsieh Chong Ho",
+      "member2": "Wong Chun",
+      "member3": "Lu Yi Fung",
+      "rank": 0,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 6,
+      "penalty": 935,
+      "is_official": false,
+      "is_girl": null,
+      "medal": null,
+      "coach": "Mak Wai Ho",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 7
+        },
+        "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 40
+        },
+        "9": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 77
+        },
+        "1": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 106
+        },
+        "8": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 128
+        },
+        "6": {
+          "solved": true,
+          "tries": 9,
+          "time_mins": 294
+        },
+        "5": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Fear WA, all in implementation",
+      "school": "The Hong Kong University of Science and Technology (Guangzhou)",
+      "member1": "Xiangqian Wang",
+      "member2": "Hao Luo",
+      "member3": "Wenhao Chu",
+      "rank": 11,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 379,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Gold",
+      "coach": "Hui Xiong",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 9
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 38
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 50
+        },
+        "1": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 89
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 152
+        },
+        "5": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "2": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "HDU-T05",
+      "school": "Hangzhou Dianzi University",
+      "member1": "Junhao Yang",
+      "member2": "Zhongtian Xu",
+      "member3": "Ruicheng Cai",
+      "rank": 12,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 477,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Gold",
+      "coach": "Chunying Liu",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 5
+        },
+        "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 48
+        },
+        "1": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 112
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 92
+        },
+        "8": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 118
+        },
+        "5": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "lemonade factory",
+      "school": "Beihang University",
+      "member1": "Hejun Dong",
+      "member2": "Dayu Wang",
+      "member3": "Binyang Jiang",
+      "rank": 13,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 497,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Gold",
+      "coach": "You Song",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 7
+        },
+        "1": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 46
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 57
+        },
+        "9": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 164
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 141
+        }
+      }
+    },
+    {
+      "team_name": "Twilight",
+      "school": "Southeast University",
+      "member1": "Yanxu Du",
+      "member2": "Xi Yan",
+      "member3": "Tianyi Zhou",
+      "rank": 14,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 509,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Silver",
+      "coach": "Vincent Chau",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 9
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 47
+        },
+        "1": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 89
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 141
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 161
+        },
+        "5": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Anohana",
+      "school": "Nanjing University",
+      "member1": "Ruimin Zhang",
+      "member2": "Yukuan Zhu",
+      "member3": "Zida Chen",
+      "rank": 15,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 536,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Silver",
+      "coach": "Jun Ma",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 7
+        },
+        "11": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "9": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 66
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 64
+        },
+        "1": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 124
+        },
+        "8": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 174
+        },
+        "5": {
+          "solved": false,
+          "tries": 9,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "The Affiliated High School of Shanxi University",
+      "school": "Nankai University",
+      "member1": "Yuhui Che",
+      "member2": "Shu Yang",
+      "member3": "Zhizhong Wang",
+      "rank": 16,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 726,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Silver",
+      "coach": "Xiaoguang Liu",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 15
+        },
+        "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 65
+        },
+        "1": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 136
+        },
+        "9": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 219
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 209
+        }
+      }
+    },
+    {
+      "team_name": "HFOI2018",
+      "school": "Tsinghua University",
+      "member1": "Qingliang Ou",
+      "member2": "Ruijie He",
+      "member3": "Yibin Luo",
+      "rank": 17,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 840,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Silver",
+      "coach": "Xiaojun Wu",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 6
+        },
+        "10": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 98
+        },
+        "1": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 158
+        },
+        "8": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 190
+        },
+        "9": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 246
+        },
+        "0": {
+          "solved": false,
+          "tries": 0,
+          "time_mins": 0
+        },
+        "2": {
+          "solved": false,
+          "tries": 0,
+          "time_mins": 0
+        },
+        "3": {
+          "solved": false,
+          "tries": 0,
+          "time_mins": 0
+        },
+        "4": {
+          "solved": false,
+          "tries": 0,
+          "time_mins": 0
+        },
+        "5": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "6": {
+          "solved": false,
+          "tries": 0,
+          "time_mins": 0
+        },
+        "11": {
+          "solved": false,
+          "tries": 0,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "SYSU_Fate of Waves",
+      "school": "Zhongshan (Sun Yat-sen) University",
+      "member1": "Yuyang He",
+      "member2": "Liwei Yang",
+      "member3": "Ruilin Qin",
+      "rank": 18,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 5,
+      "penalty": 896,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Silver",
+      "coach": "Hai Wan",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "10": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 82
+        },
+        "9": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 170
+        },
+        "1": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 203
+        },
+        "8": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 268
+        },
+        "5": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "1+1",
+      "school": "Renmin University of China",
+      "member1": "Yihuan Yan",
+      "member2": "Zijia Fang",
+      "member3": "Yihao Sun",
+      "rank": 19,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 4,
+      "penalty": 363,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Silver",
+      "coach": "Yunhai Wang",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 43
+        },
+        "9": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 101
+        },
+        "1": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 167
+        },
+        "5": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "blossom of snow",
+      "school": "Nanjing University of Aeronautics and Astronautics",
+      "member1": "Haotian Hu",
+      "member2": "Lekun Zhao",
+      "member3": "Xianran Kuang",
+      "rank": 20,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 4,
+      "penalty": 384,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Silver",
+      "coach": "Chunran Zou",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 5
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 45
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 98
+        },
+        "1": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "8": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 195
+        },
+        "5": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "GNOSIA",
+      "school": "Beijing University of Posts and Telecommunications",
+      "member1": "Yixuan Tan",
+      "member2": "Zhibin Xu",
+      "member3": "Ruilin Xing",
+      "rank": 21,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 4,
+      "penalty": 500,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Silver",
+      "coach": "Peng Xu",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 16
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 105
+        },
+        "1": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 145
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 173
+        },
+        "6": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "HKOI 1",
+      "school": "Hong Kong Olympiad in Informatics",
+      "member1": "Mak Chun Hin Ivan",
+      "member2": "Choy Tsz Chai Berton",
+      "member3": "Lai Hong Tung Honrich",
+      "rank": 0,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 4,
+      "penalty": 532,
+      "is_official": false,
+      "is_girl": null,
+      "medal": null,
+      "coach": "Oa Yang Hau Chung",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 10
+        },
+        "9": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 117
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 113
+        },
+        "5": {
+          "solved": false,
+          "tries": 10,
+          "time_mins": 0
+        },
+        "8": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 230
+        }
+      }
+    },
+    {
+      "team_name": "UESTC_lyc_fan_club",
+      "school": "University of Electronic Science and Technology of China",
+      "member1": "Zhelin Zhou",
+      "member2": "Chengyao Zhao",
+      "member3": "Mingjun Xu",
+      "rank": 22,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 4,
+      "penalty": 538,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Silver",
+      "coach": "Peng Yang",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 8
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 70
+        },
+        "9": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 222
+        },
+        "1": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 196
+        },
+        "5": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "example pass=AC",
+      "school": "Tongji University",
+      "member1": "Zijian Zheng",
+      "member2": "Chengwei Zhang",
+      "member3": "Shuangnan Deng",
+      "rank": 23,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 4,
+      "penalty": 543,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Silver",
+      "coach": "Chen Ye",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 128
+        },
+        "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 140
+        },
+        "1": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 222
+        }
+      }
+    },
+    {
+      "team_name": "Wenhua Road East",
+      "school": "Shandong University, Weihai",
+      "member1": "Zhihang Zhang",
+      "member2": "Yan Tong",
+      "member3": "Kexu Lu",
+      "rank": 24,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 4,
+      "penalty": 559,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Silver",
+      "coach": "Xiaoming Kong",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 59
+        },
+        "9": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 175
+        },
+        "1": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 252
+        }
+      }
+    },
+    {
+      "team_name": "Team name ddl today",
+      "school": "The University of Hong Kong",
+      "member1": "Mingtian Yang",
+      "member2": "Jian Luo",
+      "member3": "Yancheng Liu",
+      "rank": 25,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 4,
+      "penalty": 639,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Silver",
+      "coach": "Qipeng Kuang",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 6
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 97
+        },
+        "9": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 254
+        },
+        "1": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 181
+        }
+      }
+    },
+    {
+      "team_name": "Hongkong Uncle",
+      "school": "Xiangtan University",
+      "member1": "Yue Zhuo",
+      "member2": "Zixi Li",
+      "member3": "Qingxin Zeng",
+      "rank": 26,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 4,
+      "penalty": 654,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Silver",
+      "coach": "Yong Xie",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 10
+        },
+        "10": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 150
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 106
+        },
+        "1": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 266
+        },
+        "8": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "manbo and hajimi",
+      "school": "Nanjing University of Posts and Telecommunications",
+      "member1": "Le'an Hu",
+      "member2": "Puli Wang",
+      "member3": "Xiaoliang Tian",
+      "rank": 27,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 4,
+      "penalty": 675,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Silver",
+      "coach": "Zhi Chen",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 102
+        },
+        "9": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 167
+        },
+        "5": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "1": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 274
+        }
+      }
+    },
+    {
+      "team_name": "no brain just nom nom nom",
+      "school": "The Chinese University of Hong Kong",
+      "member1": "Wong Tsz Him",
+      "member2": "Wong Man Pai Angus",
+      "member3": "Poonyapat Sriroth",
+      "rank": 28,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 4,
+      "penalty": 679,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Silver",
+      "coach": "Mak Wai Ho",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 16
+        },
+        "9": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 149
+        },
+        "1": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 96
+        },
+        "8": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 296
+        }
+      }
+    },
+    {
+      "team_name": "Byd Fan Club",
+      "school": "Jinan University",
+      "member1": "Zherui Cao",
+      "member2": "Zhengxin Xie",
+      "member3": "Chengzhang Pan",
+      "rank": 29,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 224,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Silver",
+      "coach": "Dehua Zhou",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 8
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 53
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 142
+        },
+        "1": {
+          "solved": false,
+          "tries": 18,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "N^3",
+      "school": "National University of Mongolia",
+      "member1": "Dugarjantsan Bilguun",
+      "member2": "Dalaitseren Ganbold",
+      "member3": "Bilguun Erkhembayar",
+      "rank": 30,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 231,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Silver",
+      "coach": "Bagabold Gendensuren",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 9
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 71
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 150
+        }
+      }
+    },
+    {
+      "team_name": "gugugaga",
+      "school": "Pui Ching Middle School",
+      "member1": "NG Hang Chi",
+      "member2": "WANG Ziyan",
+      "member3": "TO Chak Seng",
+      "rank": 0,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 235,
+      "is_official": false,
+      "is_girl": null,
+      "medal": null,
+      "coach": "LIN Xiulan",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 9
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 59
+        },
+        "1": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 146
+        },
+        "5": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "two-thirds",
+      "school": "Southwest University of Science and Technology",
+      "member1": "Shilu Liu",
+      "member2": "Yan Zhong",
+      "member3": "Han Ke",
+      "rank": 31,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 238,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Silver",
+      "coach": "Miao Chen",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 73
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 152
+        },
+        "1": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Genesis in Hong Kong",
+      "school": "Huizhou University",
+      "member1": "Jianmin Xian",
+      "member2": "Hao Sun",
+      "member3": "Zhijie Zhong",
+      "rank": 32,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 257,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Silver",
+      "coach": "Li Liu",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 117
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 127
+        },
+        "5": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "8": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Phoenix",
+      "school": "Jinggangshan University",
+      "member1": "Qiong Wang",
+      "member2": "Wenyuan Yang",
+      "member3": "Bowei Chen",
+      "rank": 33,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 258,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Silver",
+      "coach": "Yunlan Tan",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 10
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 60
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 166
+        },
+        "1": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "from here",
+      "school": "Harbin Institute of Technology, Shenzhen",
+      "member1": "Feiyu Zhao",
+      "member2": "Yanbo Chen",
+      "member3": "Yixuan Cai",
+      "rank": 34,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 300,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Silver",
+      "coach": "Jie Wen",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 15
+        },
+        "9": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 90
+        },
+        "1": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 135
+        }
+      }
+    },
+    {
+      "team_name": "Russian Roulette",
+      "school": "Fuzhou University",
+      "member1": "Jiapeng Huang",
+      "member2": "Yushi Xiao",
+      "member3": "Renjie Zhang",
+      "rank": 35,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 317,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Silver",
+      "coach": "Yanggeng Fu",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 92
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 194
+        }
+      }
+    },
+    {
+      "team_name": "Explosion!",
+      "school": "Southwest Jiaotong University",
+      "member1": "Junhao Liu",
+      "member2": "Xinke Li",
+      "member3": "Yida Chen",
+      "rank": 36,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 324,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Silver",
+      "coach": "Xiuying Yu",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 133
+        },
+        "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 138
+        },
+        "1": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "8": {
+          "solved": false,
+          "tries": 0,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "HKOI 2",
+      "school": "Hong Kong Olympiad in Informatics",
+      "member1": "Xu Adam",
+      "member2": "Su Yat Long Rayson",
+      "member3": "Ho Shun Ngai",
+      "rank": 0,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 325,
+      "is_official": false,
+      "is_girl": null,
+      "medal": null,
+      "coach": "Oa Yang Hau Chung",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 14
+        },
+        "10": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 71
+        },
+        "9": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 159
+        },
+        "1": {
+          "solved": false,
+          "tries": 8,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Thank you Bing Zhang",
+      "school": "Wuhan University",
+      "member1": "Shangyuan Liu",
+      "member2": "Zhenyu Yuan",
+      "member3": "Yang Hong",
+      "rank": 37,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 338,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Silver",
+      "coach": "Wenyong Dong",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 110
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 196
+        },
+        "5": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "One pull one hit",
+      "school": "Chengdu University of Information Technology",
+      "member1": "Can Ji",
+      "member2": "Yile Li",
+      "member3": "Yuxin Wang",
+      "rank": 38,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 339,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Silver",
+      "coach": "Mingyuan Yuan",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 14
+        },
+        "10": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 104
+        },
+        "9": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 180
+        }
+      }
+    },
+    {
+      "team_name": "Team is Powerful",
+      "school": "Dongguan University of Technology",
+      "member1": "Hai Huang",
+      "member2": "Tianshuo Lin",
+      "member3": "Zhilong Lin",
+      "rank": 39,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 350,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Silver",
+      "coach": "Chuanxiang Chen",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 9
+        },
+        "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 171
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 129
+        }
+      }
+    },
+    {
+      "team_name": "Hajimi",
+      "school": "Guangzhou University",
+      "member1": "Xuan Li",
+      "member2": "Haojun Zhou",
+      "member3": "Shanghua Yang",
+      "rank": 40,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 379,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Kailun Qiu",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 11
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 120
+        },
+        "9": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 187
+        },
+        "5": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "SCUT Chireden",
+      "school": "South China University of Technology",
+      "member1": "Liyao Zheng",
+      "member2": "Haolang Yuan",
+      "member3": "Hongyi Chen",
+      "rank": 41,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 403,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Chuhua Xian",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 137
+        },
+        "9": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 213
+        }
+      }
+    },
+    {
+      "team_name": "NUM-NTN",
+      "school": "National University of Mongolia",
+      "member1": "Naranbat Munkherdene",
+      "member2": "Tamir Jamiyangarav",
+      "member3": "Aldarjaw Naranbaatar",
+      "rank": 42,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 406,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Bagabold Gendensuren",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 13
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 204
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 147
+        }
+      }
+    },
+    {
+      "team_name": "GreedyIsTruth",
+      "school": "Wuchang Shouyi University",
+      "member1": "Longfei Tang",
+      "member2": "Minghui Li",
+      "member3": "Jingyun Gao",
+      "rank": 43,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 406,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Lan Jin",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 31
+        },
+        "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 110
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 204
+        }
+      }
+    },
+    {
+      "team_name": "Rosmontis_Fan",
+      "school": "Zhejiang Gongshang University",
+      "member1": "Shiyuan Shen",
+      "member2": "Jiahao Wei",
+      "member3": "Chenyang Xu",
+      "rank": 44,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 446,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Wenqiang Liu",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 9
+        },
+        "10": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 184
+        },
+        "9": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 113
+        }
+      }
+    },
+    {
+      "team_name": "May this voyage culminate in the Final",
+      "school": "SouthWestern University of Finance and Economics",
+      "member1": "Sixiang Jiang",
+      "member2": "Che Liu",
+      "member3": "Yahui Zhu",
+      "rank": 45,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 469,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Feng Zhou",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 139
+        },
+        "9": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 219
+        }
+      }
+    },
+    {
+      "team_name": "DengDuck Masters Club",
+      "school": "Hou Kong Middle School",
+      "member1": "TANG Cheng Hou",
+      "member2": "HUANG Kam Lam",
+      "member3": "AO Keng Chio",
+      "rank": 0,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 476,
+      "is_official": false,
+      "is_girl": null,
+      "medal": null,
+      "coach": "WONG Sichan",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 22
+        },
+        "10": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 78
+        },
+        "9": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 275
+        },
+        "1": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Ordinary.exe",
+      "school": "Xiamen University Tan Kah Kee College",
+      "member1": "Shuo Sun",
+      "member2": "Zixiang Zhuo",
+      "member3": "Junhua Huang",
+      "rank": 46,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 478,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Yijing Guo",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "10": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 156
+        },
+        "9": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 210
+        }
+      }
+    },
+    {
+      "team_name": "we are iron",
+      "school": "Sichuan Agricultural University",
+      "member1": "Ya'ao Jiang",
+      "member2": "Xin Li",
+      "member3": "Ge Diao",
+      "rank": 47,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 497,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Jiangshu Wei",
+      "problem_scores": {
+        "0": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 12
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 77
+        },
+        "9": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 286
+        }
+      }
+    },
+    {
+      "team_name": "Last Final",
+      "school": "Zhejiang SCI-TECH University",
+      "member1": "Hongyi Chen",
+      "member2": "Jiahui Tao",
+      "member3": "Shunyu Wang",
+      "rank": 48,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 513,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Hairong Ye",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 7
+        },
+        "10": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 154
+        },
+        "9": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 231
+        }
+      }
+    },
+    {
+      "team_name": "The last dance of XiaoMo",
+      "school": "Chengdu Jincheng College",
+      "member1": "Yiwei Cheng",
+      "member2": "Lihao Deng",
+      "member3": "Xuanyi He",
+      "rank": 49,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 530,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Dan Li",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 13
+        },
+        "10": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 147
+        },
+        "9": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 269
+        },
+        "8": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "1": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Back Seaing",
+      "school": "Dalian University of Technology",
+      "member1": "Zixiang Feng",
+      "member2": "Xizhe Wu",
+      "member3": "Fangyu Bu",
+      "rank": 50,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 532,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Bing Liang",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "10": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 87
+        },
+        "9": {
+          "solved": true,
+          "tries": 6,
+          "time_mins": 253
+        }
+      }
+    },
+    {
+      "team_name": "HKUST1",
+      "school": "Hong Kong University of Science and Technology",
+      "member1": "Taimas Korganbayev",
+      "member2": "Mukhammadarif Sakhmoldin",
+      "member3": "Raiymbek Baishuak",
+      "rank": 51,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 539,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Qifeng Chen",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "10": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 155
+        },
+        "5": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "9": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 251
+        },
+        "1": {
+          "solved": false,
+          "tries": 9,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "nia~nia~nia~ciallo~",
+      "school": "Chengdu University",
+      "member1": "Jiyuan Chen",
+      "member2": "Fansheng Zhang",
+      "member3": "Bing Huang",
+      "rank": 52,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 553,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Ying Qin",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 16
+        },
+        "9": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 294
+        },
+        "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 142
+        }
+      }
+    },
+    {
+      "team_name": "Harukanaru Gensokyo",
+      "school": "Guangxi University",
+      "member1": "Jianming Zhang",
+      "member2": "Kang Tao",
+      "member3": "Yixiang Sun",
+      "rank": 53,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 562,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Feng Zhan",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 8
+        },
+        "10": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 174
+        },
+        "9": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 280
+        }
+      }
+    },
+    {
+      "team_name": "ln 7/b",
+      "school": "Hohai University",
+      "member1": "Peiyin Chen",
+      "member2": "Ran Shao",
+      "member3": "Weiye Tan",
+      "rank": 54,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 564,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Xuejie Zhang",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 190
+        },
+        "10": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 281
+        },
+        "1": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Without Sky",
+      "school": "Hong Kong Polytechnic University",
+      "member1": "Hansong Sun",
+      "member2": "Xiangyu Meng",
+      "member3": "Ziqian Lin",
+      "rank": 55,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 589,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Bo Li",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 8
+        },
+        "10": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 292
+        },
+        "9": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 128
+        },
+        "8": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Courage",
+      "school": "Chongqing College of Mobile Communication",
+      "member1": "Deli Li",
+      "member2": "Yihan Zhan",
+      "member3": "Qing'an Lu",
+      "rank": 56,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 602,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Yi Wang",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 10
+        },
+        "10": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 130
+        },
+        "9": {
+          "solved": true,
+          "tries": 6,
+          "time_mins": 242
+        }
+      }
+    },
+    {
+      "team_name": "Wanting to learn Ai",
+      "school": "Sichuan University",
+      "member1": "Chaohang Feng",
+      "member2": "Xiangyu Cai",
+      "member3": "Yi Chen",
+      "rank": 57,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 604,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Jie Zuo",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 12
+        },
+        "10": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 219
+        },
+        "9": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 231
+        },
+        "1": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "go valorant esacpe delta dance",
+      "school": "Harbin Engineering University",
+      "member1": "Xinkai Zhao",
+      "member2": "Jiangji Sun",
+      "member3": "Liren Yan",
+      "rank": 58,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 611,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Lin Guo",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 16
+        },
+        "10": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 270
+        },
+        "9": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 184
+        }
+      }
+    },
+    {
+      "team_name": "^v^",
+      "school": "Tianjin University",
+      "member1": "Xiangzhi Zhang",
+      "member2": "Wenbin Wan",
+      "member3": "Jiachen Wang",
+      "rank": 59,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 658,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Mei Yu",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 7
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 40
+        },
+        "9": {
+          "solved": true,
+          "tries": 16,
+          "time_mins": 290
+        }
+      }
+    },
+    {
+      "team_name": "Little Switty",
+      "school": "Northwestern Polytechnical University",
+      "member1": "Keqi Li",
+      "member2": "Jiahao Zou",
+      "member3": "Taoyu Zhong",
+      "rank": 60,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 682,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Junrui Liu",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "10": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 275
+        },
+        "9": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 255
+        }
+      }
+    },
+    {
+      "team_name": "T34-Gray",
+      "school": "Central China Normal University",
+      "member1": "Mengqian Liu",
+      "member2": "Jingxin Yang",
+      "member3": "Yachen Peng",
+      "rank": 61,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 3,
+      "penalty": 774,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Junmin Ye",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 17
+        },
+        "10": {
+          "solved": true,
+          "tries": 6,
+          "time_mins": 288
+        },
+        "3": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "9": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 269
+        }
+      }
+    },
+    {
+      "team_name": "Taboo Laevatein",
+      "school": "JiangNan University",
+      "member1": "Wanli Dong",
+      "member2": "Hongbo Zhao",
+      "member3": "Jikai Wu",
+      "rank": 62,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 2,
+      "penalty": 70,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Min Jiang",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 7
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 62
+        },
+        "9": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        },
+        "5": {
+          "solved": false,
+          "tries": 14,
+          "time_mins": 0
+        },
+        "4": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "zufang",
+      "school": "Duke Kunshan University",
+      "member1": "Zi Hu",
+      "member2": "Houmin Sun",
+      "member3": "Tianjun Yuan",
+      "rank": 63,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 2,
+      "penalty": 121,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Ming-Chun Huang",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 24
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 76
+        },
+        "9": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        },
+        "1": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "HKUST5",
+      "school": "Hong Kong University of Science and Technology",
+      "member1": "Chan Ho Yin",
+      "member2": "AWADALLA, bdelrahman HossamEldin A. A.",
+      "member3": "Vu Duy Tung",
+      "rank": 64,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 2,
+      "penalty": 121,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Qifeng Chen",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 89
+        },
+        "9": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Chuunibyou But ACMers",
+      "school": "Wuhan University of Technology",
+      "member1": "Jiashang Shi",
+      "member2": "Xiangyu Yu",
+      "member3": "Guancheng Lu",
+      "rank": 65,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 2,
+      "penalty": 122,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Dongdong Zhao",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 18
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 104
+        },
+        "9": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Pure 2025",
+      "school": "City University of Hong Kong",
+      "member1": "Yachao Yan",
+      "member2": "Liyou Gao",
+      "member3": "Zichong Deng",
+      "rank": 66,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 2,
+      "penalty": 127,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Minming Li",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 8
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 119
+        },
+        "9": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "1": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Don't Hack Me",
+      "school": "Northeastern University at Qinhuangdao",
+      "member1": "Yifei Zhu",
+      "member2": "Xiaoquan Chen",
+      "member3": "Xingkai Zhao",
+      "rank": 67,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 2,
+      "penalty": 151,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Hexing Wang",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 14
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 117
+        },
+        "9": {
+          "solved": false,
+          "tries": 23,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "My Little Pony won't use Snickers before meeting Rainbow Dash",
+      "school": "Chengdu Neusoft University",
+      "member1": "Tingxin Wu",
+      "member2": "Junzhe Wang",
+      "member3": "Yifu Chen",
+      "rank": 68,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 2,
+      "penalty": 152,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Lin Tian",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 9
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 123
+        },
+        "10": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "1": {
+          "solved": false,
+          "tries": 9,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "icy_firefly",
+      "school": "University of Macau",
+      "member1": "Miaoyue Gao",
+      "member2": "Yue Xi",
+      "member3": "Rongjia Zhang",
+      "rank": 69,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 2,
+      "penalty": 157,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Zehan Lin",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "10": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 86
+        },
+        "9": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "1": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Little Foodie Loves Penalty Time",
+      "school": "China University of Geosciences, Beijing",
+      "member1": "Hongyu Niu",
+      "member2": "Yuxiang Ye",
+      "member3": "Junning Teng",
+      "rank": 70,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 2,
+      "penalty": 171,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Junbao Xia",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "9": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 159
+        }
+      }
+    },
+    {
+      "team_name": "Feel the Russian Style",
+      "school": "City University of Hong Kong",
+      "member1": "Gizatullin Timur",
+      "member2": "Demidov Ilia",
+      "member3": "Evstafev Andrei",
+      "rank": 71,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 2,
+      "penalty": 173,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Minming Li",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 142
+        },
+        "9": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "WA Deeds Done Dirt Cheap",
+      "school": "ShanghaiTech University",
+      "member1": "Xinyu Jiang",
+      "member2": "Zhaokun Chen",
+      "member3": "Junchi Wang",
+      "rank": 72,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 2,
+      "penalty": 182,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Kewei Tu",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 9
+        },
+        "10": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 133
+        },
+        "9": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "1": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Dreamer without love",
+      "school": "Xi'an University of Posts and Telecommunications",
+      "member1": "Yu Shi",
+      "member2": "Yiyuan Wu",
+      "member3": "Xudong Zhao",
+      "rank": 73,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 2,
+      "penalty": 185,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Qingsheng Zhang",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 10
+        },
+        "10": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 114
+        },
+        "9": {
+          "solved": false,
+          "tries": 11,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "add uuz to your qq group meow thank you meow",
+      "school": "Qilu University Of Technology",
+      "member1": "Zirui Yang",
+      "member2": "Zhanyuan Guo",
+      "member3": "Chenwei Zhang",
+      "rank": 74,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 2,
+      "penalty": 226,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Yan Pan",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 12
+        },
+        "9": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 173
+        }
+      }
+    },
+    {
+      "team_name": "Respawn of entropy",
+      "school": "Shandong University of Technology",
+      "member1": "Chao Liu",
+      "member2": "Jun Zhang",
+      "member3": "Ye Yuan",
+      "rank": 75,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 2,
+      "penalty": 243,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Xianwei Zhang",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 14
+        },
+        "10": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 169
+        },
+        "9": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Fondness? Delusion!",
+      "school": "Jiangxi University of Finance and Economics",
+      "member1": "Mingchuan Zhong",
+      "member2": "Junzhe Wan",
+      "member3": "Yunfei Zhang",
+      "rank": 76,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 2,
+      "penalty": 265,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Jian Jiang",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 17
+        },
+        "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 188
+        },
+        "9": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Aleatory Acceptism of Encounter",
+      "school": "Dalian Maritime University",
+      "member1": "Pinhao Ren",
+      "member2": "Yuhan Mei",
+      "member3": "Junfeng Shi",
+      "rank": 77,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 2,
+      "penalty": 278,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Zhiying Cao",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 12
+        },
+        "9": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 186
+        }
+      }
+    },
+    {
+      "team_name": "Haibara Ai is Correct",
+      "school": "Anhui Normal University",
+      "member1": "Jushang Xu",
+      "member2": "Xiang Gao",
+      "member3": "Tianbao Huo",
+      "rank": 78,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 2,
+      "penalty": 279,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Bronze",
+      "coach": "Chuanxin Zhao",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 10
+        },
+        "10": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 209
+        },
+        "9": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Accepted by HKUST",
+      "school": "Beijing Normal-Hong Kong Baptist University",
+      "member1": "Fangbo Ni",
+      "member2": "Zefeng Zhao",
+      "member3": "Menghan Wang",
+      "rank": 79,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 2,
+      "penalty": 283,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Jiaxing Chen",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 24
+        },
+        "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 218
+        },
+        "9": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "HKOI 3",
+      "school": "Hong Kong Olympiad in Informatics",
+      "member1": "Tan Jian Lang",
+      "member2": "Yang Chun Kit",
+      "member3": "Wong Cheuk Kiu",
+      "rank": 0,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 2,
+      "penalty": 297,
+      "is_official": false,
+      "is_girl": null,
+      "medal": null,
+      "coach": "Oa Yang Hau Chung",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 17
+        },
+        "5": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "9": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 260
+        }
+      }
+    },
+    {
+      "team_name": "GDUT_darkseek",
+      "school": "Guangdong University of Technology",
+      "member1": "Yifeng Tan",
+      "member2": "Wu Cai",
+      "member3": "Guohua Lai",
+      "rank": 80,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 2,
+      "penalty": 304,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Mingkai Tang",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 15
+        },
+        "10": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "9": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 228
+        }
+      }
+    },
+    {
+      "team_name": "3 ap = 1band = 1 life?",
+      "school": "South China Agricultural University",
+      "member1": "Weijie Tan",
+      "member2": "Qianbiao Yan",
+      "member3": "Gang Chen",
+      "rank": 81,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 2,
+      "penalty": 306,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Xudong Lin",
+      "problem_scores": {
+        "0": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 15
+        },
+        "9": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "10": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 231
+        }
+      }
+    },
+    {
+      "team_name": "Naming is so HARD!",
+      "school": "Hefei University of Technology at Xuancheng",
+      "member1": "Bozhao Feng",
+      "member2": "Oulu Yu",
+      "member3": "Jiuhe Ma",
+      "rank": 82,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 2,
+      "penalty": 334,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Junwei Lyu",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 5
+        },
+        "10": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 228
+        },
+        "9": {
+          "solved": false,
+          "tries": 8,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Elite Conscripts",
+      "school": "Heilongjiang University",
+      "member1": "Enpei He",
+      "member2": "Ziqiang Xin",
+      "member3": "Quanhong Wei",
+      "rank": 83,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 2,
+      "penalty": 340,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Hui Xu",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 12
+        },
+        "10": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 227
+        },
+        "9": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "GPNU-Awei",
+      "school": "GuangDong Polytechnic Normal University",
+      "member1": "Yufan Huang",
+      "member2": "Weisen Li",
+      "member3": "Zhengzhu Chen",
+      "rank": 84,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 2,
+      "penalty": 351,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Lan Liu",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "10": {
+          "solved": true,
+          "tries": 6,
+          "time_mins": 220
+        },
+        "9": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "SZTU_developer",
+      "school": "Shenzhen Technology University",
+      "member1": "Zheng Wang",
+      "member2": "Jiale Zhang",
+      "member3": "Rongxin Xu",
+      "rank": 85,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 2,
+      "penalty": 378,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Yundi Guo",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "9": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 285
+        },
+        "10": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "All the way south",
+      "school": "South China Normal University",
+      "member1": "Haowei Yu",
+      "member2": "Chenghua Zhu",
+      "member3": "Xiangkang Zeng",
+      "rank": 86,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 2,
+      "penalty": 379,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Jun Liang",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 10
+        },
+        "10": {
+          "solved": true,
+          "tries": 6,
+          "time_mins": 249
+        },
+        "9": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "No-Panic Doubao Pro",
+      "school": "North China University of Science and Technology",
+      "member1": "Yanqian Chen",
+      "member2": "Yuning Chen",
+      "member3": "Wenzheng Feng",
+      "rank": 87,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 2,
+      "penalty": 380,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Hongcan Yan",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 13
+        },
+        "10": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "9": {
+          "solved": true,
+          "tries": 6,
+          "time_mins": 247
+        }
+      }
+    },
+    {
+      "team_name": "XiXi",
+      "school": "Xihua University",
+      "member1": "Haonan Shi",
+      "member2": "Lanxuan Wu",
+      "member3": "Xinyang Liu",
+      "rank": 88,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 2,
+      "penalty": 388,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Honghong Chen",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 10
+        },
+        "10": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 278
+        },
+        "9": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Aren't Slacking Off",
+      "school": "Huazhong University of Science and Technology",
+      "member1": "Jize Guo",
+      "member2": "Lingkai Li",
+      "member3": "Jiayi Zhao",
+      "rank": 89,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 2,
+      "penalty": 411,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Kun He",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "10": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "1": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        },
+        "9": {
+          "solved": true,
+          "tries": 6,
+          "time_mins": 278
+        }
+      }
+    },
+    {
+      "team_name": "Greedy is all about guessing",
+      "school": "Tiangong University",
+      "member1": "Yilin Han",
+      "member2": "Yifan Wu",
+      "member3": "Shengyuan Yao",
+      "rank": 90,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 9,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Shuxia Ren",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 9
+        },
+        "10": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "9": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Untitled_Dream",
+      "school": "Zhejiang Normal University",
+      "member1": "Lin Yang",
+      "member2": "Rui Shen",
+      "member3": "Hai Cao",
+      "rank": 91,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 9,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Jianmin Han",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 9
+        },
+        "10": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "9": {
+          "solved": false,
+          "tries": 9,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "UU Accelerator",
+      "school": "Hong Kong Baptist University",
+      "member1": "Xujing Zhang",
+      "member2": "Wuyou Yin",
+      "member3": "Jiang Meng",
+      "rank": 92,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 10,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Xin Huang",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 10
+        },
+        "10": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "9": {
+          "solved": false,
+          "tries": 12,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Dawn",
+      "school": "Yangtze University",
+      "member1": "Fangjia Ji",
+      "member2": "Yan Tong",
+      "member3": "Wen Ren",
+      "rank": 93,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 10,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Yanrong Cui",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 10
+        },
+        "10": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "9": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "1": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Icecream!",
+      "school": "Shandong University",
+      "member1": "Yangyang Mao",
+      "member2": "Shaoqing Liu",
+      "member3": "Jiahao Hou",
+      "rank": 94,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 11,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Xuefeng Cui",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "10": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "9": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "noircloud",
+      "school": "Neusoft Institute Guangdong",
+      "member1": "Zihan Zhu",
+      "member2": "Linfeng Huang",
+      "member3": "Weitian Huang",
+      "rank": 95,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 11,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Chao Yang",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "10": {
+          "solved": false,
+          "tries": 9,
+          "time_mins": 0
+        },
+        "9": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Just AC",
+      "school": "North University of China",
+      "member1": "Canyang Liu",
+      "member2": "Jionghao Tan",
+      "member3": "Wenbo Chen",
+      "rank": 96,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 11,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Guangzhen Pan",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "10": {
+          "solved": false,
+          "tries": 10,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Array of Cqupt Monkeys",
+      "school": "Chongqing University of Posts and Telecommunications",
+      "member1": "Yujie Feng",
+      "member2": "Xinyu Lin",
+      "member3": "Weijie Wang",
+      "rank": 97,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 11,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Jingbo Xie",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "10": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "NYU Shanghai Team 2",
+      "school": "New York University Shanghai",
+      "member1": "Shukai Zhang",
+      "member2": "Shidong Xu",
+      "member3": "Yuhang Hou",
+      "rank": 98,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 11,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Xianbin Gu",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "10": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "9": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "HKOI 4",
+      "school": "Hong Kong Olympiad in Informatics",
+      "member1": "Cheung Kin Sun",
+      "member2": "Chan Cary Sirui",
+      "member3": "Lung Ping Him",
+      "rank": 0,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 11,
+      "is_official": false,
+      "is_girl": null,
+      "medal": null,
+      "coach": "Yuen Lok Kan Ethen",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "9": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "10": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "1": {
+          "solved": false,
+          "tries": 15,
+          "time_mins": 0
+        },
+        "0": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "threenoobs",
+      "school": "Central South University of Forestry and Technology",
+      "member1": "Junjie Xiao",
+      "member2": "Qizheng Sun",
+      "member3": "Wenjie He",
+      "rank": 99,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 12,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Zhufang Kuang",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "10": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "9": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "robust driver",
+      "school": "Beijing University of Technology",
+      "member1": "Zhenyue Chen",
+      "member2": "Xianglong Qi",
+      "member3": "Jinhe Zhang",
+      "rank": 100,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 13,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Hongyu Gao",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 13
+        },
+        "10": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Zutto Acceptednakade Iinoni.",
+      "school": "Ningbo University of Technology",
+      "member1": "Jianchun Zheng",
+      "member2": "Dejian Ye",
+      "member3": "Nancheng Chen",
+      "rank": 101,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 13,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Jianghua Xuan",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 13
+        },
+        "10": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Mooncross in Mistweave",
+      "school": "Fujian Normal University",
+      "member1": "Shengmo Ouyang",
+      "member2": "Dagan Xu",
+      "member3": "Aoyu Zhou",
+      "rank": 102,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 15,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Ruliang Xiao",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 15
+        },
+        "9": {
+          "solved": false,
+          "tries": 8,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Be AKed by ICPC",
+      "school": "Harbin Institute of Technology, Weihai",
+      "member1": "Bowen Li",
+      "member2": "Yanyu Cui",
+      "member3": "Jiahao Liu",
+      "rank": 103,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 18,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Kaikun Dong",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 18
+        },
+        "10": {
+          "solved": false,
+          "tries": 9,
+          "time_mins": 0
+        },
+        "9": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "ios::sync_with_think(false)",
+      "school": "Guangdong University of Technology Jieyang Campus",
+      "member1": "Zhiqian Chen",
+      "member2": "Jintao Chen",
+      "member3": "Yang Song",
+      "rank": 104,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 19,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Hongshu Li",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 19
+        },
+        "10": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "9": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "The Doctor's team and there ape-man captain",
+      "school": "Wuyi University",
+      "member1": "Kaixiang Feng",
+      "member2": "Shengxi Li",
+      "member3": "Dacong Huang",
+      "rank": 105,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 20,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Zhu Wang",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 20
+        },
+        "10": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "SleepToAC",
+      "school": "Southwest University",
+      "member1": "Ziyi Liu",
+      "member2": "Baitao Zhou",
+      "member3": "Junsheng Yang",
+      "rank": 106,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 20,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Xianfeng Han",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 20
+        },
+        "10": {
+          "solved": false,
+          "tries": 16,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Little sheep",
+      "school": "Henan Normal University",
+      "member1": "Haowen Yan",
+      "member2": "Tiandian Xie",
+      "member3": "Keke Yin",
+      "rank": 107,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 21,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Wenfeng Li",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 21
+        },
+        "10": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "9": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Universum",
+      "school": "Hou Kong Middle School",
+      "member1": "CHOI Sai Chi",
+      "member2": "CHEN Chio Cheong",
+      "member3": "WONG Chi Pang",
+      "rank": 0,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 26,
+      "is_official": false,
+      "is_girl": null,
+      "medal": null,
+      "coach": "LEONG Kam Wa",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 26
+        },
+        "10": {
+          "solved": false,
+          "tries": 8,
+          "time_mins": 0
+        },
+        "9": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Truly miracle algorithms but no space to write",
+      "school": "Taiyuan University of Technology",
+      "member1": "Xingyu Xu",
+      "member2": "Sijie Xun",
+      "member3": "Zhenchen Wang",
+      "rank": 108,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 28,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Fuping Lin",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 8
+        },
+        "10": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "1": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "SILVER MINER PRO",
+      "school": "City University of Macau",
+      "member1": "Muhan Hao",
+      "member2": "Mingxu Zhu",
+      "member3": "Fangyuan Jian",
+      "rank": 109,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 30,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Sanshuai Cui",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 30
+        },
+        "10": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "9": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "SKD 45167",
+      "school": "Shandong University of Science and Technology",
+      "member1": "Te'er Zhang",
+      "member2": "Xuehui Xu",
+      "member3": "Jitao Zhu",
+      "rank": 110,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 31,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Zhenhuan Wu",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 11
+        },
+        "9": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "10": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Carrot",
+      "school": "Shanghai Ocean University",
+      "member1": "Ziheng Zhou",
+      "member2": "Yuhan Zhou",
+      "member3": "Tianyou Lv",
+      "rank": 111,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 31,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Qingmei Yu",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 11
+        },
+        "10": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "9": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "nxVPCP 'or'1'='1",
+      "school": "University of Macau",
+      "member1": "LAO UN",
+      "member2": "Chan U Hun",
+      "member3": "ZHOU ZI MO",
+      "rank": 112,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 32,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Zehan Lin",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 12
+        },
+        "10": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "9": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Good Luck！",
+      "school": "China University of Petroleum-Beijing at Karamay",
+      "member1": "Yuxian Dong",
+      "member2": "Boya Liang",
+      "member3": "Dongsheng Liu",
+      "rank": 113,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 33,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Hongming Hu",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 13
+        },
+        "10": {
+          "solved": false,
+          "tries": 8,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "SegFault Maigo",
+      "school": "Shanghai University",
+      "member1": "Xiahong Liu",
+      "member2": "Shiyi Zhang",
+      "member3": "Yanchao Min",
+      "rank": 114,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 34,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Jun Shen",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 14
+        },
+        "9": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "10": {
+          "solved": false,
+          "tries": 11,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Java++3",
+      "school": "City University of Hong Kong",
+      "member1": "Chi Yin Cheung",
+      "member2": "Chunqiun Tsang",
+      "member3": "Lap Tsun Chan",
+      "rank": 0,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 34,
+      "is_official": false,
+      "is_girl": null,
+      "medal": null,
+      "coach": "Minming Li",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 14
+        },
+        "9": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        },
+        "10": {
+          "solved": false,
+          "tries": 16,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "The Midas Touch",
+      "school": "Hong Kong Polytechnic University",
+      "member1": "Haochen Shi",
+      "member2": "Jingbo Huang",
+      "member3": "Teng Xue",
+      "rank": 115,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 36,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Junyao Wang",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 36
+        },
+        "10": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "I All Accepted",
+      "school": "Kunming University of Science and Technology",
+      "member1": "Haotian Liu",
+      "member2": "Kang Li",
+      "member3": "Yuxiang Lu",
+      "rank": 116,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 37,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Xiaoli Zhang",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 17
+        },
+        "9": {
+          "solved": false,
+          "tries": 9,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "998244353",
+      "school": "Wuhan Institute of Technology",
+      "member1": "Jiaxin Li",
+      "member2": "Yaqi Wang",
+      "member3": "Yangjing Wang",
+      "rank": 117,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 39,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Hanliang Guo",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 19
+        },
+        "10": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "9": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "wawawawa...",
+      "school": "Nanyang Institute of Technology",
+      "member1": "Chenxian Song",
+      "member2": "Jikang Ren",
+      "member3": "Hanxu Yao",
+      "rank": 118,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 40,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Ke Chen",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 20
+        },
+        "10": {
+          "solved": false,
+          "tries": 11,
+          "time_mins": 0
+        },
+        "9": {
+          "solved": false,
+          "tries": 9,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Mechanical Wings",
+      "school": "Hebei University of Technology",
+      "member1": "Ruohao Wang",
+      "member2": "Zihan Zhao",
+      "member3": "Wen Huang",
+      "rank": 119,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 40,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Lukui Shi",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 20
+        },
+        "10": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "9": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "I-ACE",
+      "school": "New Mongol Institute of Technology",
+      "member1": "Amarsaikhan Badamragchaa",
+      "member2": "Chingunjav Ariuntur",
+      "member3": "Enkhbaatar Bayarsaikhan",
+      "rank": 120,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 41,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Iderbaatar Munkhuu",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 21
+        },
+        "9": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "10": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "sict3",
+      "school": "Mongolian University of Science and Technology",
+      "member1": "Munkhtur MUNKHBAGANA",
+      "member2": "Purevdorj TSERENPUNTSAG",
+      "member3": "Purev-Ochir BILGUUNTUGULDUR",
+      "rank": 121,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 41,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Altangerel KHUDER",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 21
+        },
+        "10": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        },
+        "9": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "SZU_OvO",
+      "school": "Shenzhen University",
+      "member1": "Jianfeng Cen",
+      "member2": "Xinhui Xiong",
+      "member3": "Nan Zhang",
+      "rank": 122,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 43,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Xiaoling Luo",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 23
+        },
+        "9": {
+          "solved": false,
+          "tries": 12,
+          "time_mins": 0
+        },
+        "10": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Can't solve it? Nap it away!",
+      "school": "Jiangxi Agricultural University",
+      "member1": "Xinyao Huang",
+      "member2": "Zhengyuan Yu",
+      "member3": "Haiyu Wang",
+      "rank": 123,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 51,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Hongtao Li",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 31
+        },
+        "10": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "9": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Cute Cat Dad",
+      "school": "Xidian University",
+      "member1": "Qi Gao",
+      "member2": "Siyu Xue",
+      "member3": "Ziqian Gu",
+      "rank": 124,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 55,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Shuping Zhang",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 35
+        },
+        "10": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "9": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "Long may the sun shine",
+      "school": "Taizhou University",
+      "member1": "Ruoyan Wang",
+      "member2": "Zhichao Zhang",
+      "member3": "Yicong Yu",
+      "rank": 125,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 59,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Yongliang Hu",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 19
+        },
+        "9": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "10": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "gagagugu",
+      "school": "Pui Ching Middle School",
+      "member1": "WONG In Son",
+      "member2": "CHEONG Sio Fong",
+      "member3": "LIN Yu Feng",
+      "rank": 0,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 63,
+      "is_official": false,
+      "is_girl": null,
+      "medal": null,
+      "coach": "LAM Kin Un",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 63
+        },
+        "10": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "9": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "HKBU_2",
+      "school": "Hong Kong Baptist University",
+      "member1": "Timur Ten",
+      "member2": "Feiyi Fang",
+      "member3": "Jiafu Guo",
+      "rank": 126,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 76,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Xin Huang",
+      "problem_scores": {
+        "7": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 36
+        },
+        "10": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        }
+      }
+    }
+  ]
+}

@@ -22,46 +22,60 @@ def normalize_text(s: str) -> str:
     return s
 
 school_mapping = {}
+display_school_mapping = {}
+ambiguous_school_mappings = set()
+
 def init_school_mapping():
-    global school_mapping
+    global school_mapping, display_school_mapping, ambiguous_school_mappings
     if school_mapping:
         return
     
-    possible_paths = [
-        "data/config/school.csv"
-    ]
-    
-    csv_path = None
-    for path in possible_paths:
-        try:
-            with open(path, 'r', encoding='utf-8') as f:
-                csv_path = path
-                break
-        except FileNotFoundError:
-            continue
-            
-    if not csv_path:
+    json_path = "data/config/school.json"
+    if not os.path.exists(json_path):
         return
 
     try:
-        with open(csv_path, 'r', encoding='utf-8') as f:
-            reader = csv.DictReader(f)
-            for row in reader:
-                zh_raw = row.get('zh', '')
-                if not zh_raw:
-                    continue
-                zh = normalize_text(zh_raw)
-                en_raw = row.get('en', '')
-                if en_raw:
-                    school_mapping[normalize_text(en_raw)] = zh
-                alt_raw = row.get('alt', '')
-                if alt_raw:
-                    for alt in alt_raw.split(','):
-                        alt = alt.strip()
-                        if alt:
-                            school_mapping[normalize_text(alt)] = zh
+        with open(json_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+            
+        alias_to_zhs = {}
+
+        for zh, aliases in data.items():
+            norm_zh = normalize_text(zh)
+            display_school_mapping[norm_zh] = zh
+            
+            if norm_zh not in alias_to_zhs:
+                alias_to_zhs[norm_zh] = set()
+            alias_to_zhs[norm_zh].add(zh)
+            
+            for alias in aliases:
+                alt = str(alias).strip()
+                if alt:
+                    norm_alt = normalize_text(alt)
+                    if norm_alt:
+                        if norm_alt not in alias_to_zhs:
+                            alias_to_zhs[norm_alt] = set()
+                        alias_to_zhs[norm_alt].add(zh)
+                        
+        conflicts = []
+        for norm_name, zhs in alias_to_zhs.items():
+            if len(zhs) > 1:
+                # Add to dynamic ambiguous mappings instead of raising an error
+                ambiguous_school_mappings.add(norm_name)
+            else:
+                zh = list(zhs)[0]
+                school_mapping[norm_name] = zh
+                display_school_mapping[norm_name] = zh
+                
     except Exception as e:
+        if isinstance(e, AssertionError):
+            raise
         pass
+
+def get_canonical_school_name(school: str) -> str:
+    init_school_mapping()
+    norm = normalize_text(school)
+    return display_school_mapping.get(norm, school)
 
 def normalize_school_name(school: str) -> str:
     init_school_mapping()
@@ -359,6 +373,53 @@ def batch_process(year_arg="2025"):
         priority = {"XCPCIO": 1, "Rankland": 2, "Archive": 3}
         jsons.sort(key=lambda x: priority.get(x[0], 99))
         
+        # Resolve ambiguous schools before merging
+        for src_idx, (src_name, src_json) in enumerate(jsons):
+            src_cs = ContestStandings.from_dict(src_json)
+            calculate_canonical_ranks(src_cs.standings)
+            changed = False
+            for t in src_cs.standings:
+                norm_school = normalize_text(t.school)
+                if norm_school in ambiguous_school_mappings:
+                    key = (out_name, str(t.rank) if t.rank is not None else '', 'school')
+                    team_name = t.team_name or ''
+                    rank_str = str(t.rank) if t.rank is not None else ''
+                    
+                    existing = next((w for w in all_warnings if w['Contest']==out_name and w['Rank']==rank_str and w['Field']=='school' and w['Team Name']==team_name), None)
+                    original_name = getattr(t, 'original_school', t.school)
+                    
+                    if key in resolutions:
+                        print(f"    [RESOLVED] {team_name} 'school': {original_name} -> {resolutions[key]}")
+                        t.school = resolutions[key]
+                        changed = True
+                        if existing:
+                            existing['Sources'][src_name] = original_name
+                        else:
+                            all_warnings.append({
+                                'Contest': out_name,
+                                'Rank': rank_str,
+                                'School': t.school,
+                                'Team Name': team_name,
+                                'Field': 'school',
+                                'Sources': {src_name: original_name},
+                                'Resolution': resolutions[key]
+                            })
+                    else:
+                        if existing:
+                            existing['Sources'][src_name] = original_name
+                        else:
+                            all_warnings.append({
+                                'Contest': out_name,
+                                'Rank': rank_str,
+                                'School': t.school,
+                                'Team Name': team_name,
+                                'Field': 'school',
+                                'Sources': {src_name: original_name},
+                                'Resolution': ''
+                            })
+            if changed:
+                jsons[src_idx] = (src_name, src_cs.to_dict())
+
         base_name, current_merged = jsons[0]
         print(f"  Base source: {base_name}")
         
@@ -366,7 +427,7 @@ def batch_process(year_arg="2025"):
         for i in range(1, len(jsons)):
             comp_name, comp_json = jsons[i]
             print(f"  Merging {comp_name} into Base...")
-            current_merged, warns = merge_standings(current_merged, comp_json, source_name=comp_name, contest_name=name, resolutions=resolutions)
+            current_merged, warns = merge_standings(current_merged, comp_json, source_name=comp_name, contest_name=out_name, resolutions=resolutions)
             for w in warns:
                 key = (w['Contest'], w['Rank'], w['Field'])
                 if key not in contest_warnings:
@@ -406,6 +467,10 @@ def batch_process(year_arg="2025"):
                 
         # Make sure current_merged is canonical even if 1 source
         final_cs_obj = ContestStandings.from_dict(current_merged)
+        
+        for t in final_cs_obj.standings:
+            t.school = get_canonical_school_name(t.school)
+            
         calculate_canonical_ranks(final_cs_obj.standings)
         current_merged = final_cs_obj.to_dict()
                 

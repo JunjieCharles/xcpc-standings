@@ -305,7 +305,7 @@
     },
     {
       "team_name": "因为太怕 WA 就全点大模拟了",
-      "school": "香港科技大学（广州）",
+      "school": "香港科技大学广州",
       "member1": "王向前",
       "member2": "罗浩",
       "member3": "储文皓",
@@ -5235,7 +5235,7 @@
     },
     {
       "team_name": "请输入文本",
-      "school": "香港科技大学（广州）",
+      "school": "香港科技大学广州",
       "member1": "梁君豪",
       "member2": "刘秋悦",
       "member3": "张思达",
@@ -5432,7 +5432,7 @@
     },
     {
       "team_name": "我坐戏子楼台前",
-      "school": "香港科技大学（广州）",
+      "school": "香港科技大学广州",
       "member1": "郭沣",
       "member2": "赖宣宇",
       "member3": "宋锦儒",
@@ -8412,7 +8412,7 @@
     },
     {
       "team_name": "#define long long long",
-      "school": "香港科技大学（广州）",
+      "school": "香港科技大学广州",
       "member1": "张晋杰",
       "member2": "叶秉宪",
       "member3": "郑凯文",
@@ -12443,7 +12443,7 @@
     },
     {
       "team_name": "NUM-B2D",
-      "school": "National University of Mongolia",
+      "school": "蒙古国立大学",
       "member1": "Bazarragchaa Orgilon",
       "member2": "buyndorj bayrtai",
       "member3": "Dalaitseren Boldbaatar",
@@ -12481,7 +12481,7 @@
     },
     {
       "team_name": "过了样例就能队",
-      "school": "香港科技大学（广州）",
+      "school": "香港科技大学广州",
       "member1": "黄方哲",
       "member2": "廖家民",
       "member3": "郑杨一轩",
@@ -14876,7 +14876,7 @@
     },
     {
       "team_name": "仲夏夜之金梦",
-      "school": "香港科技大学（广州）",
+      "school": "香港科技大学广州",
       "member1": "钟嘉宸",
       "member2": "王语诺",
       "member3": "吴星智",
@@ -20647,7 +20647,7 @@
     },
     {
       "team_name": "惠风和畅，鹏程万里",
-      "school": "香港科技大学（广州）",
+      "school": "香港科技大学广州",
       "member1": "李小乐",
       "member2": "陈欣怡",
       "member3": "黄彦杰",
@@ -21388,7 +21388,7 @@
     },
     {
       "team_name": "L4ST_DANCE",
-      "school": "National University of Mongolia",
+      "school": "蒙古国立大学",
       "member1": "Surenjamts Tsedevsuren",
       "member2": "Khanbileg Purevdorj",
       "member3": "Munkh-orgil Nergui",
@@ -22073,29 +22073,6 @@
       }
     },
     {
-      "team_name": "游戏人生零",
-      "school": "华中科技大学文华学院",
-      "member1": "方鹏遥",
-      "member2": "杨周",
-      "member3": "黎耀杨",
-      "rank": 444,
-      "school_rank": 231,
-      "_unofficial_rank": null,
-      "score": 0,
-      "penalty": 0,
-      "is_official": true,
-      "is_girl": null,
-      "medal": "Honorable",
-      "coach": "王方",
-      "problem_scores": {
-        "4": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        }
-      }
-    },
-    {
       "team_name": "共同语言：C++",
       "school": "华南农业大学+厦门大学马来西亚分校+深圳大学",
       "member1": "张卓琳",
@@ -22157,6 +22134,29 @@
         "12": {
           "solved": false,
           "tries": 1,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "游戏人生零",
+      "school": "文华学院",
+      "member1": "方鹏遥",
+      "member2": "杨周",
+      "member3": "黎耀杨",
+      "rank": 444,
+      "school_rank": 231,
+      "_unofficial_rank": null,
+      "score": 0,
+      "penalty": 0,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "王方",
+      "problem_scores": {
+        "4": {
+          "solved": false,
+          "tries": 3,
           "time_mins": 0
         }
       }

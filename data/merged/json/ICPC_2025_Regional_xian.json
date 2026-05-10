@@ -6906,7 +6906,7 @@
       "penalty": 766,
       "is_official": true,
       "is_girl": null,
-      "medal": "Bronze",
+      "medal": "Silver",
       "coach": null,
       "problem_scores": {
         "6": {
@@ -6954,7 +6954,7 @@
       "penalty": 766,
       "is_official": true,
       "is_girl": null,
-      "medal": "Silver",
+      "medal": "Bronze",
       "coach": null,
       "problem_scores": {
         "6": {
@@ -7623,7 +7623,7 @@
     },
     {
       "team_name": "请输入文本",
-      "school": "香港科技大学（广州）",
+      "school": "香港科技大学广州",
       "member1": "梁君豪",
       "member2": "刘秋悦",
       "member3": "张思达",
@@ -9066,7 +9066,7 @@
     },
     {
       "team_name": "倒吊兔",
-      "school": "浙江机电职业技术学院",
+      "school": "浙江机电职业技术大学",
       "member1": "洪志伦",
       "member2": "游晨昕",
       "member3": "沈芸",
@@ -9549,7 +9549,7 @@
     },
     {
       "team_name": "三个绿名",
-      "school": "中国石油大学（北京）克拉玛依校区",
+      "school": "中国石油大学北京克拉玛依校区",
       "member1": "蔡昊烨",
       "member2": "刘佳一",
       "member3": "邬圣锋",
@@ -11908,7 +11908,7 @@
     },
     {
       "team_name": "那很有生活了",
-      "school": "香港科技大学（广州）",
+      "school": "香港科技大学广州",
       "member1": "左眩瑞",
       "member2": "许博涵",
       "member3": "刘芮宇",
@@ -13019,7 +13019,7 @@
     },
     {
       "team_name": "重生之我在信大",
-      "school": "中国人民解放军信息工程大学",
+      "school": "信息工程大学",
       "member1": "蔡智勋",
       "member2": "闫国基",
       "member3": "赵凌睿",

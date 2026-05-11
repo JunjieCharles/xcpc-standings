@@ -55,6 +55,10 @@ def init_school_mapping(json_path: str = "data/config/school.json") -> None:
             raise
         pass
 
+def is_ambiguous_school(school: str) -> bool:
+    """Check if the normalized school name is ambiguous."""
+    return school in _ambiguous_school_mappings
+
 def get_canonical_school_name(school: str) -> str:
     """Return canonical display name if available, else original."""
     init_school_mapping()

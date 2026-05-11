@@ -1,5 +1,4 @@
-import urllib.request
-import urllib.error
+import requests
 import json
 import time
 from typing import Optional, Any
@@ -10,14 +9,15 @@ def fetch_text_with_retry(url: str, retries: int = 3, timeout: int = 10, headers
     if headers is None:
         headers = {'User-Agent': 'Mozilla/5.0'}
     
-    req = urllib.request.Request(url, headers=headers)
-    
     for attempt in range(retries):
         try:
-            with urllib.request.urlopen(req, timeout=timeout) as response:
-                return response.read().decode('utf-8')
-        except urllib.error.HTTPError as e:
-            if e.code == 404:
+            response = requests.get(url, headers=headers, timeout=timeout)
+            if response.status_code == 404:
+                return None
+            response.raise_for_status()
+            return response.text
+        except requests.exceptions.HTTPError as e:
+            if response.status_code == 404:
                 return None
             print(f"Fetch failed for {url} (attempt {attempt+1}/{retries}): {e}")
             if attempt < retries - 1:

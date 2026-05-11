@@ -1,11 +1,11 @@
-﻿Contest,Rank,School,Team Name,Field,XCPCIO,Rankland,Archive,Resolution
-ICPC_2025_Regional_hongkong,106,五邑大学,The Doctor's team and there ape-man captain,school,Wuyi University,Wuyi University,,五邑大学
-ICPC_2025_Regional_hongkong,125,台州大学,Long may the sun shine,school,Taizhou University,Taizhou University,,台州大学
-ICPC_2025_Regional_wuhan,U19,香港科技大学（广州）,请输入文本,member1,梁君豪,梁君豪,苏泓燃,梁君豪
-ICPC_2025_Regional_wuhan,U19,香港科技大学（广州）,请输入文本,member2,刘秋悦,刘秋悦,陆梓炀,刘秋悦
-ICPC_2025_Regional_wuhan,U19,香港科技大学（广州）,请输入文本,member3,张思达,张思达,刘佳未,张思达
-ICPC_2025_Regional_wuhan,U19,香港科技大学（广州）,请输入文本,coach,熊辉,,罗国杰,熊辉
-ICPC_2025_Regional_xian,89,重庆大学,三模哈希米,member2,周骁坤,杨展途,周骁坤,杨展途
-ICPC_2025_Regional_xian,89,重庆大学,三模哈希米,member3,杨展途,葛轩铭,杨展途,葛轩铭
-ICPC_2025_Regional_xian,120,哈尔滨工业大学,长崎不爽世,medal,Bronze,,Silver,Silver
-ICPC_2025_Regional_xian,121,北京交通大学,交一发先,medal,Silver,,Bronze,Bronze
+﻿Contest,Rank,School,Team Name,Field,Archive,PTA,Rankland,XCPCIO,Resolution
+ICPC_2025_Regional_hongkong,106,五邑大学,The Doctor's team and there ape-man captain,school,,,Wuyi University,Wuyi University,五邑大学
+ICPC_2025_Regional_hongkong,125,台州大学,Long may the sun shine,school,,,Taizhou University,Taizhou University,台州大学
+ICPC_2025_Regional_wuhan,U19,香港科技大学（广州）,请输入文本,member1,苏泓燃,,梁君豪,梁君豪,梁君豪
+ICPC_2025_Regional_wuhan,U19,香港科技大学（广州）,请输入文本,member2,陆梓炀,,刘秋悦,刘秋悦,刘秋悦
+ICPC_2025_Regional_wuhan,U19,香港科技大学（广州）,请输入文本,member3,刘佳未,,张思达,张思达,张思达
+ICPC_2025_Regional_wuhan,U19,香港科技大学（广州）,请输入文本,coach,罗国杰,,,熊辉,熊辉
+ICPC_2025_Regional_xian,89,重庆大学,三模哈希米,member2,周骁坤,,杨展途,周骁坤,杨展途
+ICPC_2025_Regional_xian,89,重庆大学,三模哈希米,member3,杨展途,,葛轩铭,杨展途,葛轩铭
+ICPC_2025_Regional_xian,120,哈尔滨工业大学,长崎不爽世,medal,Silver,,,Bronze,Silver
+ICPC_2025_Regional_xian,121,北京交通大学,交一发先,medal,Bronze,,,Silver,Bronze

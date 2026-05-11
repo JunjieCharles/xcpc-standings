@@ -80,11 +80,11 @@ class XCPCIOProvider(JSONCacheProvider):
         super().__init__(identifier, contest_name, "data/raw/cache/xcpcio", "data/raw/json/xcpcio")
 
     def fetch_raw(self):
-        from src.xcpcio_source import XCPCIODataSource
+        from src.sources.xcpcio_source import XCPCIODataSource
         return XCPCIODataSource().fetch_contest_data(self.identifier)
 
     def parse_standard(self, raw_data):
-        from src.xcpcio_source import ICPCStandingsGenerator
+        from src.sources.xcpcio_source import ICPCStandingsGenerator
         std = ICPCStandingsGenerator(raw_data).generate()
         if "problem_ids" not in std:
             std["problem_ids"] = []
@@ -104,12 +104,12 @@ class RanklandProvider(JSONCacheProvider):
         return bool(self.identifier and self.cat_year)
 
     def fetch_raw(self):
-        from src.rankland_source import RanklandDataSource
+        from src.sources.rankland_source import RanklandDataSource
         cat, year = self.cat_year
         return RanklandDataSource().fetch_contest_data(cat, year, self.identifier)
 
     def parse_standard(self, raw_data):
-        from src.rankland_source import SRKStandingsGenerator
+        from src.sources.rankland_source import SRKStandingsGenerator
         std = SRKStandingsGenerator(raw_data).generate()
         if "contest_name" not in std or not std["contest_name"]:
             std["contest_name"] = self.contest_name
@@ -127,13 +127,36 @@ class ArchiveProvider(JSONCacheProvider):
         return bool(self.identifier) and os.path.exists(self.csv_path)
 
     def fetch_raw(self):
-        from src.archive_source import ArchiveDataSource
+        from src.sources.archive_source import ArchiveDataSource
         print(f"  [{self.source_name}] Loading local CSV: {self.csv_path}")
         return ArchiveDataSource().fetch_contest_data(self.csv_path)
 
     def parse_standard(self, raw_data):
-        from src.archive_source import ArchiveStandingsGenerator
+        from src.sources.archive_source import ArchiveStandingsGenerator
         std = ArchiveStandingsGenerator(raw_data, self.contest_name).generate()
+        if "contest_name" not in std or not std["contest_name"]:
+            std["contest_name"] = self.contest_name
+        return std
+
+
+class PTAProvider(JSONCacheProvider):
+    source_name = "PTA"
+
+    def __init__(self, identifier: str, contest_name: str):
+        super().__init__(identifier, contest_name, "data/raw/cache/pta", "data/raw/json/pta")
+
+    def fetch_raw(self):
+        from src.sources.pta_source import PtaDataSource
+        return PtaDataSource().fetch_contest_data(self.identifier)
+
+    def parse_standard(self, raw_data):
+        from src.sources.pta_source import PTAStandingsGenerator
+        std = PTAStandingsGenerator(raw_data).generate().to_dict()
+        if "problem_ids" not in std:
+            if std["standings"] and len(std["standings"]) > 0:
+                std["problem_ids"] = list(std["standings"][0]["problem_results"].keys())
+            else:
+                std["problem_ids"] = []
         if "contest_name" not in std or not std["contest_name"]:
             std["contest_name"] = self.contest_name
         return std

@@ -4,10 +4,10 @@ import sys
 import os
 import pandas as pd
 from typing import Dict, Tuple, List
-from src.xcpcio_source import XCPCIODataSource, ICPCStandingsGenerator
-from src.rankland_source import RanklandDataSource, SRKStandingsGenerator
-from src.archive_source import ArchiveDataSource, ArchiveStandingsGenerator
-from src.providers import ArchiveProvider, XCPCIOProvider, RanklandProvider
+from src.sources.xcpcio_source import XCPCIODataSource, ICPCStandingsGenerator
+from src.sources.rankland_source import RanklandDataSource, SRKStandingsGenerator
+from src.sources.archive_source import ArchiveDataSource, ArchiveStandingsGenerator
+from src.providers import ArchiveProvider, XCPCIOProvider, RanklandProvider, PTAProvider
 from src.models import TeamStanding, ContestStandings, ProblemStatus, calculate_canonical_ranks
 
 import pypinyin
@@ -16,7 +16,7 @@ import csv
 import logging
 
 from src.utils.text import normalize_text, get_name_pinyin_set
-from src.utils.school import normalize_school_name, get_canonical_school_name, init_school_mapping
+from src.utils.school import normalize_school_name, get_canonical_school_name, init_school_mapping, is_ambiguous_school
 
 def matches_members(t1: TeamStanding, t2: TeamStanding) -> bool:
     m1 = [t1.member1, t1.member2, t1.member3]
@@ -246,10 +246,12 @@ def batch_process(year_arg="2025"):
 
     resolutions_file = "data/merged/resolutions.csv"
     resolutions = {}
+    existing_rows = []
     if os.path.exists(resolutions_file):
         with open(resolutions_file, 'r', encoding='utf-8-sig', newline='') as f:
             reader = csv.DictReader(f)
             for row in reader:
+                existing_rows.append(row)
                 if row.get('Resolution'):
                     key = (row.get('Contest', ''), row.get('Rank', ''), row.get('Field', ''))
                     resolutions[key] = row['Resolution']
@@ -261,6 +263,8 @@ def batch_process(year_arg="2025"):
         xcpcio_id = row['xcpcio_id']
         rankland_id = row['rankland_id']
         archive_id = row['archive_id']
+        pta_id = str(row.get('pta_id', ''))
+        if pta_id == 'nan': pta_id = ''
         
         
         out_name = f"{row['series']}_{row['year']}_{row['category']}_{name}"
@@ -269,12 +273,13 @@ def batch_process(year_arg="2025"):
         
 
             
-        print(f"\nProcessing: {name} (XCPCIO={xcpcio_id}, Rankland={rankland_id}, Archive={archive_id})")
+        print(f"\nProcessing: {name} (XCPCIO={xcpcio_id}, Rankland={rankland_id}, Archive={archive_id}, PTA={pta_id})")
         
         jsons = []
         
         providers = [
             ArchiveProvider(archive_id, name),
+            PTAProvider(pta_id, name),
             XCPCIOProvider(xcpcio_id, name),
             RanklandProvider(rankland_id, name, rl_lookup.get(rankland_id))
         ]
@@ -304,7 +309,7 @@ def batch_process(year_arg="2025"):
             changed = False
             for t in src_cs.standings:
                 norm_school = normalize_text(t.school)
-                if norm_school in ambiguous_school_mappings:
+                if is_ambiguous_school(norm_school):
                     key = (out_name, str(t.rank) if t.rank is not None else '', 'school')
                     team_name = t.team_name or ''
                     rank_str = str(t.rank) if t.rank is not None else ''
@@ -428,23 +433,43 @@ def batch_process(year_arg="2025"):
             for w in resolved:
                 print(f"  [{w['Contest']}] Rank {w['Rank']} - {w['School']} {w['Team Name']} | {w['Field']} resolved to: '{w['Resolution']}'")
 
+        # Merge existing rows with new warnings
+        final_rows = {}
+        # Load existing first
+        for row in existing_rows:
+            k = (row.get('Contest', ''), row.get('Rank', ''), row.get('Field', ''), row.get('Team Name', ''))
+            final_rows[k] = row
+            
+        # Update with new runs
+        all_sources = ["XCPCIO", "Rankland", "Archive", "PTA"]
+        for w in all_warnings:
+            k = (w['Contest'], w['Rank'], w['Field'], w['Team Name'])
+            out = {
+                'Contest': w['Contest'],
+                'Rank': w['Rank'],
+                'School': w['School'],
+                'Team Name': w['Team Name'],
+                'Field': w['Field'],
+                'Resolution': w['Resolution']
+            }
+            for src in all_sources:
+                out[src] = w.get('Sources', {}).get(src, '')
+            final_rows[k] = out
+            
         with open(resolutions_file, 'w', encoding='utf-8-sig', newline='') as csvfile:
-            all_sources = ["XCPCIO", "Rankland", "Archive"]
-            fieldnames = ['Contest', 'Rank', 'School', 'Team Name', 'Field'] + all_sources + ['Resolution']
+            # Reconstruct fieldnames from data because existing rows might have extra source columns
+            all_sources_set = set(["XCPCIO", "Rankland", "Archive", "PTA"])
+            for row in final_rows.values():
+                for k in row.keys():
+                    if k not in ['Contest', 'Rank', 'School', 'Team Name', 'Field', 'Resolution']:
+                        all_sources_set.add(k)
+                        
+            fieldnames = ['Contest', 'Rank', 'School', 'Team Name', 'Field'] + sorted(list(all_sources_set)) + ['Resolution']
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             writer.writeheader()
-            for w in all_warnings:
-                out = {
-                    'Contest': w['Contest'],
-                    'Rank': w['Rank'],
-                    'School': w['School'],
-                    'Team Name': w['Team Name'],
-                    'Field': w['Field'],
-                    'Resolution': w['Resolution']
-                }
-                for src in all_sources:
-                    out[src] = w.get('Sources', {}).get(src, '')
-                writer.writerow(out)
+            for r in final_rows.values():
+                writer.writerow(r)
+                
         print(f"Resolutions file updated at {resolutions_file}")
     else:
         # Create empty template if none exist

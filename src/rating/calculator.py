@@ -17,7 +17,7 @@ def get_zh_to_en():
             return json.load(f)
     return {}
 
-def build_contest_schedule() -> List[Dict]:
+def build_contest_schedule(rating_type: str = "member") -> List[Dict]:
     """
     Reads contests.csv, filters for Regional/Final/Invitational category (based on requirement to include only relevant ones),
     groups by date, and builds the schedule order.
@@ -50,8 +50,14 @@ def build_contest_schedule() -> List[Dict]:
             sub = row.get('category', '')
             name = row.get('name', '')
             
-            if sub not in ['Regional', 'Final', 'Invitational']:
+            if sub not in ['Regional', 'Final', 'Invitational', 'Online', 'Girls', 'Vocational']:
                 continue
+                
+            if not name:
+                if sub == 'Girls':
+                    name = 'girls'
+                elif sub == 'Vocational':
+                    name = 'vocational'
                 
             csv_filename = f"{series}_{year}_{sub}_{name}.csv"
             csv_path = os.path.join('data/merged/csv', csv_filename)
@@ -75,33 +81,52 @@ def build_contest_schedule() -> List[Dict]:
     schedule = []
     for d in sorted_dates:
         items = grouped[d]
-        # Ensure ICPC before CCPC
-        items_sorted = sorted(items, key=lambda x: (0 if x['series'] == 'ICPC' else 1, x['name']))
-        
-        # Build tag like "ICPC南京/CCPC哈尔滨"
-        tags = []
-        files = []
-        for item in items_sorted:
-            zh_name = en_to_zh.get(item['name'], item['name'])
-            tag = f"{item['series']}{zh_name}"
-            # Hardcode fix for finals if needed
-            if item['sub'] == 'Final' and item['name'] == 'final':
-                tag = f"{item['series']}总决赛"
-            if item['sub'] == 'Final' and item['name'] == 'ecfinal':
-                tag = f"{item['series']} ECFinal"
-            tags.append(tag)
-            files.append(item['file'])
+        # Order: CCPC before ICPC, Vocational -> Girls -> others
+        def sort_key(x):
+            series_order = 1 if x['series'] == 'ICPC' else 0
+            sub_order = 0 if x['sub'] == 'Vocational' else (1 if x['sub'] == 'Girls' else 2)
+            return (series_order, sub_order, x['name'])
             
-        schedule.append({
-            'date': d,
-            'tag': "/".join(tags),
-            'files': files
-        })
+        items_sorted = sorted(items, key=sort_key)
+        
+        if rating_type == 'school':
+            # For school rating, do not merge contests on the same day into a single column
+            for item in items_sorted:
+                zh_name = en_to_zh.get(item['name'], item['name'])
+                tag = f"{item['series']}{zh_name}"
+                if item['sub'] == 'Final' and item['name'] == 'final':
+                    tag = f"{item['series']}总决赛"
+                if item['sub'] == 'Final' and item['name'] == 'ecfinal':
+                    tag = f"{item['series']} ECFinal"
+                schedule.append({
+                    'date': d,
+                    'tag': tag,
+                    'files': [item['file']]
+                })
+        else:
+            # Build tag like "ICPC南京/CCPC哈尔滨" for member rating
+            tags = []
+            files = []
+            for item in items_sorted:
+                zh_name = en_to_zh.get(item['name'], item['name'])
+                tag = f"{item['series']}{zh_name}"
+                if item['sub'] == 'Final' and item['name'] == 'final':
+                    tag = f"{item['series']}总决赛"
+                if item['sub'] == 'Final' and item['name'] == 'ecfinal':
+                    tag = f"{item['series']} ECFinal"
+                tags.append(tag)
+                files.append(item['file'])
+                
+            schedule.append({
+                'date': d,
+                'tag': "/".join(tags),
+                'files': files
+            })
         
     return schedule
 
-def generate_member_rating():
-    schedule = build_contest_schedule()
+def generate_member_rating(rating_type="member"):
+    schedule = build_contest_schedule(rating_type)
     if not schedule:
         return
         
@@ -126,13 +151,20 @@ def generate_member_rating():
                     continue
                     
                 # Skip zero solves
-                if 'A' in row:
+                if 'Solved' in row and pd.notnull(row['Solved']) and str(row['Solved']).strip():
+                    try:
+                        if int(float(row['Solved'])) == 0:
+                            continue
+                    except ValueError:
+                        pass
+                elif 'A' in row:
                     cnt = 0
                     for ip in range(26):
                         problem = chr(ord('A') + ip)
                         if problem not in row:
                             break
-                        if not pd.isnull(row[problem]) and str(row[problem]) != '-':
+                        val = str(row[problem]).strip()
+                        if pd.notnull(row[problem]) and val not in ['-', '', 'nan', 'NaN']:
                             cnt += 1
                     if cnt == 0:
                         continue
@@ -208,8 +240,8 @@ def generate_member_rating():
         df.to_excel('data/rating/rating_member.xlsx', index=False)
     print("Member Rating exported to data/rating/rating_member.csv & .xlsx")
 
-def generate_school_rating():
-    schedule = build_contest_schedule()
+def generate_school_rating(rating_type="school"):
+    schedule = build_contest_schedule(rating_type)
     if not schedule:
         return
         
@@ -313,6 +345,6 @@ def generate_school_rating():
 
 def main(rating_type: str):
     if rating_type in ['member', 'all']:
-        generate_member_rating()
+        generate_member_rating("member")
     if rating_type in ['school', 'all']:
-        generate_school_rating()
+        generate_school_rating("school")

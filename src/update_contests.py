@@ -321,7 +321,7 @@ def get_name_id(source, series, idx, name):
     idx_cleaned = idx_cleaned.replace("asiaec", "")
     idx_cleaned = idx_cleaned.replace("年", "")
     
-    if source == 'pta':
+    if source == 'pta' and series == 'Other':
         # 直接使用全名，去除可能导致文件系统问题的非法字符
         clean_full = re.sub(r'[/\\:*?"<>|]', '', str(name))
         return clean_full.strip()
@@ -402,7 +402,7 @@ def main():
     os.makedirs('data/contests', exist_ok=True)
     out_path = 'data/contests/contests.csv'
     
-    out_fields = ['series', 'year', 'ordinal', 'date', 'category', 'name', 'xcpcio_id', 'rankland_id', 'archive_id', 'pta_id']
+    out_fields = ['series', 'year', 'ordinal', 'date', 'category', 'name', 'xcpcio_id', 'rankland_id', 'pta_id', 'archive_id']
     try:
         with open(out_path, 'w', encoding='utf-8-sig', newline='') as f:
             writer = csv.DictWriter(f, fieldnames=out_fields)

@@ -277,7 +277,8 @@ class ICPCStandingsGenerator:
                 # The dictionary key is now 'problem_scores'
                 p_scores = t.get("problem_scores", {})
                 for p_idx in range(len(problem_ids)):
-                    p_data = p_scores.get(str(p_idx))
+                    prob_label = problem_ids[p_idx]
+                    p_data = p_scores.get(str(prob_label)) or p_scores.get(str(p_idx))
                     
                     if not p_data:
                         row.append("")

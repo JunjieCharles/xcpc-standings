@@ -5,7 +5,7 @@ import os
 
 from src.update_contests import main as update_contests_main
 from src.merge_standings import batch_process, merge_standings
-from src.xcpcio_source import ICPCStandingsGenerator
+from src.sources.xcpcio_source import ICPCStandingsGenerator
 from src.readme import main as readme_main
 from src.rating.calculator import main as rating_main
 

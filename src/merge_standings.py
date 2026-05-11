@@ -118,6 +118,22 @@ def merge_standings(base_json: dict, complement_json: dict, source_name: str = "
                 if str(val_base).strip() != str(val_comp).strip() and str(val_base).strip() and str(val_comp).strip():
                     is_penalty_rounding = False
                     is_pinyin_match = False
+                    is_permutation_match = False
+                    
+                    if f in ["member1", "member2", "member3"]:
+                        b1 = str(merged_t.get("member1") or "").strip()
+                        b2 = str(merged_t.get("member2") or "").strip()
+                        b3 = str(merged_t.get("member3") or "").strip()
+                        c1 = str(comp_t_dict.get("member1") or "").strip()
+                        c2 = str(comp_t_dict.get("member2") or "").strip()
+                        c3 = str(comp_t_dict.get("member3") or "").strip()
+                        base_members = set([b1, b2, b3])
+                        comp_members = set([c1, c2, c3])
+                        base_members.discard("")
+                        comp_members.discard("")
+                        if len(base_members) > 0 and base_members == comp_members:
+                            is_permutation_match = True
+
                     if f in ["member1", "member2", "member3", "coach"]:
                         import itertools
                         def get_all_pinyin(text):
@@ -148,7 +164,7 @@ def merge_standings(base_json: dict, complement_json: dict, source_name: str = "
                         except ValueError:
                             pass
                     
-                    if not is_penalty_rounding and not is_pinyin_match:
+                    if not is_penalty_rounding and not is_pinyin_match and not is_permutation_match:
                         s_name = merged_t.get('school', '')
                         t_name = merged_t.get('team_name', '')
                         
@@ -232,7 +248,7 @@ def batch_process(year_arg="2025"):
     else:
         year_mask = df['year'] == year_arg
 
-    target_df = df[year_mask & (df['category'].isin(['Regional', 'Final'])) & (df['name'].str.lower() != 'worldfinals')]
+    target_df = df[year_mask & (df['category'].isin(['Regional', 'Final', 'Online', 'Girls', 'Vocational'])) & (df['name'].str.lower() != 'worldfinals')]
     
     if target_df.empty:
         print(f"No Regional/Final records found for year(s): {year_arg}.")
@@ -260,6 +276,11 @@ def batch_process(year_arg="2025"):
     
     for idx, row in target_df.iterrows():
         name = row['name']
+        if not name:
+            if row['category'] == 'Girls':
+                name = 'girls'
+            elif row['category'] == 'Vocational':
+                name = 'vocational'
         xcpcio_id = row['xcpcio_id']
         rankland_id = row['rankland_id']
         archive_id = row['archive_id']
@@ -422,23 +443,24 @@ def batch_process(year_arg="2025"):
         unresolved = [w for w in all_warnings if not w.get('Resolution')]
         
         if unresolved:
-            print(f"\n--- 🔴 UNRESOLVED CONFLICTS ({len(unresolved)}) ---")
+            print(f"\n--- UNRESOLVED CONFLICTS ({len(unresolved)}) ---")
             print("Please fix these by adding resolutions to `resolutions.csv`:")
             for w in unresolved:
                 vals = [f"{src}: {v}" for src, v in w.get('Sources', {}).items() if str(v)]
                 print(f"  [{w['Contest']}] Rank {w['Rank']} - {w['School']} {w['Team Name']} | {w['Field']} -> " + " vs ".join(vals))
                 
         if resolved:
-            print(f"\n--- 🟢 RESOLVED CONFLICTS ({len(resolved)}) ---")
+            print(f"\n--- RESOLVED CONFLICTS ({len(resolved)}) ---")
             for w in resolved:
                 print(f"  [{w['Contest']}] Rank {w['Rank']} - {w['School']} {w['Team Name']} | {w['Field']} resolved to: '{w['Resolution']}'")
 
         # Merge existing rows with new warnings
         final_rows = {}
-        # Load existing first
+        # Load existing first, keeping only those that have a manual resolution saved
         for row in existing_rows:
-            k = (row.get('Contest', ''), row.get('Rank', ''), row.get('Field', ''), row.get('Team Name', ''))
-            final_rows[k] = row
+            if row.get('Resolution'):
+                k = (row.get('Contest', ''), row.get('Rank', ''), row.get('Field', ''), row.get('Team Name', ''))
+                final_rows[k] = row
             
         # Update with new runs
         all_sources = ["XCPCIO", "Rankland", "Archive", "PTA"]

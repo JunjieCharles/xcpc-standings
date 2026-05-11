@@ -93,8 +93,6 @@ class SRKStandingsGenerator:
             
             # 女队标签可能存在于 extra 中或者名字里
             is_girl = None
-            if "(女)" in team_name or "女队" in team_name or "（女）" in team_name:
-                is_girl = True
             
             # 读取总题数和罚时
             solved = score.get("value", 0)

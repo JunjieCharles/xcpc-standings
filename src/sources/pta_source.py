@@ -76,7 +76,7 @@ class PTAStandingsGenerator:
                 is_official=is_official,
                 is_girl=is_girl,
                 score=row.get("solvedCount", 0),
-                penalty=row.get("penaltyTime", 0) + row.get("solvingTime", 0)
+                penalty=row.get("solvingTime", 0)
             )
             
             problem_details = row.get("detailsByProblemSetProblemId", {})
@@ -89,14 +89,16 @@ class PTAStandingsGenerator:
                 status = "accepted" if is_solved else ("failed" if tries > 0 else "unattempted")
                 
                 ps = ProblemStatus(
-                    problem_id=self.problem_labels[pid],
-                    is_solved=is_solved,
+                    solved=is_solved,
                     tries=tries,
-                    time_mins=time_mins,
-                    status=status
+                    time_mins=time_mins
                 )
-                team_standing.problem_results[ps.problem_id] = ps
+                team_standing.problem_scores[self.problem_labels[pid]] = ps
                 
             final_standings.append(team_standing)
             
-        return ContestStandings(standings=final_standings)
+        return ContestStandings(
+            contest_name=self.data.get("competition", {}).get("name", ""),
+            problem_ids=list(self.problem_labels.values()),
+            standings=final_standings
+        )

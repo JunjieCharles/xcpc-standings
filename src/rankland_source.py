@@ -1,9 +1,9 @@
 import json
-
-import urllib.request
 import yaml
+import os
 from typing import List, Dict, Any
 from src.models import ContestStandings, TeamStanding, ProblemStatus
+from src.utils.http import fetch_text_with_retry, fetch_json_with_retry
 
 class RanklandDataSource:
     BASE_URL = "https://raw.githubusercontent.com/algoux/srk-collection/master/official"
@@ -13,17 +13,9 @@ class RanklandDataSource:
         获取 Rankland official 的配置列表 config.yaml
         """
         list_url = f"{self.BASE_URL}/config.yaml"
-        req = urllib.request.Request(list_url, headers={'User-Agent': 'Mozilla/5.0'})
-        import time
-        for attempt in range(3):
-            try:
-                with urllib.request.urlopen(req, timeout=10) as response:
-                    content = response.read().decode('utf-8')
-                    return yaml.safe_load(content)
-            except Exception as e:
-                print(f"Failed to fetch contest list (attempt {attempt+1}/3): {e}")
-                if attempt < 2:
-                    time.sleep(1)
+        content = fetch_text_with_retry(list_url)
+        if content:
+            return yaml.safe_load(content)
         return {}
 
     def fetch_contest_data(self, category: str, year: str, contest_id: str) -> Dict[str, Any]:
@@ -32,7 +24,6 @@ class RanklandDataSource:
         因为 Rankland 存放路径是按 {category}/{year}/{contest_id}.srk.json
         例如: category="icpc", year="icpc2025", contest_id="icpc2025ecfinal"
         """
-        import os
         cache_dir = "data/raw/cache/rankland"
         os.makedirs(cache_dir, exist_ok=True)
         cache_file = os.path.join(cache_dir, f"{contest_id}.json")
@@ -44,19 +35,13 @@ class RanklandDataSource:
                 return json.load(f)
 
         url = f"{self.BASE_URL}/{category}/{year}/{contest_id}.srk.json"
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        import time
-        for attempt in range(3):
-            try:
-                with urllib.request.urlopen(req, timeout=10) as response:
-                    data = json.loads(response.read().decode('utf-8'))
-                    with open(cache_file, 'w', encoding='utf-8') as f:
-                        json.dump(data, f, ensure_ascii=False)
-                    return data
-            except Exception as e:
-                print(f"Fetch failed for {url} (attempt {attempt+1}/3): {e}")
-                if attempt < 2:
-                    time.sleep(1)
+        
+        data = fetch_json_with_retry(url)
+        if data:
+            with open(cache_file, 'w', encoding='utf-8') as f:
+                json.dump(data, f, ensure_ascii=False)
+            return data
+            
         return {}
 
 class SRKStandingsGenerator:

@@ -7,6 +7,7 @@ from src.update_contests import main as update_contests_main
 from src.merge_standings import batch_process, merge_standings
 from src.xcpcio_source import ICPCStandingsGenerator
 from src.readme import main as readme_main
+from src.rating.calculator import main as rating_main
 
 def main():
     parser = argparse.ArgumentParser(description="XCPC Standings CLI")
@@ -25,6 +26,10 @@ def main():
     
     # 3. Readme
     parser_readme = subparsers.add_parser("readme", help="Regenerate README.md based on merged data")
+
+    # 4. Rating
+    parser_rating = subparsers.add_parser("rating", help="Generate rating CSVs and XLSX based on current standings")
+    parser_rating.add_argument("--type", choices=['member', 'school', 'all'], default='all', help="Type of rating calculation to perform")
 
     args = parser.parse_args()
 
@@ -66,6 +71,10 @@ def main():
     elif args.command == "readme":
         print("Running readme generation...")
         readme_main()
+        
+    elif args.command == "rating":
+        print(f"Running rating calculations for {args.type}...")
+        rating_main(args.type)
 
 if __name__ == "__main__":
     main()

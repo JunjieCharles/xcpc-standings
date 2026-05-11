@@ -15,84 +15,8 @@ import re
 import csv
 import logging
 
-def normalize_text(s: str) -> str:
-    s = str(s or "")
-    s = re.sub(r'[^\u4e00-\u9fa5a-zA-Z0-9]', '', s)
-    s = s.lower()
-    return s
-
-school_mapping = {}
-display_school_mapping = {}
-ambiguous_school_mappings = set()
-
-def init_school_mapping():
-    global school_mapping, display_school_mapping, ambiguous_school_mappings
-    if school_mapping:
-        return
-    
-    json_path = "data/config/school.json"
-    if not os.path.exists(json_path):
-        return
-
-    try:
-        with open(json_path, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-            
-        alias_to_zhs = {}
-
-        for zh, aliases in data.items():
-            norm_zh = normalize_text(zh)
-            display_school_mapping[norm_zh] = zh
-            
-            if norm_zh not in alias_to_zhs:
-                alias_to_zhs[norm_zh] = set()
-            alias_to_zhs[norm_zh].add(zh)
-            
-            for alias in aliases:
-                alt = str(alias).strip()
-                if alt:
-                    norm_alt = normalize_text(alt)
-                    if norm_alt:
-                        if norm_alt not in alias_to_zhs:
-                            alias_to_zhs[norm_alt] = set()
-                        alias_to_zhs[norm_alt].add(zh)
-                        
-        conflicts = []
-        for norm_name, zhs in alias_to_zhs.items():
-            if len(zhs) > 1:
-                # Add to dynamic ambiguous mappings instead of raising an error
-                ambiguous_school_mappings.add(norm_name)
-            else:
-                zh = list(zhs)[0]
-                school_mapping[norm_name] = zh
-                display_school_mapping[norm_name] = zh
-                
-    except Exception as e:
-        if isinstance(e, AssertionError):
-            raise
-        pass
-
-def get_canonical_school_name(school: str) -> str:
-    init_school_mapping()
-    norm = normalize_text(school)
-    return display_school_mapping.get(norm, school)
-
-def normalize_school_name(school: str) -> str:
-    init_school_mapping()
-    norm_school = normalize_text(school)
-    if norm_school in school_mapping:
-        return school_mapping[norm_school]
-    return norm_school
-
-def get_name_pinyin_set(name: str) -> set:
-    if not name:
-        return set()
-    py_list = pypinyin.pinyin(name, style=pypinyin.NORMAL)
-    flat = [item[0].lower() for item in py_list]
-    parts = "".join(flat).split()
-    if not parts:
-        parts = [normalize_text(name)]
-    return set(parts)
+from src.utils.text import normalize_text, get_name_pinyin_set
+from src.utils.school import normalize_school_name, get_canonical_school_name, init_school_mapping
 
 def matches_members(t1: TeamStanding, t2: TeamStanding) -> bool:
     m1 = [t1.member1, t1.member2, t1.member3]

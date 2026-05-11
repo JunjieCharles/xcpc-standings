@@ -3,11 +3,7 @@ import os
 import re
 import json
 from datetime import datetime
-
-def contains_chinese(text):
-    if text is None:
-        return False
-    return bool(re.search('[\u4e00-\u9fff]', text))
+from src.utils.text import contains_chinese
 
 def main():
 

@@ -111,15 +111,18 @@ def parse_rankland():
                 path = child.get('path', '')
                 
                 date_str = ''
+                child_year = year
                 date_match = re.match(r'^(\d{4}-\d{2}-\d{2})', name)
                 if date_match:
                     date_str = date_match.group(1)
                     name = name[len(date_str):].strip()
+                    if not child_year:
+                        child_year = int(date_str[:4])
                     
                 contests.append({
                     'source': 'rankland',
                     'series': std_series,
-                    'year': year,
+                    'year': child_year,
                     'ordinal': ordinal,
                     'date': date_str,
                     'name': name,

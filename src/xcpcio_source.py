@@ -4,6 +4,7 @@ import urllib.request
 from typing import List, Dict, Any
 import csv
 from src.models import ContestStandings, TeamStanding, ProblemStatus
+from src.utils.http import fetch_json_with_retry
 
 def get_xcpcio_name(obj) -> str:
     """Helper to extract localized name from XCPCIO format."""
@@ -337,36 +338,13 @@ class XCPCIODataSource:
         team_url = f"{self.BASE_URL}/{contest_path}/team.json"
         run_url = f"{self.BASE_URL}/{contest_path}/run.json"
         
-        # 简单封装请求
-        import time
-        def fetch_json(url, retries=3, timeout=10):
-            import urllib.error
-            req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-            for attempt in range(retries):
-                try:
-                    with urllib.request.urlopen(req, timeout=timeout) as response:
-                        return json.loads(response.read().decode('utf-8'))
-                except urllib.error.HTTPError as e:
-                    # 如果是 404，说明当前比赛没这个文件（比如 organizations.json 是可选的）
-                    # 直接返回 None，不重试也不发报错噪音。
-                    if e.code == 404:
-                        return None
-                    print(f"Fetch failed for {url} (attempt {attempt+1}/{retries}): {e}")
-                    if attempt < retries - 1:
-                        time.sleep(1)
-                except Exception as e:
-                    print(f"Fetch failed for {url} (attempt {attempt+1}/{retries}): {e}")
-                    if attempt < retries - 1:
-                        time.sleep(1)
-            return None
-        
         data = {}
-        data["config"] = fetch_json(config_url)
-        data["team"] = fetch_json(team_url)
-        data["run"] = fetch_json(run_url)
+        data["config"] = fetch_json_with_retry(config_url)
+        data["team"] = fetch_json_with_retry(team_url)
+        data["run"] = fetch_json_with_retry(run_url)
         
         org_url = f"{self.BASE_URL}/{contest_path}/organizations.json"
-        data["organizations"] = fetch_json(org_url) or []
+        data["organizations"] = fetch_json_with_retry(org_url) or []
         
         with open(cache_file, 'w', encoding='utf-8') as f:
             json.dump(data, f, ensure_ascii=False)

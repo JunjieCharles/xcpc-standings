@@ -1,6 +1,7 @@
 import csv
 import os
 import re
+import json
 from datetime import datetime
 
 def contains_chinese(text):
@@ -9,6 +10,13 @@ def contains_chinese(text):
     return bool(re.search('[\u4e00-\u9fff]', text))
 
 def main():
+
+    en_to_zh = {}
+    json_path = 'data/config/zh_to_en.json'
+    if os.path.exists(json_path):
+        with open(json_path, 'r', encoding='utf-8') as f:
+            zh_to_en = json.load(f)
+            en_to_zh = {v: k for k, v in zh_to_en.items()}
 
     data = []
 
@@ -87,7 +95,7 @@ def main():
                 'ordinal': ordinal,
                 'date': date_val,
                 'category': sub,
-                'name': name,
+                'name': en_to_zh.get(name, name),
                 'contest_name': contest_name,
                 'has_xcpcio': xcpcio,
                 'has_rankland': rankland,
@@ -146,12 +154,12 @@ def main():
     with open('readme.md', 'w', encoding='utf-8') as f:
         intro = """# ICPC/CCPC 区域赛终榜汇总
 
-    - 原始文件在 data/raw/cache 文件夹下，解析并合并后的文件在 data/merged/csv 文件夹下
-    - 特别鸣谢：[xcpcio](https://github.com/xcpcio/xcpcio)、[RankLand](https://rl.algoux.org/collection/official)
+- 原始文件在 data/raw/cache 文件夹下，解析并合并后的文件在 data/merged/csv 文件夹下
+- 特别鸣谢：[xcpcio](https://github.com/xcpcio/xcpcio)、[RankLand](https://rl.algoux.org/collection/official)
 
-    ## 数据完整性
+## 数据完整性
 
-    """
+"""
         f.write(intro)
         f.write('\n'.join(markdown_lines) + '\n')
     

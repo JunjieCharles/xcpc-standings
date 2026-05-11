@@ -61,12 +61,14 @@ def is_ambiguous_school(school: str) -> bool:
 
 def get_canonical_school_name(school: str) -> str:
     """Return canonical display name if available, else original."""
+    school = str(school).replace("非独立法人", "")
     init_school_mapping()
     norm = normalize_text(school)
     return _display_school_mapping.get(norm, school)
 
 def normalize_school_name(school: str) -> str:
     """Return normalized short mapping if available, else normalized form."""
+    school = str(school).replace("非独立法人", "")
     init_school_mapping()
     norm_school = normalize_text(school)
     return _school_mapping.get(norm_school, norm_school)

@@ -35,6 +35,7 @@ def main():
         
             xcpcio = bool(row.get('xcpcio_id', '').strip())
             rankland = bool(row.get('rankland_id', '').strip())
+            pta = bool(row.get('pta_id', '').strip())
             archive = bool(row.get('archive_id', '').strip())
         
             contest_name = f"{series}_{year}_{sub}_{name}"
@@ -95,6 +96,7 @@ def main():
                 'contest_name': contest_name,
                 'has_xcpcio': xcpcio,
                 'has_rankland': rankland,
+                'has_pta': pta,
                 'has_rank': has_rank,
                 'has_school': has_school,
                 'has_team': has_team,
@@ -114,8 +116,8 @@ def main():
     data.sort(key=contest_sort_key, reverse=True)
 
     markdown_lines = [
-        "|Series|Year|Ordinal|Date|Category|Name|XCPCIO|Rankland|Rank|School|Team|Solved|Penalty|Medal|Problems|Members|",
-        "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|"
+        "|Series|Year|Ordinal|Category|Name|Date|XCPCIO|Rankland|PTA|Rank|School|Team|Solved|Penalty|Medal|Problems|Members|",
+        "|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|"
     ]
 
     def check_symbol(condition):
@@ -131,11 +133,12 @@ def main():
             f"|{item['series']}"
             f"|{item['year']}"
             f"|{item['ordinal']}"
-            f"|{date_str}"
             f"|{item['category']}"
             f"|{item['name']}"
+            f"|{date_str}"
             f"|{check_symbol(item['has_xcpcio'])}"
             f"|{check_symbol(item['has_rankland'])}"
+            f"|{check_symbol(item['has_pta'])}"
             f"|{check_symbol(item['has_rank'])}"
             f"|{check_school_symbol(item['has_school'], item['school_has_chinese'])}"
             f"|{check_symbol(item['has_team'])}"
@@ -150,7 +153,30 @@ def main():
     with open('readme.md', 'w', encoding='utf-8') as f:
         intro = """# ICPC/CCPC 区域赛终榜汇总
 
-- 原始文件在 data/raw/cache 文件夹下，解析并合并后的文件在 data/merged/csv 文件夹下
+## 使用说明
+
+本项目使用 `main.py` 作为统一入口，提供以下命令行功能：
+
+- **更新比赛列表数据**
+  ```bash
+  python main.py update
+  ```
+- **合并比赛榜单并生成 CSV** (支持批量处理特定年份)
+  ```bash
+  python main.py merge --batch --years 2025
+  # 处理多范围或全量： python main.py merge --batch --years 2021-2025 
+  # （也可设为 all 获取全部年份）
+  ```
+- **生成/更迭 Rating 双榜单**
+  ```bash
+  python main.py rating --type all  # --type 选项：member, school, all
+  ```
+- **更新 README 状态**
+  ```bash
+  python main.py readme
+  ```
+
+- 原始文件在 `data/raw/cache` 文件夹下，解析并合并后的文件在 `data/merged/csv` 文件夹下
 - 特别鸣谢：[xcpcio](https://github.com/xcpcio/xcpcio)、[RankLand](https://rl.algoux.org/collection/official)
 
 ## 数据完整性

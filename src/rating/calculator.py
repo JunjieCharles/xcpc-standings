@@ -81,13 +81,15 @@ def build_contest_schedule(rating_type: str = "member") -> List[Dict]:
     schedule = []
     for d in sorted_dates:
         items = grouped[d]
-        # Order: CCPC before ICPC, Vocational -> Girls -> others
-        def sort_key(x):
-            series_order = 1 if x['series'] == 'ICPC' else 0
-            sub_order = 0 if x['sub'] == 'Vocational' else (1 if x['sub'] == 'Girls' else 2)
-            return (series_order, sub_order, x['name'])
+        # Priority: Vocational < Girls < Online = Invitational < Regional < Final
+        # Series: CCPC (0) < ICPC (1)
+        def get_priority(x):
+            sub_p = {'Vocational': 0, 'Girls': 1, 'Online': 2, 'Invitational': 3, 'Regional': 4, 'Final': 5}.get(x['sub'], 2)
+            series_p = 1 if x['series'] == 'ICPC' else 0
+            return (sub_p, series_p, x['name'])
             
-        items_sorted = sorted(items, key=sort_key)
+        # Execute rating calculation from lowest to highest priority
+        items_sorted = sorted(items, key=get_priority)
         
         if rating_type == 'school':
             # For school rating, do not merge contests on the same day into a single column
@@ -104,10 +106,11 @@ def build_contest_schedule(rating_type: str = "member") -> List[Dict]:
                     'files': [item['file']]
                 })
         else:
-            # Build tag like "ICPC南京/CCPC哈尔滨" for member rating
+            # For member rating, merge contests on the same day.
+            # Construct tag from highest to lowest priority
+            items_for_tag = sorted(items, key=get_priority, reverse=True)
             tags = []
-            files = []
-            for item in items_sorted:
+            for item in items_for_tag:
                 zh_name = en_to_zh.get(item['name'], item['name'])
                 tag = f"{item['series']}{zh_name}"
                 if item['sub'] == 'Final' and item['name'] == 'final':
@@ -115,7 +118,9 @@ def build_contest_schedule(rating_type: str = "member") -> List[Dict]:
                 if item['sub'] == 'Final' and item['name'] == 'ecfinal':
                     tag = f"{item['series']} ECFinal"
                 tags.append(tag)
-                files.append(item['file'])
+            
+            # Keep files order lowest to highest for rating calculation execution
+            files = [item['file'] for item in items_sorted]
                 
             schedule.append({
                 'date': d,

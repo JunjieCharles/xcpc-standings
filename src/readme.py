@@ -150,7 +150,7 @@ def main():
         )
         markdown_lines.append(line)
 
-    with open('readme.md', 'w', encoding='utf-8') as f:
+    with open('README.md', 'w', encoding='utf-8') as f:
         intro = """# ICPC/CCPC 区域赛终榜汇总
 
 ## 使用说明
@@ -185,7 +185,7 @@ def main():
         f.write(intro)
         f.write('\n'.join(markdown_lines) + '\n')
     
-    print(f"readme.md generated successfully! {len(data)} contests added.")
+    print(f"README.md generated successfully! {len(data)} contests added.")
 
 if __name__ == '__main__':
     main()

@@ -6176,7 +6176,7 @@
       "problem_scores": {
         "A": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 60
         },
         "B": {
@@ -6186,17 +6186,17 @@
         },
         "C": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 202
         },
         "D": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 140
         },
         "E": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 5
         },
         "F": {
@@ -6206,7 +6206,7 @@
         },
         "G": {
           "solved": true,
-          "tries": 2,
+          "tries": 1,
           "time_mins": 36
         },
         "H": {
@@ -6226,7 +6226,7 @@
         },
         "K": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 44
         },
         "L": {
@@ -6236,7 +6236,7 @@
         },
         "M": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 241
         }
       }
@@ -6674,12 +6674,12 @@
       "problem_scores": {
         "A": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 99
         },
         "B": {
           "solved": true,
-          "tries": 2,
+          "tries": 1,
           "time_mins": 97
         },
         "C": {
@@ -6689,12 +6689,12 @@
         },
         "D": {
           "solved": true,
-          "tries": 3,
+          "tries": 2,
           "time_mins": 257
         },
         "E": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 7
         },
         "F": {
@@ -6704,12 +6704,12 @@
         },
         "G": {
           "solved": true,
-          "tries": 4,
+          "tries": 3,
           "time_mins": 39
         },
         "H": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 173
         },
         "I": {
@@ -6724,7 +6724,7 @@
         },
         "K": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 38
         },
         "L": {
@@ -6757,7 +6757,7 @@
       "problem_scores": {
         "A": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 65
         },
         "B": {
@@ -6767,7 +6767,7 @@
         },
         "C": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 122
         },
         "D": {
@@ -6777,17 +6777,17 @@
         },
         "E": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 8
         },
         "F": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 219
         },
         "G": {
           "solved": true,
-          "tries": 3,
+          "tries": 2,
           "time_mins": 44
         },
         "H": {
@@ -6807,7 +6807,7 @@
         },
         "K": {
           "solved": true,
-          "tries": 2,
+          "tries": 1,
           "time_mins": 62
         },
         "L": {
@@ -6817,7 +6817,7 @@
         },
         "M": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 269
         }
       }
@@ -8085,7 +8085,7 @@
       "problem_scores": {
         "A": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 68
         },
         "B": {
@@ -8095,27 +8095,27 @@
         },
         "C": {
           "solved": true,
-          "tries": 5,
+          "tries": 4,
           "time_mins": 271
         },
         "D": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 135
         },
         "E": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 8
         },
         "F": {
           "solved": true,
-          "tries": 5,
+          "tries": 4,
           "time_mins": 259
         },
         "G": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 43
         },
         "H": {
@@ -8135,7 +8135,7 @@
         },
         "K": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 56
         },
         "L": {
@@ -14808,7 +14808,7 @@
       "problem_scores": {
         "A": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 175
         },
         "B": {
@@ -14818,7 +14818,7 @@
         },
         "C": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 195
         },
         "D": {
@@ -14828,7 +14828,7 @@
         },
         "E": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 8
         },
         "F": {
@@ -14838,7 +14838,7 @@
         },
         "G": {
           "solved": true,
-          "tries": 3,
+          "tries": 2,
           "time_mins": 86
         },
         "H": {
@@ -14858,7 +14858,7 @@
         },
         "K": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 61
         },
         "L": {
@@ -14868,7 +14868,7 @@
         },
         "M": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 267
         }
       }
@@ -16966,7 +16966,7 @@
       "problem_scores": {
         "A": {
           "solved": true,
-          "tries": 2,
+          "tries": 1,
           "time_mins": 56
         },
         "B": {
@@ -16976,17 +16976,17 @@
         },
         "C": {
           "solved": true,
-          "tries": 5,
+          "tries": 4,
           "time_mins": 254
         },
         "D": {
           "solved": true,
-          "tries": 2,
+          "tries": 1,
           "time_mins": 260
         },
         "E": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 12
         },
         "F": {
@@ -16996,7 +16996,7 @@
         },
         "G": {
           "solved": true,
-          "tries": 9,
+          "tries": 8,
           "time_mins": 76
         },
         "H": {
@@ -17016,7 +17016,7 @@
         },
         "K": {
           "solved": true,
-          "tries": 2,
+          "tries": 1,
           "time_mins": 28
         },
         "L": {
@@ -20701,7 +20701,7 @@
       "problem_scores": {
         "A": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 66
         },
         "B": {
@@ -20716,12 +20716,12 @@
         },
         "D": {
           "solved": true,
-          "tries": 3,
+          "tries": 2,
           "time_mins": 196
         },
         "E": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 6
         },
         "F": {
@@ -20731,7 +20731,7 @@
         },
         "G": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 121
         },
         "H": {
@@ -20751,7 +20751,7 @@
         },
         "K": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 61
         },
         "L": {
@@ -32155,7 +32155,7 @@
       "problem_scores": {
         "A": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 39
         },
         "B": {
@@ -32170,12 +32170,12 @@
         },
         "D": {
           "solved": true,
-          "tries": 15,
+          "tries": 14,
           "time_mins": 236
         },
         "E": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 9
         },
         "F": {
@@ -32185,7 +32185,7 @@
         },
         "G": {
           "solved": true,
-          "tries": 11,
+          "tries": 10,
           "time_mins": 88
         },
         "H": {
@@ -32205,7 +32205,7 @@
         },
         "K": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 41
         },
         "L": {
@@ -38795,7 +38795,7 @@
       "problem_scores": {
         "A": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 141
         },
         "B": {
@@ -38815,7 +38815,7 @@
         },
         "E": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 14
         },
         "F": {
@@ -38825,7 +38825,7 @@
         },
         "G": {
           "solved": true,
-          "tries": 4,
+          "tries": 3,
           "time_mins": 53
         },
         "H": {
@@ -38845,7 +38845,7 @@
         },
         "K": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 78
         },
         "L": {
@@ -43360,7 +43360,7 @@
       "problem_scores": {
         "A": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 120
         },
         "B": {
@@ -43380,7 +43380,7 @@
         },
         "E": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 9
         },
         "F": {
@@ -43390,7 +43390,7 @@
         },
         "G": {
           "solved": true,
-          "tries": 4,
+          "tries": 3,
           "time_mins": 170
         },
         "H": {
@@ -43410,7 +43410,7 @@
         },
         "K": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 47
         },
         "L": {

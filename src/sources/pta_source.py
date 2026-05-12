@@ -84,7 +84,8 @@ class PTAStandingsGenerator:
                 prob = problem_details.get(pid, {})
                 accept_time = prob.get("acceptTime", -1)
                 is_solved = accept_time >= 0
-                tries = prob.get("validSubmitCount", 0)
+                valid_submit_count = prob.get("validSubmitCount", 0)
+                tries = max(0, valid_submit_count - 1) if is_solved else valid_submit_count
                 time_mins = accept_time if is_solved else 0
                 status = "accepted" if is_solved else ("failed" if tries > 0 else "unattempted")
                 

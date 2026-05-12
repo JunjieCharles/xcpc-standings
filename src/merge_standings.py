@@ -59,6 +59,131 @@ def is_same_team(t1: TeamStanding, t2: TeamStanding) -> bool:
 def strip_team_name_marker(name: str) -> str:
     return re.sub(r'^[*★]+\s*', '', str(name or '').strip())
 
+def get_display_rank(team_dict: dict) -> str:
+    is_official = team_dict.get('is_official', True)
+    if is_official:
+        display_rank = str(team_dict.get('rank', ''))
+    else:
+        display_rank = f"U{team_dict.get('_unofficial_rank', '')}"
+    return '' if display_rank == 'None' else display_rank
+
+def is_problem_field(field: str) -> bool:
+    return str(field or '').startswith('problem:')
+
+def split_problem_field(field: str):
+    parts = str(field or '').split(':', 2)
+    if len(parts) != 3 or parts[0] != 'problem':
+        return None, None
+    return parts[1], parts[2]
+
+def normalize_problem_status(status) -> dict:
+    if isinstance(status, ProblemStatus):
+        status = status.to_dict()
+    if not isinstance(status, dict):
+        status = {}
+    return {
+        'solved': bool(status.get('solved', False)),
+        'tries': int(status.get('tries', 0) or 0),
+        'time_mins': int(status.get('time_mins', 0) or 0)
+    }
+
+def is_empty_problem_status(status) -> bool:
+    normalized = normalize_problem_status(status)
+    return not normalized['solved'] and normalized['tries'] == 0 and normalized['time_mins'] == 0
+
+def format_problem_status(status) -> str:
+    normalized = normalize_problem_status(status)
+    if normalized['solved']:
+        if normalized['tries'] == 0:
+            return f"+({normalized['time_mins']})"
+        return f"+{normalized['tries']}({normalized['time_mins']})"
+    if normalized['tries'] > 0:
+        return f"-{normalized['tries']}"
+    return ''
+
+def parse_problem_status_cell(value: str, current_status=None) -> dict:
+    text = str(value or '').strip()
+    current = normalize_problem_status(current_status)
+    if not text:
+        return {'solved': False, 'tries': 0, 'time_mins': 0}
+    match = re.fullmatch(r'\+(\d*)\((\d+)\)', text)
+    if match:
+        tries_text, time_text = match.groups()
+        return {
+            'solved': True,
+            'tries': int(tries_text or 0),
+            'time_mins': int(time_text)
+        }
+    match = re.fullmatch(r'-(\d+)', text)
+    if match:
+        return {'solved': False, 'tries': int(match.group(1)), 'time_mins': 0}
+    if text.lower() in ('true', 'false'):
+        current['solved'] = text.lower() == 'true'
+        if not current['solved']:
+            current['time_mins'] = 0
+        return current
+    if re.fullmatch(r'\d+', text):
+        current['time_mins'] = int(text)
+        return current
+    return current
+
+def get_conflict_value(team_dict: dict, field: str):
+    if not is_problem_field(field):
+        value = team_dict.get(field)
+        return '' if value is None else value
+    problem_id, _problem_attr = split_problem_field(field)
+    if not problem_id:
+        return ''
+    problem_scores = team_dict.get('problem_scores', {}) or {}
+    return format_problem_status(problem_scores.get(problem_id, {}))
+
+def apply_resolution(team_dict: dict, field: str, resolution: str):
+    if not is_problem_field(field):
+        team_dict[field] = resolution
+        return
+    problem_id, problem_attr = split_problem_field(field)
+    if not problem_id:
+        return
+    problem_scores = team_dict.setdefault('problem_scores', {})
+    current = normalize_problem_status(problem_scores.get(problem_id, {}))
+    text = str(resolution or '').strip()
+    if text.startswith(('+', '-')) or not text:
+        problem_scores[problem_id] = parse_problem_status_cell(text, current)
+        return
+    if problem_attr == 'solved':
+        current['solved'] = text.lower() in ('true', '1', 'yes', 'y')
+        if not current['solved']:
+            current['time_mins'] = 0
+    elif problem_attr in ('tries', 'time_mins'):
+        try:
+            current[problem_attr] = int(text)
+        except ValueError:
+            current = parse_problem_status_cell(text, current)
+    problem_scores[problem_id] = current
+
+def append_conflict_warning(warnings: list, contest_name: str, merged_t: dict, field: str, resolutions: dict):
+    s_name = merged_t.get('school', '')
+    t_name = merged_t.get('team_name', '')
+    display_rank = get_display_rank(merged_t)
+    key = (contest_name, display_rank, field)
+
+    conflict_obj = {
+        'Contest': contest_name,
+        'Rank': display_rank,
+        'School': s_name,
+        'Team Name': t_name,
+        'Field': field,
+        'Resolution': ''
+    }
+
+    if key in resolutions:
+        apply_resolution(merged_t, field, resolutions[key])
+        conflict_obj['Resolution'] = resolutions[key]
+
+    if not any(w['Contest'] == contest_name and w['Rank'] == display_rank and w['Field'] == field for w in warnings):
+        warnings.append(conflict_obj)
+    return bool(conflict_obj['Resolution'])
+
 def merge_standings(base_json: dict, complement_json: dict, source_name: str = "Complement", contest_name: str = "", resolutions: dict = None) -> Tuple[dict, list]:
     warnings = []
     if resolutions is None:
@@ -168,42 +293,37 @@ def merge_standings(base_json: dict, complement_json: dict, source_name: str = "
                             pass
                     
                     if not is_penalty_rounding and not is_pinyin_match and not is_permutation_match and not is_team_marker_match:
-                        s_name = merged_t.get('school', '')
-                        t_name = merged_t.get('team_name', '')
-                        
-                        is_official = merged_t.get('is_official', True)
-                        if is_official:
-                            display_rank = str(merged_t.get('rank', ''))
-                        else:
-                            display_rank = f"U{merged_t.get('_unofficial_rank', '')}"
-                            
-                        if display_rank == 'None':
-                            display_rank = ''
-                            
-                        key = (contest_name, display_rank, f)
-                        
-                        conflict_obj = {
-                            'Contest': contest_name,
-                            'Rank': display_rank,
-                            'School': s_name,
-                            'Team Name': t_name,
-                            'Field': f,
-                            'Resolution': ''
-                        }
-                        
-                        if key in resolutions:
-                            merged_t[f] = resolutions[key]
-                            conflict_obj['Resolution'] = resolutions[key]
-                        
-                        # Only add if we haven't already reported this exact item from another source
-                        if not any(w['Contest'] == contest_name and w['Rank'] == display_rank and w['Field'] == f for w in warnings):
-                            warnings.append(conflict_obj)
+                        append_conflict_warning(warnings, contest_name, merged_t, f, resolutions)
                 
         base_probs = merged_t.get("problem_scores", {})
         comp_probs = comp_t_dict.get("problem_scores", {})
         for p_id, p_stats in comp_probs.items():
-            if p_id not in base_probs or not base_probs[p_id].get("solved"):
+            if p_id not in base_probs:
                 base_probs[p_id] = p_stats
+                continue
+
+            base_status = normalize_problem_status(base_probs.get(p_id, {}))
+            comp_status = normalize_problem_status(p_stats)
+
+            if is_empty_problem_status(comp_status):
+                continue
+
+            if is_empty_problem_status(base_status):
+                base_probs[p_id] = comp_status
+                continue
+
+            if base_status['solved'] != comp_status['solved']:
+                is_resolved = append_conflict_warning(warnings, contest_name, merged_t, f"problem:{p_id}:solved", resolutions)
+                if not is_resolved and not normalize_problem_status(base_probs.get(p_id, {}))['solved'] and comp_status['solved']:
+                    base_probs[p_id] = comp_status
+                continue
+
+            if base_status['tries'] != comp_status['tries']:
+                append_conflict_warning(warnings, contest_name, merged_t, f"problem:{p_id}:tries", resolutions)
+
+            current_base_status = normalize_problem_status(base_probs.get(p_id, {}))
+            if current_base_status['solved'] and comp_status['solved'] and current_base_status['time_mins'] != comp_status['time_mins']:
+                append_conflict_warning(warnings, contest_name, merged_t, f"problem:{p_id}:time_mins", resolutions)
         merged_t["problem_scores"] = base_probs
         merged_teams.append(merged_t)
         
@@ -213,7 +333,7 @@ def merge_standings(base_json: dict, complement_json: dict, source_name: str = "
             
     final_cs = ContestStandings(
         contest_name=base_cs.contest_name or comp_cs.contest_name,
-        problem_ids=base_cs.problem_ids if base_cs.problem_ids else comp_cs.problem_ids,
+        problem_ids=base_cs.problem_ids + [p for p in comp_cs.problem_ids if p not in base_cs.problem_ids],
         standings=[TeamStanding.from_dict(t) for t in merged_teams]
     )
     calculate_canonical_ranks(final_cs.standings)
@@ -399,9 +519,7 @@ def batch_process(year_arg="2025"):
                 for t in src_cs.standings:
                     t_rank = str(t.rank) if t.is_official else f"U{getattr(t, '_unofficial_rank', '')}"
                     if t_rank == rank:
-                        found_val = t.to_dict().get(f)
-                        if found_val is None:
-                            found_val = ''
+                        found_val = get_conflict_value(t.to_dict(), f)
                         break
                 w['Sources'][src_name] = found_val
                 
@@ -502,7 +620,7 @@ def batch_process(year_arg="2025"):
         # Create empty template if none exist
         if not os.path.exists(resolutions_file):
             with open(resolutions_file, 'w', encoding='utf-8-sig', newline='') as csvfile:
-                all_sources = ["XCPCIO", "Rankland", "Archive"]
+                all_sources = ["XCPCIO", "Rankland", "Archive", "PTA"]
                 fieldnames = ['Contest', 'Rank', 'School', 'Team Name', 'Field'] + all_sources + ['Resolution']
                 writer = csv.writer(csvfile)
                 writer.writerow(fieldnames)

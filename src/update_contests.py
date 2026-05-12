@@ -378,8 +378,6 @@ def merge_contests(records):
             merged_dict[key]['archive_id'] = cid
         elif source == 'pta':
             merged_dict[key]['pta_id'] = cid
-        elif source == 'pta':
-            merged_dict[key]['pta_id'] = cid
             
     return merged_dict
 

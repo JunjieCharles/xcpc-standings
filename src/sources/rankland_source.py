@@ -102,16 +102,6 @@ class SRKStandingsGenerator:
                         else:
                             member_names.append(name)
             
-            # 修复包含逗号导致四名成员的情况
-            if len(member_names) > 3 and "AWADALLA" in member_names:
-                # 找到并合并 "AWADALLA" 和 "bdelrahman HossamEldin A. A."
-                try:
-                    idx = member_names.index("AWADALLA")
-                    member_names[idx] = member_names[idx] + ", " + member_names[idx+1]
-                    member_names.pop(idx+1)
-                except Exception:
-                    pass
-            
             # 女队标签可能存在于 extra 中或者名字里
             is_girl = None
             

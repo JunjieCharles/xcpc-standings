@@ -17623,12 +17623,88 @@
       }
     },
     {
+      "team_name": "1145141919810",
+      "school": "泉州师范学院",
+      "member1": "吴城",
+      "member2": "李良波",
+      "member3": "王靖锋",
+      "rank": null,
+      "school_rank": null,
+      "_unofficial_rank": 43,
+      "score": 0,
+      "penalty": 0,
+      "is_official": false,
+      "is_girl": null,
+      "medal": null,
+      "coach": "高大利",
+      "problem_scores": {
+        "M": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": false,
+          "tries": 9,
+          "time_mins": 0
+        },
+        "B": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "1": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "6": {
+          "solved": false,
+          "tries": 9,
+          "time_mins": 0
+        },
+        "12": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "bug里找代码",
+      "school": "绍兴理工学院",
+      "member1": "吴宇承",
+      "member2": "王舒琪",
+      "member3": "吕橙昱",
+      "rank": 251,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 0,
+      "penalty": 0,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": "唐晓平",
+      "problem_scores": {
+        "M": {
+          "solved": false,
+          "tries": 11,
+          "time_mins": 0
+        },
+        "12": {
+          "solved": false,
+          "tries": 11,
+          "time_mins": 0
+        }
+      }
+    },
+    {
       "team_name": "傲娇白毛萝莉",
       "school": "东北大学秦皇岛分校",
       "member1": "胡淞玮",
       "member2": "王敏军",
       "member3": "林一昕",
-      "rank": 251,
+      "rank": 252,
       "school_rank": null,
       "_unofficial_rank": null,
       "score": 0,
@@ -17661,212 +17737,12 @@
       }
     },
     {
-      "team_name": "在内蒙的河北人",
-      "school": "内蒙古师范大学",
-      "member1": "魏嘉朔",
-      "member2": "李佳峻",
-      "member3": "康婕",
-      "rank": 252,
-      "school_rank": 160,
-      "_unofficial_rank": null,
-      "score": 0,
-      "penalty": 0,
-      "is_official": true,
-      "is_girl": null,
-      "medal": null,
-      "coach": "孟繁军",
-      "problem_scores": {
-        "M": {
-          "solved": false,
-          "tries": 10,
-          "time_mins": 0
-        },
-        "12": {
-          "solved": false,
-          "tries": 10,
-          "time_mins": 0
-        }
-      }
-    },
-    {
-      "team_name": "包头师范学院ACM一队",
-      "school": "内蒙古科技大学包头师范学院",
-      "member1": "李宗晟",
-      "member2": "刘士琦",
-      "member3": "郑欣然",
-      "rank": 253,
-      "school_rank": 161,
-      "_unofficial_rank": null,
-      "score": 0,
-      "penalty": 0,
-      "is_official": true,
-      "is_girl": null,
-      "medal": null,
-      "coach": "聂宏轩",
-      "problem_scores": {
-        "M": {
-          "solved": false,
-          "tries": 9,
-          "time_mins": 0
-        },
-        "G": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "6": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "12": {
-          "solved": false,
-          "tries": 9,
-          "time_mins": 0
-        }
-      }
-    },
-    {
-      "team_name": "组一辈子乐队",
-      "school": "天津工业大学",
-      "member1": "黄劲",
-      "member2": "王伊杰",
-      "member3": "崔翔栋",
-      "rank": null,
-      "school_rank": null,
-      "_unofficial_rank": 43,
-      "score": 0,
-      "penalty": 0,
-      "is_official": false,
-      "is_girl": null,
-      "medal": null,
-      "coach": "任淑霞",
-      "problem_scores": {
-        "M": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
-        "B": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
-        "G": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "1": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
-        "6": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "12": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        }
-      }
-    },
-    {
-      "team_name": "打星正式",
-      "school": "河南农业大学",
-      "member1": "姚依涛",
-      "member2": "余俊颉",
-      "member3": "陈泽烨",
-      "rank": null,
-      "school_rank": null,
-      "_unofficial_rank": 44,
-      "score": 0,
-      "penalty": 0,
-      "is_official": false,
-      "is_girl": null,
-      "medal": null,
-      "coach": "唐琦",
-      "problem_scores": {
-        "M": {
-          "solved": false,
-          "tries": 6,
-          "time_mins": 0
-        },
-        "B": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
-        "1": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
-        "12": {
-          "solved": false,
-          "tries": 6,
-          "time_mins": 0
-        }
-      }
-    },
-    {
-      "team_name": "若我们不曾见过金牌",
-      "school": "河南师范大学附属中学",
-      "member1": "靳子盈",
-      "member2": "王梓祐",
-      "member3": "徐艺铭",
-      "rank": null,
-      "school_rank": null,
-      "_unofficial_rank": 45,
-      "score": 0,
-      "penalty": 0,
-      "is_official": false,
-      "is_girl": null,
-      "medal": null,
-      "coach": "王敬国",
-      "problem_scores": {
-        "M": {
-          "solved": false,
-          "tries": 13,
-          "time_mins": 0
-        },
-        "G": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
-        "B": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
-        "1": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
-        "6": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
-        "12": {
-          "solved": false,
-          "tries": 13,
-          "time_mins": 0
-        }
-      }
-    },
-    {
       "team_name": "兄弟逆号项",
       "school": "河南理工大学",
       "member1": "宋雨杭",
       "member2": "黄泰钦",
       "member3": "王彦钊",
-      "rank": 254,
+      "rank": 253,
       "school_rank": null,
       "_unofficial_rank": null,
       "score": 0,
@@ -17899,6 +17775,186 @@
       }
     },
     {
+      "team_name": "包头师范学院ACM一队",
+      "school": "内蒙古科技大学包头师范学院",
+      "member1": "李宗晟",
+      "member2": "刘士琦",
+      "member3": "郑欣然",
+      "rank": 254,
+      "school_rank": 160,
+      "_unofficial_rank": null,
+      "score": 0,
+      "penalty": 0,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": "聂宏轩",
+      "problem_scores": {
+        "M": {
+          "solved": false,
+          "tries": 9,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "6": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "12": {
+          "solved": false,
+          "tries": 9,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "四小时下班",
+      "school": "郑州工商学院",
+      "member1": "张朝阳",
+      "member2": "周智贤",
+      "member3": "张志恒",
+      "rank": 255,
+      "school_rank": 161,
+      "_unofficial_rank": null,
+      "score": 0,
+      "penalty": 0,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": "万双全",
+      "problem_scores": {
+        "M": {
+          "solved": false,
+          "tries": 15,
+          "time_mins": 0
+        },
+        "12": {
+          "solved": false,
+          "tries": 15,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "在内蒙的河北人",
+      "school": "内蒙古师范大学",
+      "member1": "魏嘉朔",
+      "member2": "李佳峻",
+      "member3": "康婕",
+      "rank": 256,
+      "school_rank": 162,
+      "_unofficial_rank": null,
+      "score": 0,
+      "penalty": 0,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": "孟繁军",
+      "problem_scores": {
+        "M": {
+          "solved": false,
+          "tries": 10,
+          "time_mins": 0
+        },
+        "12": {
+          "solved": false,
+          "tries": 10,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "奶龙乌托邦",
+      "school": "西北大学",
+      "member1": "郑博航",
+      "member2": "罗振宇",
+      "member3": "梁文硕",
+      "rank": 257,
+      "school_rank": 163,
+      "_unofficial_rank": null,
+      "score": 0,
+      "penalty": 0,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": "杨建锋",
+      "problem_scores": {
+        "G": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "M": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "B": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "1": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "6": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "12": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "她说拿了牌子就会爱我",
+      "school": "黄淮学院",
+      "member1": "温侃",
+      "member2": "郑智翔",
+      "member3": "李浩楠",
+      "rank": null,
+      "school_rank": null,
+      "_unofficial_rank": 44,
+      "score": 0,
+      "penalty": 0,
+      "is_official": false,
+      "is_girl": null,
+      "medal": null,
+      "coach": "王端",
+      "problem_scores": {
+        "M": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "6": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "12": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        }
+      }
+    },
+    {
       "team_name": "我常常追忆过去",
       "school": "河南省实验中学",
       "member1": "史曜铭",
@@ -17906,7 +17962,7 @@
       "member3": "茹逸",
       "rank": null,
       "school_rank": null,
-      "_unofficial_rank": 46,
+      "_unofficial_rank": 45,
       "score": 0,
       "penalty": 0,
       "is_official": false,
@@ -17957,6 +18013,254 @@
       }
     },
     {
+      "team_name": "打星正式",
+      "school": "河南农业大学",
+      "member1": "姚依涛",
+      "member2": "余俊颉",
+      "member3": "陈泽烨",
+      "rank": null,
+      "school_rank": null,
+      "_unofficial_rank": 46,
+      "score": 0,
+      "penalty": 0,
+      "is_official": false,
+      "is_girl": null,
+      "medal": null,
+      "coach": "唐琦",
+      "problem_scores": {
+        "M": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        },
+        "B": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "1": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "12": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "河南省第二实验中学队",
+      "school": "河南省第二实验中学",
+      "member1": "员欣宇",
+      "member2": "任哲正",
+      "member3": "何宇羲",
+      "rank": null,
+      "school_rank": null,
+      "_unofficial_rank": 47,
+      "score": 0,
+      "penalty": 0,
+      "is_official": false,
+      "is_girl": null,
+      "medal": null,
+      "coach": "刘强",
+      "problem_scores": {
+        "B": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "M": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "1": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "6": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "12": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "浙工院7队",
+      "school": "浙江工业职业技术学院",
+      "member1": "黄晨鹏",
+      "member2": "洪璟乾",
+      "member3": "马诗慧",
+      "rank": 258,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 0,
+      "penalty": 0,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": "陈暄",
+      "problem_scores": {
+        "M": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "6": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "12": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "灰名蒟蒻最后一舞",
+      "school": "阳光学院",
+      "member1": "郑俊杰",
+      "member2": "严培天",
+      "member3": null,
+      "rank": 259,
+      "school_rank": 164,
+      "_unofficial_rank": null,
+      "score": 0,
+      "penalty": 0,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": "王凯",
+      "problem_scores": {
+        "M": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "6": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "12": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "牛甲鸟",
+      "school": "韶关学院",
+      "member1": "陈俊东",
+      "member2": "卢成洋",
+      "member3": "叶宇轩",
+      "rank": null,
+      "school_rank": null,
+      "_unofficial_rank": 48,
+      "score": 0,
+      "penalty": 0,
+      "is_official": false,
+      "is_girl": null,
+      "medal": null,
+      "coach": "饶浩",
+      "problem_scores": {
+        "G": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "M": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "6": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "12": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "组一辈子乐队",
+      "school": "天津工业大学",
+      "member1": "黄劲",
+      "member2": "王伊杰",
+      "member3": "崔翔栋",
+      "rank": null,
+      "school_rank": null,
+      "_unofficial_rank": 49,
+      "score": 0,
+      "penalty": 0,
+      "is_official": false,
+      "is_girl": null,
+      "medal": null,
+      "coach": "任淑霞",
+      "problem_scores": {
+        "M": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "B": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "1": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "6": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "12": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        }
+      }
+    },
+    {
       "team_name": "肯定能做队",
       "school": "河南省实验中学",
       "member1": "陈抱朴",
@@ -17964,7 +18268,7 @@
       "member3": "赵张张",
       "rank": null,
       "school_rank": null,
-      "_unofficial_rank": 47,
+      "_unofficial_rank": 50,
       "score": 0,
       "penalty": 0,
       "is_official": false,
@@ -18105,201 +18409,39 @@
       }
     },
     {
-      "team_name": "河南省第二实验中学队",
-      "school": "河南省第二实验中学",
-      "member1": "员欣宇",
-      "member2": "任哲正",
-      "member3": "何宇羲",
+      "team_name": "若我们不曾见过金牌",
+      "school": "河南师范大学附属中学",
+      "member1": "靳子盈",
+      "member2": "王梓祐",
+      "member3": "徐艺铭",
       "rank": null,
       "school_rank": null,
-      "_unofficial_rank": 48,
+      "_unofficial_rank": 51,
       "score": 0,
       "penalty": 0,
       "is_official": false,
       "is_girl": null,
       "medal": null,
-      "coach": "刘强",
+      "coach": "王敬国",
       "problem_scores": {
-        "B": {
+        "M": {
           "solved": false,
-          "tries": 3,
+          "tries": 13,
           "time_mins": 0
         },
         "G": {
           "solved": false,
           "tries": 2,
-          "time_mins": 0
-        },
-        "M": {
-          "solved": false,
-          "tries": 4,
-          "time_mins": 0
-        },
-        "1": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
-        "6": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
-        "12": {
-          "solved": false,
-          "tries": 4,
-          "time_mins": 0
-        }
-      }
-    },
-    {
-      "team_name": "1145141919810",
-      "school": "泉州师范学院",
-      "member1": "吴城",
-      "member2": "李良波",
-      "member3": "王靖锋",
-      "rank": null,
-      "school_rank": null,
-      "_unofficial_rank": 49,
-      "score": 0,
-      "penalty": 0,
-      "is_official": false,
-      "is_girl": null,
-      "medal": null,
-      "coach": "高大利",
-      "problem_scores": {
-        "M": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
-        "G": {
-          "solved": false,
-          "tries": 9,
           "time_mins": 0
         },
         "B": {
           "solved": false,
-          "tries": 3,
+          "tries": 5,
           "time_mins": 0
         },
         "1": {
           "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
-        "6": {
-          "solved": false,
-          "tries": 9,
-          "time_mins": 0
-        },
-        "12": {
-          "solved": false,
           "tries": 5,
-          "time_mins": 0
-        }
-      }
-    },
-    {
-      "team_name": "浙工院7队",
-      "school": "浙江工业职业技术学院",
-      "member1": "黄晨鹏",
-      "member2": "洪璟乾",
-      "member3": "马诗慧",
-      "rank": 255,
-      "school_rank": null,
-      "_unofficial_rank": null,
-      "score": 0,
-      "penalty": 0,
-      "is_official": true,
-      "is_girl": null,
-      "medal": null,
-      "coach": "陈暄",
-      "problem_scores": {
-        "M": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
-        "G": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "6": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "12": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        }
-      }
-    },
-    {
-      "team_name": "bug里找代码",
-      "school": "绍兴理工学院",
-      "member1": "吴宇承",
-      "member2": "王舒琪",
-      "member3": "吕橙昱",
-      "rank": 256,
-      "school_rank": null,
-      "_unofficial_rank": null,
-      "score": 0,
-      "penalty": 0,
-      "is_official": true,
-      "is_girl": null,
-      "medal": null,
-      "coach": "唐晓平",
-      "problem_scores": {
-        "M": {
-          "solved": false,
-          "tries": 11,
-          "time_mins": 0
-        },
-        "12": {
-          "solved": false,
-          "tries": 11,
-          "time_mins": 0
-        }
-      }
-    },
-    {
-      "team_name": "奶龙乌托邦",
-      "school": "西北大学",
-      "member1": "郑博航",
-      "member2": "罗振宇",
-      "member3": "梁文硕",
-      "rank": 257,
-      "school_rank": 162,
-      "_unofficial_rank": null,
-      "score": 0,
-      "penalty": 0,
-      "is_official": true,
-      "is_girl": null,
-      "medal": null,
-      "coach": "杨建锋",
-      "problem_scores": {
-        "G": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
-        "M": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
-        "B": {
-          "solved": false,
-          "tries": 4,
-          "time_mins": 0
-        },
-        "1": {
-          "solved": false,
-          "tries": 4,
           "time_mins": 0
         },
         "6": {
@@ -18309,35 +18451,7 @@
         },
         "12": {
           "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        }
-      }
-    },
-    {
-      "team_name": "四小时下班",
-      "school": "郑州工商学院",
-      "member1": "张朝阳",
-      "member2": "周智贤",
-      "member3": "张志恒",
-      "rank": 258,
-      "school_rank": 163,
-      "_unofficial_rank": null,
-      "score": 0,
-      "penalty": 0,
-      "is_official": true,
-      "is_girl": null,
-      "medal": null,
-      "coach": "万双全",
-      "problem_scores": {
-        "M": {
-          "solved": false,
-          "tries": 15,
-          "time_mins": 0
-        },
-        "12": {
-          "solved": false,
-          "tries": 15,
+          "tries": 13,
           "time_mins": 0
         }
       }
@@ -18348,7 +18462,7 @@
       "member1": "张宇睿",
       "member2": "许明虎",
       "member3": "韩韬",
-      "rank": 259,
+      "rank": 260,
       "school_rank": null,
       "_unofficial_rank": null,
       "score": 0,
@@ -18386,120 +18500,6 @@
         "12": {
           "solved": false,
           "tries": 4,
-          "time_mins": 0
-        }
-      }
-    },
-    {
-      "team_name": "灰名蒟蒻最后一舞",
-      "school": "阳光学院",
-      "member1": "郑俊杰",
-      "member2": "严培天",
-      "member3": null,
-      "rank": 260,
-      "school_rank": 164,
-      "_unofficial_rank": null,
-      "score": 0,
-      "penalty": 0,
-      "is_official": true,
-      "is_girl": null,
-      "medal": null,
-      "coach": "王凯",
-      "problem_scores": {
-        "M": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
-        "G": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "6": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "12": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        }
-      }
-    },
-    {
-      "team_name": "牛甲鸟",
-      "school": "韶关学院",
-      "member1": "陈俊东",
-      "member2": "卢成洋",
-      "member3": "叶宇轩",
-      "rank": null,
-      "school_rank": null,
-      "_unofficial_rank": 50,
-      "score": 0,
-      "penalty": 0,
-      "is_official": false,
-      "is_girl": null,
-      "medal": null,
-      "coach": "饶浩",
-      "problem_scores": {
-        "G": {
-          "solved": false,
-          "tries": 4,
-          "time_mins": 0
-        },
-        "M": {
-          "solved": false,
-          "tries": 4,
-          "time_mins": 0
-        },
-        "6": {
-          "solved": false,
-          "tries": 4,
-          "time_mins": 0
-        },
-        "12": {
-          "solved": false,
-          "tries": 4,
-          "time_mins": 0
-        }
-      }
-    },
-    {
-      "team_name": "她说拿了牌子就会爱我",
-      "school": "黄淮学院",
-      "member1": "温侃",
-      "member2": "郑智翔",
-      "member3": "李浩楠",
-      "rank": null,
-      "school_rank": null,
-      "_unofficial_rank": 51,
-      "score": 0,
-      "penalty": 0,
-      "is_official": false,
-      "is_girl": null,
-      "medal": null,
-      "coach": "王端",
-      "problem_scores": {
-        "M": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
-        "G": {
-          "solved": false,
-          "tries": 4,
-          "time_mins": 0
-        },
-        "6": {
-          "solved": false,
-          "tries": 4,
-          "time_mins": 0
-        },
-        "12": {
-          "solved": false,
-          "tries": 5,
           "time_mins": 0
         }
       }

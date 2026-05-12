@@ -90,8 +90,8 @@ class TeamStanding:
             -self.score,
             self.penalty,
             ac_times,
-            str(self.school or ""),
             str(self.team_name or ""),
+            str(self.school or ""),
             str(self.member1 or ""),
             str(self.member2 or ""),
             str(self.member3 or "")

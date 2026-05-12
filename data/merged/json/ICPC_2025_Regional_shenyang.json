@@ -25993,12 +25993,60 @@
       }
     },
     {
+      "team_name": "新希望",
+      "school": "湖南大学",
+      "member1": "李宇湉",
+      "member2": "陈明亮",
+      "member3": "郭豪强",
+      "rank": 393,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 46,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": null,
+      "problem_scores": {
+        "I": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 26
+        },
+        "M": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "B": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        },
+        "1": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        },
+        "8": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 26
+        },
+        "12": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        }
+      }
+    },
+    {
       "team_name": "绝密acm，堵判题机来",
       "school": "山东农业大学",
       "member1": "侯成国",
       "member2": "孔文卓",
       "member3": "孙浩天",
-      "rank": 393,
+      "rank": 394,
       "school_rank": 235,
       "_unofficial_rank": null,
       "score": 1,
@@ -26136,54 +26184,6 @@
         "12": {
           "solved": false,
           "tries": 1,
-          "time_mins": 0
-        }
-      }
-    },
-    {
-      "team_name": "新希望",
-      "school": "湖南大学",
-      "member1": "李宇湉",
-      "member2": "陈明亮",
-      "member3": "郭豪强",
-      "rank": 394,
-      "school_rank": null,
-      "_unofficial_rank": null,
-      "score": 1,
-      "penalty": 46,
-      "is_official": true,
-      "is_girl": null,
-      "medal": "Honorable",
-      "coach": null,
-      "problem_scores": {
-        "I": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 26
-        },
-        "M": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
-        "B": {
-          "solved": false,
-          "tries": 7,
-          "time_mins": 0
-        },
-        "1": {
-          "solved": false,
-          "tries": 7,
-          "time_mins": 0
-        },
-        "8": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 26
-        },
-        "12": {
-          "solved": false,
-          "tries": 5,
           "time_mins": 0
         }
       }

@@ -22854,6 +22854,23 @@
       }
     },
     {
+      "team_name": "好好学习,天天向上",
+      "school": "江苏海洋大学",
+      "member1": "房鸿铭",
+      "member2": "孙京权",
+      "member3": "刘好",
+      "rank": null,
+      "school_rank": null,
+      "_unofficial_rank": 62,
+      "score": 0,
+      "penalty": 0,
+      "is_official": false,
+      "is_girl": null,
+      "medal": null,
+      "coach": "汪前进",
+      "problem_scores": {}
+    },
+    {
       "team_name": "承诺不首先启动原神",
       "school": "天津工业大学",
       "member1": "吴嘉琪",
@@ -22861,7 +22878,7 @@
       "member3": "王宇亮",
       "rank": null,
       "school_rank": null,
-      "_unofficial_rank": 62,
+      "_unofficial_rank": 63,
       "score": 0,
       "penalty": 0,
       "is_official": false,
@@ -22892,6 +22909,23 @@
       }
     },
     {
+      "team_name": "重生之我是菜猫",
+      "school": "网瘾少年",
+      "member1": "赵泽熙",
+      "member2": "江志辉",
+      "member3": null,
+      "rank": null,
+      "school_rank": null,
+      "_unofficial_rank": 64,
+      "score": 0,
+      "penalty": 0,
+      "is_official": false,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {}
+    },
+    {
       "team_name": "队长给我一千块",
       "school": "成都锦城学院",
       "member1": "张锟鹏",
@@ -22918,23 +22952,6 @@
           "time_mins": 0
         }
       }
-    },
-    {
-      "team_name": "好好学习,天天向上",
-      "school": "江苏海洋大学",
-      "member1": "房鸿铭",
-      "member2": "孙京权",
-      "member3": "刘好",
-      "rank": null,
-      "school_rank": null,
-      "_unofficial_rank": 63,
-      "score": 0,
-      "penalty": 0,
-      "is_official": false,
-      "is_girl": null,
-      "medal": null,
-      "coach": "汪前进",
-      "problem_scores": {}
     },
     {
       "team_name": "队长霸占机子,封榜后连A3题",
@@ -22983,23 +23000,6 @@
           "time_mins": 0
         }
       }
-    },
-    {
-      "team_name": "重生之我是菜猫",
-      "school": "网瘾少年",
-      "member1": "赵泽熙",
-      "member2": "江志辉",
-      "member3": null,
-      "rank": null,
-      "school_rank": null,
-      "_unofficial_rank": 64,
-      "score": 0,
-      "penalty": 0,
-      "is_official": false,
-      "is_girl": null,
-      "medal": null,
-      "coach": null,
-      "problem_scores": {}
     }
   ]
 }

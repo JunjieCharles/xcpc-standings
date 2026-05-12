@@ -11345,12 +11345,105 @@
       }
     },
     {
+      "team_name": "罚时之羽如深渊相伴 血色acm人生！",
+      "school": "河海大学",
+      "member1": "林桁",
+      "member2": "周厚望",
+      "member3": "吕广信",
+      "rank": 108,
+      "school_rank": 86,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 49,
+      "is_official": true,
+      "is_girl": null,
+      "medal": null,
+      "coach": null,
+      "problem_scores": {
+        "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 29
+        },
+        "11": {
+          "solved": false,
+          "tries": 15,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 29
+        },
+        "L": {
+          "solved": false,
+          "tries": 15,
+          "time_mins": 0
+        },
+        "A": {
+          "solved": false,
+          "tries": 0,
+          "time_mins": 0
+        },
+        "B": {
+          "solved": false,
+          "tries": 0,
+          "time_mins": 0
+        },
+        "C": {
+          "solved": false,
+          "tries": 0,
+          "time_mins": 0
+        },
+        "D": {
+          "solved": false,
+          "tries": 0,
+          "time_mins": 0
+        },
+        "E": {
+          "solved": false,
+          "tries": 0,
+          "time_mins": 0
+        },
+        "F": {
+          "solved": false,
+          "tries": 0,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": false,
+          "tries": 0,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": false,
+          "tries": 0,
+          "time_mins": 0
+        },
+        "I": {
+          "solved": false,
+          "tries": 0,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 0,
+          "time_mins": 0
+        },
+        "M": {
+          "solved": false,
+          "tries": 0,
+          "time_mins": 0
+        }
+      }
+    },
+    {
       "team_name": "麦旋风三重奏",
       "school": "暨南大学",
       "member1": "杨希桐",
       "member2": "钱曼怡",
       "member3": "陈弈帆",
-      "rank": 108,
+      "rank": 109,
       "school_rank": null,
       "_unofficial_rank": null,
       "score": 1,
@@ -11416,99 +11509,6 @@
           "time_mins": 0
         },
         "F": {
-          "solved": false,
-          "tries": 0,
-          "time_mins": 0
-        },
-        "H": {
-          "solved": false,
-          "tries": 0,
-          "time_mins": 0
-        },
-        "I": {
-          "solved": false,
-          "tries": 0,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 0,
-          "time_mins": 0
-        },
-        "M": {
-          "solved": false,
-          "tries": 0,
-          "time_mins": 0
-        }
-      }
-    },
-    {
-      "team_name": "罚时之羽如深渊相伴 血色acm人生！",
-      "school": "河海大学",
-      "member1": "林桁",
-      "member2": "周厚望",
-      "member3": "吕广信",
-      "rank": 109,
-      "school_rank": 86,
-      "_unofficial_rank": null,
-      "score": 1,
-      "penalty": 49,
-      "is_official": true,
-      "is_girl": null,
-      "medal": null,
-      "coach": null,
-      "problem_scores": {
-        "10": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 29
-        },
-        "11": {
-          "solved": false,
-          "tries": 15,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 29
-        },
-        "L": {
-          "solved": false,
-          "tries": 15,
-          "time_mins": 0
-        },
-        "A": {
-          "solved": false,
-          "tries": 0,
-          "time_mins": 0
-        },
-        "B": {
-          "solved": false,
-          "tries": 0,
-          "time_mins": 0
-        },
-        "C": {
-          "solved": false,
-          "tries": 0,
-          "time_mins": 0
-        },
-        "D": {
-          "solved": false,
-          "tries": 0,
-          "time_mins": 0
-        },
-        "E": {
-          "solved": false,
-          "tries": 0,
-          "time_mins": 0
-        },
-        "F": {
-          "solved": false,
-          "tries": 0,
-          "time_mins": 0
-        },
-        "G": {
           "solved": false,
           "tries": 0,
           "time_mins": 0

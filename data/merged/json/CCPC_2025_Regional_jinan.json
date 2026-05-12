@@ -19665,12 +19665,50 @@
       }
     },
     {
+      "team_name": "不是我喜欢的题目,直接哈气",
+      "school": "浙江师范大学",
+      "member1": "李侑轩",
+      "member2": "黄玉景",
+      "member3": "刘彦博",
+      "rank": 250,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 22,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "孙广华",
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 22
+        },
+        "K": {
+          "solved": false,
+          "tries": 10,
+          "time_mins": 0
+        },
+        "2": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 22
+        },
+        "10": {
+          "solved": false,
+          "tries": 10,
+          "time_mins": 0
+        }
+      }
+    },
+    {
       "team_name": "优秀元务工大队",
       "school": "北京电子科技学院",
       "member1": "李炫睿",
       "member2": "岳金涛",
       "member3": "汪子涵",
-      "rank": 250,
+      "rank": 251,
       "school_rank": 164,
       "_unofficial_rank": null,
       "score": 1,
@@ -19764,44 +19802,6 @@
           "time_mins": 0
         },
         "11": {
-          "solved": false,
-          "tries": 10,
-          "time_mins": 0
-        }
-      }
-    },
-    {
-      "team_name": "不是我喜欢的题目,直接哈气",
-      "school": "浙江师范大学",
-      "member1": "李侑轩",
-      "member2": "黄玉景",
-      "member3": "刘彦博",
-      "rank": 251,
-      "school_rank": null,
-      "_unofficial_rank": null,
-      "score": 1,
-      "penalty": 22,
-      "is_official": true,
-      "is_girl": null,
-      "medal": "Honorable",
-      "coach": "孙广华",
-      "problem_scores": {
-        "C": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 22
-        },
-        "K": {
-          "solved": false,
-          "tries": 10,
-          "time_mins": 0
-        },
-        "2": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 22
-        },
-        "10": {
           "solved": false,
           "tries": 10,
           "time_mins": 0
@@ -20560,6 +20560,34 @@
       "problem_scores": {}
     },
     {
+      "team_name": "怡田子过禾拆桥",
+      "school": "广州华商学院",
+      "member1": "杨子禾",
+      "member2": "孙泽田",
+      "member3": "张怡晴",
+      "rank": null,
+      "school_rank": null,
+      "_unofficial_rank": 59,
+      "score": 0,
+      "penalty": 0,
+      "is_official": false,
+      "is_girl": null,
+      "medal": null,
+      "coach": "袁灏",
+      "problem_scores": {
+        "C": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        },
+        "2": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        }
+      }
+    },
+    {
       "team_name": "民航小队",
       "school": "天津市海河中学",
       "member1": "李金洋",
@@ -20567,7 +20595,7 @@
       "member3": null,
       "rank": null,
       "school_rank": null,
-      "_unofficial_rank": 59,
+      "_unofficial_rank": 60,
       "score": 0,
       "penalty": 0,
       "is_official": false,
@@ -20703,34 +20731,6 @@
         "12": {
           "solved": false,
           "tries": 1,
-          "time_mins": 0
-        }
-      }
-    },
-    {
-      "team_name": "怡田子过禾拆桥",
-      "school": "广州华商学院",
-      "member1": "杨子禾",
-      "member2": "孙泽田",
-      "member3": "张怡晴",
-      "rank": null,
-      "school_rank": null,
-      "_unofficial_rank": 60,
-      "score": 0,
-      "penalty": 0,
-      "is_official": false,
-      "is_girl": null,
-      "medal": null,
-      "coach": "袁灏",
-      "problem_scores": {
-        "C": {
-          "solved": false,
-          "tries": 7,
-          "time_mins": 0
-        },
-        "2": {
-          "solved": false,
-          "tries": 7,
           "time_mins": 0
         }
       }

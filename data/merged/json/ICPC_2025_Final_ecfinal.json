@@ -22020,44 +22020,6 @@
       }
     },
     {
-      "team_name": "深度烧烤",
-      "school": "北京林业大学",
-      "member1": "戴正宇",
-      "member2": "李振梁",
-      "member3": "陈嘉轩",
-      "rank": 279,
-      "school_rank": 137,
-      "_unofficial_rank": null,
-      "score": 0,
-      "penalty": 0,
-      "is_official": true,
-      "is_girl": null,
-      "medal": "Honorable",
-      "coach": "徐艳艳",
-      "problem_scores": {
-        "H": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 9,
-          "time_mins": 0
-        },
-        "7": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
-        "9": {
-          "solved": false,
-          "tries": 9,
-          "time_mins": 0
-        }
-      }
-    },
-    {
       "team_name": "zcmu1",
       "school": "浙江中医药大学",
       "member1": "王震",
@@ -22091,6 +22053,44 @@
         "9": {
           "solved": false,
           "tries": 1,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "深度烧烤",
+      "school": "北京林业大学",
+      "member1": "戴正宇",
+      "member2": "李振梁",
+      "member3": "陈嘉轩",
+      "rank": 279,
+      "school_rank": 137,
+      "_unofficial_rank": null,
+      "score": 0,
+      "penalty": 0,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "徐艳艳",
+      "problem_scores": {
+        "H": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 9,
+          "time_mins": 0
+        },
+        "7": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "9": {
+          "solved": false,
+          "tries": 9,
           "time_mins": 0
         }
       }

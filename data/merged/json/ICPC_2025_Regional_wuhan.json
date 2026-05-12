@@ -34893,39 +34893,97 @@
       }
     },
     {
-      "team_name": "共同语言：C++",
-      "school": "华南农业大学+厦门大学马来西亚分校+深圳大学",
-      "member1": "张卓琳",
-      "member2": "高佳越",
-      "member3": "刘子涵",
-      "rank": null,
-      "school_rank": null,
-      "_unofficial_rank": 71,
+      "team_name": "Java++3",
+      "school": "香港城市大学",
+      "member1": "張智彥",
+      "member2": "曾淳謙",
+      "member3": "陳立浚",
+      "rank": 443,
+      "school_rank": 231,
+      "_unofficial_rank": null,
       "score": 0,
       "penalty": 0,
-      "is_official": false,
+      "is_official": true,
       "is_girl": null,
-      "medal": null,
-      "coach": "崔泽禹",
+      "medal": "Honorable",
+      "coach": "左金航",
       "problem_scores": {
         "F": {
           "solved": false,
-          "tries": 2,
+          "tries": 6,
+          "time_mins": 0
+        },
+        "A": {
+          "solved": false,
+          "tries": 1,
           "time_mins": 0
         },
         "E": {
           "solved": false,
-          "tries": 2,
+          "tries": 7,
+          "time_mins": 0
+        },
+        "B": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "C": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "0": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "1": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "2": {
+          "solved": false,
+          "tries": 1,
           "time_mins": 0
         },
         "4": {
           "solved": false,
-          "tries": 2,
+          "tries": 7,
           "time_mins": 0
         },
         "5": {
           "solved": false,
-          "tries": 2,
+          "tries": 6,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "不做无法实现的梦",
+      "school": "河南农业大学",
+      "member1": "朱逸菲",
+      "member2": "李悦",
+      "member3": "邓海迪",
+      "rank": 444,
+      "school_rank": 232,
+      "_unofficial_rank": null,
+      "score": 0,
+      "penalty": 0,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "尚俊平",
+      "problem_scores": {
+        "E": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "4": {
+          "solved": false,
+          "tries": 3,
           "time_mins": 0
         }
       }
@@ -34938,7 +34996,7 @@
       "member3": "胡力中",
       "rank": null,
       "school_rank": null,
-      "_unofficial_rank": 72,
+      "_unofficial_rank": 71,
       "score": 0,
       "penalty": 0,
       "is_official": false,
@@ -34989,97 +35047,42 @@
       }
     },
     {
-      "team_name": "游戏人生零",
-      "school": "文华学院",
-      "member1": "方鹏遥",
-      "member2": "杨周",
-      "member3": "黎耀杨",
-      "rank": 443,
-      "school_rank": 231,
-      "_unofficial_rank": null,
-      "score": 0,
-      "penalty": 0,
-      "is_official": true,
-      "is_girl": null,
-      "medal": "Honorable",
-      "coach": "王方",
-      "problem_scores": {
-        "E": {
-          "solved": false,
-          "tries": 7,
-          "time_mins": 0
-        },
-        "4": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
-        "A": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "B": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
-        "C": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "F": {
-          "solved": false,
-          "tries": 6,
-          "time_mins": 0
-        }
-      }
-    },
-    {
-      "team_name": "不做无法实现的梦",
-      "school": "河南农业大学",
-      "member1": "朱逸菲",
-      "member2": "李悦",
-      "member3": "邓海迪",
-      "rank": 444,
-      "school_rank": 232,
-      "_unofficial_rank": null,
-      "score": 0,
-      "penalty": 0,
-      "is_official": true,
-      "is_girl": null,
-      "medal": "Honorable",
-      "coach": "尚俊平",
-      "problem_scores": {
-        "E": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
-        "4": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        }
-      }
-    },
-    {
-      "team_name": "循环线段树",
-      "school": "河南师范大学",
-      "member1": "侯炳旭",
-      "member2": "曹继喆",
-      "member3": "吴帅甫",
+      "team_name": "共同语言：C++",
+      "school": "华南农业大学+厦门大学马来西亚分校+深圳大学",
+      "member1": "张卓琳",
+      "member2": "高佳越",
+      "member3": "刘子涵",
       "rank": null,
       "school_rank": null,
-      "_unofficial_rank": 73,
+      "_unofficial_rank": 72,
       "score": 0,
       "penalty": 0,
       "is_official": false,
       "is_girl": null,
       "medal": null,
-      "coach": "熊青青",
-      "problem_scores": {}
+      "coach": "崔泽禹",
+      "problem_scores": {
+        "F": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "E": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "4": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "5": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "学弟说带我拿牌",
@@ -35130,6 +35133,51 @@
       }
     },
     {
+      "team_name": "循环线段树",
+      "school": "河南师范大学",
+      "member1": "侯炳旭",
+      "member2": "曹继喆",
+      "member3": "吴帅甫",
+      "rank": null,
+      "school_rank": null,
+      "_unofficial_rank": 73,
+      "score": 0,
+      "penalty": 0,
+      "is_official": false,
+      "is_girl": null,
+      "medal": null,
+      "coach": "熊青青",
+      "problem_scores": {}
+    },
+    {
+      "team_name": "游戏人生零",
+      "school": "文华学院",
+      "member1": "方鹏遥",
+      "member2": "杨周",
+      "member3": "黎耀杨",
+      "rank": 446,
+      "school_rank": 234,
+      "_unofficial_rank": null,
+      "score": 0,
+      "penalty": 0,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "王方",
+      "problem_scores": {
+        "E": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "4": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        }
+      }
+    },
+    {
       "team_name": "灰名勇闯区域赛被创",
       "school": "阳光学院",
       "member1": "郑俊杰",
@@ -35173,74 +35221,6 @@
         "5": {
           "solved": false,
           "tries": 1,
-          "time_mins": 0
-        }
-      }
-    },
-    {
-      "team_name": "Java++3",
-      "school": "香港城市大学",
-      "member1": "張智彥",
-      "member2": "曾淳謙",
-      "member3": "陳立浚",
-      "rank": 446,
-      "school_rank": 234,
-      "_unofficial_rank": null,
-      "score": 0,
-      "penalty": 0,
-      "is_official": true,
-      "is_girl": null,
-      "medal": "Honorable",
-      "coach": "左金航",
-      "problem_scores": {
-        "F": {
-          "solved": false,
-          "tries": 6,
-          "time_mins": 0
-        },
-        "A": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "E": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
-        "B": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
-        "C": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "0": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "1": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
-        "2": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "4": {
-          "solved": false,
-          "tries": 7,
-          "time_mins": 0
-        },
-        "5": {
-          "solved": false,
-          "tries": 6,
           "time_mins": 0
         }
       }

@@ -33,6 +33,8 @@ class ICPCStandingsGenerator:
         
         self.penalty_time = self.config.get("penalty", 20 * 60) # Default 20 mins to seconds
         self.problem_ids = self.config.get("problem_id", [])
+        self.options = self.config.get("options", {}) or {}
+        self.penalty_mode = self.options.get("calculation_of_penalty", "")
         
         # Process organizations
         # In XCPCIO, orgs can be a list or a dict
@@ -72,6 +74,34 @@ class ICPCStandingsGenerator:
         if "texts" in name_obj and "en" in name_obj["texts"]:
             return name_obj["texts"]["en"]
         return name_obj.get("fallback", str(name_obj))
+
+    def _timestamp_to_seconds(self, timestamp: Any) -> float:
+        try:
+            value = float(timestamp or 0)
+        except (TypeError, ValueError):
+            return 0.0
+
+        unit = str(self.options.get("submission_timestamp_unit", "")).lower()
+        if unit in {"millisecond", "milliseconds", "ms"}:
+            return value / 1000.0
+        if unit in {"second", "seconds", "s"}:
+            return value
+
+        start_time = self.config.get("start_time")
+        end_time = self.config.get("end_time")
+        try:
+            duration_seconds = float(end_time) - float(start_time)
+        except (TypeError, ValueError):
+            duration_seconds = 0
+
+        if duration_seconds > 0 and value > duration_seconds * 10:
+            return value / 1000.0
+        if value > 24 * 60 * 60:
+            return value / 1000.0
+        return value
+
+    def _accumulates_penalty_in_seconds(self) -> bool:
+        return self.penalty_mode == "accumulate_in_seconds_and_finally_to_the_minute"
     
     def generate(self) -> List[Dict]:
         teams = {}
@@ -80,7 +110,7 @@ class ICPCStandingsGenerator:
             # XCPCIO team list might be a dict mapped by keys or array, handle both if necessary
             # Assuming array based on test output
             if not isinstance(t, dict): continue
-            tid = t.get("id")
+            tid = t.get("id") or t.get("team_id")
             if not tid:
                 continue
             org_id = t.get("organization_id", "")
@@ -96,7 +126,10 @@ class ICPCStandingsGenerator:
                     members_list.append(name)
                     
             coaches_list = []
-            for c in t.get("coaches", []):
+            coaches = t.get("coaches", [])
+            if not coaches and t.get("coach"):
+                coaches = [t.get("coach")]
+            for c in coaches:
                 name = get_xcpcio_name(c)
                 if name:
                     coaches_list.append(name)
@@ -119,6 +152,7 @@ class ICPCStandingsGenerator:
                 "is_official": "official" in team_groups,
                 "solved": 0,
                 "penalty_mins": 0,
+                "penalty_seconds": 0.0,
                 "problems": {}, # pk -> { 'solved': bool, 'tries': int, 'time': int }
             }
         
@@ -146,14 +180,16 @@ class ICPCStandingsGenerator:
             if status == "CORRECT" or status == "ACCEPTED":
                 prob["solved"] = True
                 
-                # In ICPC, penalty is computed by truncating each problem's time to minutes, then summing them up.
-                time_mins = timestamp // 1000 // 60
+                timestamp_seconds = self._timestamp_to_seconds(timestamp)
+                time_mins = int(timestamp_seconds // 60)
                 
                 prob["time_mins"] = time_mins
                 teams[tid]["solved"] += 1
                 
-                # accumulate penalty in minutes directly
-                teams[tid]["penalty_mins"] += time_mins + (prob["tries"] * (self.penalty_time // 60))
+                if self._accumulates_penalty_in_seconds():
+                    teams[tid]["penalty_seconds"] += timestamp_seconds + (prob["tries"] * self.penalty_time)
+                else:
+                    teams[tid]["penalty_mins"] += time_mins + (prob["tries"] * (self.penalty_time // 60))
             elif status not in ["PENDING", "COMPILING", "JUDGING", "CE", "COMPILATION_ERROR", "UKE"]:
                  prob["tries"] += 1
                  
@@ -162,7 +198,10 @@ class ICPCStandingsGenerator:
         
         # Calculate final accumulated penalty in minutes
         for t in standings:
-            t["penalty"] = t.get("penalty_mins", 0)
+            if self._accumulates_penalty_in_seconds():
+                t["penalty"] = int(t.get("penalty_seconds", 0) // 60)
+            else:
+                t["penalty"] = t.get("penalty_mins", 0)
         
         # Filter official teams if needed, but normally keep all, just rank official for medals
         official_standings = [t for t in standings if t["is_official"]]

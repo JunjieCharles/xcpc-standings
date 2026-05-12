@@ -18077,60 +18077,12 @@
       }
     },
     {
-      "team_name": "健康的人类要冲出太阳系",
-      "school": "中国科学院大学",
-      "member1": "王煜阳",
-      "member2": "郑兴",
-      "member3": "潘世钊",
-      "rank": 213,
-      "school_rank": null,
-      "_unofficial_rank": null,
-      "score": 2,
-      "penalty": 55,
-      "is_official": true,
-      "is_girl": null,
-      "medal": "Honorable",
-      "coach": "孙晓明",
-      "problem_scores": {
-        "C": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 3
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 52
-        },
-        "F": {
-          "solved": false,
-          "tries": 8,
-          "time_mins": 0
-        },
-        "2": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 3
-        },
-        "5": {
-          "solved": false,
-          "tries": 8,
-          "time_mins": 0
-        },
-        "10": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 52
-        }
-      }
-    },
-    {
       "team_name": "仿生Huster会梦见电子野猪吗",
       "school": "华中科技大学",
       "member1": "陈子澍",
       "member2": "李叙儒",
       "member3": "代康琪",
-      "rank": 214,
+      "rank": 213,
       "school_rank": null,
       "_unofficial_rank": null,
       "score": 2,
@@ -18183,6 +18135,54 @@
         "8": {
           "solved": false,
           "tries": 2,
+          "time_mins": 0
+        },
+        "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 52
+        }
+      }
+    },
+    {
+      "team_name": "健康的人类要冲出太阳系",
+      "school": "中国科学院大学",
+      "member1": "王煜阳",
+      "member2": "郑兴",
+      "member3": "潘世钊",
+      "rank": 214,
+      "school_rank": null,
+      "_unofficial_rank": null,
+      "score": 2,
+      "penalty": 55,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "孙晓明",
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 3
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 52
+        },
+        "F": {
+          "solved": false,
+          "tries": 8,
+          "time_mins": 0
+        },
+        "2": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 3
+        },
+        "5": {
+          "solved": false,
+          "tries": 8,
           "time_mins": 0
         },
         "10": {

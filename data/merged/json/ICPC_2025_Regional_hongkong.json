@@ -6073,6 +6073,44 @@
       }
     },
     {
+      "team_name": "Array of Cqupt Monkeys",
+      "school": "重庆邮电大学",
+      "member1": "冯禹杰",
+      "member2": "林新雨",
+      "member3": "汪炜杰",
+      "rank": 94,
+      "school_rank": 90,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 11,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Jingbo Xie",
+      "problem_scores": {
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "K": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        },
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "10": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        }
+      }
+    },
+    {
       "team_name": "HKOI 4",
       "school": "Hong Kong Olympiad in Informatics",
       "member1": "Cheung Kin Sun",
@@ -6141,99 +6179,13 @@
       }
     },
     {
-      "team_name": "NYU Shanghai Team 2",
-      "school": "上海纽约大学",
-      "member1": "张书恺",
-      "member2": "许诗栋",
-      "member3": "Yuhang Hou",
-      "rank": 94,
-      "school_rank": 90,
-      "_unofficial_rank": null,
-      "score": 1,
-      "penalty": 11,
-      "is_official": true,
-      "is_girl": null,
-      "medal": "Honorable",
-      "coach": "Xianbin Gu",
-      "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 11
-        },
-        "K": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
-        "7": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 11
-        },
-        "9": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
-        "10": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        }
-      }
-    },
-    {
-      "team_name": "Just AC",
-      "school": "中北大学",
-      "member1": "刘灿阳",
-      "member2": "谭炯豪",
-      "member3": "陈文博",
-      "rank": 95,
-      "school_rank": 91,
-      "_unofficial_rank": null,
-      "score": 1,
-      "penalty": 11,
-      "is_official": true,
-      "is_girl": null,
-      "medal": "Honorable",
-      "coach": "Guangzhen Pan",
-      "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 11
-        },
-        "K": {
-          "solved": false,
-          "tries": 10,
-          "time_mins": 0
-        },
-        "7": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 11
-        },
-        "10": {
-          "solved": false,
-          "tries": 10,
-          "time_mins": 0
-        }
-      }
-    },
-    {
       "team_name": "Icecream!",
       "school": "山东大学",
       "member1": "毛洋洋",
       "member2": "刘少卿",
       "member3": "侯佳昊",
-      "rank": 96,
-      "school_rank": 92,
+      "rank": 95,
+      "school_rank": 91,
       "_unofficial_rank": null,
       "score": 1,
       "penalty": 11,
@@ -6275,13 +6227,99 @@
       }
     },
     {
+      "team_name": "Just AC",
+      "school": "中北大学",
+      "member1": "刘灿阳",
+      "member2": "谭炯豪",
+      "member3": "陈文博",
+      "rank": 96,
+      "school_rank": 92,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 11,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Guangzhen Pan",
+      "problem_scores": {
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "K": {
+          "solved": false,
+          "tries": 10,
+          "time_mins": 0
+        },
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "10": {
+          "solved": false,
+          "tries": 10,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "NYU Shanghai Team 2",
+      "school": "上海纽约大学",
+      "member1": "张书恺",
+      "member2": "许诗栋",
+      "member3": "Yuhang Hou",
+      "rank": 97,
+      "school_rank": 93,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 11,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Xianbin Gu",
+      "problem_scores": {
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "K": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "9": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "10": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        }
+      }
+    },
+    {
       "team_name": "noircloud",
       "school": "广东东软学院",
       "member1": "朱梓瀚",
       "member2": "黄琳峰",
       "member3": "黄炜填",
-      "rank": 97,
-      "school_rank": 93,
+      "rank": 98,
+      "school_rank": 94,
       "_unofficial_rank": null,
       "score": 1,
       "penalty": 11,
@@ -6318,44 +6356,6 @@
         "10": {
           "solved": false,
           "tries": 9,
-          "time_mins": 0
-        }
-      }
-    },
-    {
-      "team_name": "Array of Cqupt Monkeys",
-      "school": "重庆邮电大学",
-      "member1": "冯禹杰",
-      "member2": "林新雨",
-      "member3": "汪炜杰",
-      "rank": 98,
-      "school_rank": 94,
-      "_unofficial_rank": null,
-      "score": 1,
-      "penalty": 11,
-      "is_official": true,
-      "is_girl": null,
-      "medal": "Honorable",
-      "coach": "Jingbo Xie",
-      "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 11
-        },
-        "K": {
-          "solved": false,
-          "tries": 7,
-          "time_mins": 0
-        },
-        "7": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 11
-        },
-        "10": {
-          "solved": false,
-          "tries": 7,
           "time_mins": 0
         }
       }
@@ -6409,51 +6409,13 @@
       }
     },
     {
-      "team_name": "robust driver",
-      "school": "北京工业大学",
-      "member1": "陈镇岳",
-      "member2": "齐相龙",
-      "member3": "张晋赫",
-      "rank": 100,
-      "school_rank": 96,
-      "_unofficial_rank": null,
-      "score": 1,
-      "penalty": 13,
-      "is_official": true,
-      "is_girl": null,
-      "medal": "Honorable",
-      "coach": "Hongyu Gao",
-      "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 13
-        },
-        "K": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
-        "7": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 13
-        },
-        "10": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        }
-      }
-    },
-    {
       "team_name": "Zutto Acceptednakade Iinoni.",
       "school": "宁波工程学院",
       "member1": "郑坚淳",
       "member2": "叶徳坚",
       "member3": "陈南丞",
-      "rank": 101,
-      "school_rank": 97,
+      "rank": 100,
+      "school_rank": 96,
       "_unofficial_rank": null,
       "score": 1,
       "penalty": 13,
@@ -6480,6 +6442,44 @@
         "10": {
           "solved": false,
           "tries": 4,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "robust driver",
+      "school": "北京工业大学",
+      "member1": "陈镇岳",
+      "member2": "齐相龙",
+      "member3": "张晋赫",
+      "rank": 101,
+      "school_rank": 97,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 13,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Hongyu Gao",
+      "problem_scores": {
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 13
+        },
+        "K": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 13
+        },
+        "10": {
+          "solved": false,
+          "tries": 5,
           "time_mins": 0
         }
       }
@@ -6619,51 +6619,13 @@
       }
     },
     {
-      "team_name": "The Doctor's team and there ape-man captain",
-      "school": "五邑大学",
-      "member1": "冯凯翔",
-      "member2": "李晟熙",
-      "member3": "黄达聪",
-      "rank": 105,
-      "school_rank": 101,
-      "_unofficial_rank": null,
-      "score": 1,
-      "penalty": 20,
-      "is_official": true,
-      "is_girl": null,
-      "medal": "Honorable",
-      "coach": "Zhu Wang",
-      "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 20
-        },
-        "K": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
-        "7": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 20
-        },
-        "10": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        }
-      }
-    },
-    {
       "team_name": "SleepToAC",
       "school": "西南大学",
       "member1": "刘子毅",
       "member2": "周佰涛",
       "member3": "杨竣胜",
-      "rank": 106,
-      "school_rank": 102,
+      "rank": 105,
+      "school_rank": 101,
       "_unofficial_rank": null,
       "score": 1,
       "penalty": 20,
@@ -6690,6 +6652,44 @@
         "10": {
           "solved": false,
           "tries": 16,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "The Doctor's team and there ape-man captain",
+      "school": "五邑大学",
+      "member1": "冯凯翔",
+      "member2": "李晟熙",
+      "member3": "黄达聪",
+      "rank": 106,
+      "school_rank": 102,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 20,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Zhu Wang",
+      "problem_scores": {
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 20
+        },
+        "K": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 20
+        },
+        "10": {
+          "solved": false,
+          "tries": 2,
           "time_mins": 0
         }
       }
@@ -7069,54 +7069,6 @@
       }
     },
     {
-      "team_name": "SegFault Maigo",
-      "school": "上海大学",
-      "member1": "Xiahong Liu",
-      "member2": "Shiyi Zhang",
-      "member3": "Yanchao Min",
-      "rank": 114,
-      "school_rank": 109,
-      "_unofficial_rank": null,
-      "score": 1,
-      "penalty": 34,
-      "is_official": true,
-      "is_girl": null,
-      "medal": "Honorable",
-      "coach": "Jun Shen",
-      "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 14
-        },
-        "J": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": false,
-          "tries": 11,
-          "time_mins": 0
-        },
-        "7": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 14
-        },
-        "9": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
-        "10": {
-          "solved": false,
-          "tries": 11,
-          "time_mins": 0
-        }
-      }
-    },
-    {
       "team_name": "Java++3",
       "school": "香港城市大学",
       "member1": "Chi Yin Cheung",
@@ -7160,6 +7112,54 @@
         "10": {
           "solved": false,
           "tries": 16,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "SegFault Maigo",
+      "school": "上海大学",
+      "member1": "Xiahong Liu",
+      "member2": "Shiyi Zhang",
+      "member3": "Yanchao Min",
+      "rank": 114,
+      "school_rank": 109,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 34,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Jun Shen",
+      "problem_scores": {
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 14
+        },
+        "J": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": false,
+          "tries": 11,
+          "time_mins": 0
+        },
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 14
+        },
+        "9": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "10": {
+          "solved": false,
+          "tries": 11,
           "time_mins": 0
         }
       }
@@ -7289,61 +7289,13 @@
       }
     },
     {
-      "team_name": "wawawawa...",
-      "school": "南阳理工学院",
-      "member1": "宋忱宪",
-      "member2": "任吉康",
-      "member3": "Hanxu Yao",
-      "rank": 118,
-      "school_rank": 112,
-      "_unofficial_rank": null,
-      "score": 1,
-      "penalty": 40,
-      "is_official": true,
-      "is_girl": null,
-      "medal": "Honorable",
-      "coach": "Ke Chen",
-      "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 20
-        },
-        "K": {
-          "solved": false,
-          "tries": 11,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 9,
-          "time_mins": 0
-        },
-        "7": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 20
-        },
-        "9": {
-          "solved": false,
-          "tries": 9,
-          "time_mins": 0
-        },
-        "10": {
-          "solved": false,
-          "tries": 11,
-          "time_mins": 0
-        }
-      }
-    },
-    {
       "team_name": "Mechanical Wings",
       "school": "河北工业大学",
       "member1": "王若豪",
       "member2": "赵子涵",
       "member3": "黄文",
-      "rank": 119,
-      "school_rank": 113,
+      "rank": 118,
+      "school_rank": 112,
       "_unofficial_rank": null,
       "score": 1,
       "penalty": 40,
@@ -7380,6 +7332,54 @@
         "10": {
           "solved": false,
           "tries": 4,
+          "time_mins": 0
+        }
+      }
+    },
+    {
+      "team_name": "wawawawa...",
+      "school": "南阳理工学院",
+      "member1": "宋忱宪",
+      "member2": "任吉康",
+      "member3": "Hanxu Yao",
+      "rank": 119,
+      "school_rank": 113,
+      "_unofficial_rank": null,
+      "score": 1,
+      "penalty": 40,
+      "is_official": true,
+      "is_girl": null,
+      "medal": "Honorable",
+      "coach": "Ke Chen",
+      "problem_scores": {
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 20
+        },
+        "K": {
+          "solved": false,
+          "tries": 11,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 9,
+          "time_mins": 0
+        },
+        "7": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 20
+        },
+        "9": {
+          "solved": false,
+          "tries": 9,
+          "time_mins": 0
+        },
+        "10": {
+          "solved": false,
+          "tries": 11,
           "time_mins": 0
         }
       }

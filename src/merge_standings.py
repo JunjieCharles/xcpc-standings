@@ -56,6 +56,9 @@ def is_same_team(t1: TeamStanding, t2: TeamStanding) -> bool:
         
     return matches_members(t1, t2)
 
+def strip_team_name_marker(name: str) -> str:
+    return re.sub(r'^[*★]+\s*', '', str(name or '').strip())
+
 def merge_standings(base_json: dict, complement_json: dict, source_name: str = "Complement", contest_name: str = "", resolutions: dict = None) -> Tuple[dict, list]:
     warnings = []
     if resolutions is None:
@@ -96,11 +99,6 @@ def merge_standings(base_json: dict, complement_json: dict, source_name: str = "
             
         used_comp_teams.add(comp_cs.standings.index(comp_t))
         
-        # 特殊修复逗号导致的名字被截断分格进不同成员属性的问题
-        if comp_t.team_name == "HKUST5" and getattr(comp_t, "member2", "") == "AWADALLA":
-            comp_t.member2 = "AWADALLA, bdelrahman HossamEldin A. A."
-            comp_t.member3 = "Vu Duy Tung"
-
         merged_t = base_t.to_dict()
         comp_t_dict = comp_t.to_dict()
         
@@ -118,6 +116,12 @@ def merge_standings(base_json: dict, complement_json: dict, source_name: str = "
                     is_penalty_rounding = False
                     is_pinyin_match = False
                     is_permutation_match = False
+                    is_team_marker_match = False
+                    
+                    if f == "team_name" and strip_team_name_marker(val_base) == strip_team_name_marker(val_comp):
+                        is_team_marker_match = True
+                        if str(val_base).strip().startswith(("*", "★")) and not str(val_comp).strip().startswith(("*", "★")):
+                            merged_t[f] = val_comp
                     
                     if f in ["member1", "member2", "member3"]:
                         b1 = str(merged_t.get("member1") or "").strip()
@@ -163,7 +167,7 @@ def merge_standings(base_json: dict, complement_json: dict, source_name: str = "
                         except ValueError:
                             pass
                     
-                    if not is_penalty_rounding and not is_pinyin_match and not is_permutation_match:
+                    if not is_penalty_rounding and not is_pinyin_match and not is_permutation_match and not is_team_marker_match:
                         s_name = merged_t.get('school', '')
                         t_name = merged_t.get('team_name', '')
                         

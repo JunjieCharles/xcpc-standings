@@ -49,6 +49,23 @@ class SRKStandingsGenerator:
         self.data = data
         self.problems = data.get("problems", [])
         self.problem_ids = [p.get("alias", p.get("title", str(i))) for i, p in enumerate(self.problems)]
+
+    @staticmethod
+    def _time_to_minutes(time_value) -> int:
+        if not isinstance(time_value, list) or not time_value:
+            return 0
+
+        try:
+            value = int(time_value[0])
+        except (TypeError, ValueError):
+            return 0
+
+        unit = str(time_value[1] if len(time_value) > 1 else "min").lower()
+        if unit in {"ms", "millisecond", "milliseconds"}:
+            return value // 60000
+        if unit in {"s", "sec", "second", "seconds"}:
+            return value // 60
+        return value
         
     def generate(self) -> Dict[str, Any]:
         final_standings = []
@@ -101,7 +118,7 @@ class SRKStandingsGenerator:
             # 读取总题数和罚时
             solved = score.get("value", 0)
             penalty_time = score.get("time", [0, "s"])
-            penalty_mins = int(penalty_time[0]) // 60 if penalty_time[1] == "s" else int(penalty_time[0])
+            penalty_mins = self._time_to_minutes(penalty_time)
             
             problems_dict = {}
             for p_idx, status in enumerate(statuses):
@@ -109,7 +126,7 @@ class SRKStandingsGenerator:
                 # tries 在 SRK 是包含了通过的那发提交的总提交数 (如果是 AC 的话)
                 tries = status.get("tries", 0)
                 ptime = status.get("time", [0, "s"])
-                pmins = int(ptime[0]) // 60 if ptime[1] == "s" else int(ptime[0])
+                pmins = self._time_to_minutes(ptime)
                 
                 if res in ["AC", "FB"]: # First Blood or Accepted
                     problems_dict[str(p_idx)] = ProblemStatus(

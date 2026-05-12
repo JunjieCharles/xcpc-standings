@@ -60,19 +60,41 @@ class ArchiveStandingsGenerator:
             
             # problem status is roughly the column
             problem_scores = {}
+            import re
             for p in problem_ids:
                 p_text = row.get(p, '').strip()
                 if not p_text:
                     continue
-                # Parsing standard XCPC string like "100" (time) or "+1" (unsolved) or "-2"
-                # A bit complex because archive CSV might be: AC time (if solved), negative tries (if unsolved). 
-                # Let's just do a naive check: if it's purely digits and > 0 without sign? 
-                # Actually, standard format requires a proper conversion if we want to parse it into ProblemStatus.
-                # For now just passing dummy ProblemStatus for archive since it wasn't standardized before, 
-                # or we just skip this for archive as it wasn't fully processed anyway.
-                # Here we just want the class structure.
-                pass
                 
+                is_solved = False
+                tries = 0
+                time_mins = 0
+                
+                if p_text == '-':
+                    tries = 0
+                elif p_text.startswith('-'):
+                    try:
+                        tries = int(p_text[1:])
+                    except ValueError:
+                        pass
+                else:
+                    match = re.match(r'^\+?(\d*)\((\d+)\)$', p_text)
+                    if match:
+                        is_solved = True
+                        tries_str = match.group(1)
+                        tries = max(0, int(tries_str) - 1) if tries_str else 0
+                        time_mins = int(match.group(2))
+                    else:
+                        match2 = re.match(r'^(\d+)$', p_text)
+                        if match2:
+                            is_solved = True
+                            tries = 0
+                            time_mins = int(match2.group(1))
+
+                if is_solved or tries > 0:
+                    problem_scores[p] = ProblemStatus(solved=is_solved, tries=tries, time_mins=time_mins)
+            
+            team_data.problem_scores = problem_scores
             standings.append(team_data)
             
         result = ContestStandings(

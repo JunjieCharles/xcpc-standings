@@ -64,32 +64,31 @@ def merge_standings(base_json: dict, complement_json: dict, source_name: str = "
     base_cs = ContestStandings.from_dict(base_json)
     comp_cs = ContestStandings.from_dict(complement_json)
     
+    # Normalize school names immediately
+    for t in base_cs.standings:
+        t.school = get_canonical_school_name(t.school)
+    for t in comp_cs.standings:
+        t.school = get_canonical_school_name(t.school)
+
     calculate_canonical_ranks(base_cs.standings)
     calculate_canonical_ranks(comp_cs.standings)
     
     comp_rank_map = {}
     for t in comp_cs.standings:
-        if t.rank:
-            comp_rank_map.setdefault(t.rank, []).append(t)
+        match_rank = t.rank if t.is_official else f"U{getattr(t, '_unofficial_rank', '')}"
+        if match_rank:
+            comp_rank_map.setdefault(match_rank, []).append(t)
             
     used_comp_teams = set()
     merged_teams = []
     
     for base_t in base_cs.standings:
         comp_t = None
-        base_rank = base_t.rank
+        base_rank = base_t.rank if base_t.is_official else f"U{getattr(base_t, '_unofficial_rank', '')}"
         
         candidates = comp_rank_map.get(base_rank, []) if base_rank else []
-        for ct in candidates:
-            if is_same_team(base_t, ct):
-                comp_t = ct
-                break
-                
-        if not comp_t:
-            for j, ct in enumerate(comp_cs.standings):
-                if j not in used_comp_teams and is_same_team(base_t, ct):
-                    comp_t = ct
-                    break
+        if candidates:
+            comp_t = candidates[0]
         
         if not comp_t:
             merged_teams.append(base_t.to_dict())
@@ -105,7 +104,7 @@ def merge_standings(base_json: dict, complement_json: dict, source_name: str = "
         merged_t = base_t.to_dict()
         comp_t_dict = comp_t.to_dict()
         
-        fields_to_check = ["member1", "member2", "member3", "coach", "is_girl", "is_official", "score", "penalty", "medal"]
+        fields_to_check = ["school", "team_name", "member1", "member2", "member3", "coach", "is_girl", "is_official", "score", "penalty", "medal"]
         
         for f in fields_to_check:
             val_base = merged_t.get(f)
@@ -389,19 +388,13 @@ def batch_process(year_arg="2025"):
             rank, f = w['Rank'], w['Field']
             s_name, t_name = w['School'], w['Team Name']
             
-            canonical_team = None
-            for t_dict in current_merged['standings']:
-                if t_dict.get('school', '') == s_name and t_dict.get('team_name', '') == t_name:
-                    canonical_team = TeamStanding.from_dict(t_dict)
-                    break
-            if not canonical_team:
-                canonical_team = TeamStanding(school=s_name, team_name=t_name)
-                
             for src_name, src_json in jsons:
                 src_cs = ContestStandings.from_dict(src_json)
+                calculate_canonical_ranks(src_cs.standings)
                 found_val = ''
                 for t in src_cs.standings:
-                    if is_same_team(canonical_team, t):
+                    t_rank = str(t.rank) if t.is_official else f"U{getattr(t, '_unofficial_rank', '')}"
+                    if t_rank == rank:
                         found_val = t.to_dict().get(f)
                         if found_val is None:
                             found_val = ''
@@ -411,16 +404,21 @@ def batch_process(year_arg="2025"):
             status = "RESOLVED" if w['Resolution'] else "CONFLICT"
             # Just print the first two available source values to save terminal space
             vals = [str(v) for v in w['Sources'].values() if str(v)]
-            print(f"    [{status}] {s_name} {t_name} '{f}': " + " vs ".join(vals))
+            try:
+                print(f"    [{status}] {s_name} {t_name} '{f}': " + " vs ".join(vals))
+            except UnicodeEncodeError:
+                print(f"    [{status}] {s_name} (Encode Error) '{f}'")
             
             all_warnings.append(w)
                 
         # Make sure current_merged is canonical even if 1 source
         final_cs_obj = ContestStandings.from_dict(current_merged)
-        
+
+        # Schools are already normalized at the top of merge_standings, but we 
+        # also apply it here in case a contest only had 1 source and bypassed merge.
         for t in final_cs_obj.standings:
             t.school = get_canonical_school_name(t.school)
-            
+
         calculate_canonical_ranks(final_cs_obj.standings)
         current_merged = final_cs_obj.to_dict()
                 
@@ -447,7 +445,10 @@ def batch_process(year_arg="2025"):
             print("Please fix these by adding resolutions to `resolutions.csv`:")
             for w in unresolved:
                 vals = [f"{src}: {v}" for src, v in w.get('Sources', {}).items() if str(v)]
-                print(f"  [{w['Contest']}] Rank {w['Rank']} - {w['School']} {w['Team Name']} | {w['Field']} -> " + " vs ".join(vals))
+                try:
+                    print(f"  [{w['Contest']}] Rank {w['Rank']} - {w['School']} {w['Team Name']} | {w['Field']} -> " + " vs ".join(vals))
+                except UnicodeEncodeError:
+                    print(f"  [{w['Contest']}] Rank {w['Rank']} - {w['School']} (Encode Error) | {w['Field']}")
                 
         if resolved:
             print(f"\n--- RESOLVED CONFLICTS ({len(resolved)}) ---")

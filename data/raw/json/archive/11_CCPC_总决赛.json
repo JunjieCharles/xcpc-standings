@@ -31,7 +31,48 @@
       "is_girl": null,
       "medal": "Gold",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 254
+        },
+        "D": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 261
+        },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 110
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 134
+        },
+        "I": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 217
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 35
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 71
+        }
+      }
     },
     {
       "team_name": "零基础新生 1 队",
@@ -48,7 +89,43 @@
       "is_girl": null,
       "medal": "Gold",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 217
+        },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 98
+        },
+        "H": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 169
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 58
+        },
+        "L": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 91
+        },
+        "M": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 256
+        }
+      }
     },
     {
       "team_name": "可莉不知道哦！",
@@ -65,7 +142,33 @@
       "is_girl": null,
       "medal": "Gold",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 183
+        },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 134
+        },
+        "J": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 285
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 23
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 88
+        }
+      }
     },
     {
       "team_name": "飞带不长队",
@@ -82,7 +185,43 @@
       "is_girl": null,
       "medal": "Gold",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 238
+        },
+        "C": {
+          "solved": false,
+          "tries": 18,
+          "time_mins": 0
+        },
+        "E": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 76
+        },
+        "J": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 182
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 16
+        },
+        "L": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 50
+        }
+      }
     },
     {
       "team_name": "中山大学-中大25一队",
@@ -99,7 +238,38 @@
       "is_girl": null,
       "medal": "Gold",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 41
+        },
+        "J": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 170
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 18
+        },
+        "L": {
+          "solved": true,
+          "tries": 6,
+          "time_mins": 91
+        },
+        "M": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 260
+        }
+      }
     },
     {
       "team_name": "三条银牌大于一对金牌",
@@ -116,7 +286,43 @@
       "is_girl": null,
       "medal": "Gold",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 249
+        },
+        "D": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 238
+        },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 105
+        },
+        "H": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 49
+        },
+        "L": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 78
+        }
+      }
     },
     {
       "team_name": "CQOI Flames",
@@ -133,7 +339,33 @@
       "is_girl": null,
       "medal": "Gold",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 297
+        },
+        "G": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 136
+        },
+        "J": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 217
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 16
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 81
+        }
+      }
     },
     {
       "team_name": "秘封俱乐部",
@@ -150,7 +382,38 @@
       "is_girl": null,
       "medal": "Gold",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 245
+        },
+        "G": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 203
+        },
+        "I": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 280
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 29
+        },
+        "L": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 132
+        }
+      }
     },
     {
       "team_name": "有时间起队名不如把时间抽出来打CF",
@@ -167,7 +430,33 @@
       "is_girl": null,
       "medal": "Gold",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 279
+        },
+        "G": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 248
+        },
+        "J": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 188
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "L": {
+          "solved": true,
+          "tries": 8,
+          "time_mins": 159
+        }
+      }
     },
     {
       "team_name": "1+1",
@@ -184,7 +473,38 @@
       "is_girl": null,
       "medal": "Gold",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 152
+        },
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 62
+        },
+        "H": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 47
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 142
+        }
+      }
     },
     {
       "team_name": "家里蹲",
@@ -201,7 +521,33 @@
       "is_girl": null,
       "medal": "Gold",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 190
+        },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 142
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 24
+        },
+        "L": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 91
+        }
+      }
     },
     {
       "team_name": "2025杭电1队",
@@ -218,7 +564,33 @@
       "is_girl": null,
       "medal": "Gold",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "F": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 68
+        },
+        "J": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 254
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 24
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 64
+        }
+      }
     },
     {
       "team_name": "2025杭电5队",
@@ -235,7 +607,33 @@
       "is_girl": null,
       "medal": "Gold",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 181
+        },
+        "J": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 204
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 21
+        },
+        "L": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 120
+        }
+      }
     },
     {
       "team_name": "倒头就睡",
@@ -252,7 +650,33 @@
       "is_girl": null,
       "medal": "Gold",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 222
+        },
+        "G": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 114
+        },
+        "J": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 43
+        },
+        "L": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 111
+        }
+      }
     },
     {
       "team_name": "片尾曲",
@@ -269,7 +693,33 @@
       "is_girl": null,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 228
+        },
+        "G": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 141
+        },
+        "J": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 47
+        },
+        "L": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 122
+        }
+      }
     },
     {
       "team_name": "超级洋医",
@@ -286,7 +736,68 @@
       "is_girl": null,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "A": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "B": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 278
+        },
+        "C": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "D": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "E": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "F": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 151
+        },
+        "I": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 9,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 73
+        },
+        "L": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 104
+        },
+        "M": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "UESTC_有无名队",
@@ -303,7 +814,33 @@
       "is_girl": null,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 9,
+          "time_mins": 140
+        },
+        "J": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 219
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 7
+        },
+        "L": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 96
+        }
+      }
     },
     {
       "team_name": "哈斯特坐牢领域大神",
@@ -320,7 +857,33 @@
       "is_girl": null,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 296
+        },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 130
+        },
+        "J": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 17
+        },
+        "L": {
+          "solved": true,
+          "tries": 9,
+          "time_mins": 113
+        }
+      }
     },
     {
       "team_name": "我们仍未知道那天所看见的acmer的名字",
@@ -337,7 +900,38 @@
       "is_girl": null,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "A": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "B": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 276
+        },
+        "G": {
+          "solved": true,
+          "tries": 7,
+          "time_mins": 184
+        },
+        "J": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 20
+        },
+        "L": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 145
+        }
+      }
     },
     {
       "team_name": "双星很难吗？我rks12.66",
@@ -354,7 +948,28 @@
       "is_girl": null,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 116
+        },
+        "J": {
+          "solved": true,
+          "tries": 13,
+          "time_mins": 292
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 42
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 175
+        }
+      }
     },
     {
       "team_name": "东北大学_金仔",
@@ -371,7 +986,28 @@
       "is_girl": null,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 102
+        },
+        "I": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 42
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 62
+        }
+      }
     },
     {
       "team_name": "Mynoghra",
@@ -388,7 +1024,28 @@
       "is_girl": null,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 66
+        },
+        "J": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 15
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 125
+        }
+      }
     },
     {
       "team_name": "wanna be free",
@@ -405,7 +1062,28 @@
       "is_girl": null,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 146
+        },
+        "J": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 22
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 72
+        }
+      }
     },
     {
       "team_name": "南山嘤语系",
@@ -422,7 +1100,28 @@
       "is_girl": null,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 95
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 19
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 109
+        }
+      }
     },
     {
       "team_name": "#define long long long",
@@ -439,7 +1138,28 @@
       "is_girl": null,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "E": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 137
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 40
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 97
+        }
+      }
     },
     {
       "team_name": "于离别之朝束起约定之花",
@@ -456,7 +1176,23 @@
       "is_girl": null,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 174
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 31
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 112
+        }
+      }
     },
     {
       "team_name": "因为太怕 WA 就全点大模拟了",
@@ -473,7 +1209,28 @@
       "is_girl": null,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 137
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 75
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 92
+        }
+      }
     },
     {
       "team_name": "天狼星的心脏",
@@ -490,7 +1247,33 @@
       "is_girl": null,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 208
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 28
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 89
+        }
+      }
     },
     {
       "team_name": "姜还是老的辣知道不",
@@ -507,7 +1290,23 @@
       "is_girl": null,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 121
+        },
+        "K": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 47
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 87
+        }
+      }
     },
     {
       "team_name": "ECF在逃三人组",
@@ -524,7 +1323,23 @@
       "is_girl": null,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 218
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 33
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 119
+        }
+      }
     },
     {
       "team_name": "启明星",
@@ -541,7 +1356,28 @@
       "is_girl": null,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 169
+        },
+        "H": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 20
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 139
+        }
+      }
     },
     {
       "team_name": "万物一心",
@@ -558,7 +1394,28 @@
       "is_girl": null,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 195
+        },
+        "J": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 40
+        },
+        "L": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 135
+        }
+      }
     },
     {
       "team_name": "Penalty这么高它的意思一定是分数吧",
@@ -575,7 +1432,23 @@
       "is_girl": null,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 199
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 90
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 116
+        }
+      }
     },
     {
       "team_name": "铜铜铜sahur",
@@ -592,7 +1465,33 @@
       "is_girl": null,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "A": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "B": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 160
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 18
+        },
+        "L": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 140
+        }
+      }
     },
     {
       "team_name": "飞向边界环",
@@ -609,7 +1508,33 @@
       "is_girl": null,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 202
+        },
+        "J": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 57
+        },
+        "L": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 129
+        }
+      }
     },
     {
       "team_name": "青蘋之末",
@@ -626,7 +1551,28 @@
       "is_girl": null,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 194
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 25
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 171
+        }
+      }
     },
     {
       "team_name": "闪光春日影",
@@ -643,7 +1589,28 @@
       "is_girl": null,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 121
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 28
+        },
+        "L": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 179
+        }
+      }
     },
     {
       "team_name": "再 努 力 一 点",
@@ -660,7 +1627,23 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 180
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 17
+        },
+        "L": {
+          "solved": true,
+          "tries": 7,
+          "time_mins": 137
+        }
+      }
     },
     {
       "team_name": "花开之夜",
@@ -677,7 +1660,33 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 207
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 63
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 85
+        }
+      }
     },
     {
       "team_name": "不协和音程",
@@ -694,7 +1703,23 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 168
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 55
+        },
+        "L": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 113
+        }
+      }
     },
     {
       "team_name": "中山大学-游客模式",
@@ -711,7 +1736,28 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 6,
+          "time_mins": 205
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 14
+        },
+        "L": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 61
+        }
+      }
     },
     {
       "team_name": "电话微波炉（暂定）",
@@ -728,7 +1774,33 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 192
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "L": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 143
+        }
+      }
     },
     {
       "team_name": "安卓狗",
@@ -745,7 +1817,28 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 179
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 40
+        },
+        "L": {
+          "solved": true,
+          "tries": 6,
+          "time_mins": 113
+        }
+      }
     },
     {
       "team_name": "小男娘",
@@ -762,7 +1855,23 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 212
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 58
+        },
+        "L": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 165
+        }
+      }
     },
     {
       "team_name": "雾之湖",
@@ -779,7 +1888,28 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 133
+        },
+        "J": {
+          "solved": false,
+          "tries": 22,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 29
+        },
+        "L": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 218
+        }
+      }
     },
     {
       "team_name": "队名长度小于0",
@@ -796,7 +1926,28 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 128
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 34
+        },
+        "L": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 198
+        }
+      }
     },
     {
       "team_name": "羽生萌萌香鱼子酱",
@@ -813,7 +1964,28 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 249
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 19
+        },
+        "L": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 150
+        }
+      }
     },
     {
       "team_name": "口嗨战神",
@@ -830,7 +2002,23 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 235
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 40
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 128
+        }
+      }
     },
     {
       "team_name": "那还说啥了进阶之灾给你了",
@@ -847,7 +2035,28 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 195
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 66
+        },
+        "L": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 153
+        }
+      }
     },
     {
       "team_name": "零",
@@ -864,7 +2073,28 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 159
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 31
+        },
+        "L": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 217
+        }
+      }
     },
     {
       "team_name": "泥巴动物园",
@@ -881,7 +2111,28 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 277
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 33
+        },
+        "L": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 181
+        }
+      }
     },
     {
       "team_name": "喵喵代办",
@@ -898,7 +2149,23 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 218
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 18
+        },
+        "L": {
+          "solved": true,
+          "tries": 7,
+          "time_mins": 173
+        }
+      }
     },
     {
       "team_name": "让我…把一切都忘掉吧",
@@ -915,7 +2182,23 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 187
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 22
+        },
+        "L": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 211
+        }
+      }
     },
     {
       "team_name": "红楼",
@@ -932,7 +2215,28 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 218
+        },
+        "J": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 73
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 143
+        }
+      }
     },
     {
       "team_name": "熬夜打CF导致心源性猝死",
@@ -949,7 +2253,23 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 252
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 18
+        },
+        "L": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 224
+        }
+      }
     },
     {
       "team_name": "果冻真有理",
@@ -966,7 +2286,23 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 159
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 46
+        },
+        "L": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 294
+        }
+      }
     },
     {
       "team_name": "853211",
@@ -983,7 +2319,28 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 205
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 71
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 234
+        }
+      }
     },
     {
       "team_name": "三模哈希米",
@@ -1000,7 +2357,33 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": false,
+          "tries": 8,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 207
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 119
+        },
+        "L": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 185
+        }
+      }
     },
     {
       "team_name": "故乡之星倒映之海",
@@ -1017,7 +2400,28 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 239
+        },
+        "J": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 26
+        },
+        "L": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 241
+        }
+      }
     },
     {
       "team_name": "黑色猫",
@@ -1034,7 +2438,33 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 153
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 7,
+          "time_mins": 82
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 217
+        }
+      }
     },
     {
       "team_name": "见机于忽微之间",
@@ -1051,7 +2481,28 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "D": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 250
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 10
+        },
+        "L": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 173
+        }
+      }
     },
     {
       "team_name": "欧洛巴斯",
@@ -1068,7 +2519,28 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 152
+        },
+        "J": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 24
+        },
+        "L": {
+          "solved": true,
+          "tries": 9,
+          "time_mins": 201
+        }
+      }
     },
     {
       "team_name": "数智省身_山西大学附属中学校",
@@ -1085,7 +2557,23 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 240
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 48
+        },
+        "L": {
+          "solved": true,
+          "tries": 7,
+          "time_mins": 141
+        }
+      }
     },
     {
       "team_name": "无色透明",
@@ -1102,7 +2590,28 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": false,
+          "tries": 8,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 249
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 19
+        },
+        "L": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 272
+        }
+      }
     },
     {
       "team_name": "闹剧结束了",
@@ -1119,7 +2628,23 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 282
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 25
+        },
+        "L": {
+          "solved": true,
+          "tries": 6,
+          "time_mins": 201
+        }
+      }
     },
     {
       "team_name": "备用账号0721",
@@ -1136,7 +2661,23 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 8,
+          "time_mins": 266
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 25
+        },
+        "L": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 242
+        }
+      }
     },
     {
       "team_name": "使题来袭，AC力场全开",
@@ -1153,7 +2694,33 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 297
+        },
+        "G": {
+          "solved": false,
+          "tries": 10,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 10
+        },
+        "L": {
+          "solved": true,
+          "tries": 6,
+          "time_mins": 268
+        }
+      }
     },
     {
       "team_name": "优秀素质",
@@ -1170,7 +2737,28 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 12,
+          "time_mins": 205
+        },
+        "J": {
+          "solved": false,
+          "tries": 9,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 61
+        },
+        "L": {
+          "solved": true,
+          "tries": 6,
+          "time_mins": 134
+        }
+      }
     },
     {
       "team_name": "打ACM导致的",
@@ -1187,7 +2775,33 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 13,
+          "time_mins": 239
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 20
+        },
+        "L": {
+          "solved": true,
+          "tries": 8,
+          "time_mins": 140
+        }
+      }
     },
     {
       "team_name": "没有眼泪的明天",
@@ -1204,7 +2818,33 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 281
+        },
+        "I": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 88
+        },
+        "L": {
+          "solved": true,
+          "tries": 11,
+          "time_mins": 252
+        }
+      }
     },
     {
       "team_name": "麻衣学姐想念zzz",
@@ -1221,7 +2861,28 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 89
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 16
+        },
+        "L": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "为帅气毕业老学长征婚QQ搜“莱芜贝克汉姆”",
@@ -1238,7 +2899,28 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": false,
+          "tries": 11,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 30
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 80
+        }
+      }
     },
     {
       "team_name": "队名：SDU-ENG",
@@ -1255,7 +2937,23 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 27
+        },
+        "L": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 154
+        }
+      }
     },
     {
       "team_name": "南方科技大学-巴库",
@@ -1272,7 +2970,23 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 27
+        },
+        "L": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 111
+        }
+      }
     },
     {
       "team_name": "先wa带动后wa",
@@ -1289,7 +3003,28 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 153
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 31
+        },
+        "L": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "杜老师and骁老师czs全肯定",
@@ -1306,7 +3041,28 @@
       "is_girl": null,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 171
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 23
+        },
+        "L": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "原神启动队",
@@ -1323,7 +3079,23 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": false,
+          "tries": 28,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 24
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 153
+        }
+      }
     },
     {
       "team_name": "温大一队",
@@ -1340,7 +3112,23 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 147
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 93
+        },
+        "L": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "为何RA早十晚十二",
@@ -1357,7 +3145,28 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 192
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 31
+        },
+        "L": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "时茧织光",
@@ -1374,7 +3183,28 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 173
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 38
+        },
+        "L": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "禁忌「莱瓦汀」",
@@ -1391,7 +3221,23 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 45
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 167
+        }
+      }
     },
     {
       "team_name": "迷途之子",
@@ -1408,7 +3254,23 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 98
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 119
+        },
+        "L": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "我打cf真的假的？！",
@@ -1425,7 +3287,23 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 211
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 26
+        },
+        "L": {
+          "solved": false,
+          "tries": 11,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "相信着你",
@@ -1442,7 +3320,23 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": false,
+          "tries": 10,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 12
+        },
+        "L": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 151
+        }
+      }
     },
     {
       "team_name": "帝企鹅",
@@ -1459,7 +3353,23 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 180
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 66
+        },
+        "L": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "迷迭香_fan",
@@ -1476,7 +3386,23 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 167
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 64
+        }
+      }
     },
     {
       "team_name": "打一辈子算法竞赛",
@@ -1493,7 +3419,18 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 31
+        },
+        "L": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 160
+        }
+      }
     },
     {
       "team_name": "红毛绿色猫猫虫",
@@ -1510,7 +3447,23 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 32
+        },
+        "L": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 184
+        }
+      }
     },
     {
       "team_name": "逐光掠影",
@@ -1527,7 +3480,28 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 210
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 36
+        },
+        "L": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "室友比我强",
@@ -1544,7 +3518,23 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 218
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 36
+        },
+        "L": {
+          "solved": false,
+          "tries": 25,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "队伍中文名",
@@ -1561,7 +3551,18 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 203
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 42
+        }
+      }
     },
     {
       "team_name": "冯诺曼波",
@@ -1578,7 +3579,23 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 29
+        },
+        "L": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 179
+        }
+      }
     },
     {
       "team_name": "枣尚蚝",
@@ -1595,7 +3612,23 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 73
+        },
+        "L": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 120
+        }
+      }
     },
     {
       "team_name": "柏林号",
@@ -1612,7 +3645,23 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 227
+        },
+        "D": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 47
+        }
+      }
     },
     {
       "team_name": "故障吉奇人",
@@ -1629,7 +3678,18 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 18
+        },
+        "L": {
+          "solved": true,
+          "tries": 7,
+          "time_mins": 166
+        }
+      }
     },
     {
       "team_name": "CityU 1",
@@ -1646,7 +3706,18 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 229
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 25
+        }
+      }
     },
     {
       "team_name": "Nanani",
@@ -1663,7 +3734,23 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 9,
+          "time_mins": 183
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 26
+        },
+        "L": {
+          "solved": false,
+          "tries": 12,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "潜水猫猫",
@@ -1680,7 +3767,28 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 230
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 61
+        },
+        "L": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "南方科技大学-凯夫拉维克",
@@ -1697,7 +3805,18 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 6,
+          "time_mins": 284
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 56
+        }
+      }
     },
     {
       "team_name": "古诺希亚",
@@ -1714,7 +3833,23 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 260
+        },
+        "K": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 90
+        },
+        "L": {
+          "solved": false,
+          "tries": 21,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "麻辣小龙虾",
@@ -1731,7 +3866,23 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": true,
+          "tries": 11,
+          "time_mins": 297
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 34
+        },
+        "L": {
+          "solved": false,
+          "tries": 25,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "可燃冰红茶",
@@ -1748,7 +3899,23 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 29
+        },
+        "L": {
+          "solved": true,
+          "tries": 20,
+          "time_mins": 289
+        }
+      }
     },
     {
       "team_name": "铁牌也是牌",
@@ -1765,7 +3932,28 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "I": {
+          "solved": false,
+          "tries": 8,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 11,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 23
+        },
+        "L": {
+          "solved": true,
+          "tries": 30,
+          "time_mins": 277
+        }
+      }
     },
     {
       "team_name": "^v^",
@@ -1782,7 +3970,18 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 24
+        }
+      }
     },
     {
       "team_name": "那场浙江省赛毁了我的ccfinal梦",
@@ -1799,7 +3998,18 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 20
+        },
+        "L": {
+          "solved": false,
+          "tries": 11,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "葬送的acmer与香辛料",
@@ -1816,7 +4026,18 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 21
+        }
+      }
     },
     {
       "team_name": "无名队",
@@ -1833,7 +4054,23 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 28
+        },
+        "L": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "罚时之羽如深渊相伴 血色acm人生！",
@@ -1850,7 +4087,18 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 29
+        },
+        "L": {
+          "solved": false,
+          "tries": 15,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "麦旋风三重奏",
@@ -1867,7 +4115,23 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 29
+        },
+        "L": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "好成啥队",
@@ -1884,7 +4148,23 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 8,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 51
+        }
+      }
     },
     {
       "team_name": "SZTU_水银之毒",
@@ -1901,7 +4181,23 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 34
+        },
+        "L": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "大家都是美少女",
@@ -1918,7 +4214,18 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 37
+        },
+        "L": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "一块五",
@@ -1935,7 +4242,28 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "E": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 47
+        },
+        "L": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "深度睡眠",
@@ -1952,7 +4280,18 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 28
+        }
+      }
     },
     {
       "team_name": "猫全好 主治锐 涨香",
@@ -1969,7 +4308,18 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": false,
+          "tries": 8,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 36
+        }
+      }
     },
     {
       "team_name": "耐罚王",
@@ -1986,7 +4336,13 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 77
+        }
+      }
     },
     {
       "team_name": "我讨厌你",
@@ -2003,7 +4359,23 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": false,
+          "tries": 10,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 43
+        },
+        "L": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "别碰我键盘",
@@ -2020,7 +4392,23 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": false,
+          "tries": 13,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 25
+        },
+        "L": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "天码行空",
@@ -2037,7 +4425,18 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 38
+        }
+      }
     },
     {
       "team_name": "进击的奶龙",
@@ -2054,7 +4453,18 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 80
+        },
+        "L": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "金职大战队",
@@ -2071,7 +4481,18 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 62
+        }
+      }
     },
     {
       "team_name": "顺元",
@@ -2088,7 +4509,18 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 43
+        }
+      }
     },
     {
       "team_name": "馥梦繁花",
@@ -2105,7 +4537,18 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 46
+        },
+        "L": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "憧憬成为算竞糕手",
@@ -2122,7 +4565,18 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 77
+        },
+        "L": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "【伪证】我当时睡得可香了",
@@ -2139,7 +4593,18 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 85
+        },
+        "L": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "胡旌喵ฅ(*`ω´*)ฅ",
@@ -2156,7 +4621,23 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "A": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 86
+        }
+      }
     },
     {
       "team_name": "教练甄选",
@@ -2173,7 +4654,23 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 72
+        },
+        "L": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "此时压力来到了我们队",
@@ -2190,7 +4687,23 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 53
+        },
+        "L": {
+          "solved": false,
+          "tries": 9,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "斬 · 即 · 惡",
@@ -2207,7 +4720,23 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "G": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 125
+        },
+        "L": {
+          "solved": false,
+          "tries": 8,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "最近公共祖先",
@@ -2224,7 +4753,18 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "K": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 46
+        },
+        "L": {
+          "solved": false,
+          "tries": 15,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "不可视境界线",
@@ -2241,7 +4781,18 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 173
+        },
+        "L": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "兄弟，我还想拿牌",
@@ -2258,7 +4809,18 @@
       "is_girl": null,
       "medal": null,
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 163
+        }
+      }
     }
   ]
 }

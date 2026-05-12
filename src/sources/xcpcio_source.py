@@ -118,7 +118,7 @@ class ICPCStandingsGenerator:
                 "is_girl": is_girl_flag,
                 "is_official": "official" in team_groups,
                 "solved": 0,
-                "penalty_seconds": 0,
+                "penalty_mins": 0,
                 "problems": {}, # pk -> { 'solved': bool, 'tries': int, 'time': int }
             }
         
@@ -146,14 +146,14 @@ class ICPCStandingsGenerator:
             if status == "CORRECT" or status == "ACCEPTED":
                 prob["solved"] = True
                 
-                # timestamps in XCPCIO are often in milliseconds
+                # In ICPC, penalty is computed by truncating each problem's time to minutes, then summing them up.
                 time_mins = timestamp // 1000 // 60
                 
                 prob["time_mins"] = time_mins
                 teams[tid]["solved"] += 1
                 
-                # Sum exact seconds for cumulative penalty
-                teams[tid]["penalty_seconds"] += (timestamp // 1000) + (prob["tries"] * self.penalty_time)
+                # accumulate penalty in minutes directly
+                teams[tid]["penalty_mins"] += time_mins + (prob["tries"] * (self.penalty_time // 60))
             elif status not in ["PENDING", "COMPILING", "JUDGING", "CE", "COMPILATION_ERROR", "UKE"]:
                  prob["tries"] += 1
                  
@@ -162,7 +162,7 @@ class ICPCStandingsGenerator:
         
         # Calculate final accumulated penalty in minutes
         for t in standings:
-            t["penalty"] = t["penalty_seconds"] // 60
+            t["penalty"] = t.get("penalty_mins", 0)
         
         # Filter official teams if needed, but normally keep all, just rank official for medals
         official_standings = [t for t in standings if t["is_official"]]
@@ -219,7 +219,13 @@ class ICPCStandingsGenerator:
         for t in final_standings:
             problem_scores = {}
             for pid, pdata in t["problems"].items():
-                problem_scores[str(pid)] = ProblemStatus(
+                try:
+                    p_idx = int(pid)
+                    label = self.problem_ids[p_idx] if p_idx < len(self.problem_ids) else str(pid)
+                except (ValueError, TypeError):
+                    label = str(pid)
+                    
+                problem_scores[label] = ProblemStatus(
                     solved=pdata.get("solved", False),
                     tries=pdata.get("tries", 0),
                     time_mins=pdata.get("time_mins", 0)

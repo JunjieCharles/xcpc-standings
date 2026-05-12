@@ -75,25 +75,55 @@
           "tries": 0,
           "time_mins": 71
         },
+        "B": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 254
+        },
+        "D": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 261
+        },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 110
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 134
+        },
+        "I": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 217
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 35
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 71
+        },
         "A": {
           "solved": false,
           "tries": 0,
           "time_mins": 0
         },
-        "B": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 254
-        },
         "C": {
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "D": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 261
         },
         "E": {
           "solved": false,
@@ -104,36 +134,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "G": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 110
-        },
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 134
-        },
-        "I": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 217
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 35
-        },
-        "L": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 71
         },
         "M": {
           "solved": false,
@@ -193,15 +193,45 @@
           "tries": 1,
           "time_mins": 256
         },
+        "B": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 217
+        },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 98
+        },
+        "H": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 169
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 58
+        },
+        "L": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 91
+        },
+        "M": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 256
+        },
         "A": {
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "B": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 217
         },
         "C": {
           "solved": false,
@@ -223,40 +253,10 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 98
-        },
-        "H": {
-          "solved": false,
-          "tries": 7,
-          "time_mins": 0
-        },
         "I": {
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 169
-        },
-        "K": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 58
-        },
-        "L": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 91
-        },
-        "M": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 256
         }
       }
     },
@@ -301,15 +301,35 @@
           "tries": 0,
           "time_mins": 88
         },
+        "B": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 183
+        },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 134
+        },
+        "J": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 285
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 23
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 88
+        },
         "A": {
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "B": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 183
         },
         "C": {
           "solved": false,
@@ -331,11 +351,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 134
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -345,21 +360,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 285
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 23
-        },
-        "L": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 88
         },
         "M": {
           "solved": false,
@@ -419,14 +419,9 @@
           "tries": 4,
           "time_mins": 50
         },
-        "A": {
-          "solved": false,
-          "tries": 0,
-          "time_mins": 0
-        },
         "B": {
           "solved": true,
-          "tries": 1,
+          "tries": 0,
           "time_mins": 238
         },
         "C": {
@@ -434,25 +429,45 @@
           "tries": 18,
           "time_mins": 0
         },
-        "D": {
+        "E": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 76
+        },
+        "J": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 182
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 16
+        },
+        "L": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 50
+        },
+        "A": {
           "solved": false,
           "tries": 0,
           "time_mins": 0
         },
-        "E": {
+        "D": {
           "solved": false,
-          "tries": 2,
+          "tries": 0,
           "time_mins": 0
         },
         "F": {
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "G": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 76
         },
         "H": {
           "solved": false,
@@ -463,21 +478,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": true,
-          "tries": 5,
-          "time_mins": 182
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 16
-        },
-        "L": {
-          "solved": true,
-          "tries": 5,
-          "time_mins": 50
         },
         "M": {
           "solved": false,
@@ -532,14 +532,39 @@
           "tries": 2,
           "time_mins": 260
         },
-        "A": {
-          "solved": false,
-          "tries": 0,
-          "time_mins": 0
-        },
         "B": {
           "solved": false,
           "tries": 1,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 41
+        },
+        "J": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 170
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 18
+        },
+        "L": {
+          "solved": true,
+          "tries": 6,
+          "time_mins": 91
+        },
+        "M": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 260
+        },
+        "A": {
+          "solved": false,
+          "tries": 0,
           "time_mins": 0
         },
         "C": {
@@ -562,11 +587,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 41
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -576,26 +596,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 170
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 18
-        },
-        "L": {
-          "solved": true,
-          "tries": 7,
-          "time_mins": 91
-        },
-        "M": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 260
         }
       }
     },
@@ -650,25 +650,50 @@
           "tries": 4,
           "time_mins": 78
         },
+        "B": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 249
+        },
+        "D": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 238
+        },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 105
+        },
+        "H": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 49
+        },
+        "L": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 78
+        },
         "A": {
           "solved": false,
           "tries": 0,
           "time_mins": 0
         },
-        "B": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 249
-        },
         "C": {
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "D": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 238
         },
         "E": {
           "solved": false,
@@ -680,35 +705,10 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 105
-        },
-        "H": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
         "I": {
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 49
-        },
-        "L": {
-          "solved": true,
-          "tries": 5,
-          "time_mins": 78
         },
         "M": {
           "solved": false,
@@ -758,15 +758,35 @@
           "tries": 2,
           "time_mins": 81
         },
+        "B": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 297
+        },
+        "G": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 136
+        },
+        "J": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 217
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 16
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 81
+        },
         "A": {
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "B": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 297
         },
         "C": {
           "solved": false,
@@ -788,11 +808,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 136
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -802,21 +817,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 217
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 16
-        },
-        "L": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 81
         },
         "M": {
           "solved": false,
@@ -871,15 +871,40 @@
           "tries": 3,
           "time_mins": 132
         },
+        "B": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 245
+        },
+        "G": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 203
+        },
+        "I": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 280
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 29
+        },
+        "L": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 132
+        },
         "A": {
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "B": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 245
         },
         "C": {
           "solved": false,
@@ -901,35 +926,10 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 203
-        },
         "H": {
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "I": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 280
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 29
-        },
-        "L": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 132
         },
         "M": {
           "solved": false,
@@ -979,15 +979,35 @@
           "tries": 8,
           "time_mins": 159
         },
+        "B": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 279
+        },
+        "G": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 248
+        },
+        "J": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 188
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "L": {
+          "solved": true,
+          "tries": 8,
+          "time_mins": 159
+        },
         "A": {
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "B": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 279
         },
         "C": {
           "solved": false,
@@ -1009,11 +1029,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 6,
-          "time_mins": 248
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -1023,21 +1038,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 188
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 12
-        },
-        "L": {
-          "solved": true,
-          "tries": 9,
-          "time_mins": 159
         },
         "M": {
           "solved": false,
@@ -1092,15 +1092,40 @@
           "tries": 0,
           "time_mins": 142
         },
+        "B": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 152
+        },
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 62
+        },
+        "H": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 47
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 142
+        },
         "A": {
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "B": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 152
         },
         "C": {
           "solved": false,
@@ -1122,35 +1147,10 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 62
-        },
-        "H": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
         "I": {
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 47
-        },
-        "L": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 142
         },
         "M": {
           "solved": false,
@@ -1200,15 +1200,35 @@
           "tries": 3,
           "time_mins": 91
         },
+        "B": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 190
+        },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 142
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 24
+        },
+        "L": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 91
+        },
         "A": {
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "B": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 190
         },
         "C": {
           "solved": false,
@@ -1230,11 +1250,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 142
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -1244,21 +1259,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 24
-        },
-        "L": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 91
         },
         "M": {
           "solved": false,
@@ -1421,6 +1421,31 @@
           "tries": 2,
           "time_mins": 64
         },
+        "F": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 68
+        },
+        "J": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 254
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 24
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 64
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -1446,16 +1471,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "F": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
-        "G": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 68
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -1465,21 +1480,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": true,
-          "tries": 6,
-          "time_mins": 254
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 24
-        },
-        "L": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 64
         },
         "M": {
           "solved": false,
@@ -1529,14 +1529,34 @@
           "tries": 4,
           "time_mins": 120
         },
-        "A": {
-          "solved": false,
-          "tries": 0,
-          "time_mins": 0
-        },
         "B": {
           "solved": false,
           "tries": 3,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 181
+        },
+        "J": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 204
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 21
+        },
+        "L": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 120
+        },
+        "A": {
+          "solved": false,
+          "tries": 0,
           "time_mins": 0
         },
         "C": {
@@ -1559,11 +1579,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 181
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -1573,21 +1588,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 204
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 21
-        },
-        "L": {
-          "solved": true,
-          "tries": 5,
-          "time_mins": 120
         },
         "M": {
           "solved": false,
@@ -1637,15 +1637,35 @@
           "tries": 3,
           "time_mins": 111
         },
+        "B": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 222
+        },
+        "G": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 114
+        },
+        "J": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 43
+        },
+        "L": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 111
+        },
         "A": {
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "B": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 222
         },
         "C": {
           "solved": false,
@@ -1667,11 +1687,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 114
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -1681,21 +1696,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 43
-        },
-        "L": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 111
         },
         "M": {
           "solved": false,
@@ -1745,15 +1745,35 @@
           "tries": 1,
           "time_mins": 122
         },
+        "B": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 228
+        },
+        "G": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 141
+        },
+        "J": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 47
+        },
+        "L": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 122
+        },
         "A": {
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "B": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 228
         },
         "C": {
           "solved": false,
@@ -1775,11 +1795,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 141
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -1789,21 +1804,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 47
-        },
-        "L": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 122
         },
         "M": {
           "solved": false,
@@ -1895,7 +1895,7 @@
         },
         "B": {
           "solved": true,
-          "tries": 2,
+          "tries": 1,
           "time_mins": 278
         },
         "C": {
@@ -1920,13 +1920,8 @@
         },
         "G": {
           "solved": true,
-          "tries": 3,
+          "tries": 2,
           "time_mins": 151
-        },
-        "H": {
-          "solved": false,
-          "tries": 0,
-          "time_mins": 0
         },
         "I": {
           "solved": false,
@@ -1940,17 +1935,22 @@
         },
         "K": {
           "solved": true,
-          "tries": 4,
+          "tries": 3,
           "time_mins": 73
         },
         "L": {
           "solved": true,
-          "tries": 2,
+          "tries": 1,
           "time_mins": 104
         },
         "M": {
           "solved": false,
           "tries": 1,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": false,
+          "tries": 0,
           "time_mins": 0
         }
       }
@@ -1996,14 +1996,34 @@
           "tries": 4,
           "time_mins": 96
         },
-        "A": {
-          "solved": false,
-          "tries": 0,
-          "time_mins": 0
-        },
         "B": {
           "solved": false,
           "tries": 6,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 9,
+          "time_mins": 140
+        },
+        "J": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 219
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 7
+        },
+        "L": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 96
+        },
+        "A": {
+          "solved": false,
+          "tries": 0,
           "time_mins": 0
         },
         "C": {
@@ -2026,11 +2046,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 10,
-          "time_mins": 140
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -2040,21 +2055,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": true,
-          "tries": 5,
-          "time_mins": 219
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 7
-        },
-        "L": {
-          "solved": true,
-          "tries": 5,
-          "time_mins": 96
         },
         "M": {
           "solved": false,
@@ -2104,15 +2104,35 @@
           "tries": 9,
           "time_mins": 113
         },
+        "B": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 296
+        },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 130
+        },
+        "J": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 17
+        },
+        "L": {
+          "solved": true,
+          "tries": 9,
+          "time_mins": 113
+        },
         "A": {
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "B": {
-          "solved": true,
-          "tries": 5,
-          "time_mins": 296
         },
         "C": {
           "solved": false,
@@ -2134,11 +2154,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 130
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -2148,21 +2163,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 17
-        },
-        "L": {
-          "solved": true,
-          "tries": 10,
-          "time_mins": 113
         },
         "M": {
           "solved": false,
@@ -2224,8 +2224,28 @@
         },
         "B": {
           "solved": true,
-          "tries": 6,
+          "tries": 5,
           "time_mins": 276
+        },
+        "G": {
+          "solved": true,
+          "tries": 7,
+          "time_mins": 184
+        },
+        "J": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 20
+        },
+        "L": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 145
         },
         "C": {
           "solved": false,
@@ -2247,11 +2267,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 8,
-          "time_mins": 184
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -2261,21 +2276,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 6,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 20
-        },
-        "L": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 145
         },
         "M": {
           "solved": false,
@@ -2320,6 +2320,26 @@
           "tries": 2,
           "time_mins": 175
         },
+        "G": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 116
+        },
+        "J": {
+          "solved": true,
+          "tries": 13,
+          "time_mins": 292
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 42
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 175
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -2350,11 +2370,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 116
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -2364,21 +2379,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": true,
-          "tries": 14,
-          "time_mins": 292
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 42
-        },
-        "L": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 175
         },
         "M": {
           "solved": false,
@@ -2423,6 +2423,26 @@
           "tries": 0,
           "time_mins": 62
         },
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 102
+        },
+        "I": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 42
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 62
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -2453,35 +2473,15 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 102
-        },
         "H": {
           "solved": false,
           "tries": 0,
-          "time_mins": 0
-        },
-        "I": {
-          "solved": false,
-          "tries": 5,
           "time_mins": 0
         },
         "J": {
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 42
-        },
-        "L": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 62
         },
         "M": {
           "solved": false,
@@ -2526,6 +2526,26 @@
           "tries": 2,
           "time_mins": 125
         },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 66
+        },
+        "J": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 15
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 125
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -2556,11 +2576,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 66
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -2570,21 +2585,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 7,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 15
-        },
-        "L": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 125
         },
         "M": {
           "solved": false,
@@ -2629,6 +2629,26 @@
           "tries": 0,
           "time_mins": 72
         },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 146
+        },
+        "J": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 22
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 72
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -2659,11 +2679,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 146
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -2673,21 +2688,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 4,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 22
-        },
-        "L": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 72
         },
         "M": {
           "solved": false,
@@ -2732,6 +2732,26 @@
           "tries": 2,
           "time_mins": 109
         },
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 95
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 19
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 109
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -2762,11 +2782,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 95
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -2776,21 +2791,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 19
-        },
-        "L": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 109
         },
         "M": {
           "solved": false,
@@ -2835,6 +2835,26 @@
           "tries": 2,
           "time_mins": 97
         },
+        "E": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 137
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 40
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 97
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -2855,20 +2875,10 @@
           "tries": 0,
           "time_mins": 0
         },
-        "E": {
-          "solved": false,
-          "tries": 4,
-          "time_mins": 0
-        },
         "F": {
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "G": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 137
         },
         "H": {
           "solved": false,
@@ -2884,16 +2894,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 40
-        },
-        "L": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 97
         },
         "M": {
           "solved": false,
@@ -2933,6 +2933,21 @@
           "tries": 0,
           "time_mins": 112
         },
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 174
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 31
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 112
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -2963,11 +2978,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 174
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -2982,16 +2992,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 31
-        },
-        "L": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 112
         },
         "M": {
           "solved": false,
@@ -3036,14 +3036,29 @@
           "tries": 0,
           "time_mins": 92
         },
-        "A": {
-          "solved": false,
-          "tries": 0,
-          "time_mins": 0
-        },
         "B": {
           "solved": false,
           "tries": 3,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 137
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 75
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 92
+        },
+        "A": {
+          "solved": false,
+          "tries": 0,
           "time_mins": 0
         },
         "C": {
@@ -3066,11 +3081,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 137
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -3085,16 +3095,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 75
-        },
-        "L": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 92
         },
         "M": {
           "solved": false,
@@ -3144,14 +3144,34 @@
           "tries": 2,
           "time_mins": 89
         },
-        "A": {
-          "solved": false,
-          "tries": 0,
-          "time_mins": 0
-        },
         "B": {
           "solved": false,
           "tries": 7,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 208
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 28
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 89
+        },
+        "A": {
+          "solved": false,
+          "tries": 0,
           "time_mins": 0
         },
         "C": {
@@ -3174,11 +3194,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 208
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -3188,21 +3203,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 28
-        },
-        "L": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 89
         },
         "M": {
           "solved": false,
@@ -3242,6 +3242,21 @@
           "tries": 2,
           "time_mins": 87
         },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 121
+        },
+        "K": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 47
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 87
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -3272,11 +3287,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 121
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -3291,16 +3301,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 5,
-          "time_mins": 47
-        },
-        "L": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 87
         },
         "M": {
           "solved": false,
@@ -3340,6 +3340,21 @@
           "tries": 0,
           "time_mins": 119
         },
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 218
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 33
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 119
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -3370,11 +3385,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 218
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -3389,16 +3399,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 33
-        },
-        "L": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 119
         },
         "M": {
           "solved": false,
@@ -3443,6 +3443,26 @@
           "tries": 2,
           "time_mins": 139
         },
+        "G": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 169
+        },
+        "H": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 20
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 139
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -3473,16 +3493,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 169
-        },
-        "H": {
-          "solved": false,
-          "tries": 4,
-          "time_mins": 0
-        },
         "I": {
           "solved": false,
           "tries": 0,
@@ -3492,16 +3502,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 20
-        },
-        "L": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 139
         },
         "M": {
           "solved": false,
@@ -3546,6 +3546,26 @@
           "tries": 1,
           "time_mins": 135
         },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 195
+        },
+        "J": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 40
+        },
+        "L": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 135
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -3576,11 +3596,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 195
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -3590,21 +3605,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 6,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 40
-        },
-        "L": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 135
         },
         "M": {
           "solved": false,
@@ -3644,6 +3644,21 @@
           "tries": 0,
           "time_mins": 116
         },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 199
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 90
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 116
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -3674,11 +3689,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 199
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -3693,16 +3703,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 90
-        },
-        "L": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 116
         },
         "M": {
           "solved": false,
@@ -3762,6 +3762,21 @@
           "tries": 1,
           "time_mins": 0
         },
+        "G": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 160
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 18
+        },
+        "L": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 140
+        },
         "C": {
           "solved": false,
           "tries": 0,
@@ -3782,11 +3797,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 160
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -3801,16 +3811,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 18
-        },
-        "L": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 140
         },
         "M": {
           "solved": false,
@@ -3860,14 +3860,34 @@
           "tries": 1,
           "time_mins": 129
         },
-        "A": {
-          "solved": false,
-          "tries": 0,
-          "time_mins": 0
-        },
         "B": {
           "solved": false,
           "tries": 1,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 202
+        },
+        "J": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 57
+        },
+        "L": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 129
+        },
+        "A": {
+          "solved": false,
+          "tries": 0,
           "time_mins": 0
         },
         "C": {
@@ -3890,11 +3910,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 202
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -3904,21 +3919,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 57
-        },
-        "L": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 129
         },
         "M": {
           "solved": false,
@@ -3963,14 +3963,29 @@
           "tries": 2,
           "time_mins": 171
         },
-        "A": {
-          "solved": false,
-          "tries": 0,
-          "time_mins": 0
-        },
         "B": {
           "solved": false,
           "tries": 1,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 194
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 25
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 171
+        },
+        "A": {
+          "solved": false,
+          "tries": 0,
           "time_mins": 0
         },
         "C": {
@@ -3993,11 +4008,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 194
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -4012,16 +4022,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 25
-        },
-        "L": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 171
         },
         "M": {
           "solved": false,
@@ -4066,14 +4066,29 @@
           "tries": 4,
           "time_mins": 179
         },
-        "A": {
-          "solved": false,
-          "tries": 0,
-          "time_mins": 0
-        },
         "B": {
           "solved": false,
           "tries": 1,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 121
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 28
+        },
+        "L": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 179
+        },
+        "A": {
+          "solved": false,
+          "tries": 0,
           "time_mins": 0
         },
         "C": {
@@ -4096,11 +4111,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 121
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -4115,16 +4125,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 28
-        },
-        "L": {
-          "solved": true,
-          "tries": 5,
-          "time_mins": 179
         },
         "M": {
           "solved": false,
@@ -4164,6 +4164,21 @@
           "tries": 7,
           "time_mins": 137
         },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 180
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 17
+        },
+        "L": {
+          "solved": true,
+          "tries": 7,
+          "time_mins": 137
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -4194,11 +4209,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 180
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -4213,16 +4223,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 17
-        },
-        "L": {
-          "solved": true,
-          "tries": 8,
-          "time_mins": 137
         },
         "M": {
           "solved": false,
@@ -4272,14 +4272,34 @@
           "tries": 2,
           "time_mins": 85
         },
-        "A": {
-          "solved": false,
-          "tries": 0,
-          "time_mins": 0
-        },
         "B": {
           "solved": false,
           "tries": 1,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 207
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 63
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 85
+        },
+        "A": {
+          "solved": false,
+          "tries": 0,
           "time_mins": 0
         },
         "C": {
@@ -4302,11 +4322,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 207
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -4316,21 +4331,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 63
-        },
-        "L": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 85
         },
         "M": {
           "solved": false,
@@ -4370,6 +4370,21 @@
           "tries": 4,
           "time_mins": 113
         },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 168
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 55
+        },
+        "L": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 113
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -4400,11 +4415,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 168
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -4419,16 +4429,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 55
-        },
-        "L": {
-          "solved": true,
-          "tries": 5,
-          "time_mins": 113
         },
         "M": {
           "solved": false,
@@ -4473,14 +4473,29 @@
           "tries": 4,
           "time_mins": 61
         },
-        "A": {
-          "solved": false,
-          "tries": 0,
-          "time_mins": 0
-        },
         "B": {
           "solved": false,
           "tries": 3,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 6,
+          "time_mins": 205
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 14
+        },
+        "L": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 61
+        },
+        "A": {
+          "solved": false,
+          "tries": 0,
           "time_mins": 0
         },
         "C": {
@@ -4503,11 +4518,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 7,
-          "time_mins": 205
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -4522,16 +4532,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 14
-        },
-        "L": {
-          "solved": true,
-          "tries": 5,
-          "time_mins": 61
         },
         "M": {
           "solved": false,
@@ -4581,14 +4581,34 @@
           "tries": 4,
           "time_mins": 143
         },
-        "A": {
-          "solved": false,
-          "tries": 0,
-          "time_mins": 0
-        },
         "B": {
           "solved": false,
           "tries": 1,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 192
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "L": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 143
+        },
+        "A": {
+          "solved": false,
+          "tries": 0,
           "time_mins": 0
         },
         "C": {
@@ -4611,11 +4631,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 192
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -4625,21 +4640,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 11
-        },
-        "L": {
-          "solved": true,
-          "tries": 5,
-          "time_mins": 143
         },
         "M": {
           "solved": false,
@@ -4684,6 +4684,26 @@
           "tries": 6,
           "time_mins": 113
         },
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 179
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 40
+        },
+        "L": {
+          "solved": true,
+          "tries": 6,
+          "time_mins": 113
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -4714,11 +4734,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 179
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -4728,21 +4743,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 40
-        },
-        "L": {
-          "solved": true,
-          "tries": 7,
-          "time_mins": 113
         },
         "M": {
           "solved": false,
@@ -4782,6 +4782,21 @@
           "tries": 1,
           "time_mins": 165
         },
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 212
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 58
+        },
+        "L": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 165
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -4812,11 +4827,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 212
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -4831,16 +4841,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 58
-        },
-        "L": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 165
         },
         "M": {
           "solved": false,
@@ -4885,6 +4885,26 @@
           "tries": 1,
           "time_mins": 198
         },
+        "G": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 128
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 34
+        },
+        "L": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 198
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -4915,11 +4935,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 5,
-          "time_mins": 128
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -4929,21 +4944,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 34
-        },
-        "L": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 198
         },
         "M": {
           "solved": false,
@@ -4988,6 +4988,26 @@
           "tries": 4,
           "time_mins": 218
         },
+        "G": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 133
+        },
+        "J": {
+          "solved": false,
+          "tries": 22,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 29
+        },
+        "L": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 218
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -5018,11 +5038,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 133
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -5032,21 +5047,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 22,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 29
-        },
-        "L": {
-          "solved": true,
-          "tries": 5,
-          "time_mins": 218
         },
         "M": {
           "solved": false,
@@ -5091,14 +5091,29 @@
           "tries": 1,
           "time_mins": 150
         },
-        "A": {
-          "solved": false,
-          "tries": 0,
-          "time_mins": 0
-        },
         "B": {
           "solved": false,
           "tries": 1,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 249
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 19
+        },
+        "L": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 150
+        },
+        "A": {
+          "solved": false,
+          "tries": 0,
           "time_mins": 0
         },
         "C": {
@@ -5121,11 +5136,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 5,
-          "time_mins": 249
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -5140,16 +5150,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 19
-        },
-        "L": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 150
         },
         "M": {
           "solved": false,
@@ -5189,6 +5189,21 @@
           "tries": 2,
           "time_mins": 128
         },
+        "G": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 235
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 40
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 128
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -5219,11 +5234,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 235
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -5238,16 +5248,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 40
-        },
-        "L": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 128
         },
         "M": {
           "solved": false,
@@ -5292,6 +5292,26 @@
           "tries": 3,
           "time_mins": 153
         },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 195
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 66
+        },
+        "L": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 153
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -5322,11 +5342,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 195
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -5336,21 +5351,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 66
-        },
-        "L": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 153
         },
         "M": {
           "solved": false,
@@ -5395,14 +5395,29 @@
           "tries": 4,
           "time_mins": 217
         },
-        "A": {
-          "solved": false,
-          "tries": 0,
-          "time_mins": 0
-        },
         "B": {
           "solved": false,
           "tries": 3,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 159
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 31
+        },
+        "L": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 217
+        },
+        "A": {
+          "solved": false,
+          "tries": 0,
           "time_mins": 0
         },
         "C": {
@@ -5425,11 +5440,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 159
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -5444,16 +5454,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 31
-        },
-        "L": {
-          "solved": true,
-          "tries": 5,
-          "time_mins": 217
         },
         "M": {
           "solved": false,
@@ -5498,6 +5498,26 @@
           "tries": 3,
           "time_mins": 181
         },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 277
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 33
+        },
+        "L": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 181
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -5528,11 +5548,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 277
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -5542,21 +5557,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 33
-        },
-        "L": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 181
         },
         "M": {
           "solved": false,
@@ -5596,6 +5596,21 @@
           "tries": 7,
           "time_mins": 173
         },
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 218
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 18
+        },
+        "L": {
+          "solved": true,
+          "tries": 7,
+          "time_mins": 173
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -5626,11 +5641,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 218
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -5645,16 +5655,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 18
-        },
-        "L": {
-          "solved": true,
-          "tries": 8,
-          "time_mins": 173
         },
         "M": {
           "solved": false,
@@ -5694,6 +5694,21 @@
           "tries": 4,
           "time_mins": 211
         },
+        "G": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 187
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 22
+        },
+        "L": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 211
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -5724,11 +5739,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 5,
-          "time_mins": 187
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -5743,16 +5753,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 22
-        },
-        "L": {
-          "solved": true,
-          "tries": 5,
-          "time_mins": 211
         },
         "M": {
           "solved": false,
@@ -5797,6 +5797,26 @@
           "tries": 2,
           "time_mins": 143
         },
+        "G": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 218
+        },
+        "J": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 73
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 143
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -5827,11 +5847,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 218
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -5841,21 +5856,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 7,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 73
-        },
-        "L": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 143
         },
         "M": {
           "solved": false,
@@ -5895,6 +5895,21 @@
           "tries": 5,
           "time_mins": 224
         },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 252
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 18
+        },
+        "L": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 224
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -5925,11 +5940,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 252
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -5944,16 +5954,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 18
-        },
-        "L": {
-          "solved": true,
-          "tries": 6,
-          "time_mins": 224
         },
         "M": {
           "solved": false,
@@ -5993,6 +5993,21 @@
           "tries": 3,
           "time_mins": 294
         },
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 159
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 46
+        },
+        "L": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 294
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -6023,11 +6038,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 159
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -6042,16 +6052,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 46
-        },
-        "L": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 294
         },
         "M": {
           "solved": false,
@@ -6096,6 +6096,26 @@
           "tries": 0,
           "time_mins": 234
         },
+        "G": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 205
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 71
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 234
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -6126,11 +6146,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 205
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -6140,21 +6155,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 71
-        },
-        "L": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 234
         },
         "M": {
           "solved": false,
@@ -6204,14 +6204,34 @@
           "tries": 1,
           "time_mins": 185
         },
-        "A": {
-          "solved": false,
-          "tries": 0,
-          "time_mins": 0
-        },
         "B": {
           "solved": false,
           "tries": 8,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 207
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 119
+        },
+        "L": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 185
+        },
+        "A": {
+          "solved": false,
+          "tries": 0,
           "time_mins": 0
         },
         "C": {
@@ -6234,11 +6254,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 207
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -6248,21 +6263,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 119
-        },
-        "L": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 185
         },
         "M": {
           "solved": false,
@@ -6307,6 +6307,26 @@
           "tries": 5,
           "time_mins": 241
         },
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 239
+        },
+        "J": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 26
+        },
+        "L": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 241
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -6337,11 +6357,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 239
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -6351,21 +6366,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 4,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 26
-        },
-        "L": {
-          "solved": true,
-          "tries": 6,
-          "time_mins": 241
         },
         "M": {
           "solved": false,
@@ -6415,14 +6415,34 @@
           "tries": 2,
           "time_mins": 217
         },
-        "A": {
-          "solved": false,
-          "tries": 0,
-          "time_mins": 0
-        },
         "B": {
           "solved": false,
           "tries": 3,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 153
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 7,
+          "time_mins": 82
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 217
+        },
+        "A": {
+          "solved": false,
+          "tries": 0,
           "time_mins": 0
         },
         "C": {
@@ -6445,11 +6465,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 153
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -6459,21 +6474,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 8,
-          "time_mins": 82
-        },
-        "L": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 217
         },
         "M": {
           "solved": false,
@@ -6518,6 +6518,26 @@
           "tries": 5,
           "time_mins": 173
         },
+        "D": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 250
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 10
+        },
+        "L": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 173
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -6533,11 +6553,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "D": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
         "E": {
           "solved": false,
           "tries": 0,
@@ -6547,11 +6562,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "G": {
-          "solved": true,
-          "tries": 5,
-          "time_mins": 250
         },
         "H": {
           "solved": false,
@@ -6567,16 +6577,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 10
-        },
-        "L": {
-          "solved": true,
-          "tries": 6,
-          "time_mins": 173
         },
         "M": {
           "solved": false,
@@ -6724,6 +6724,26 @@
           "tries": 9,
           "time_mins": 201
         },
+        "G": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 152
+        },
+        "J": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 24
+        },
+        "L": {
+          "solved": true,
+          "tries": 9,
+          "time_mins": 201
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -6754,11 +6774,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 5,
-          "time_mins": 152
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -6768,21 +6783,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 24
-        },
-        "L": {
-          "solved": true,
-          "tries": 10,
-          "time_mins": 201
         },
         "M": {
           "solved": false,
@@ -6822,6 +6822,21 @@
           "tries": 7,
           "time_mins": 141
         },
+        "G": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 240
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 48
+        },
+        "L": {
+          "solved": true,
+          "tries": 7,
+          "time_mins": 141
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -6852,11 +6867,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 240
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -6871,16 +6881,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 48
-        },
-        "L": {
-          "solved": true,
-          "tries": 8,
-          "time_mins": 141
         },
         "M": {
           "solved": false,
@@ -6925,14 +6925,29 @@
           "tries": 5,
           "time_mins": 272
         },
-        "A": {
-          "solved": false,
-          "tries": 0,
-          "time_mins": 0
-        },
         "B": {
           "solved": false,
           "tries": 8,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 249
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 19
+        },
+        "L": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 272
+        },
+        "A": {
+          "solved": false,
+          "tries": 0,
           "time_mins": 0
         },
         "C": {
@@ -6955,11 +6970,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 249
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -6974,16 +6984,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 19
-        },
-        "L": {
-          "solved": true,
-          "tries": 6,
-          "time_mins": 272
         },
         "M": {
           "solved": false,
@@ -7023,6 +7023,21 @@
           "tries": 6,
           "time_mins": 201
         },
+        "G": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 282
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 25
+        },
+        "L": {
+          "solved": true,
+          "tries": 6,
+          "time_mins": 201
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -7053,11 +7068,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 5,
-          "time_mins": 282
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -7072,16 +7082,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 25
-        },
-        "L": {
-          "solved": true,
-          "tries": 7,
-          "time_mins": 201
         },
         "M": {
           "solved": false,
@@ -7121,6 +7121,21 @@
           "tries": 1,
           "time_mins": 242
         },
+        "G": {
+          "solved": true,
+          "tries": 8,
+          "time_mins": 266
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 25
+        },
+        "L": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 242
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -7151,11 +7166,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 9,
-          "time_mins": 266
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -7170,16 +7180,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 25
-        },
-        "L": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 242
         },
         "M": {
           "solved": false,
@@ -7229,15 +7229,35 @@
           "tries": 6,
           "time_mins": 268
         },
+        "B": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 297
+        },
+        "G": {
+          "solved": false,
+          "tries": 10,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 10
+        },
+        "L": {
+          "solved": true,
+          "tries": 6,
+          "time_mins": 268
+        },
         "A": {
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "B": {
-          "solved": true,
-          "tries": 5,
-          "time_mins": 297
         },
         "C": {
           "solved": false,
@@ -7259,11 +7279,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": false,
-          "tries": 10,
-          "time_mins": 0
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -7273,21 +7288,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 10
-        },
-        "L": {
-          "solved": true,
-          "tries": 7,
-          "time_mins": 268
         },
         "M": {
           "solved": false,
@@ -7332,6 +7332,26 @@
           "tries": 6,
           "time_mins": 134
         },
+        "G": {
+          "solved": true,
+          "tries": 12,
+          "time_mins": 205
+        },
+        "J": {
+          "solved": false,
+          "tries": 9,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 61
+        },
+        "L": {
+          "solved": true,
+          "tries": 6,
+          "time_mins": 134
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -7362,11 +7382,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 13,
-          "time_mins": 205
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -7376,21 +7391,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 9,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 61
-        },
-        "L": {
-          "solved": true,
-          "tries": 7,
-          "time_mins": 134
         },
         "M": {
           "solved": false,
@@ -7440,14 +7440,34 @@
           "tries": 8,
           "time_mins": 140
         },
-        "A": {
-          "solved": false,
-          "tries": 0,
-          "time_mins": 0
-        },
         "B": {
           "solved": false,
           "tries": 2,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 13,
+          "time_mins": 239
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 20
+        },
+        "L": {
+          "solved": true,
+          "tries": 8,
+          "time_mins": 140
+        },
+        "A": {
+          "solved": false,
+          "tries": 0,
           "time_mins": 0
         },
         "C": {
@@ -7470,11 +7490,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 14,
-          "time_mins": 239
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -7484,21 +7499,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 20
-        },
-        "L": {
-          "solved": true,
-          "tries": 9,
-          "time_mins": 140
         },
         "M": {
           "solved": false,
@@ -7548,6 +7548,31 @@
           "tries": 11,
           "time_mins": 252
         },
+        "G": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 281
+        },
+        "I": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 88
+        },
+        "L": {
+          "solved": true,
+          "tries": 11,
+          "time_mins": 252
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -7578,35 +7603,10 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 5,
-          "time_mins": 281
-        },
         "H": {
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "I": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 88
-        },
-        "L": {
-          "solved": true,
-          "tries": 12,
-          "time_mins": 252
         },
         "M": {
           "solved": false,
@@ -7749,6 +7749,26 @@
           "tries": 4,
           "time_mins": 0
         },
+        "G": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 89
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 16
+        },
+        "L": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -7779,11 +7799,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": false,
-          "tries": 6,
-          "time_mins": 0
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -7792,21 +7807,6 @@
         "I": {
           "solved": false,
           "tries": 0,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 89
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 16
-        },
-        "L": {
-          "solved": false,
-          "tries": 4,
           "time_mins": 0
         },
         "M": {
@@ -7852,14 +7852,29 @@
           "tries": 2,
           "time_mins": 80
         },
-        "A": {
-          "solved": false,
-          "tries": 0,
-          "time_mins": 0
-        },
         "B": {
           "solved": false,
           "tries": 3,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": false,
+          "tries": 11,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 30
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 80
+        },
+        "A": {
+          "solved": false,
+          "tries": 0,
           "time_mins": 0
         },
         "C": {
@@ -7882,11 +7897,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": false,
-          "tries": 11,
-          "time_mins": 0
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -7901,16 +7911,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 30
-        },
-        "L": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 80
         },
         "M": {
           "solved": false,
@@ -7950,6 +7950,21 @@
           "tries": 1,
           "time_mins": 154
         },
+        "G": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 27
+        },
+        "L": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 154
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -7980,11 +7995,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -7999,16 +8009,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 27
-        },
-        "L": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 154
         },
         "M": {
           "solved": false,
@@ -8048,6 +8048,21 @@
           "tries": 3,
           "time_mins": 111
         },
+        "G": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 27
+        },
+        "L": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 111
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -8078,11 +8093,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": false,
-          "tries": 6,
-          "time_mins": 0
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -8097,16 +8107,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 27
-        },
-        "L": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 111
         },
         "M": {
           "solved": false,
@@ -8151,6 +8151,26 @@
           "tries": 6,
           "time_mins": 0
         },
+        "G": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 153
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 31
+        },
+        "L": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -8181,11 +8201,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 153
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -8194,21 +8209,6 @@
         "I": {
           "solved": false,
           "tries": 0,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 31
-        },
-        "L": {
-          "solved": false,
-          "tries": 6,
           "time_mins": 0
         },
         "M": {
@@ -8254,14 +8254,29 @@
           "tries": 3,
           "time_mins": 0
         },
-        "A": {
-          "solved": false,
-          "tries": 0,
-          "time_mins": 0
-        },
         "B": {
           "solved": false,
           "tries": 2,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 171
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 23
+        },
+        "L": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "A": {
+          "solved": false,
+          "tries": 0,
           "time_mins": 0
         },
         "C": {
@@ -8284,11 +8299,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 171
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -8302,16 +8312,6 @@
         "J": {
           "solved": false,
           "tries": 0,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 23
-        },
-        "L": {
-          "solved": false,
-          "tries": 3,
           "time_mins": 0
         },
         "M": {
@@ -8352,6 +8352,21 @@
           "tries": 2,
           "time_mins": 153
         },
+        "G": {
+          "solved": false,
+          "tries": 28,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 24
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 153
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -8382,11 +8397,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": false,
-          "tries": 28,
-          "time_mins": 0
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -8401,16 +8411,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 24
-        },
-        "L": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 153
         },
         "M": {
           "solved": false,
@@ -8450,6 +8450,21 @@
           "tries": 4,
           "time_mins": 0
         },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 147
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 93
+        },
+        "L": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -8480,11 +8495,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 147
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -8498,16 +8508,6 @@
         "J": {
           "solved": false,
           "tries": 0,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 93
-        },
-        "L": {
-          "solved": false,
-          "tries": 4,
           "time_mins": 0
         },
         "M": {
@@ -8553,6 +8553,26 @@
           "tries": 7,
           "time_mins": 0
         },
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 192
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 31
+        },
+        "L": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -8583,11 +8603,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 192
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -8596,21 +8611,6 @@
         "I": {
           "solved": false,
           "tries": 0,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 31
-        },
-        "L": {
-          "solved": false,
-          "tries": 7,
           "time_mins": 0
         },
         "M": {
@@ -8656,6 +8656,26 @@
           "tries": 2,
           "time_mins": 0
         },
+        "G": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 173
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 38
+        },
+        "L": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -8686,11 +8706,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 173
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -8699,21 +8714,6 @@
         "I": {
           "solved": false,
           "tries": 0,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 38
-        },
-        "L": {
-          "solved": false,
-          "tries": 2,
           "time_mins": 0
         },
         "M": {
@@ -8754,6 +8754,21 @@
           "tries": 2,
           "time_mins": 167
         },
+        "G": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 45
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 167
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -8784,11 +8799,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -8803,16 +8813,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 45
-        },
-        "L": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 167
         },
         "M": {
           "solved": false,
@@ -8852,6 +8852,21 @@
           "tries": 1,
           "time_mins": 0
         },
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 98
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 119
+        },
+        "L": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -8882,11 +8897,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 98
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -8900,16 +8910,6 @@
         "J": {
           "solved": false,
           "tries": 0,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 119
-        },
-        "L": {
-          "solved": false,
-          "tries": 1,
           "time_mins": 0
         },
         "M": {
@@ -8950,6 +8950,21 @@
           "tries": 11,
           "time_mins": 0
         },
+        "G": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 211
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 26
+        },
+        "L": {
+          "solved": false,
+          "tries": 11,
+          "time_mins": 0
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -8980,11 +8995,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 211
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -8998,16 +9008,6 @@
         "J": {
           "solved": false,
           "tries": 0,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 26
-        },
-        "L": {
-          "solved": false,
-          "tries": 11,
           "time_mins": 0
         },
         "M": {
@@ -9048,6 +9048,21 @@
           "tries": 4,
           "time_mins": 151
         },
+        "G": {
+          "solved": false,
+          "tries": 10,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 12
+        },
+        "L": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 151
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -9078,11 +9093,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": false,
-          "tries": 10,
-          "time_mins": 0
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -9097,16 +9107,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 12
-        },
-        "L": {
-          "solved": true,
-          "tries": 5,
-          "time_mins": 151
         },
         "M": {
           "solved": false,
@@ -9146,6 +9146,21 @@
           "tries": 5,
           "time_mins": 0
         },
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 180
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 66
+        },
+        "L": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -9176,11 +9191,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 180
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -9194,16 +9204,6 @@
         "J": {
           "solved": false,
           "tries": 0,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 66
-        },
-        "L": {
-          "solved": false,
-          "tries": 5,
           "time_mins": 0
         },
         "M": {
@@ -9235,6 +9235,16 @@
           "time_mins": 31
         },
         "11": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 160
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 31
+        },
+        "L": {
           "solved": true,
           "tries": 4,
           "time_mins": 160
@@ -9289,16 +9299,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 31
-        },
-        "L": {
-          "solved": true,
-          "tries": 5,
-          "time_mins": 160
-        },
         "M": {
           "solved": false,
           "tries": 0,
@@ -9337,14 +9337,24 @@
           "tries": 1,
           "time_mins": 64
         },
-        "A": {
-          "solved": false,
-          "tries": 0,
-          "time_mins": 0
-        },
         "B": {
           "solved": false,
           "tries": 1,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 167
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 64
+        },
+        "A": {
+          "solved": false,
+          "tries": 0,
           "time_mins": 0
         },
         "C": {
@@ -9367,11 +9377,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 167
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -9386,11 +9391,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 64
         },
         "L": {
           "solved": false,
@@ -9435,6 +9435,21 @@
           "tries": 4,
           "time_mins": 184
         },
+        "G": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 32
+        },
+        "L": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 184
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -9465,11 +9480,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -9484,16 +9494,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 32
-        },
-        "L": {
-          "solved": true,
-          "tries": 5,
-          "time_mins": 184
         },
         "M": {
           "solved": false,
@@ -9538,6 +9538,26 @@
           "tries": 1,
           "time_mins": 0
         },
+        "G": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 210
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 36
+        },
+        "L": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -9568,11 +9588,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 210
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -9581,21 +9596,6 @@
         "I": {
           "solved": false,
           "tries": 0,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 36
-        },
-        "L": {
-          "solved": false,
-          "tries": 1,
           "time_mins": 0
         },
         "M": {
@@ -9636,6 +9636,21 @@
           "tries": 25,
           "time_mins": 0
         },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 218
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 36
+        },
+        "L": {
+          "solved": false,
+          "tries": 25,
+          "time_mins": 0
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -9666,11 +9681,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 218
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -9684,16 +9694,6 @@
         "J": {
           "solved": false,
           "tries": 0,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 36
-        },
-        "L": {
-          "solved": false,
-          "tries": 25,
           "time_mins": 0
         },
         "M": {
@@ -9729,6 +9729,16 @@
           "tries": 1,
           "time_mins": 42
         },
+        "G": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 203
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 42
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -9759,11 +9769,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 203
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -9778,11 +9783,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 42
         },
         "L": {
           "solved": false,
@@ -9827,6 +9827,21 @@
           "tries": 5,
           "time_mins": 179
         },
+        "G": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 29
+        },
+        "L": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 179
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -9857,11 +9872,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -9876,16 +9886,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 29
-        },
-        "L": {
-          "solved": true,
-          "tries": 6,
-          "time_mins": 179
         },
         "M": {
           "solved": false,
@@ -9925,6 +9925,21 @@
           "tries": 5,
           "time_mins": 120
         },
+        "G": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 73
+        },
+        "L": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 120
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -9955,11 +9970,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": false,
-          "tries": 6,
-          "time_mins": 0
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -9974,16 +9984,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 73
-        },
-        "L": {
-          "solved": true,
-          "tries": 6,
-          "time_mins": 120
         },
         "M": {
           "solved": false,
@@ -10023,24 +10023,29 @@
           "tries": 1,
           "time_mins": 47
         },
+        "B": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 227
+        },
+        "D": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 47
+        },
         "A": {
           "solved": false,
           "tries": 0,
           "time_mins": 0
         },
-        "B": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 227
-        },
         "C": {
           "solved": false,
           "tries": 0,
-          "time_mins": 0
-        },
-        "D": {
-          "solved": false,
-          "tries": 1,
           "time_mins": 0
         },
         "E": {
@@ -10072,11 +10077,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 47
         },
         "L": {
           "solved": false,
@@ -10112,6 +10112,16 @@
           "time_mins": 18
         },
         "11": {
+          "solved": true,
+          "tries": 7,
+          "time_mins": 166
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 18
+        },
+        "L": {
           "solved": true,
           "tries": 7,
           "time_mins": 166
@@ -10166,16 +10176,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 18
-        },
-        "L": {
-          "solved": true,
-          "tries": 8,
-          "time_mins": 166
-        },
         "M": {
           "solved": false,
           "tries": 0,
@@ -10205,6 +10205,16 @@
           "time_mins": 229
         },
         "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 25
+        },
+        "G": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 229
+        },
+        "K": {
           "solved": true,
           "tries": 1,
           "time_mins": 25
@@ -10239,11 +10249,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 5,
-          "time_mins": 229
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -10258,11 +10263,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 25
         },
         "L": {
           "solved": false,
@@ -10307,6 +10307,21 @@
           "tries": 12,
           "time_mins": 0
         },
+        "G": {
+          "solved": true,
+          "tries": 9,
+          "time_mins": 183
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 26
+        },
+        "L": {
+          "solved": false,
+          "tries": 12,
+          "time_mins": 0
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -10337,11 +10352,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 10,
-          "time_mins": 183
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -10355,16 +10365,6 @@
         "J": {
           "solved": false,
           "tries": 0,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 26
-        },
-        "L": {
-          "solved": false,
-          "tries": 12,
           "time_mins": 0
         },
         "M": {
@@ -10410,14 +10410,29 @@
           "tries": 7,
           "time_mins": 0
         },
-        "A": {
-          "solved": false,
-          "tries": 0,
-          "time_mins": 0
-        },
         "B": {
           "solved": false,
           "tries": 2,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 230
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 61
+        },
+        "L": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        },
+        "A": {
+          "solved": false,
+          "tries": 0,
           "time_mins": 0
         },
         "C": {
@@ -10440,11 +10455,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 6,
-          "time_mins": 230
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -10458,16 +10468,6 @@
         "J": {
           "solved": false,
           "tries": 0,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 61
-        },
-        "L": {
-          "solved": false,
-          "tries": 7,
           "time_mins": 0
         },
         "M": {
@@ -10503,6 +10503,16 @@
           "tries": 0,
           "time_mins": 56
         },
+        "G": {
+          "solved": true,
+          "tries": 6,
+          "time_mins": 284
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 56
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -10533,11 +10543,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 7,
-          "time_mins": 284
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -10552,11 +10557,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 56
         },
         "L": {
           "solved": false,
@@ -10601,6 +10601,21 @@
           "tries": 21,
           "time_mins": 0
         },
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 260
+        },
+        "K": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 90
+        },
+        "L": {
+          "solved": false,
+          "tries": 21,
+          "time_mins": 0
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -10631,11 +10646,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 260
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -10649,16 +10659,6 @@
         "J": {
           "solved": false,
           "tries": 0,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 6,
-          "time_mins": 90
-        },
-        "L": {
-          "solved": false,
-          "tries": 21,
           "time_mins": 0
         },
         "M": {
@@ -10699,6 +10699,21 @@
           "tries": 25,
           "time_mins": 0
         },
+        "G": {
+          "solved": true,
+          "tries": 11,
+          "time_mins": 297
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 34
+        },
+        "L": {
+          "solved": false,
+          "tries": 25,
+          "time_mins": 0
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -10729,11 +10744,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": true,
-          "tries": 12,
-          "time_mins": 297
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -10747,16 +10757,6 @@
         "J": {
           "solved": false,
           "tries": 0,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 34
-        },
-        "L": {
-          "solved": false,
-          "tries": 25,
           "time_mins": 0
         },
         "M": {
@@ -10797,6 +10797,21 @@
           "tries": 20,
           "time_mins": 289
         },
+        "G": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 29
+        },
+        "L": {
+          "solved": true,
+          "tries": 20,
+          "time_mins": 289
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -10827,11 +10842,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -10846,16 +10856,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 29
-        },
-        "L": {
-          "solved": true,
-          "tries": 21,
-          "time_mins": 289
         },
         "M": {
           "solved": false,
@@ -10900,6 +10900,26 @@
           "tries": 30,
           "time_mins": 277
         },
+        "I": {
+          "solved": false,
+          "tries": 8,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 11,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 23
+        },
+        "L": {
+          "solved": true,
+          "tries": 30,
+          "time_mins": 277
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -10939,26 +10959,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "I": {
-          "solved": false,
-          "tries": 8,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 11,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 23
-        },
-        "L": {
-          "solved": true,
-          "tries": 31,
-          "time_mins": 277
         },
         "M": {
           "solved": false,
@@ -10993,6 +10993,16 @@
           "tries": 0,
           "time_mins": 24
         },
+        "G": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 24
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -11023,11 +11033,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -11042,11 +11047,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 24
         },
         "L": {
           "solved": false,
@@ -11086,6 +11086,16 @@
           "tries": 11,
           "time_mins": 0
         },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 20
+        },
+        "L": {
+          "solved": false,
+          "tries": 11,
+          "time_mins": 0
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -11134,16 +11144,6 @@
         "J": {
           "solved": false,
           "tries": 0,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 20
-        },
-        "L": {
-          "solved": false,
-          "tries": 11,
           "time_mins": 0
         },
         "M": {
@@ -11179,6 +11179,16 @@
           "tries": 1,
           "time_mins": 21
         },
+        "G": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 21
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -11209,11 +11219,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -11228,11 +11233,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 21
         },
         "L": {
           "solved": false,
@@ -11277,6 +11277,21 @@
           "tries": 6,
           "time_mins": 0
         },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 28
+        },
+        "L": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -11320,21 +11335,6 @@
         "I": {
           "solved": false,
           "tries": 0,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 28
-        },
-        "L": {
-          "solved": false,
-          "tries": 6,
           "time_mins": 0
         },
         "M": {
@@ -11375,6 +11375,21 @@
           "tries": 3,
           "time_mins": 0
         },
+        "G": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 29
+        },
+        "L": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -11405,11 +11420,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -11423,16 +11433,6 @@
         "J": {
           "solved": false,
           "tries": 0,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 29
-        },
-        "L": {
-          "solved": false,
-          "tries": 3,
           "time_mins": 0
         },
         "M": {
@@ -11468,6 +11468,16 @@
           "tries": 15,
           "time_mins": 0
         },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 29
+        },
+        "L": {
+          "solved": false,
+          "tries": 15,
+          "time_mins": 0
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -11516,16 +11526,6 @@
         "J": {
           "solved": false,
           "tries": 0,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 29
-        },
-        "L": {
-          "solved": false,
-          "tries": 15,
           "time_mins": 0
         },
         "M": {
@@ -11566,6 +11566,21 @@
           "tries": 0,
           "time_mins": 51
         },
+        "G": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 8,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 51
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -11596,11 +11611,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -11610,16 +11620,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 8,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 51
         },
         "L": {
           "solved": false,
@@ -11664,6 +11664,21 @@
           "tries": 7,
           "time_mins": 0
         },
+        "G": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 34
+        },
+        "L": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -11694,11 +11709,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -11712,16 +11722,6 @@
         "J": {
           "solved": false,
           "tries": 0,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 34
-        },
-        "L": {
-          "solved": false,
-          "tries": 7,
           "time_mins": 0
         },
         "M": {
@@ -11757,6 +11757,16 @@
           "tries": 1,
           "time_mins": 0
         },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 37
+        },
+        "L": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -11805,16 +11815,6 @@
         "J": {
           "solved": false,
           "tries": 0,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 37
-        },
-        "L": {
-          "solved": false,
-          "tries": 1,
           "time_mins": 0
         },
         "M": {
@@ -11860,6 +11860,26 @@
           "tries": 1,
           "time_mins": 0
         },
+        "E": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 47
+        },
+        "L": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -11880,19 +11900,9 @@
           "tries": 0,
           "time_mins": 0
         },
-        "E": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
         "F": {
           "solved": false,
           "tries": 0,
-          "time_mins": 0
-        },
-        "G": {
-          "solved": false,
-          "tries": 6,
           "time_mins": 0
         },
         "H": {
@@ -11908,16 +11918,6 @@
         "J": {
           "solved": false,
           "tries": 0,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 47
-        },
-        "L": {
-          "solved": false,
-          "tries": 1,
           "time_mins": 0
         },
         "M": {
@@ -11953,6 +11953,16 @@
           "tries": 2,
           "time_mins": 28
         },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 28
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -11997,16 +12007,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 28
         },
         "L": {
           "solved": false,
@@ -12046,6 +12046,16 @@
           "tries": 2,
           "time_mins": 36
         },
+        "G": {
+          "solved": false,
+          "tries": 8,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 36
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -12076,11 +12086,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": false,
-          "tries": 8,
-          "time_mins": 0
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -12095,11 +12100,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 36
         },
         "L": {
           "solved": false,
@@ -12134,6 +12134,11 @@
           "tries": 0,
           "time_mins": 77
         },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 77
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -12183,11 +12188,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 77
         },
         "L": {
           "solved": false,
@@ -12232,6 +12232,21 @@
           "tries": 6,
           "time_mins": 0
         },
+        "G": {
+          "solved": false,
+          "tries": 10,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 43
+        },
+        "L": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -12262,11 +12277,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": false,
-          "tries": 10,
-          "time_mins": 0
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -12280,16 +12290,6 @@
         "J": {
           "solved": false,
           "tries": 0,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 43
-        },
-        "L": {
-          "solved": false,
-          "tries": 6,
           "time_mins": 0
         },
         "M": {
@@ -12330,6 +12330,21 @@
           "tries": 6,
           "time_mins": 0
         },
+        "G": {
+          "solved": false,
+          "tries": 13,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 25
+        },
+        "L": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -12360,11 +12375,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": false,
-          "tries": 13,
-          "time_mins": 0
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -12378,16 +12388,6 @@
         "J": {
           "solved": false,
           "tries": 0,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 25
-        },
-        "L": {
-          "solved": false,
-          "tries": 6,
           "time_mins": 0
         },
         "M": {
@@ -12423,6 +12423,16 @@
           "tries": 3,
           "time_mins": 38
         },
+        "G": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 38
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -12453,11 +12463,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": false,
-          "tries": 7,
-          "time_mins": 0
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -12472,11 +12477,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 38
         },
         "L": {
           "solved": false,
@@ -12516,6 +12516,16 @@
           "tries": 5,
           "time_mins": 0
         },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 80
+        },
+        "L": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -12564,16 +12574,6 @@
         "J": {
           "solved": false,
           "tries": 0,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 80
-        },
-        "L": {
-          "solved": false,
-          "tries": 5,
           "time_mins": 0
         },
         "M": {
@@ -12609,6 +12609,16 @@
           "tries": 2,
           "time_mins": 62
         },
+        "G": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 62
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -12639,11 +12649,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": false,
-          "tries": 4,
-          "time_mins": 0
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -12658,11 +12663,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 62
         },
         "L": {
           "solved": false,
@@ -12790,6 +12790,16 @@
           "tries": 3,
           "time_mins": 43
         },
+        "G": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 43
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -12820,11 +12830,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -12839,11 +12844,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 43
         },
         "L": {
           "solved": false,
@@ -12883,6 +12883,16 @@
           "tries": 6,
           "time_mins": 0
         },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 46
+        },
+        "L": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -12931,16 +12941,6 @@
         "J": {
           "solved": false,
           "tries": 0,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 46
-        },
-        "L": {
-          "solved": false,
-          "tries": 6,
           "time_mins": 0
         },
         "M": {
@@ -13069,6 +13069,16 @@
           "tries": 4,
           "time_mins": 0
         },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 77
+        },
+        "L": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -13117,16 +13127,6 @@
         "J": {
           "solved": false,
           "tries": 0,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 77
-        },
-        "L": {
-          "solved": false,
-          "tries": 4,
           "time_mins": 0
         },
         "M": {
@@ -13162,6 +13162,16 @@
           "tries": 1,
           "time_mins": 0
         },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 85
+        },
+        "L": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -13210,16 +13220,6 @@
         "J": {
           "solved": false,
           "tries": 0,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 85
-        },
-        "L": {
-          "solved": false,
-          "tries": 1,
           "time_mins": 0
         },
         "M": {
@@ -13265,6 +13265,16 @@
           "tries": 1,
           "time_mins": 0
         },
+        "G": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 86
+        },
         "B": {
           "solved": false,
           "tries": 0,
@@ -13290,11 +13300,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -13309,11 +13314,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 86
         },
         "L": {
           "solved": false,
@@ -13358,6 +13358,21 @@
           "tries": 2,
           "time_mins": 0
         },
+        "G": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 72
+        },
+        "L": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -13388,11 +13403,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -13406,16 +13416,6 @@
         "J": {
           "solved": false,
           "tries": 0,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 72
-        },
-        "L": {
-          "solved": false,
-          "tries": 2,
           "time_mins": 0
         },
         "M": {
@@ -13456,6 +13456,21 @@
           "tries": 9,
           "time_mins": 0
         },
+        "G": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 53
+        },
+        "L": {
+          "solved": false,
+          "tries": 9,
+          "time_mins": 0
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -13486,11 +13501,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": false,
-          "tries": 6,
-          "time_mins": 0
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -13504,16 +13514,6 @@
         "J": {
           "solved": false,
           "tries": 0,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 5,
-          "time_mins": 53
-        },
-        "L": {
-          "solved": false,
-          "tries": 9,
           "time_mins": 0
         },
         "M": {
@@ -13554,6 +13554,21 @@
           "tries": 8,
           "time_mins": 0
         },
+        "G": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 125
+        },
+        "L": {
+          "solved": false,
+          "tries": 8,
+          "time_mins": 0
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -13584,11 +13599,6 @@
           "tries": 0,
           "time_mins": 0
         },
-        "G": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
         "H": {
           "solved": false,
           "tries": 0,
@@ -13602,16 +13612,6 @@
         "J": {
           "solved": false,
           "tries": 0,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 125
-        },
-        "L": {
-          "solved": false,
-          "tries": 8,
           "time_mins": 0
         },
         "M": {
@@ -13647,6 +13647,16 @@
           "tries": 15,
           "time_mins": 0
         },
+        "K": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 46
+        },
+        "L": {
+          "solved": false,
+          "tries": 15,
+          "time_mins": 0
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -13695,16 +13705,6 @@
         "J": {
           "solved": false,
           "tries": 0,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 6,
-          "time_mins": 46
-        },
-        "L": {
-          "solved": false,
-          "tries": 15,
           "time_mins": 0
         },
         "M": {
@@ -13740,6 +13740,16 @@
           "tries": 3,
           "time_mins": 0
         },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 173
+        },
+        "L": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
         "A": {
           "solved": false,
           "tries": 0,
@@ -13788,16 +13798,6 @@
         "J": {
           "solved": false,
           "tries": 0,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 173
-        },
-        "L": {
-          "solved": false,
-          "tries": 3,
           "time_mins": 0
         },
         "M": {
@@ -13833,14 +13833,19 @@
           "tries": 2,
           "time_mins": 163
         },
-        "A": {
-          "solved": false,
-          "tries": 0,
-          "time_mins": 0
-        },
         "B": {
           "solved": false,
           "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 163
+        },
+        "A": {
+          "solved": false,
+          "tries": 0,
           "time_mins": 0
         },
         "C": {
@@ -13882,11 +13887,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 163
         },
         "L": {
           "solved": false,

@@ -60,7 +60,11 @@ class SRKStandingsGenerator:
             statuses = row.get("statuses", [])
             
             team_id = user.get("id", str(i))
-            team_name = user.get("name", "")
+            team_name_raw = user.get("name", "")
+            if isinstance(team_name_raw, dict):
+                team_name = team_name_raw.get("zh-CN") or team_name_raw.get("fallback", str(team_name_raw))
+            else:
+                team_name = str(team_name_raw)
             school = user.get("organization", "")
             is_official = user.get("official", False)
             

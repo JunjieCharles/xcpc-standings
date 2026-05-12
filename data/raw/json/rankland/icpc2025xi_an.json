@@ -21,11 +21,7 @@
   ],
   "standings": [
     {
-      "team_name": {
-        "zh-CN": "夏日影",
-        "en": "Natsuhi Kage",
-        "fallback": "Natsuhi Kage"
-      },
+      "team_name": "夏日影",
       "school": "上海交通大学",
       "member1": "刘家宁",
       "member2": "朱泽木",
@@ -98,11 +94,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "击中月亮",
-        "en": "hit the moon",
-        "fallback": "hit the moon"
-      },
+      "team_name": "击中月亮",
       "school": "清华大学",
       "member1": "戚朗瑞",
       "member2": "程思元",
@@ -170,11 +162,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "家里蹲",
-        "en": "Hikikomori",
-        "fallback": "Hikikomori"
-      },
+      "team_name": "家里蹲",
       "school": "清华大学",
       "member1": "李静榕",
       "member2": "仲煦北",
@@ -247,11 +235,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "不渡轮回",
-        "en": "Metempsychosis",
-        "fallback": "Metempsychosis"
-      },
+      "team_name": "不渡轮回",
       "school": "北京大学",
       "member1": "郭羽冲",
       "member2": "陈昕阳",
@@ -324,11 +308,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "中大25一队",
-        "en": "SYSU_sysu25team1",
-        "fallback": "SYSU_sysu25team1"
-      },
+      "team_name": "中大25一队",
       "school": "中山大学",
       "member1": "刘铭仁",
       "member2": "孔德锐",
@@ -396,11 +376,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "杭电一队",
-        "en": "HDU-T01",
-        "fallback": "HDU-T01"
-      },
+      "team_name": "杭电一队",
       "school": "杭州电子科技大学",
       "member1": "何卓锟",
       "member2": "马文浩",
@@ -473,11 +449,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "呜呜杂班",
-        "en": "wuwuzaban",
-        "fallback": "wuwuzaban"
-      },
+      "team_name": "呜呜杂班",
       "school": "北京大学",
       "member1": "蔡立一",
       "member2": "李嘉佑",
@@ -545,11 +517,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "能陪我延一辈子的毕吗？",
-        "en": "Piling Years Makes up a Lifetime",
-        "fallback": "Piling Years Makes up a Lifetime"
-      },
+      "team_name": "能陪我延一辈子的毕吗？",
       "school": "清华大学",
       "member1": "魏辰轩",
       "member2": "王思图",
@@ -617,11 +585,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "中科大少女班代表队",
-        "en": "Harbin Team: School of the Gifted Young Girls, USTC",
-        "fallback": "Harbin Team: School of the Gifted Young Girls, USTC"
-      },
+      "team_name": "中科大少女班代表队",
       "school": "中国科学技术大学",
       "member1": "李俊辰",
       "member2": "冯正桦",
@@ -689,11 +653,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "薄暮冥冥",
-        "en": "Twilight",
-        "fallback": "Twilight"
-      },
+      "team_name": "薄暮冥冥",
       "school": "东南大学",
       "member1": "周天一",
       "member2": "颜熙",
@@ -756,11 +716,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "Penalty这么高它的意思一定是分数吧",
-        "en": "Higher penalty must mean more ACs, right?",
-        "fallback": "Higher penalty must mean more ACs, right?"
-      },
+      "team_name": "Penalty这么高它的意思一定是分数吧",
       "school": "北京理工大学",
       "member1": "黄康",
       "member2": "柯宁皓",
@@ -823,11 +779,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "补队",
-        "en": "WA",
-        "fallback": "WA"
-      },
+      "team_name": "补队",
       "school": "北京大学",
       "member1": "陈果熠",
       "member2": "祁亮哲",
@@ -890,11 +842,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "杨桃星球",
-        "en": "Starfruit Supernova",
-        "fallback": "Starfruit Supernova"
-      },
+      "team_name": "杨桃星球",
       "school": "浙江大学",
       "member1": "朱天煜",
       "member2": "应宸宇",
@@ -967,11 +915,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "不要再 ultra 了",
-        "en": "sudo apt remove ultra",
-        "fallback": "sudo apt remove ultra"
-      },
+      "team_name": "不要再 ultra 了",
       "school": "清华大学",
       "member1": "姚熙",
       "member2": "李劲逸",
@@ -1039,11 +983,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "中山大学_无限天堂",
-        "en": "SYSU_Infinity heaven",
-        "fallback": "SYSU_Infinity heaven"
-      },
+      "team_name": "中山大学_无限天堂",
       "school": "中山大学",
       "member1": "韩冠东",
       "member2": "邱恺铭",
@@ -1106,11 +1046,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "五行缺金",
-        "en": "Five Ag Zero Au",
-        "fallback": "Five Ag Zero Au"
-      },
+      "team_name": "五行缺金",
       "school": "复旦大学",
       "member1": "张勖扬",
       "member2": "林诗航",
@@ -1173,11 +1109,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "D.D.D.",
-        "en": "D.D.D.",
-        "fallback": "D.D.D."
-      },
+      "team_name": "D.D.D.",
       "school": "西北工业大学",
       "member1": "武守恒",
       "member2": "严诚治",
@@ -1235,11 +1167,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "球状闪电",
-        "en": "ball lightning",
-        "fallback": "ball lightning"
-      },
+      "team_name": "球状闪电",
       "school": "四川大学",
       "member1": "韩子睿",
       "member2": "林宸",
@@ -1302,11 +1230,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "与妻若冰火双丸共舞弗洛尔同戏千恋万花",
-        "en": "Imagination Time",
-        "fallback": "Imagination Time"
-      },
+      "team_name": "与妻若冰火双丸共舞弗洛尔同戏千恋万花",
       "school": "西安市铁一中学",
       "member1": "房子煊",
       "member2": "吴红燊",
@@ -1364,11 +1288,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "wanna be free",
-        "en": "wanna be free",
-        "fallback": "wanna be free"
-      },
+      "team_name": "wanna be free",
       "school": "西北工业大学",
       "member1": "尹新祥",
       "member2": "程文楷",
@@ -1426,11 +1346,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "你怎么知道我在cc网络赛用py拿全场一血",
-        "en": "how do you konw we get the first blood in ccpc online by py",
-        "fallback": "how do you konw we get the first blood in ccpc online by py"
-      },
+      "team_name": "你怎么知道我在cc网络赛用py拿全场一血",
       "school": "浙江理工大学",
       "member1": "姚仁杰",
       "member2": "任麒源",
@@ -1513,11 +1429,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "ZJUT0",
-        "en": "ZJUT0",
-        "fallback": "ZJUT0"
-      },
+      "team_name": "ZJUT0",
       "school": "浙江工业大学",
       "member1": "陆仙梁",
       "member2": "陈泓睿",
@@ -1580,11 +1492,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "平流层",
-        "en": "Stratosphere",
-        "fallback": "Stratosphere"
-      },
+      "team_name": "平流层",
       "school": "南京大学",
       "member1": "陈梓睿",
       "member2": "潘谟天",
@@ -1647,11 +1555,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "潜水小怪",
-        "en": "Diving little monster",
-        "fallback": "Diving little monster"
-      },
+      "team_name": "潜水小怪",
       "school": "哈尔滨工业大学（深圳）",
       "member1": "孙宇开",
       "member2": "羊柯伍",
@@ -1709,11 +1613,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "空月之歌",
-        "en": "Song of the Welkin Moon",
-        "fallback": "Song of the Welkin Moon"
-      },
+      "team_name": "空月之歌",
       "school": "上海交通大学",
       "member1": "任子杭",
       "member2": "周学信",
@@ -1776,11 +1676,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "零",
-        "en": "Zero",
-        "fallback": "Zero"
-      },
+      "team_name": "零",
       "school": "华中科技大学",
       "member1": "刘铖",
       "member2": "刘星佳",
@@ -1838,11 +1734,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "此队伍名由AI生成",
-        "en": "(AI generated)",
-        "fallback": "(AI generated)"
-      },
+      "team_name": "此队伍名由AI生成",
       "school": "北京邮电大学",
       "member1": "赵思涵",
       "member2": "张鲁豫",
@@ -1895,11 +1787,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "可乐猫没有可乐",
-        "en": "cat",
-        "fallback": "cat"
-      },
+      "team_name": "可乐猫没有可乐",
       "school": "西安市铁一中学",
       "member1": "艾庆兴",
       "member2": "李世冬",
@@ -1957,11 +1845,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "进击的雪豹",
-        "en": "Lets go，Chunzhen！",
-        "fallback": "Lets go，Chunzhen！"
-      },
+      "team_name": "进击的雪豹",
       "school": "山东省平邑第一中学",
       "member1": "刘国恩",
       "member2": "仲沛霖",
@@ -2014,11 +1898,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "数智省身_比起xcpc我更喜欢拿铁",
-        "en": "nanigasuki",
-        "fallback": "nanigasuki"
-      },
+      "team_name": "数智省身_比起xcpc我更喜欢拿铁",
       "school": "南开大学",
       "member1": "郭军凯",
       "member2": "刘沛鑫",
@@ -2071,11 +1951,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "双星很难吗？我rks12.66",
-        "en": "rks12.66",
-        "fallback": "rks12.66"
-      },
+      "team_name": "双星很难吗？我rks12.66",
       "school": "北京航空航天大学",
       "member1": "金厚泽",
       "member2": "陈文卓",
@@ -2128,11 +2004,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "拂晓之刃",
-        "en": "Dawnblade",
-        "fallback": "Dawnblade"
-      },
+      "team_name": "拂晓之刃",
       "school": "南京大学",
       "member1": "钟佳伦",
       "member2": "黄哲轩",
@@ -2185,11 +2057,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "不可视境界线",
-        "en": "Invisible Boundary",
-        "fallback": "Invisible Boundary"
-      },
+      "team_name": "不可视境界线",
       "school": "东华大学",
       "member1": "杨韵清",
       "member2": "沈兴波",
@@ -2247,11 +2115,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "花开之夜",
-        "en": "As the nights, reincarnation",
-        "fallback": "As the nights, reincarnation"
-      },
+      "team_name": "花开之夜",
       "school": "济南大学",
       "member1": "丁浩宇",
       "member2": "程明达",
@@ -2304,11 +2168,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "华工十队",
-        "en": "scut-10",
-        "fallback": "scut-10"
-      },
+      "team_name": "华工十队",
       "school": "华南理工大学",
       "member1": "王雅恒",
       "member2": "黄烁韩",
@@ -2361,11 +2221,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "ZJUT2",
-        "en": "ZJUT2",
-        "fallback": "ZJUT2"
-      },
+      "team_name": "ZJUT2",
       "school": "浙江工业大学",
       "member1": "周泳良",
       "member2": "周睿",
@@ -2418,11 +2274,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "雾之湖",
-        "en": "Misty Lake",
-        "fallback": "Misty Lake"
-      },
+      "team_name": "雾之湖",
       "school": "湖南师范大学",
       "member1": "曾磊鑫",
       "member2": "钟啸",
@@ -2480,11 +2332,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "奶龙的小七",
-        "en": "Xiao Qi with Nai Long",
-        "fallback": "Xiao Qi with Nai Long"
-      },
+      "team_name": "奶龙的小七",
       "school": "复旦大学",
       "member1": "沈高畅",
       "member2": "邹丰羽",
@@ -2542,11 +2390,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "天铸币",
-        "en": "God forges the coin",
-        "fallback": "God forges the coin"
-      },
+      "team_name": "天铸币",
       "school": "北京航空航天大学",
       "member1": "龚锦勋",
       "member2": "徐宏烯",
@@ -2604,11 +2448,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "小男娘",
-        "en": "Xiao Nanniang",
-        "fallback": "Xiao Nanniang"
-      },
+      "team_name": "小男娘",
       "school": "上海纽约大学",
       "member1": "陈智谦",
       "member2": "刘濮铭",
@@ -2666,11 +2506,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "拼尽全力无法战胜AI",
-        "en": "TryHard AI",
-        "fallback": "TryHard AI"
-      },
+      "team_name": "拼尽全力无法战胜AI",
       "school": "西湖大学",
       "member1": "楼鑫浩",
       "member2": "周扬帆",
@@ -2723,11 +2559,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "我太想进步了",
-        "en": "we want to win",
-        "fallback": "we want to win"
-      },
+      "team_name": "我太想进步了",
       "school": "北京邮电大学",
       "member1": "徐嘉晨",
       "member2": "黄志阳",
@@ -2790,11 +2622,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "乐园",
-        "en": "Euphoria",
-        "fallback": "Euphoria"
-      },
+      "team_name": "乐园",
       "school": "宝鸡文德中学",
       "member1": "许琛",
       "member2": "包赟瑞",
@@ -2847,11 +2675,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "此时压力来到了我们队",
-        "en": "Peer Pressure",
-        "fallback": "Peer Pressure"
-      },
+      "team_name": "此时压力来到了我们队",
       "school": "西湖大学",
       "member1": "杨宇恒",
       "member2": "刘振豪",
@@ -2904,11 +2728,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "透明哀歌",
-        "en": "Lucid Sorrow",
-        "fallback": "Lucid Sorrow"
-      },
+      "team_name": "透明哀歌",
       "school": "浙江大学",
       "member1": "潘永健",
       "member2": "周俊康",
@@ -2961,11 +2781,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "久世浮倾",
-        "en": "Eons Adrift",
-        "fallback": "Eons Adrift"
-      },
+      "team_name": "久世浮倾",
       "school": "吉林大学",
       "member1": "孔泉智",
       "member2": "赵星宇",
@@ -3018,11 +2834,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "南方科技大学-连科兰",
-        "en": "SUSTech-Lankaran",
-        "fallback": "SUSTech-Lankaran"
-      },
+      "team_name": "南方科技大学-连科兰",
       "school": "南方科技大学",
       "member1": "曾沛宸",
       "member2": "张业琛",
@@ -3075,11 +2887,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "西西弗斯",
-        "en": "Sisyphus",
-        "fallback": "Sisyphus"
-      },
+      "team_name": "西西弗斯",
       "school": "东南大学",
       "member1": "何辰玮",
       "member2": "刘一鸣",
@@ -3132,11 +2940,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "谁敢横刀立马，唯我 xxmb",
-        "en": "long long not enough",
-        "fallback": "long long not enough"
-      },
+      "team_name": "谁敢横刀立马，唯我 xxmb",
       "school": "山东省平邑第一中学",
       "member1": "罗一康",
       "member2": "张朝政",
@@ -3189,11 +2993,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "杭电四队",
-        "en": "HDU-T04",
-        "fallback": "HDU-T04"
-      },
+      "team_name": "杭电四队",
       "school": "杭州电子科技大学",
       "member1": "帅嘉洋",
       "member2": "刘翔",
@@ -3246,11 +3046,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "南方科技大学-卡拉巴赫",
-        "en": "SUSTech-Qarabag",
-        "fallback": "SUSTech-Qarabag"
-      },
+      "team_name": "南方科技大学-卡拉巴赫",
       "school": "南方科技大学",
       "member1": "李钰曦",
       "member2": "侯宇轩",
@@ -3303,11 +3099,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "羽生萌萌香鱼子酱",
-        "en": "Momoka Caviar",
-        "fallback": "Momoka Caviar"
-      },
+      "team_name": "羽生萌萌香鱼子酱",
       "school": "上海科技大学",
       "member1": "李承熙",
       "member2": "黄扬铭",
@@ -3370,11 +3162,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "字节无虞",
-        "en": "ByteByeBugs",
-        "fallback": "ByteByeBugs"
-      },
+      "team_name": "字节无虞",
       "school": "中国人民大学",
       "member1": "钱泽瑄",
       "member2": "陈礼邦",
@@ -3427,11 +3215,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "随机增量",
-        "en": "random increment",
-        "fallback": "random increment"
-      },
+      "team_name": "随机增量",
       "school": "厦门大学",
       "member1": "杨晟明",
       "member2": "戴思杰",
@@ -3479,11 +3263,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "我队友得了MVP！",
-        "en": "My teammate has got the MVP!",
-        "fallback": "My teammate has got the MVP!"
-      },
+      "team_name": "我队友得了MVP！",
       "school": "北京航空航天大学",
       "member1": "廖俊麟",
       "member2": "徐浩然",
@@ -3531,11 +3311,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "你是永远的猫猫虫",
-        "en": "Forever Yours",
-        "fallback": "Forever Yours"
-      },
+      "team_name": "你是永远的猫猫虫",
       "school": "北京航空航天大学",
       "member1": "华晓飞",
       "member2": "孙一弘",
@@ -3588,11 +3364,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "随家仓",
-        "en": "264 Guangzhou Road, Gulou",
-        "fallback": "264 Guangzhou Road, Gulou"
-      },
+      "team_name": "随家仓",
       "school": "南京大学",
       "member1": "樊书岩",
       "member2": "邓淇",
@@ -3640,11 +3412,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "仨人成行",
-        "en": "it takes three",
-        "fallback": "it takes three"
-      },
+      "team_name": "仨人成行",
       "school": "北京大学",
       "member1": "宋来恒",
       "member2": "刘鹏飞",
@@ -3697,11 +3465,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "什么都不会也能参加ACM吗",
-        "en": "ACM for everyone",
-        "fallback": "ACM for everyone"
-      },
+      "team_name": "什么都不会也能参加ACM吗",
       "school": "西安电子科技大学",
       "member1": "吴晨",
       "member2": "汤修齐",
@@ -3754,11 +3518,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "西哈诺",
-        "en": "Cyrano",
-        "fallback": "Cyrano"
-      },
+      "team_name": "西哈诺",
       "school": "广州大学",
       "member1": "陈全隆",
       "member2": "潘胜云",
@@ -3806,11 +3566,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "你有一块真正的金牌吗",
-        "en": "win a real ring",
-        "fallback": "win a real ring"
-      },
+      "team_name": "你有一块真正的金牌吗",
       "school": "哈尔滨工业大学",
       "member1": "郭昕旸",
       "member2": "邱思宇",
@@ -3868,11 +3624,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "不想打西安站",
-        "en": "No Xian，Pleeeez",
-        "fallback": "No Xian，Pleeeez"
-      },
+      "team_name": "不想打西安站",
       "school": "南京邮电大学",
       "member1": "胡乐安",
       "member2": "崔晨曦",
@@ -3925,11 +3677,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "请输入文本",
-        "en": "Press any key to continue",
-        "fallback": "Press any key to continue"
-      },
+      "team_name": "请输入文本",
       "school": "北京交通大学",
       "member1": "张宸宇",
       "member2": "江子俊",
@@ -3982,11 +3730,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "摇曳到软冬去露营",
-        "en": "random camp random where",
-        "fallback": "random camp random where"
-      },
+      "team_name": "摇曳到软冬去露营",
       "school": "武汉大学",
       "member1": "崔祯航",
       "member2": "范锦炜",
@@ -4064,11 +3808,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "蓝桥杯汪之队",
-        "en": "Lanqiao Cup Wang's Team",
-        "fallback": "Lanqiao Cup Wang's Team"
-      },
+      "team_name": "蓝桥杯汪之队",
       "school": "重庆邮电大学",
       "member1": "赵俊超",
       "member2": "汪涛",
@@ -4151,11 +3891,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "过了样例也不队",
-        "en": "Pass Sample Only",
-        "fallback": "Pass Sample Only"
-      },
+      "team_name": "过了样例也不队",
       "school": "北京理工大学",
       "member1": "王舒晗",
       "member2": "邬宇炼",
@@ -4203,11 +3939,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "游客",
-        "en": "guest",
-        "fallback": "guest"
-      },
+      "team_name": "游客",
       "school": "西安市铁一中学",
       "member1": "徐康硕",
       "member2": "刘力扬",
@@ -4255,11 +3987,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "喵亦或鱼",
-        "en": "Meow oplus fish",
-        "fallback": "Meow oplus fish"
-      },
+      "team_name": "喵亦或鱼",
       "school": "西安电子科技大学",
       "member1": "冯子诚",
       "member2": "文童宇",
@@ -4307,11 +4035,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "铁牌也是牌",
-        "en": "iron plz",
-        "fallback": "iron plz"
-      },
+      "team_name": "铁牌也是牌",
       "school": "北京工业大学",
       "member1": "李俊良",
       "member2": "江云天",
@@ -4364,11 +4088,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "UESTC_EndlessEmbrace",
-        "en": "UESTC_EndlessEmbrace",
-        "fallback": "UESTC_EndlessEmbrace"
-      },
+      "team_name": "UESTC_EndlessEmbrace",
       "school": "电子科技大学",
       "member1": "王彬丞",
       "member2": "王鹏",
@@ -4416,11 +4136,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "狗全坏大战张抽，你们知道吗",
-        "en": "yuanshen vs thisislike, you know?",
-        "fallback": "yuanshen vs thisislike, you know?"
-      },
+      "team_name": "狗全坏大战张抽，你们知道吗",
       "school": "北京信息科技大学",
       "member1": "方梓谦",
       "member2": "房承烨",
@@ -4468,11 +4184,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "大唐盛世",
-        "en": "The Flourishing Tang",
-        "fallback": "The Flourishing Tang"
-      },
+      "team_name": "大唐盛世",
       "school": "西安市铁一中学",
       "member1": "李东宸",
       "member2": "张以恒",
@@ -4525,11 +4237,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "队",
-        "en": "SYSU_team",
-        "fallback": "SYSU_team"
-      },
+      "team_name": "队",
       "school": "中山大学",
       "member1": "吴振熙",
       "member2": "万耀文",
@@ -4577,11 +4285,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "彻月渡清波",
-        "en": "Through lucent waves, a moon serene.",
-        "fallback": "Through lucent waves, a moon serene."
-      },
+      "team_name": "彻月渡清波",
       "school": "杭州师范大学",
       "member1": "黄焰",
       "member2": "吴睿萱",
@@ -4629,11 +4333,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "打xcpc不喊我",
-        "en": "Callmeplayxcpc",
-        "fallback": "Callmeplayxcpc"
-      },
+      "team_name": "打xcpc不喊我",
       "school": "华南理工大学",
       "member1": "吕浩天",
       "member2": "徐睿",
@@ -4686,11 +4386,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "UESTC_封榜后北伐",
-        "en": "UESTC_FFT",
-        "fallback": "UESTC_FFT"
-      },
+      "team_name": "UESTC_封榜后北伐",
       "school": "电子科技大学",
       "member1": "黄雪锋",
       "member2": "晋睿博",
@@ -4743,11 +4439,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "哈睦",
-        "en": "hum",
-        "fallback": "hum"
-      },
+      "team_name": "哈睦",
       "school": "南京航空航天大学",
       "member1": "吕海亮",
       "member2": "黄子源",
@@ -4795,11 +4487,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "两人爬塔一人匡扶汉室",
-        "en": "2Jianta1Sanguosha",
-        "fallback": "2Jianta1Sanguosha"
-      },
+      "team_name": "两人爬塔一人匡扶汉室",
       "school": "长春理工大学",
       "member1": "黄炳睿",
       "member2": "周易非",
@@ -4847,11 +4535,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "棍十六",
-        "en": "stick16",
-        "fallback": "stick16"
-      },
+      "team_name": "棍十六",
       "school": "华中科技大学",
       "member1": "王子石",
       "member2": "郭梓洋",
@@ -4899,11 +4583,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "邮男之旅",
-        "en": "The Travel of Postman",
-        "fallback": "The Travel of Postman"
-      },
+      "team_name": "邮男之旅",
       "school": "北京邮电大学",
       "member1": "蔡禹煊",
       "member2": "冯仁宇",
@@ -4956,11 +4636,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "三只蒟蒻牛",
-        "en": "go for it",
-        "fallback": "go for it"
-      },
+      "team_name": "三只蒟蒻牛",
       "school": "西华大学",
       "member1": "黄卓盈",
       "member2": "肖代阳",
@@ -5008,11 +4684,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "长夜未央",
-        "en": "Night Without Dawn",
-        "fallback": "Night Without Dawn"
-      },
+      "team_name": "长夜未央",
       "school": "长江大学",
       "member1": "陈迪路",
       "member2": "唐祎敏",
@@ -5060,11 +4732,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "春蝉秋鸣泣之时",
-        "en": "One Last Fe",
-        "fallback": "One Last Fe"
-      },
+      "team_name": "春蝉秋鸣泣之时",
       "school": "河南理工大学",
       "member1": "李梦洋",
       "member2": "马俊超",
@@ -5107,11 +4775,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "至此，一锤定音",
-        "en": "Now, the final decision is made",
-        "fallback": "Now, the final decision is made"
-      },
+      "team_name": "至此，一锤定音",
       "school": "华东师范大学",
       "member1": "冯嘉一",
       "member2": "冯顾炜",
@@ -5154,11 +4818,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "没有赵哥的日子",
-        "en": "absyyyy121",
-        "fallback": "absyyyy121"
-      },
+      "team_name": "没有赵哥的日子",
       "school": "西安市铁一中学",
       "member1": "吴浩冉",
       "member2": "王正清和",
@@ -5206,11 +4866,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "彗星猫猫",
-        "en": "CometCat",
-        "fallback": "CometCat"
-      },
+      "team_name": "彗星猫猫",
       "school": "浙江工业大学",
       "member1": "蔡柏航",
       "member2": "雷昊喆",
@@ -5258,11 +4914,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "菠萝催学",
-        "en": "Pineapple Snow",
-        "fallback": "Pineapple Snow"
-      },
+      "team_name": "菠萝催学",
       "school": "武汉大学",
       "member1": "张明宇",
       "member2": "扶阳",
@@ -5305,11 +4957,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "Straight into the AC",
-        "en": "Straight into the ACs",
-        "fallback": "Straight into the ACs"
-      },
+      "team_name": "Straight into the AC",
       "school": "中国科学技术大学",
       "member1": "栾峻岩",
       "member2": "陈天添",
@@ -5367,11 +5015,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "顽强报名奖",
-        "en": "Stubborn Registration Award",
-        "fallback": "Stubborn Registration Award"
-      },
+      "team_name": "顽强报名奖",
       "school": "北京科技大学",
       "member1": "潘涵",
       "member2": "姜皓凯",
@@ -5419,11 +5063,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "一零零一",
-        "en": "1001",
-        "fallback": "1001"
-      },
+      "team_name": "一零零一",
       "school": "中国科学技术大学",
       "member1": "赵宋樾",
       "member2": "孙一睿",
@@ -5471,11 +5111,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "Transformer",
-        "en": "Accepted is all you need",
-        "fallback": "Accepted is all you need"
-      },
+      "team_name": "Transformer",
       "school": "南京邮电大学",
       "member1": "卫鸿飞",
       "member2": "刘君涵",
@@ -5518,11 +5154,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "必须捍卫的名额",
-        "en": "Spot Must Be Utilized",
-        "fallback": "Spot Must Be Utilized"
-      },
+      "team_name": "必须捍卫的名额",
       "school": "武汉理工大学",
       "member1": "胡书诚",
       "member2": "王浩丞",
@@ -5565,11 +5197,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "逆元",
-        "en": "Inverse",
-        "fallback": "Inverse"
-      },
+      "team_name": "逆元",
       "school": "大连理工大学",
       "member1": "连茗暄",
       "member2": "刘博文",
@@ -5612,11 +5240,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "冰红茶说的都队",
-        "en": "Kobe Never Wrong",
-        "fallback": "Kobe Never Wrong"
-      },
+      "team_name": "冰红茶说的都队",
       "school": "南京信息工程大学",
       "member1": "俞卓群",
       "member2": "赵彬宏",
@@ -5659,11 +5283,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "杭电9队",
-        "en": "HDU-T09",
-        "fallback": "HDU-T09"
-      },
+      "team_name": "杭电9队",
       "school": "杭州电子科技大学",
       "member1": "黄泽彬",
       "member2": "金品曦",
@@ -5711,11 +5331,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "重生之我是秦始皇在逃兵马俑",
-        "en": "Reborn as the Terra Cotta Warriors of Qin Shi Huang",
-        "fallback": "Reborn as the Terra Cotta Warriors of Qin Shi Huang"
-      },
+      "team_name": "重生之我是秦始皇在逃兵马俑",
       "school": "大连海事大学",
       "member1": "王金洋",
       "member2": "张文豪",
@@ -5763,11 +5379,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "千万伏特",
-        "en": "10,000,000 Volt Thunderbolt",
-        "fallback": "10,000,000 Volt Thunderbolt"
-      },
+      "team_name": "千万伏特",
       "school": "山东理工大学",
       "member1": "李彦硕",
       "member2": "姚翰洋",
@@ -5815,11 +5427,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "栈深不知处",
-        "en": "Bottomless Stack",
-        "fallback": "Bottomless Stack"
-      },
+      "team_name": "栈深不知处",
       "school": "吉林大学",
       "member1": "石津豪",
       "member2": "王星皓",
@@ -5867,11 +5475,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "三模哈希米",
-        "en": "3 modulos hash me",
-        "fallback": "3 modulos hash me"
-      },
+      "team_name": "三模哈希米",
       "school": "重庆大学",
       "member1": "胡远卓",
       "member2": "杨展途",
@@ -5919,11 +5523,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "GLaUNIX",
-        "en": "Genetic Lifeform and UNIX",
-        "fallback": "Genetic Lifeform and UNIX"
-      },
+      "team_name": "GLaUNIX",
       "school": "成都信息工程大学",
       "member1": "常旭海",
       "member2": "陈礼烨",
@@ -5966,11 +5566,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "SZTU_水银之毒",
-        "en": "SZTU_Mercury Poison",
-        "fallback": "SZTU_Mercury Poison"
-      },
+      "team_name": "SZTU_水银之毒",
       "school": "深圳技术大学",
       "member1": "林坚炜",
       "member2": "刘俊豪",
@@ -6013,11 +5609,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "柏林号",
-        "en": "SKD 14232",
-        "fallback": "SKD 14232"
-      },
+      "team_name": "柏林号",
       "school": "山东科技大学",
       "member1": "岳立冬",
       "member2": "张一炜",
@@ -6065,11 +5657,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "这是一个ACM队",
-        "en": "This is an ACM team",
-        "fallback": "This is an ACM team"
-      },
+      "team_name": "这是一个ACM队",
       "school": "西安交通大学",
       "member1": "张未艾",
       "member2": "陈骏翔",
@@ -6117,11 +5705,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "不万元申万的",
-        "en": "not play genshin resulting",
-        "fallback": "not play genshin resulting"
-      },
+      "team_name": "不万元申万的",
       "school": "山东大学",
       "member1": "彭麟翔",
       "member2": "荆昱熹",
@@ -6164,11 +5748,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "可燃冰红茶",
-        "en": "Awesome Ice Tea",
-        "fallback": "Awesome Ice Tea"
-      },
+      "team_name": "可燃冰红茶",
       "school": "河北师范大学",
       "member1": "孙传炜",
       "member2": "向清弘",
@@ -6216,11 +5796,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "2434分fantasy_blue带我飞",
-        "en": "sro fantasy_blue: 2434 orz",
-        "fallback": "sro fantasy_blue: 2434 orz"
-      },
+      "team_name": "2434分fantasy_blue带我飞",
       "school": "浙江理工大学",
       "member1": "张浩",
       "member2": "项帅",
@@ -6268,11 +5844,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "RE 手动机",
-        "en": "RE Manaton",
-        "fallback": "RE Manaton"
-      },
+      "team_name": "RE 手动机",
       "school": "苏州大学",
       "member1": "沈杨卓凡",
       "member2": "刘昕宇",
@@ -6315,11 +5887,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "WHITE ACM2 ~code~",
-        "en": "WHITE ACM2 ~code~",
-        "fallback": "WHITE ACM2 ~code~"
-      },
+      "team_name": "WHITE ACM2 ~code~",
       "school": "武汉大学",
       "member1": "魏俊涛",
       "member2": "戴天奕",
@@ -6362,11 +5930,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "口胡金牌题",
-        "en": "GOGOGO!!!",
-        "fallback": "GOGOGO!!!"
-      },
+      "team_name": "口胡金牌题",
       "school": "莆田学院",
       "member1": "许庆华",
       "member2": "龚磊",
@@ -6409,11 +5973,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "冰冷帝企鹅",
-        "en": "Freeze Emperor Penguins",
-        "fallback": "Freeze Emperor Penguins"
-      },
+      "team_name": "冰冷帝企鹅",
       "school": "成都信息工程大学",
       "member1": "林莫豪",
       "member2": "秦朝超",
@@ -6461,11 +6021,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "随便做都队",
-        "en": "CDZSC-Greedy gain enlightenmen",
-        "fallback": "CDZSC-Greedy gain enlightenmen"
-      },
+      "team_name": "随便做都队",
       "school": "电子科技大学中山学院",
       "member1": "赵英炜",
       "member2": "黄潇岳",
@@ -6508,11 +6064,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "快整点大英五",
-        "en": "Go Learn English V",
-        "fallback": "Go Learn English V"
-      },
+      "team_name": "快整点大英五",
       "school": "浙江大学",
       "member1": "李沐阳",
       "member2": "林滨",
@@ -6560,11 +6112,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "UESTC_______",
-        "en": "UESTC_______",
-        "fallback": "UESTC_______"
-      },
+      "team_name": "UESTC_______",
       "school": "电子科技大学",
       "member1": "赵聪",
       "member2": "吕东阳",
@@ -6612,11 +6160,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "蓝桥杯喵之队",
-        "en": "Basketball Dreamer Meow",
-        "fallback": "Basketball Dreamer Meow"
-      },
+      "team_name": "蓝桥杯喵之队",
       "school": "重庆邮电大学",
       "member1": "朱易轩",
       "member2": "李悦",
@@ -6659,11 +6203,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "循序渐进",
-        "en": "GDUT_BitByBit",
-        "fallback": "GDUT_BitByBit"
-      },
+      "team_name": "循序渐进",
       "school": "广东工业大学",
       "member1": "郭敏哲",
       "member2": "邱启涵",
@@ -6711,11 +6251,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "不知道起什么就不起了吧",
-        "en": "Untitled World",
-        "fallback": "Untitled World"
-      },
+      "team_name": "不知道起什么就不起了吧",
       "school": "西安交通大学",
       "member1": "王皓文",
       "member2": "李维逸",
@@ -6758,11 +6294,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "WA无涯，AC是岸",
-        "en": "From WAland to ACshore",
-        "fallback": "From WAland to ACshore"
-      },
+      "team_name": "WA无涯，AC是岸",
       "school": "三峡大学",
       "member1": "吴世恺",
       "member2": "冯成宽",
@@ -6805,11 +6337,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "我不写dp",
-        "en": "Joker_team",
-        "fallback": "Joker_team"
-      },
+      "team_name": "我不写dp",
       "school": "长沙学院",
       "member1": "张方林",
       "member2": "曾俊",
@@ -6852,11 +6380,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "GXB，我们喜欢你",
-        "en": "GXB，We Like You",
-        "fallback": "GXB，We Like You"
-      },
+      "team_name": "GXB，我们喜欢你",
       "school": "西安电子科技大学",
       "member1": "洪怀博",
       "member2": "邓思哲",
@@ -6904,11 +6428,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "赤色风铃",
-        "en": "Red Windbell",
-        "fallback": "Red Windbell"
-      },
+      "team_name": "赤色风铃",
       "school": "武汉科技大学",
       "member1": "明正阳",
       "member2": "左新宇",
@@ -6951,11 +6471,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "我嘞个豆豆啊",
-        "en": "Oi My Giao",
-        "fallback": "Oi My Giao"
-      },
+      "team_name": "我嘞个豆豆啊",
       "school": "成都理工大学",
       "member1": "向坪君",
       "member2": "陈家宝",
@@ -6998,11 +6514,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "AC是检验真理的唯一标准",
-        "en": "Talk is Cheap, Show Me the AC Code",
-        "fallback": "Talk is Cheap, Show Me the AC Code"
-      },
+      "team_name": "AC是检验真理的唯一标准",
       "school": "山东大学",
       "member1": "庞绍旗",
       "member2": "罗浩铭",
@@ -7045,11 +6557,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "多边狗",
-        "en": "polydog",
-        "fallback": "polydog"
-      },
+      "team_name": "多边狗",
       "school": "北京师范大学",
       "member1": "姚述军",
       "member2": "王思潮",
@@ -7097,11 +6605,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "茉莉雨",
-        "en": "UPC1997",
-        "fallback": "UPC1997"
-      },
+      "team_name": "茉莉雨",
       "school": "中国石油大学（华东）",
       "member1": "俞桐",
       "member2": "尹瑞阳",
@@ -7144,11 +6648,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "25时，在老年皮划艇打铁",
-        "en": "Nightcord at 25:00",
-        "fallback": "Nightcord at 25:00"
-      },
+      "team_name": "25时，在老年皮划艇打铁",
       "school": "河海大学",
       "member1": "张天浩",
       "member2": "杜泽恩",
@@ -7196,11 +6696,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "小丑派对",
-        "en": "joker party",
-        "fallback": "joker party"
-      },
+      "team_name": "小丑派对",
       "school": "湖北工业大学",
       "member1": "解哲曦",
       "member2": "张忆周",
@@ -7258,11 +6754,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "江南行者",
-        "en": "MySoul",
-        "fallback": "MySoul"
-      },
+      "team_name": "江南行者",
       "school": "华南师范大学",
       "member1": "陈育瀚",
       "member2": "蔡海鹏",
@@ -7310,11 +6802,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "斑斓色彩",
-        "en": "Chromatic complex",
-        "fallback": "Chromatic complex"
-      },
+      "team_name": "斑斓色彩",
       "school": "长安大学",
       "member1": "周乐恒",
       "member2": "钱麦曲",
@@ -7357,11 +6845,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "时间紧任务重",
-        "en": "Catch the Moment",
-        "fallback": "Catch the Moment"
-      },
+      "team_name": "时间紧任务重",
       "school": "宁波大学",
       "member1": "赵翰韬",
       "member2": "黄博翼",
@@ -7404,11 +6888,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "长崎不爽世",
-        "en": "Nagasaki Soyorin",
-        "fallback": "Nagasaki Soyorin"
-      },
+      "team_name": "长崎不爽世",
       "school": "哈尔滨工业大学",
       "member1": "杜宇丰",
       "member2": "陈信帆",
@@ -7456,11 +6936,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "交一发先",
-        "en": "submit to try try",
-        "fallback": "submit to try try"
-      },
+      "team_name": "交一发先",
       "school": "北京交通大学",
       "member1": "刘泽晖",
       "member2": "孙宁",
@@ -7503,11 +6979,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "无线无限队",
-        "en": "∞wireless",
-        "fallback": "∞wireless"
-      },
+      "team_name": "无线无限队",
       "school": "华为技术有限公司",
       "member1": "陈俊杰",
       "member2": "罗鑫",
@@ -7550,11 +7022,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "刷题三天会做AC自动机",
-        "en": "potato_AC_tomato",
-        "fallback": "potato_AC_tomato"
-      },
+      "team_name": "刷题三天会做AC自动机",
       "school": "国防科技大学",
       "member1": "彭正圣",
       "member2": "马艺洋",
@@ -7602,11 +7070,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "恋的零次方",
-        "en": "LPowerZero",
-        "fallback": "LPowerZero"
-      },
+      "team_name": "恋的零次方",
       "school": "东北大学秦皇岛分校",
       "member1": "李昌岳",
       "member2": "陈奕晨",
@@ -7654,11 +7118,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "()不是回文",
-        "en": "() is not a palindrome",
-        "fallback": "() is not a palindrome"
-      },
+      "team_name": "()不是回文",
       "school": "上海纽约大学",
       "member1": "张乐楠",
       "member2": "吕和睿",
@@ -7706,11 +7166,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "题面的语言是不通的，打铁是不会报销的",
-        "en": "statement cannot understand，get Fe lose money",
-        "fallback": "statement cannot understand，get Fe lose money"
-      },
+      "team_name": "题面的语言是不通的，打铁是不会报销的",
       "school": "西南交通大学",
       "member1": "刘俊豪",
       "member2": "陈义达",
@@ -7753,11 +7209,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "胡桃三玖天依老婆天下第一",
-        "en": "Hutao 39 Tianyi Cute No.1",
-        "fallback": "Hutao 39 Tianyi Cute No.1"
-      },
+      "team_name": "胡桃三玖天依老婆天下第一",
       "school": "西北工业大学附属中学",
       "member1": "胡源浩",
       "member2": "张嘉宁",
@@ -7805,11 +7257,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "动态树",
-        "en": "LCT",
-        "fallback": "LCT"
-      },
+      "team_name": "动态树",
       "school": "北京理工大学",
       "member1": "齐轩宇",
       "member2": "邱昌威",
@@ -7852,11 +7300,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "真的想不到队名了",
-        "en": "NoTeamName",
-        "fallback": "NoTeamName"
-      },
+      "team_name": "真的想不到队名了",
       "school": "华东交通大学",
       "member1": "章瑜华",
       "member2": "张文乾",
@@ -7899,11 +7343,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "三人行",
-        "en": "triple gold",
-        "fallback": "triple gold"
-      },
+      "team_name": "三人行",
       "school": "中国人民大学",
       "member1": "童奕涵",
       "member2": "孙安江",
@@ -7946,11 +7386,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "三乌鲁鲁赌铜牌",
-        "en": "Three Wululu Block the copper medal",
-        "fallback": "Three Wululu Block the copper medal"
-      },
+      "team_name": "三乌鲁鲁赌铜牌",
       "school": "台州学院",
       "member1": "戴于皓",
       "member2": "陈逸轩",
@@ -7993,11 +7429,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "呆头呆脑",
-        "en": "brain.push()",
-        "fallback": "brain.push()"
-      },
+      "team_name": "呆头呆脑",
       "school": "河南理工大学",
       "member1": "张科文",
       "member2": "宋幸威",
@@ -8040,11 +7472,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "东北大学_安卓队伍",
-        "en": "NEU_Android Team",
-        "fallback": "NEU_Android Team"
-      },
+      "team_name": "东北大学_安卓队伍",
       "school": "东北大学",
       "member1": "王啸烽",
       "member2": "刘格显",
@@ -8087,11 +7515,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "我们的目标是铁牌",
-        "en": "Our Goal is the Iron Medal",
-        "fallback": "Our Goal is the Iron Medal"
-      },
+      "team_name": "我们的目标是铁牌",
       "school": "广东东软学院",
       "member1": "陈笔政",
       "member2": "李寅之",
@@ -8139,11 +7563,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "对的对的不对不队",
-        "en": "C.I.E.L",
-        "fallback": "C.I.E.L"
-      },
+      "team_name": "对的对的不对不队",
       "school": "西北农林科技大学",
       "member1": "晏鹏昊",
       "member2": "范中博",
@@ -8186,11 +7606,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "请输入文本",
-        "en": "Please Enter Text",
-        "fallback": "Please Enter Text"
-      },
+      "team_name": "请输入文本",
       "school": "香港科技大学（广州）",
       "member1": "梁君豪",
       "member2": "刘秋悦",
@@ -8273,11 +7689,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "因为太怕罚时就全交到签到题了",
-        "en": "just sign in, no penalty",
-        "fallback": "just sign in, no penalty"
-      },
+      "team_name": "因为太怕罚时就全交到签到题了",
       "school": "西安交通大学",
       "member1": "杨健鑫",
       "member2": "林轩",
@@ -8325,11 +7737,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "远航者的幻想乡",
-        "en": "Harukanaru Gensokyo",
-        "fallback": "Harukanaru Gensokyo"
-      },
+      "team_name": "远航者的幻想乡",
       "school": "广西大学",
       "member1": "张健明",
       "member2": "孙怿翔",
@@ -8372,11 +7780,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "春田花花",
-        "en": "spring fafa",
-        "fallback": "spring fafa"
-      },
+      "team_name": "春田花花",
       "school": "同济大学",
       "member1": "王钧涛",
       "member2": "朱泽凯",
@@ -8424,11 +7828,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "没有人比我更懂AC",
-        "en": "No one knows AC better than me",
-        "fallback": "No one knows AC better than me"
-      },
+      "team_name": "没有人比我更懂AC",
       "school": "南京农业大学",
       "member1": "张博轩",
       "member2": "黄子琰",
@@ -8471,11 +7871,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "小伙defineintLL就被管家打断腿",
-        "en": "defineintLL,legsgone",
-        "fallback": "defineintLL,legsgone"
-      },
+      "team_name": "小伙defineintLL就被管家打断腿",
       "school": "哈尔滨工业大学（威海）",
       "member1": "詹柏川",
       "member2": "卜家骏",
@@ -8518,11 +7914,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "嘻小癫学院超自研",
-        "en": "XDU Occult Research Society",
-        "fallback": "XDU Occult Research Society"
-      },
+      "team_name": "嘻小癫学院超自研",
       "school": "西安电子科技大学",
       "member1": "张力文",
       "member2": "童彦闽",
@@ -8565,11 +7957,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "彩虹岛之戮 Pro Max",
-        "en": "rainbow tree",
-        "fallback": "rainbow tree"
-      },
+      "team_name": "彩虹岛之戮 Pro Max",
       "school": "长安大学",
       "member1": "刘葆骐",
       "member2": "辜颖燊",
@@ -8617,11 +8005,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "河西食堂转生队",
-        "en": "Hexi canteen reincarnation team",
-        "fallback": "Hexi canteen reincarnation team"
-      },
+      "team_name": "河西食堂转生队",
       "school": "华东师范大学",
       "member1": "刘昕东",
       "member2": "沈崇焕",
@@ -8669,11 +8053,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "耄耋的icpc之旅",
-        "en": "The ICPC journey of the elderly",
-        "fallback": "The ICPC journey of the elderly"
-      },
+      "team_name": "耄耋的icpc之旅",
       "school": "江苏大学",
       "member1": "杨宇骞",
       "member2": "周文杰",
@@ -8716,11 +8096,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "不吃罚时",
-        "en": "Nylon404",
-        "fallback": "Nylon404"
-      },
+      "team_name": "不吃罚时",
       "school": "西北大学",
       "member1": "徐善谨",
       "member2": "袁文杰",
@@ -8763,11 +8139,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "嘻嘻，我要赢口牙",
-        "en": "JXNU_3",
-        "fallback": "JXNU_3"
-      },
+      "team_name": "嘻嘻，我要赢口牙",
       "school": "江西师范大学",
       "member1": "冯尉旺",
       "member2": "徐磊",
@@ -8815,11 +8187,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "运行错误",
-        "en": "RuntimeError",
-        "fallback": "RuntimeError"
-      },
+      "team_name": "运行错误",
       "school": "东北师范大学",
       "member1": "周文琦",
       "member2": "齐昊坤",
@@ -8867,11 +8235,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "AC.cpp",
-        "en": "AC.cpp",
-        "fallback": "AC.cpp"
-      },
+      "team_name": "AC.cpp",
       "school": "西安理工大学",
       "member1": "韩明轩",
       "member2": "留昊",
@@ -8919,11 +8283,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "云开自天明",
-        "en": "Radiance After Clouds",
-        "fallback": "Radiance After Clouds"
-      },
+      "team_name": "云开自天明",
       "school": "同济大学",
       "member1": "姜乃珲",
       "member2": "李烨",
@@ -8971,11 +8331,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "WA_on_test_1",
-        "en": "JXNU_2",
-        "fallback": "JXNU_2"
-      },
+      "team_name": "WA_on_test_1",
       "school": "江西师范大学",
       "member1": "杨扬骁",
       "member2": "刘俊豪",
@@ -9023,11 +8379,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "散养走地鸡",
-        "en": "Chickémon GO!",
-        "fallback": "Chickémon GO!"
-      },
+      "team_name": "散养走地鸡",
       "school": "华南理工大学",
       "member1": "陈祖榆",
       "member2": "王奕凯",
@@ -9080,11 +8432,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "别碰我键盘",
-        "en": "keyboard forbidden",
-        "fallback": "keyboard forbidden"
-      },
+      "team_name": "别碰我键盘",
       "school": "浙大城市学院",
       "member1": "杨烨锋",
       "member2": "张宸赫",
@@ -9132,11 +8480,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "天梯赛 136，出击！",
-        "en": "CCCC 136: Launch!",
-        "fallback": "CCCC 136: Launch!"
-      },
+      "team_name": "天梯赛 136，出击！",
       "school": "南京理工大学",
       "member1": "陈宇航",
       "member2": "许廷阳",
@@ -9184,11 +8528,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "你，去比赛了吧...和我不认识的人一起",
-        "en": "BoilingWat3r",
-        "fallback": "BoilingWat3r"
-      },
+      "team_name": "你，去比赛了吧...和我不认识的人一起",
       "school": "山东大学",
       "member1": "危弘毅",
       "member2": "孙晨涵",
@@ -9231,11 +8571,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "北洋水师pro max ultra ti",
-        "en": "Beiyang Water pro max ultra ti",
-        "fallback": "Beiyang Water pro max ultra ti"
-      },
+      "team_name": "北洋水师pro max ultra ti",
       "school": "天津大学",
       "member1": "韦德敏",
       "member2": "刘清源",
@@ -9278,11 +8614,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "2026一战成硕",
-        "en": "Master's in 2026, First Try",
-        "fallback": "Master's in 2026, First Try"
-      },
+      "team_name": "2026一战成硕",
       "school": "浙大宁波理工学院",
       "member1": "陈泽楷",
       "member2": "周艺杰",
@@ -9325,11 +8657,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "午后的茶时间",
-        "en": "Tea Time",
-        "fallback": "Tea Time"
-      },
+      "team_name": "午后的茶时间",
       "school": "重庆科技大学",
       "member1": "程琪淋",
       "member2": "廖章昊",
@@ -9372,11 +8700,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "长夜杯空",
-        "en": "Drunken Night",
-        "fallback": "Drunken Night"
-      },
+      "team_name": "长夜杯空",
       "school": "华中科技大学",
       "member1": "李鑫",
       "member2": "邓本永",
@@ -9424,11 +8748,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "天糖制造",
-        "en": "Made in Sugar",
-        "fallback": "Made in Sugar"
-      },
+      "team_name": "天糖制造",
       "school": "华中农业大学",
       "member1": "刘泽成",
       "member2": "张可凡",
@@ -9471,11 +8791,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "初音未来-纳西妲-芙宁娜第一可爱喵",
-        "en": "Hatsune Miku-Nahida-Furina de Fontaine",
-        "fallback": "Hatsune Miku-Nahida-Furina de Fontaine"
-      },
+      "team_name": "初音未来-纳西妲-芙宁娜第一可爱喵",
       "school": "宁波大学",
       "member1": "何沐",
       "member2": "杨晨",
@@ -9518,11 +8834,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "UESTC_安黛因母鸡卡",
-        "en": "UESTC_li1i",
-        "fallback": "UESTC_li1i"
-      },
+      "team_name": "UESTC_安黛因母鸡卡",
       "school": "电子科技大学",
       "member1": "胡新奇",
       "member2": "李书奇",
@@ -9565,11 +8877,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "安卓队伍",
-        "en": "Apple Team",
-        "fallback": "Apple Team"
-      },
+      "team_name": "安卓队伍",
       "school": "云南大学",
       "member1": "周志昊",
       "member2": "高凌豪",
@@ -9612,11 +8920,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "回忆的书页可以推开噩梦",
-        "en": "Little girl's Book Page push Orpheus away",
-        "fallback": "Little girl's Book Page push Orpheus away"
-      },
+      "team_name": "回忆的书页可以推开噩梦",
       "school": "东华大学",
       "member1": "鲍威凌",
       "member2": "张晓高",
@@ -9659,11 +8963,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "猫猫骑士团",
-        "en": "KnightCats",
-        "fallback": "KnightCats"
-      },
+      "team_name": "猫猫骑士团",
       "school": "浙江工商大学",
       "member1": "张任杰",
       "member2": "卢嘉亮",
@@ -9706,11 +9006,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "终焉夜雨",
-        "en": "Ending Rain",
-        "fallback": "Ending Rain"
-      },
+      "team_name": "终焉夜雨",
       "school": "吉林大学",
       "member1": "欧阳承风",
       "member2": "席乐媛",
@@ -9753,11 +9049,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "倒吊兔",
-        "en": "THE HANGED BUNNY",
-        "fallback": "THE HANGED BUNNY"
-      },
+      "team_name": "倒吊兔",
       "school": "浙江机电职业技术学院",
       "member1": "洪志伦",
       "member2": "游晨昕",
@@ -9800,11 +9092,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "回答我，xcpc怎么打才队",
-        "en": "Answer me! How to play!",
-        "fallback": "Answer me! How to play!"
-      },
+      "team_name": "回答我，xcpc怎么打才队",
       "school": "大连理工大学",
       "member1": "蒋承峻",
       "member2": "蔡卓轩",
@@ -9847,11 +9135,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "负重越野",
-        "en": "byterangers",
-        "fallback": "byterangers"
-      },
+      "team_name": "负重越野",
       "school": "齐鲁工业大学",
       "member1": "廉昌业",
       "member2": "魏文泽",
@@ -9899,11 +9183,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "起个简单点的吧",
-        "en": "Simple",
-        "fallback": "Simple"
-      },
+      "team_name": "起个简单点的吧",
       "school": "河南师范大学",
       "member1": "骆怡娉",
       "member2": "许恩铎",
@@ -9946,11 +9226,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "队友邀请赛打铁了",
-        "en": "Forge iron at the invitational tournament",
-        "fallback": "Forge iron at the invitational tournament"
-      },
+      "team_name": "队友邀请赛打铁了",
       "school": "福建理工大学",
       "member1": "郑少豪",
       "member2": "汤宏彬",
@@ -9993,11 +9269,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "一觉睡到优菈复刻",
-        "en": "sqnu team1",
-        "fallback": "sqnu team1"
-      },
+      "team_name": "一觉睡到优菈复刻",
       "school": "商丘师范学院",
       "member1": "汪明哲",
       "member2": "殷华翔",
@@ -10040,11 +9312,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "南方科技大学-哈奇马斯",
-        "en": "SUSTech-Khachmaz",
-        "fallback": "SUSTech-Khachmaz"
-      },
+      "team_name": "南方科技大学-哈奇马斯",
       "school": "南方科技大学",
       "member1": "王惠民",
       "member2": "丁哲昊",
@@ -10092,11 +9360,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "哇哈哈哈哈哈",
-        "en": "whhhhh",
-        "fallback": "whhhhh"
-      },
+      "team_name": "哇哈哈哈哈哈",
       "school": "广西师范大学",
       "member1": "陈毅逊",
       "member2": "周紫阳",
@@ -10139,11 +9403,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "我的青春AC果然物语",
-        "en": "My AC Odyssey",
-        "fallback": "My AC Odyssey"
-      },
+      "team_name": "我的青春AC果然物语",
       "school": "武汉纺织大学",
       "member1": "裘贺宝",
       "member2": "周黄灏",
@@ -10186,11 +9446,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "复制粘贴",
-        "en": "CtrlC+V",
-        "fallback": "CtrlC+V"
-      },
+      "team_name": "复制粘贴",
       "school": "南通大学",
       "member1": "牛小帅",
       "member2": "魏炜宸",
@@ -10233,11 +9489,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "永远都像初次见你那样，使我心荡漾",
-        "en": "Love Forever",
-        "fallback": "Love Forever"
-      },
+      "team_name": "永远都像初次见你那样，使我心荡漾",
       "school": "西南民族大学",
       "member1": "张伟模",
       "member2": "石珈豪",
@@ -10280,11 +9532,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "三个绿名",
-        "en": "Pupils",
-        "fallback": "Pupils"
-      },
+      "team_name": "三个绿名",
       "school": "中国石油大学（北京）克拉玛依校区",
       "member1": "蔡昊烨",
       "member2": "刘佳一",
@@ -10332,11 +9580,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "古故菇",
-        "en": "goodgoodgood",
-        "fallback": "goodgoodgood"
-      },
+      "team_name": "古故菇",
       "school": "深圳大学",
       "member1": "林文伟",
       "member2": "李晗",
@@ -10384,11 +9628,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "今夜，星光灿烂",
-        "en": "Tonight, Stars Shine Bright",
-        "fallback": "Tonight, Stars Shine Bright"
-      },
+      "team_name": "今夜，星光灿烂",
       "school": "沈阳师范大学",
       "member1": "谌致远",
       "member2": "章传亮",
@@ -10431,11 +9671,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "AK的芙莉莲",
-        "en": "Frieren's AK",
-        "fallback": "Frieren's AK"
-      },
+      "team_name": "AK的芙莉莲",
       "school": "南京邮电大学",
       "member1": "熊鼎",
       "member2": "杨珈懿",
@@ -10478,11 +9714,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "深度睡眠",
-        "en": "DeepSleep_V3",
-        "fallback": "DeepSleep_V3"
-      },
+      "team_name": "深度睡眠",
       "school": "东北师范大学",
       "member1": "张稷穗",
       "member2": "赵新睿",
@@ -10525,11 +9757,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "杭电十队",
-        "en": "HDU-T10",
-        "fallback": "HDU-T10"
-      },
+      "team_name": "杭电十队",
       "school": "杭州电子科技大学",
       "member1": "吴宝欣",
       "member2": "叶育豪",
@@ -10572,11 +9800,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "男生ACM单字极品ID",
-        "en": "ACM_EmoSolochar_ID",
-        "fallback": "ACM_EmoSolochar_ID"
-      },
+      "team_name": "男生ACM单字极品ID",
       "school": "浙江工商大学",
       "member1": "姚益浩",
       "member2": "邬博丞",
@@ -10614,11 +9838,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "前途一片完犊紫",
-        "en": "no future",
-        "fallback": "no future"
-      },
+      "team_name": "前途一片完犊紫",
       "school": "中国地质大学（北京）",
       "member1": "丁智星",
       "member2": "胡葭懿",
@@ -10666,11 +9886,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "数智省身_desuwa",
-        "en": "forever acm,please",
-        "fallback": "forever acm,please"
-      },
+      "team_name": "数智省身_desuwa",
       "school": "南开大学",
       "member1": "陈馨颍",
       "member2": "陈伯远",
@@ -10713,11 +9929,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "不吃香菜(acm版)",
-        "en": "cilantro(acmversion)",
-        "fallback": "cilantro(acmversion)"
-      },
+      "team_name": "不吃香菜(acm版)",
       "school": "浙江财经大学",
       "member1": "赵子腾",
       "member2": "王鑫宇",
@@ -10760,11 +9972,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "思政大模型",
-        "en": "Large ideological and political model",
-        "fallback": "Large ideological and political model"
-      },
+      "team_name": "思政大模型",
       "school": "兰州大学",
       "member1": "任墨涵",
       "member2": "郑宇航",
@@ -10812,11 +10020,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "未名征途烙星痕",
-        "en": "Untitled_Dream",
-        "fallback": "Untitled_Dream"
-      },
+      "team_name": "未名征途烙星痕",
       "school": "浙江师范大学",
       "member1": "曹海",
       "member2": "沈睿",
@@ -10859,11 +10063,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "重生之全都能做队",
-        "en": "Great again",
-        "fallback": "Great again"
-      },
+      "team_name": "重生之全都能做队",
       "school": "四川大学",
       "member1": "唐文可",
       "member2": "张翰辰",
@@ -10906,11 +10106,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "青春5d0学姐不会梦见ACM少年",
-        "en": "I Don't Dream",
-        "fallback": "I Don't Dream"
-      },
+      "team_name": "青春5d0学姐不会梦见ACM少年",
       "school": "深圳大学",
       "member1": "冉起",
       "member2": "吴岱琳",
@@ -10953,11 +10149,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "麻衣学姐想念ZZZ",
-        "en": "Miss Mai Miss ZZZ",
-        "fallback": "Miss Mai Miss ZZZ"
-      },
+      "team_name": "麻衣学姐想念ZZZ",
       "school": "华中师范大学",
       "member1": "王绪毅",
       "member2": "邹卓昂",
@@ -11000,11 +10192,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "青春蟒蛇少年不会梦到TLE学姐",
-        "en": "Python never TLE",
-        "fallback": "Python never TLE"
-      },
+      "team_name": "青春蟒蛇少年不会梦到TLE学姐",
       "school": "山东大学（威海）",
       "member1": "刘艺航",
       "member2": "刘旸",
@@ -11047,11 +10235,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "码跃秦川",
-        "en": "Code Leap",
-        "fallback": "Code Leap"
-      },
+      "team_name": "码跃秦川",
       "school": "山东师范大学",
       "member1": "喻齐",
       "member2": "李浩",
@@ -11094,11 +10278,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "样例没过去但ac",
-        "en": "sample lies,ac truths",
-        "fallback": "sample lies,ac truths"
-      },
+      "team_name": "样例没过去但ac",
       "school": "郑州大学",
       "member1": "薛天齐",
       "member2": "周政",
@@ -11141,11 +10321,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "起个人类队名吧球球了",
-        "en": "ChatGGBond",
-        "fallback": "ChatGGBond"
-      },
+      "team_name": "起个人类队名吧球球了",
       "school": "哈尔滨工程大学",
       "member1": "欧阳龙池",
       "member2": "李昀轩",
@@ -11188,11 +10364,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "好想玩道德与法治6",
-        "en": "I want to play gta6",
-        "fallback": "I want to play gta6"
-      },
+      "team_name": "好想玩道德与法治6",
       "school": "河南大学",
       "member1": "范恒嘉",
       "member2": "张帆",
@@ -11235,11 +10407,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "她不在榜上也不在我身旁",
-        "en": "Date with me",
-        "fallback": "Date with me"
-      },
+      "team_name": "她不在榜上也不在我身旁",
       "school": "湖南科技大学",
       "member1": "江宇",
       "member2": "马思忱",
@@ -11287,11 +10455,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "define int long long",
-        "en": "define int long long",
-        "fallback": "define int long long"
-      },
+      "team_name": "define int long long",
       "school": "西北工业大学",
       "member1": "文煜州",
       "member2": "代常睿",
@@ -11334,11 +10498,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "必码温",
-        "en": "NEU_forces",
-        "fallback": "NEU_forces"
-      },
+      "team_name": "必码温",
       "school": "东北大学",
       "member1": "钟炳毅",
       "member2": "王浩旸",
@@ -11381,11 +10541,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "一觉醒来全世界打a水平上升一万倍",
-        "en": "The global level of acm has risen by 10,000 times when I woke up",
-        "fallback": "The global level of acm has risen by 10,000 times when I woke up"
-      },
+      "team_name": "一觉醒来全世界打a水平上升一万倍",
       "school": "无锡学院",
       "member1": "张万里",
       "member2": "李志豪",
@@ -11428,11 +10584,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "略去过程QED",
-        "en": "Attention is ALL you need",
-        "fallback": "Attention is ALL you need"
-      },
+      "team_name": "略去过程QED",
       "school": "西安欧亚学院",
       "member1": "吴天乐",
       "member2": "刘家瑞",
@@ -11475,11 +10627,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "最后的机会",
-        "en": "the last chance",
-        "fallback": "the last chance"
-      },
+      "team_name": "最后的机会",
       "school": "浙大宁波理工学院",
       "member1": "吴东",
       "member2": "宋欣远",
@@ -11542,11 +10690,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "蒟蒻联盟",
-        "en": "Konjoke Alliance",
-        "fallback": "Konjoke Alliance"
-      },
+      "team_name": "蒟蒻联盟",
       "school": "上海大学",
       "member1": "戴于洋",
       "member2": "包嘉旻",
@@ -11589,11 +10733,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "别WA了好吗",
-        "en": "No WA OK?",
-        "fallback": "No WA OK?"
-      },
+      "team_name": "别WA了好吗",
       "school": "中国传媒大学",
       "member1": "李萌",
       "member2": "卢嘉诚",
@@ -11641,11 +10781,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "维什戴尔实在是太吃操作了",
-        "en": "wisadel is really too difficult to operate",
-        "fallback": "wisadel is really too difficult to operate"
-      },
+      "team_name": "维什戴尔实在是太吃操作了",
       "school": "云南大学",
       "member1": "张鑫宇",
       "member2": "马永琦",
@@ -11688,11 +10824,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "容我烧烤一下队友",
-        "en": "Time to debug my teammates with fire",
-        "fallback": "Time to debug my teammates with fire"
-      },
+      "team_name": "容我烧烤一下队友",
       "school": "武汉大学",
       "member1": "黄祯",
       "member2": "李书纬",
@@ -11735,11 +10867,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "回来吧科比牢大，我最骄傲的信仰",
-        "en": "what can i say - mamba out",
-        "fallback": "what can i say - mamba out"
-      },
+      "team_name": "回来吧科比牢大，我最骄傲的信仰",
       "school": "福州大学",
       "member1": "陈泽煦",
       "member2": "李子墨",
@@ -11782,11 +10910,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "比赛没一个醒的",
-        "en": "All Asleep In The Contest",
-        "fallback": "All Asleep In The Contest"
-      },
+      "team_name": "比赛没一个醒的",
       "school": "华南农业大学",
       "member1": "邓皓泽",
       "member2": "李炫彰",
@@ -11834,11 +10958,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "大明湖水怪",
-        "en": "The Monster of Daming Lake",
-        "fallback": "The Monster of Daming Lake"
-      },
+      "team_name": "大明湖水怪",
       "school": "山东建筑大学",
       "member1": "冯振荆",
       "member2": "庄文轩",
@@ -11881,11 +11001,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "队友队友想不想和我打一辈子icpc喵喵喵",
-        "en": "Meow Meow Meow",
-        "fallback": "Meow Meow Meow"
-      },
+      "team_name": "队友队友想不想和我打一辈子icpc喵喵喵",
       "school": "西南财经大学",
       "member1": "陈瑾",
       "member2": "朱哲含",
@@ -11928,11 +11044,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "巨大的贡献，巨大的牺牲巨大的carry",
-        "en": "Captain work work",
-        "fallback": "Captain work work"
-      },
+      "team_name": "巨大的贡献，巨大的牺牲巨大的carry",
       "school": "南阳理工学院",
       "member1": "叶昱彤",
       "member2": "陈泺冰",
@@ -11975,11 +11087,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "孤注一掷！",
-        "en": "AleaJactaEst!",
-        "fallback": "AleaJactaEst!"
-      },
+      "team_name": "孤注一掷！",
       "school": "福州大学",
       "member1": "王郑涵",
       "member2": "黄佳鹏",
@@ -12017,11 +11125,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "故我在",
-        "en": "Ergo Sum",
-        "fallback": "Ergo Sum"
-      },
+      "team_name": "故我在",
       "school": "南京邮电大学",
       "member1": "曾援",
       "member2": "宋名玮",
@@ -12099,11 +11203,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "Genshin Impact start",
-        "en": "JXNU_1",
-        "fallback": "JXNU_1"
-      },
+      "team_name": "Genshin Impact start",
       "school": "江西师范大学",
       "member1": "刘家福",
       "member2": "龚向阳",
@@ -12146,11 +11246,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "卡常的概念神人们",
-        "en": "god of ???",
-        "fallback": "god of ???"
-      },
+      "team_name": "卡常的概念神人们",
       "school": "暨南大学",
       "member1": "王睿鑫",
       "member2": "陈梓宏",
@@ -12193,11 +11289,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "关注哔站复活小聪明谢谢喵",
-        "en": "tan tai zong",
-        "fallback": "tan tai zong"
-      },
+      "team_name": "关注哔站复活小聪明谢谢喵",
       "school": "江西财经大学",
       "member1": "黄亦诚",
       "member2": "彭俊杰",
@@ -12240,11 +11332,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "蝴蝶穿花",
-        "en": "Butterflies Through Flowers",
-        "fallback": "Butterflies Through Flowers"
-      },
+      "team_name": "蝴蝶穿花",
       "school": "湖南大学",
       "member1": "陈明哲",
       "member2": "李知夏",
@@ -12297,11 +11385,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "兰树号",
-        "en": "SKD 1837",
-        "fallback": "SKD 1837"
-      },
+      "team_name": "兰树号",
       "school": "山东科技大学",
       "member1": "王世奇",
       "member2": "周景然",
@@ -12339,11 +11423,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "红烧狮子头",
-        "en": "Braised Lion Head",
-        "fallback": "Braised Lion Head"
-      },
+      "team_name": "红烧狮子头",
       "school": "盐城工学院",
       "member1": "曹翔",
       "member2": "张扬",
@@ -12381,11 +11461,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "与你相恋到生命尽头",
-        "en": "LSNU_Evermore",
-        "fallback": "LSNU_Evermore"
-      },
+      "team_name": "与你相恋到生命尽头",
       "school": "乐山师范学院",
       "member1": "曾绍武",
       "member2": "陈曦",
@@ -12428,11 +11504,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "非法苹果",
-        "en": "Illegal Apple",
-        "fallback": "Illegal Apple"
-      },
+      "team_name": "非法苹果",
       "school": "西北工业大学附属中学",
       "member1": "乡里苹果",
       "member2": "杨其非",
@@ -12475,11 +11547,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "人闲桂花落",
-        "en": "The laurel blooms fall. The night is still.",
-        "fallback": "The laurel blooms fall. The night is still."
-      },
+      "team_name": "人闲桂花落",
       "school": "山东农业大学",
       "member1": "郑嘉诚",
       "member2": "范鹏",
@@ -12522,11 +11590,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "这么六！",
-        "en": "Brilliant! Excellent! Awesome!",
-        "fallback": "Brilliant! Excellent! Awesome!"
-      },
+      "team_name": "这么六！",
       "school": "大连理工大学",
       "member1": "毛祥宇",
       "member2": "刘泽轩",
@@ -12569,11 +11633,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "香香软软egg酱",
-        "en": "Easy-win puppies",
-        "fallback": "Easy-win puppies"
-      },
+      "team_name": "香香软软egg酱",
       "school": "西安市铁一中学",
       "member1": "淡楚懿",
       "member2": "李知颖",
@@ -12621,11 +11681,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "来找我的985学长",
-        "en": "Bringing a 985 graduate student to meet a senior 985 graduate student to talk about 985",
-        "fallback": "Bringing a 985 graduate student to meet a senior 985 graduate student to talk about 985"
-      },
+      "team_name": "来找我的985学长",
       "school": "郑州轻工业大学",
       "member1": "刘家贤",
       "member2": "曾郭康",
@@ -12663,11 +11719,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "熵减新生",
-        "en": "Respawn of entropy",
-        "fallback": "Respawn of entropy"
-      },
+      "team_name": "熵减新生",
       "school": "山东理工大学",
       "member1": "袁烨",
       "member2": "张俊",
@@ -12710,11 +11762,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "Islands",
-        "en": "Islands",
-        "fallback": "Islands"
-      },
+      "team_name": "Islands",
       "school": "同济大学",
       "member1": "韩廷叙",
       "member2": "但泰然",
@@ -12757,11 +11805,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "Blessing",
-        "en": "Blessing",
-        "fallback": "Blessing"
-      },
+      "team_name": "Blessing",
       "school": "浙江农林大学",
       "member1": "罗俊升",
       "member2": "程培哲",
@@ -12804,11 +11848,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "动态数组",
-        "en": "Dynamic Array",
-        "fallback": "Dynamic Array"
-      },
+      "team_name": "动态数组",
       "school": "中国科学院大学",
       "member1": "陈麒安",
       "member2": "张高翔",
@@ -12851,11 +11891,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "那很有生活了",
-        "en": "That's good",
-        "fallback": "That's good"
-      },
+      "team_name": "那很有生活了",
       "school": "香港科技大学（广州）",
       "member1": "左眩瑞",
       "member2": "许博涵",
@@ -12908,11 +11944,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "原子牌锅贴",
-        "en": "Atom Fan's Club",
-        "fallback": "Atom Fan's Club"
-      },
+      "team_name": "原子牌锅贴",
       "school": "南京航空航天大学",
       "member1": "张森睿",
       "member2": "池明轩",
@@ -12950,11 +11982,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "不如睡大觉",
-        "en": "DeepSleep",
-        "fallback": "DeepSleep"
-      },
+      "team_name": "不如睡大觉",
       "school": "浙大城市学院",
       "member1": "谢尚哲",
       "member2": "张雪松",
@@ -12997,11 +12025,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "期中时在做什么？有没有空？可以来西安吗？",
-        "en": "What do you do at the mid-term? Are you busy? Will you come to Xi'an?",
-        "fallback": "What do you do at the mid-term? Are you busy? Will you come to Xi'an?"
-      },
+      "team_name": "期中时在做什么？有没有空？可以来西安吗？",
       "school": "上海科技大学",
       "member1": "姜昕宇",
       "member2": "王俊篪",
@@ -13044,11 +12068,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "码到成功",
-        "en": "Program until success",
-        "fallback": "Program until success"
-      },
+      "team_name": "码到成功",
       "school": "南京农业大学",
       "member1": "吴雨凡",
       "member2": "张贤成",
@@ -13086,11 +12106,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "聚散似浮萍",
-        "en": "Scatter/gather like the lemnaceae",
-        "fallback": "Scatter/gather like the lemnaceae"
-      },
+      "team_name": "聚散似浮萍",
       "school": "香港中文大学（深圳）",
       "member1": "王中天",
       "member2": "苏祈骁",
@@ -13133,11 +12149,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "黄河远上白云间",
-        "en": "Yellow River Ascends to the Clouds",
-        "fallback": "Yellow River Ascends to the Clouds"
-      },
+      "team_name": "黄河远上白云间",
       "school": "兰州大学",
       "member1": "时哲涵",
       "member2": "邵逸帆",
@@ -13175,11 +12187,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "我才不是猫猫头",
-        "en": "Not a Meowhead",
-        "fallback": "Not a Meowhead"
-      },
+      "team_name": "我才不是猫猫头",
       "school": "南京理工大学",
       "member1": "王承孟",
       "member2": "姜岩琦",
@@ -13217,11 +12225,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "瓦学弟的打铁之旅",
-        "en": "Wa Xuedi's blacksmithing journey",
-        "fallback": "Wa Xuedi's blacksmithing journey"
-      },
+      "team_name": "瓦学弟的打铁之旅",
       "school": "湖南大学",
       "member1": "刘继云",
       "member2": "邱琼林",
@@ -13264,11 +12268,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "原神拯救世界",
-        "en": "GENSHIN SAVE THE WORLD",
-        "fallback": "GENSHIN SAVE THE WORLD"
-      },
+      "team_name": "原神拯救世界",
       "school": "西北工业大学",
       "member1": "叶韫韩",
       "member2": "谭意铭",
@@ -13306,11 +12306,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "告诉我为什么",
-        "en": "tell me why?",
-        "fallback": "tell me why?"
-      },
+      "team_name": "告诉我为什么",
       "school": "湖南科技大学",
       "member1": "旷豪杰",
       "member2": "易刚",
@@ -13348,11 +12344,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "银狼",
-        "en": "Silver wolf",
-        "fallback": "Silver wolf"
-      },
+      "team_name": "银狼",
       "school": "西北工业大学附属中学",
       "member1": "赵泽尧",
       "member2": "郑好",
@@ -13395,11 +12387,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "败犬ACMer太多了！",
-        "en": "MaKeAcmerGaOoSuGiRu!",
-        "fallback": "MaKeAcmerGaOoSuGiRu!"
-      },
+      "team_name": "败犬ACMer太多了！",
       "school": "武汉理工大学",
       "member1": "张旭东",
       "member2": "张震宇",
@@ -13437,11 +12425,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "敢同恶鬼争高下，不向霸王让寸分",
-        "en": "Dare to defy demons, yield not to tyrants.",
-        "fallback": "Dare to defy demons, yield not to tyrants."
-      },
+      "team_name": "敢同恶鬼争高下，不向霸王让寸分",
       "school": "西安工业大学",
       "member1": "邓琦文",
       "member2": "肖兴隃",
@@ -13479,11 +12463,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "以练结愿",
-        "en": "Practice to Pursue Au Dream",
-        "fallback": "Practice to Pursue Au Dream"
-      },
+      "team_name": "以练结愿",
       "school": "西安市铁一中学",
       "member1": "杨瑞斌",
       "member2": "吴昱胤",
@@ -13526,11 +12506,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "教练我不想再WA了",
-        "en": "Team NoWa",
-        "fallback": "Team NoWa"
-      },
+      "team_name": "教练我不想再WA了",
       "school": "哈尔滨工业大学（威海）",
       "member1": "郑怡恒",
       "member2": "杜中坤",
@@ -13573,11 +12549,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "奶龙耄耋Doro合体",
-        "en": "Combination of NaiLong, MaoDie and Doro",
-        "fallback": "Combination of NaiLong, MaoDie and Doro"
-      },
+      "team_name": "奶龙耄耋Doro合体",
       "school": "哈尔滨工业大学（深圳）",
       "member1": "樊卓意",
       "member2": "李杰",
@@ -13620,11 +12592,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "（O）998244353",
-        "en": "(O)998244353",
-        "fallback": "(O)998244353"
-      },
+      "team_name": "（O）998244353",
       "school": "西南民族大学",
       "member1": "傅子益",
       "member2": "江星星",
@@ -13662,11 +12630,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "燕大1队",
-        "en": "YanShan 1st",
-        "fallback": "YanShan 1st"
-      },
+      "team_name": "燕大1队",
       "school": "燕山大学",
       "member1": "张宇成",
       "member2": "申达",
@@ -13709,11 +12673,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "会赢的",
-        "en": "we will win",
-        "fallback": "we will win"
-      },
+      "team_name": "会赢的",
       "school": "湖南农业大学",
       "member1": "董振华",
       "member2": "李海芬",
@@ -13756,11 +12716,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "最棒的小羊",
-        "en": "the best sheep",
-        "fallback": "the best sheep"
-      },
+      "team_name": "最棒的小羊",
       "school": "广东外语外贸大学",
       "member1": "麦思睿",
       "member2": "王祉乔",
@@ -13798,11 +12754,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "是长理不是厂里",
-        "en": "cust is not just cu",
-        "fallback": "cust is not just cu"
-      },
+      "team_name": "是长理不是厂里",
       "school": "长春理工大学",
       "member1": "罗卫泽",
       "member2": "骆柏荣",
@@ -13845,11 +12797,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "阿比盖尔之花",
-        "en": "Abigail's Flower",
-        "fallback": "Abigail's Flower"
-      },
+      "team_name": "阿比盖尔之花",
       "school": "郑州经贸学院",
       "member1": "王哲",
       "member2": "张海乐",
@@ -13892,11 +12840,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "开O4应该能过吧",
-        "en": "#pragma GCC optimize(\"O4\")",
-        "fallback": "#pragma GCC optimize(\"O4\")"
-      },
+      "team_name": "开O4应该能过吧",
       "school": "华南农业大学",
       "member1": "邹炜泉",
       "member2": "叶子琦",
@@ -13939,11 +12883,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "让我康康",
-        "en": "LetMeSeesee",
-        "fallback": "LetMeSeesee"
-      },
+      "team_name": "让我康康",
       "school": "福州大学",
       "member1": "傅世杰",
       "member2": "何顺康",
@@ -13986,11 +12926,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "彩虹海",
-        "en": "Rainbow Sea",
-        "fallback": "Rainbow Sea"
-      },
+      "team_name": "彩虹海",
       "school": "江西财经大学",
       "member1": "肖丛宇",
       "member2": "杨源鑫",
@@ -14028,11 +12964,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "博士队员与他们的猿人队长",
-        "en": "The Doctor's team and there ape-man captain",
-        "fallback": "The Doctor's team and there ape-man captain"
-      },
+      "team_name": "博士队员与他们的猿人队长",
       "school": "五邑大学",
       "member1": "冯凯翔",
       "member2": "黄达聪",
@@ -14070,11 +13002,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "重生之我在信大",
-        "en": "Reborn:My Life in IEU",
-        "fallback": "Reborn:My Life in IEU"
-      },
+      "team_name": "重生之我在信大",
       "school": "中国人民解放军信息工程大学",
       "member1": "蔡智勋",
       "member2": "闫国基",
@@ -14117,11 +13045,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "山羊不排队",
-        "en": "GOATjumpsthequeue",
-        "fallback": "GOATjumpsthequeue"
-      },
+      "team_name": "山羊不排队",
       "school": "湘潭大学",
       "member1": "罗琨",
       "member2": "谭毅恒",
@@ -14159,11 +13083,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "来财",
-        "en": "otto",
-        "fallback": "otto"
-      },
+      "team_name": "来财",
       "school": "西安科技大学",
       "member1": "李姜帅",
       "member2": "袁伯琦",
@@ -14201,11 +13121,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "你们的生命不会呐喊吗！",
-        "en": "go where you wanna go",
-        "fallback": "go where you wanna go"
-      },
+      "team_name": "你们的生命不会呐喊吗！",
       "school": "江西农业大学",
       "member1": "闫卡特",
       "member2": "罗宇豪",
@@ -14248,11 +13164,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "蓦然回首",
-        "en": "Once upon a time",
-        "fallback": "Once upon a time"
-      },
+      "team_name": "蓦然回首",
       "school": "东北大学秦皇岛分校",
       "member1": "尚昀飞",
       "member2": "陈天文",
@@ -14295,11 +13207,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "柚子醋蒸虾头",
-        "en": "Yuzu and Shrimp Head",
-        "fallback": "Yuzu and Shrimp Head"
-      },
+      "team_name": "柚子醋蒸虾头",
       "school": "扬州大学",
       "member1": "余兴正",
       "member2": "宋世荣",
@@ -14342,11 +13250,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "UPC1988",
-        "en": "UPC1988",
-        "fallback": "UPC1988"
-      },
+      "team_name": "UPC1988",
       "school": "中国石油大学（华东）",
       "member1": "王一同",
       "member2": "林嘉伟",
@@ -14389,11 +13293,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "样例能过就AC",
-        "en": "example==AC",
-        "fallback": "example==AC"
-      },
+      "team_name": "样例能过就AC",
       "school": "浙江师范大学",
       "member1": "李宇廷",
       "member2": "严惟傲",
@@ -14436,11 +13336,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "二兆亿的流年",
-        "en": "Two Trillion Eons",
-        "fallback": "Two Trillion Eons"
-      },
+      "team_name": "二兆亿的流年",
       "school": "中南民族大学",
       "member1": "李赛",
       "member2": "吴佳明",
@@ -14483,11 +13379,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "长夜月",
-        "en": "evernight",
-        "fallback": "evernight"
-      },
+      "team_name": "长夜月",
       "school": "南京林业大学",
       "member1": "唐俊峰",
       "member2": "苏锦翔",
@@ -14525,11 +13417,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "牢铁传说之陨落的天才",
-        "en": "Silver please",
-        "fallback": "Silver please"
-      },
+      "team_name": "牢铁传说之陨落的天才",
       "school": "上海海洋大学",
       "member1": "庄勇腾",
       "member2": "张华文",
@@ -14572,11 +13460,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "死手快敲",
-        "en": "Dead Hand Quick Done",
-        "fallback": "Dead Hand Quick Done"
-      },
+      "team_name": "死手快敲",
       "school": "湖南财政经济学院",
       "member1": "张帆",
       "member2": "申维聪",
@@ -14614,11 +13498,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "手写的从前",
-        "en": "tick away",
-        "fallback": "tick away"
-      },
+      "team_name": "手写的从前",
       "school": "青岛农业大学",
       "member1": "王科锦",
       "member2": "刘世征",
@@ -14656,11 +13536,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "听取WA声一片",
-        "en": "WA WA WA",
-        "fallback": "WA WA WA"
-      },
+      "team_name": "听取WA声一片",
       "school": "浙江师范大学",
       "member1": "樊彬",
       "member2": "倪千淇",
@@ -14698,11 +13574,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "樱花泪",
-        "en": "Sakura Tears",
-        "fallback": "Sakura Tears"
-      },
+      "team_name": "樱花泪",
       "school": "成都锦城学院",
       "member1": "程义威",
       "member2": "何轩逸",
@@ -14745,11 +13617,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "徐工最后的倔强",
-        "en": "XZIT01",
-        "fallback": "XZIT01"
-      },
+      "team_name": "徐工最后的倔强",
       "school": "徐州工程学院",
       "member1": "陈光雨",
       "member2": "顾宇燿",
@@ -14792,11 +13660,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "南蛮入侵",
-        "en": "Nanman invasion",
-        "fallback": "Nanman invasion"
-      },
+      "team_name": "南蛮入侵",
       "school": "阿坝师范学院",
       "member1": "胡航",
       "member2": "冯浩",
@@ -14834,11 +13698,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "勇敢牛牛",
-        "en": "brave cow",
-        "fallback": "brave cow"
-      },
+      "team_name": "勇敢牛牛",
       "school": "西北工业大学",
       "member1": "陆华飞",
       "member2": "余丁宸睿",
@@ -14881,11 +13741,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "老登首秀给个机会 qwq",
-        "en": "Super Mega Awesome Milk Dragon Emperor",
-        "fallback": "Super Mega Awesome Milk Dragon Emperor"
-      },
+      "team_name": "老登首秀给个机会 qwq",
       "school": "湖北第二师范学院",
       "member1": "贺宇杰",
       "member2": "刘俊康",
@@ -14923,11 +13779,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "放学后 Algorithm Time",
-        "en": "After school algorithm time",
-        "fallback": "After school algorithm time"
-      },
+      "team_name": "放学后 Algorithm Time",
       "school": "上海海事大学",
       "member1": "顾以为",
       "member2": "常缪洋",
@@ -14965,11 +13817,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "月夜见海月",
-        "en": "TsukiyomiKurage",
-        "fallback": "TsukiyomiKurage"
-      },
+      "team_name": "月夜见海月",
       "school": "厦门大学",
       "member1": "宋浩元",
       "member2": "陈嘉硕",
@@ -15012,11 +13860,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "请求头",
-        "en": "request header",
-        "fallback": "request header"
-      },
+      "team_name": "请求头",
       "school": "河南农业大学",
       "member1": "张鹏举",
       "member2": "杨光",
@@ -15049,11 +13893,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "绕远路才是我的最短捷径",
-        "en": "Lesson 5",
-        "fallback": "Lesson 5"
-      },
+      "team_name": "绕远路才是我的最短捷径",
       "school": "西北农林科技大学",
       "member1": "郑枫",
       "member2": "杨沐辰",
@@ -15091,11 +13931,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "王者",
-        "en": "king",
-        "fallback": "king"
-      },
+      "team_name": "王者",
       "school": "华东理工大学",
       "member1": "赵迪",
       "member2": "宋安迪",
@@ -15133,11 +13969,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "那一天的AC，AC起来",
-        "en": "That day's AC",
-        "fallback": "That day's AC"
-      },
+      "team_name": "那一天的AC，AC起来",
       "school": "上海应用技术大学",
       "member1": "项家挺",
       "member2": "毛梓进",
@@ -15180,11 +14012,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "死者苏生",
-        "en": "Rebirth",
-        "fallback": "Rebirth"
-      },
+      "team_name": "死者苏生",
       "school": "西安交通大学",
       "member1": "朱子铭",
       "member2": "钟煜宸",
@@ -15227,11 +14055,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "凹嗷奥熬袄",
-        "en": "A future that is bound to success",
-        "fallback": "A future that is bound to success"
-      },
+      "team_name": "凹嗷奥熬袄",
       "school": "江南大学",
       "member1": "钱逸晗",
       "member2": "林彤",
@@ -15269,11 +14093,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "无牌不叫",
-        "en": "no medal no call",
-        "fallback": "no medal no call"
-      },
+      "team_name": "无牌不叫",
       "school": "南昌航空大学",
       "member1": "于峰",
       "member2": "邹仁杰",
@@ -15316,11 +14136,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "赛博老中医",
-        "en": "ZCMU-01",
-        "fallback": "ZCMU-01"
-      },
+      "team_name": "赛博老中医",
       "school": "浙江中医药大学",
       "member1": "王震",
       "member2": "黄超逸",
@@ -15358,11 +14174,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "我要对你实行我的AC专属权",
-        "en": "ACACACACACACACAC",
-        "fallback": "ACACACACACACACAC"
-      },
+      "team_name": "我要对你实行我的AC专属权",
       "school": "杭州师范大学",
       "member1": "葛宇逍",
       "member2": "陈宇雯",
@@ -15400,11 +14212,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "鹰号",
-        "en": "SKD 956",
-        "fallback": "SKD 956"
-      },
+      "team_name": "鹰号",
       "school": "山东科技大学",
       "member1": "秦立杰",
       "member2": "徐涵煜",
@@ -15442,11 +14250,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "码到成功",
-        "en": "O(nly)1%",
-        "fallback": "O(nly)1%"
-      },
+      "team_name": "码到成功",
       "school": "中国矿业大学",
       "member1": "林昱达",
       "member2": "何铭昊",
@@ -15489,11 +14293,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "比AC多一点的AD钙奶",
-        "en": "AD calcium milk that's a bit more than AC",
-        "fallback": "AD calcium milk that's a bit more than AC"
-      },
+      "team_name": "比AC多一点的AD钙奶",
       "school": "南阳师范学院",
       "member1": "黄雯建",
       "member2": "闵龙隆",
@@ -15531,11 +14331,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "矿兵出击",
-        "en": "Mining-soldier Sortie",
-        "fallback": "Mining-soldier Sortie"
-      },
+      "team_name": "矿兵出击",
       "school": "中国矿业大学",
       "member1": "卜炜珏",
       "member2": "赵际云",
@@ -15578,11 +14374,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "月影宵行",
-        "en": "Moonlit Firefly",
-        "fallback": "Moonlit Firefly"
-      },
+      "team_name": "月影宵行",
       "school": "辽宁大学",
       "member1": "高斐鸿",
       "member2": "夏宇杰",
@@ -15620,11 +14412,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "呜哇",
-        "en": "GDUT_awa",
-        "fallback": "GDUT_awa"
-      },
+      "team_name": "呜哇",
       "school": "广东工业大学",
       "member1": "侯宇鹏",
       "member2": "陶齐晖",
@@ -15662,11 +14450,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "COFFEE CODE BUGS",
-        "en": "COFFEE CODE BUGS",
-        "fallback": "COFFEE CODE BUGS"
-      },
+      "team_name": "COFFEE CODE BUGS",
       "school": "湖南理工学院",
       "member1": "胡岩松",
       "member2": "颜文渝",
@@ -15704,11 +14488,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "洛森指针",
-        "en": "Aqua-Arbor Pointer",
-        "fallback": "Aqua-Arbor Pointer"
-      },
+      "team_name": "洛森指针",
       "school": "东北大学秦皇岛分校",
       "member1": "曾凡一",
       "member2": "聂恒",
@@ -15751,11 +14531,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "涅槃",
-        "en": "Phoenix",
-        "fallback": "Phoenix"
-      },
+      "team_name": "涅槃",
       "school": "井冈山大学",
       "member1": "王琼",
       "member2": "杨文源",
@@ -15798,11 +14574,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "雨",
-        "en": "Rain",
-        "fallback": "Rain"
-      },
+      "team_name": "雨",
       "school": "河南大学",
       "member1": "陈俊峰",
       "member2": "刘永斌",
@@ -15845,11 +14617,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "打铁之后打螺丝",
-        "en": "world.search(job)=NULL",
-        "fallback": "world.search(job)=NULL"
-      },
+      "team_name": "打铁之后打螺丝",
       "school": "南华大学",
       "member1": "刘思凯",
       "member2": "羊新旺",
@@ -15892,11 +14660,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "东北大学_哈基米南北绿队",
-        "en": "NEU_nixiankaide",
-        "fallback": "NEU_nixiankaide"
-      },
+      "team_name": "东北大学_哈基米南北绿队",
       "school": "东北大学",
       "member1": "康许宁",
       "member2": "王渝迪",
@@ -15934,11 +14698,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "三只煤球想成金",
-        "en": "Three Coals to Gold",
-        "fallback": "Three Coals to Gold"
-      },
+      "team_name": "三只煤球想成金",
       "school": "中国矿业大学",
       "member1": "杜重阳",
       "member2": "倪浩宸",
@@ -15976,11 +14736,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "不祈者",
-        "en": "Silvercloud Dreamer",
-        "fallback": "Silvercloud Dreamer"
-      },
+      "team_name": "不祈者",
       "school": "沈阳理工大学",
       "member1": "闻家尉",
       "member2": "金礼骁",
@@ -16018,11 +14774,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "小AC找码码",
-        "en": "little ACs hunting for codeMa",
-        "fallback": "little ACs hunting for codeMa"
-      },
+      "team_name": "小AC找码码",
       "school": "北京林业大学",
       "member1": "张文乐",
       "member2": "张秉鸿",
@@ -16065,11 +14817,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "贪心求过",
-        "en": "Greedy for AC",
-        "fallback": "Greedy for AC"
-      },
+      "team_name": "贪心求过",
       "school": "山西大学",
       "member1": "柳伟康",
       "member2": "李奕凡",
@@ -16112,11 +14860,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "这是一个名字",
-        "en": "QAQ",
-        "fallback": "QAQ"
-      },
+      "team_name": "这是一个名字",
       "school": "西安市铁一中学",
       "member1": "屈子睿",
       "member2": "袁诗钊",
@@ -16154,11 +14898,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "牌入栈 栈溢出",
-        "en": "Medal Push, Stack Overflow",
-        "fallback": "Medal Push, Stack Overflow"
-      },
+      "team_name": "牌入栈 栈溢出",
       "school": "温州大学",
       "member1": "王楚怡",
       "member2": "李家诚",
@@ -16201,11 +14941,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "文神的最后一舞",
-        "en": "The Last Dance of Winshin",
-        "fallback": "The Last Dance of Winshin"
-      },
+      "team_name": "文神的最后一舞",
       "school": "中国地质大学（武汉）",
       "member1": "杨家鹤",
       "member2": "李泽文",
@@ -16243,11 +14979,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "没事还有另一队",
-        "en": "It's okay. There's another team",
-        "fallback": "It's okay. There's another team"
-      },
+      "team_name": "没事还有另一队",
       "school": "南阳理工学院",
       "member1": "黎鹏翔",
       "member2": "夏圣燕",
@@ -16280,11 +15012,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "老东西",
-        "en": "Old thing",
-        "fallback": "Old thing"
-      },
+      "team_name": "老东西",
       "school": "西南科技大学",
       "member1": "陈亮旭",
       "member2": "吴子杨",
@@ -16327,11 +15055,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "西北玻璃制造厂",
-        "en": "Revitalize",
-        "fallback": "Revitalize"
-      },
+      "team_name": "西北玻璃制造厂",
       "school": "西北工业大学附属中学",
       "member1": "鲁泊成",
       "member2": "雷康宁",
@@ -16369,11 +15093,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "GDUT_AC 发电机",
-        "en": "GDUT_AC Generator",
-        "fallback": "GDUT_AC Generator"
-      },
+      "team_name": "GDUT_AC 发电机",
       "school": "广东工业大学",
       "member1": "何彦憬",
       "member2": "郭靖扬",
@@ -16411,11 +15131,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "ap与aj相比，我选择ac",
-        "en": "Dont'need ap and aj, need ac.",
-        "fallback": "Dont'need ap and aj, need ac."
-      },
+      "team_name": "ap与aj相比，我选择ac",
       "school": "河北工业大学",
       "member1": "朱宸岐",
       "member2": "张天铄",
@@ -16453,11 +15169,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "我不是AC神",
-        "en": "claim AC luminary",
-        "fallback": "claim AC luminary"
-      },
+      "team_name": "我不是AC神",
       "school": "西北大学",
       "member1": "王海涵",
       "member2": "景银强",
@@ -16495,11 +15207,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "啊对对对",
-        "en": "ayesyesyes",
-        "fallback": "ayesyesyes"
-      },
+      "team_name": "啊对对对",
       "school": "南京理工大学",
       "member1": "金子轩",
       "member2": "邓浩宇",
@@ -16547,11 +15255,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "基本演绎法",
-        "en": "Elementary",
-        "fallback": "Elementary"
-      },
+      "team_name": "基本演绎法",
       "school": "中国民航大学",
       "member1": "姚远",
       "member2": "马佳昶",
@@ -16584,11 +15288,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "恩",
-        "en": "en",
-        "fallback": "en"
-      },
+      "team_name": "恩",
       "school": "河南工业大学",
       "member1": "凡亚豪",
       "member2": "曹子鹏",
@@ -16626,11 +15326,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "恒卷时刻",
-        "en": "JUAN TIMe HighAqC3",
-        "fallback": "JUAN TIMe HighAqC3"
-      },
+      "team_name": "恒卷时刻",
       "school": "陕西师范大学",
       "member1": "张雨涵",
       "member2": "毛英灿",
@@ -16668,11 +15364,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "所谓月色",
-        "en": "The so-called moonlight",
-        "fallback": "The so-called moonlight"
-      },
+      "team_name": "所谓月色",
       "school": "南阳理工学院",
       "member1": "张雷鸣",
       "member2": "姜良超",
@@ -16705,11 +15397,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "夏日口袋",
-        "en": "Summer Pockets",
-        "fallback": "Summer Pockets"
-      },
+      "team_name": "夏日口袋",
       "school": "南昌理工学院",
       "member1": "毛富豪",
       "member2": "曾正基",
@@ -16747,11 +15435,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "祥子帮帮写",
-        "en": "Oblivions",
-        "fallback": "Oblivions"
-      },
+      "team_name": "祥子帮帮写",
       "school": "天津工业大学",
       "member1": "周浩",
       "member2": "水博翔",
@@ -16794,11 +15478,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "西安机厅舞萌中二几块钱1pc",
-        "en": "How much is 1pc maimai & CHUNITHM in Xi'an",
-        "fallback": "How much is 1pc maimai & CHUNITHM in Xi'an"
-      },
+      "team_name": "西安机厅舞萌中二几块钱1pc",
       "school": "四川大学",
       "member1": "黄叙豪",
       "member2": "唐闻博",
@@ -16846,11 +15526,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "季节更替",
-        "en": "0.o",
-        "fallback": "0.o"
-      },
+      "team_name": "季节更替",
       "school": "宁夏大学",
       "member1": "陈天笑",
       "member2": "郑英祺",
@@ -16893,11 +15569,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "通海湖裸泳君",
-        "en": "Mr. Skinny–dip",
-        "fallback": "Mr. Skinny–dip"
-      },
+      "team_name": "通海湖裸泳君",
       "school": "华东理工大学",
       "member1": "张语瞳",
       "member2": "何昀羲",
@@ -16940,11 +15612,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "编程小纵队",
-        "en": "Code Squad",
-        "fallback": "Code Squad"
-      },
+      "team_name": "编程小纵队",
       "school": "北京理工大学",
       "member1": "张之杰",
       "member2": "刘逸彬",
@@ -16982,11 +15650,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "WA物语",
-        "en": "WA Monogatari",
-        "fallback": "WA Monogatari"
-      },
+      "team_name": "WA物语",
       "school": "上海大学",
       "member1": "邢儒戈",
       "member2": "李嘉诚",
@@ -17024,11 +15688,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "那么这一时刻又有老铁问了",
-        "en": "iron ask",
-        "fallback": "iron ask"
-      },
+      "team_name": "那么这一时刻又有老铁问了",
       "school": "国防科技大学",
       "member1": "刘杭宇",
       "member2": "谢天一",
@@ -17066,11 +15726,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "少女周末旅行",
-        "en": "Girls' weekends tour",
-        "fallback": "Girls' weekends tour"
-      },
+      "team_name": "少女周末旅行",
       "school": "武汉理工大学",
       "member1": "王起东",
       "member2": "唐一弘",
@@ -17108,11 +15764,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "一觉醒来全球算法水平下降一万倍",
-        "en": "LCL",
-        "fallback": "LCL"
-      },
+      "team_name": "一觉醒来全球算法水平下降一万倍",
       "school": "四川师范大学",
       "member1": "刘航志",
       "member2": "罗志",
@@ -17145,11 +15797,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "备用机位",
-        "en": "Spare Seat",
-        "fallback": "Spare Seat"
-      },
+      "team_name": "备用机位",
       "school": "湖北工业大学",
       "member1": "张哲",
       "member2": "周奕昊",
@@ -17182,11 +15830,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "加载中，请稍候",
-        "en": "404 not found",
-        "fallback": "404 not found"
-      },
+      "team_name": "加载中，请稍候",
       "school": "哈尔滨工业大学",
       "member1": "郭健桓",
       "member2": "刘靖文",
@@ -17224,11 +15868,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "二进制算法研究",
-        "en": "Binary Algorithm Studios",
-        "fallback": "Binary Algorithm Studios"
-      },
+      "team_name": "二进制算法研究",
       "school": "合肥工业大学",
       "member1": "王熠辉",
       "member2": "张麒麟",
@@ -17271,11 +15911,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "反正能过样例",
-        "en": "AnywayPassSample",
-        "fallback": "AnywayPassSample"
-      },
+      "team_name": "反正能过样例",
       "school": "合肥大学",
       "member1": "汝豪杰",
       "member2": "瞿康辰",
@@ -17313,11 +15949,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "打Div.4被扣180分",
-        "en": "You Have -180! Wow!",
-        "fallback": "You Have -180! Wow!"
-      },
+      "team_name": "打Div.4被扣180分",
       "school": "龙岩学院",
       "member1": "白宇",
       "member2": "黄斌强",
@@ -17355,11 +15987,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "BDACM爱好者",
-        "en": "BDACM lovers",
-        "fallback": "BDACM lovers"
-      },
+      "team_name": "BDACM爱好者",
       "school": "重庆大学",
       "member1": "刘开元",
       "member2": "鲁欣彤",
@@ -17397,11 +16025,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "combo",
-        "en": "combo",
-        "fallback": "combo"
-      },
+      "team_name": "combo",
       "school": "华东师范大学",
       "member1": "王语晴",
       "member2": "张博凯",
@@ -17444,11 +16068,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "下班",
-        "en": "Off work",
-        "fallback": "Off work"
-      },
+      "team_name": "下班",
       "school": "南京航空航天大学",
       "member1": "杨恩祺",
       "member2": "顾一帆",
@@ -17486,11 +16106,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "稻香满径",
-        "en": "Golden Scent Trail",
-        "fallback": "Golden Scent Trail"
-      },
+      "team_name": "稻香满径",
       "school": "齐鲁工业大学",
       "member1": "周金林",
       "member2": "王海科",
@@ -17523,11 +16139,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "微笑面队",
-        "en": "Blossoms",
-        "fallback": "Blossoms"
-      },
+      "team_name": "微笑面队",
       "school": "西南民族大学",
       "member1": "李源沁",
       "member2": "孙泓莉",
@@ -17565,11 +16177,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "游客分队",
-        "en": "N15 Accomplished",
-        "fallback": "N15 Accomplished"
-      },
+      "team_name": "游客分队",
       "school": "上海大学",
       "member1": "乔思远",
       "member2": "董晨曦",
@@ -17602,11 +16210,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "樱梦殇",
-        "en": "Sakura Namida",
-        "fallback": "Sakura Namida"
-      },
+      "team_name": "樱梦殇",
       "school": "中国计量大学",
       "member1": "倪晓宇",
       "member2": "李熠轩",
@@ -17644,11 +16248,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "天衣无缝",
-        "en": "AC loves us again",
-        "fallback": "AC loves us again"
-      },
+      "team_name": "天衣无缝",
       "school": "中国传媒大学",
       "member1": "张雨姗",
       "member2": "朱思彤",
@@ -17681,11 +16281,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "又活一天",
-        "en": "Another day alive",
-        "fallback": "Another day alive"
-      },
+      "team_name": "又活一天",
       "school": "沈阳化工大学",
       "member1": "罗祥",
       "member2": "刘洪运",
@@ -17728,11 +16324,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "好好学习，天天向上",
-        "en": "goodgoodstudy,daydayup",
-        "fallback": "goodgoodstudy,daydayup"
-      },
+      "team_name": "好好学习，天天向上",
       "school": "江苏海洋大学",
       "member1": "房鸿铭",
       "member2": "刘好",
@@ -17765,11 +16357,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "XJU_T7",
-        "en": "XJU_T7",
-        "fallback": "XJU_T7"
-      },
+      "team_name": "XJU_T7",
       "school": "新疆大学",
       "member1": "于文硕",
       "member2": "吴华威",
@@ -17802,11 +16390,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "育英七队",
-        "en": "yyteam7",
-        "fallback": "yyteam7"
-      },
+      "team_name": "育英七队",
       "school": "浙江育英职业技术学院",
       "member1": "孙明轩",
       "member2": "潘彬泽",
@@ -17844,11 +16428,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "如果是勇者辛美尔的话一定会AC的",
-        "en": "I love Frieren",
-        "fallback": "I love Frieren"
-      },
+      "team_name": "如果是勇者辛美尔的话一定会AC的",
       "school": "河海大学",
       "member1": "陈敏树",
       "member2": "王涵",
@@ -17881,11 +16461,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "院长说区域赛是省赛不给报销",
-        "en": "blue",
-        "fallback": "blue"
-      },
+      "team_name": "院长说区域赛是省赛不给报销",
       "school": "东华理工大学",
       "member1": "熊永荣",
       "member2": "涂嘉乐",
@@ -17923,11 +16499,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "金银铜",
-        "en": "golden win bro",
-        "fallback": "golden win bro"
-      },
+      "team_name": "金银铜",
       "school": "阜阳师范大学",
       "member1": "方鼎",
       "member2": "石道成",
@@ -17960,11 +16532,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "让我们ac吧，我们什么都会做的",
-        "en": "myac",
-        "fallback": "myac"
-      },
+      "team_name": "让我们ac吧，我们什么都会做的",
       "school": "台州学院",
       "member1": "吴文龙",
       "member2": "高汪杨",
@@ -18002,11 +16570,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "超级薯条",
-        "en": "Superchips",
-        "fallback": "Superchips"
-      },
+      "team_name": "超级薯条",
       "school": "广西民族大学",
       "member1": "程远松",
       "member2": "石景宝",
@@ -18044,11 +16608,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "小AC找妈妈",
-        "en": "WA Babies",
-        "fallback": "WA Babies"
-      },
+      "team_name": "小AC找妈妈",
       "school": "重庆大学",
       "member1": "焦耀天",
       "member2": "刘佳庆",
@@ -18086,11 +16646,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "阿萨姆奶茶",
-        "en": "Assam Milk Tea",
-        "fallback": "Assam Milk Tea"
-      },
+      "team_name": "阿萨姆奶茶",
       "school": "广东金融学院",
       "member1": "翁博",
       "member2": "陈致昊",
@@ -18128,11 +16684,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "0xAC小队",
-        "en": "0xACers",
-        "fallback": "0xACers"
-      },
+      "team_name": "0xAC小队",
       "school": "南京航空航天大学",
       "member1": "魏钊",
       "member2": "王一博",
@@ -18170,11 +16722,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "我要睡觉了",
-        "en": "I want to go to sleep",
-        "fallback": "I want to go to sleep"
-      },
+      "team_name": "我要睡觉了",
       "school": "河南大学",
       "member1": "田沈聪",
       "member2": "李耘辉",
@@ -18212,11 +16760,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "潜龙腾渊",
-        "en": "HQU_RisingDragons",
-        "fallback": "HQU_RisingDragons"
-      },
+      "team_name": "潜龙腾渊",
       "school": "华侨大学",
       "member1": "张伟鹏",
       "member2": "韩志军",
@@ -18249,11 +16793,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "浓缩咖啡",
-        "en": "Test",
-        "fallback": "Test"
-      },
+      "team_name": "浓缩咖啡",
       "school": "北京科技大学",
       "member1": "康伊德",
       "member2": "庞明宇",
@@ -18291,11 +16831,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "哈理工04队",
-        "en": "HRBUST04XA",
-        "fallback": "HRBUST04XA"
-      },
+      "team_name": "哈理工04队",
       "school": "哈尔滨理工大学",
       "member1": "谢天城",
       "member2": "王芷安",
@@ -18338,11 +16874,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "某暗部的少女共栖",
-        "en": "ITEM girls coexistence",
-        "fallback": "ITEM girls coexistence"
-      },
+      "team_name": "某暗部的少女共栖",
       "school": "江汉大学",
       "member1": "熊振庭",
       "member2": "李尧斐",
@@ -18375,11 +16907,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "蹦蹦吧",
-        "en": "Bongbongba",
-        "fallback": "Bongbongba"
-      },
+      "team_name": "蹦蹦吧",
       "school": "河南师范大学",
       "member1": "刘资成",
       "member2": "赵恒",
@@ -18417,11 +16945,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "梦想成为ICPC高手",
-        "en": "Dream of becoming an ICPC expert",
-        "fallback": "Dream of becoming an ICPC expert"
-      },
+      "team_name": "梦想成为ICPC高手",
       "school": "华北理工大学",
       "member1": "于千智",
       "member2": "陈焜",
@@ -18454,11 +16978,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "黎卡今天吃什么",
-        "en": "What will Whalica eat today",
-        "fallback": "What will Whalica eat today"
-      },
+      "team_name": "黎卡今天吃什么",
       "school": "中南民族大学",
       "member1": "张宇豪",
       "member2": "冯钰航",
@@ -18491,11 +17011,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "火箭汪汪队",
-        "en": "Rocket Pups of Team",
-        "fallback": "Rocket Pups of Team"
-      },
+      "team_name": "火箭汪汪队",
       "school": "大连交通大学",
       "member1": "矫金明",
       "member2": "周涛",
@@ -18533,11 +17049,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "一场大雨",
-        "en": "A Hard Rain",
-        "fallback": "A Hard Rain"
-      },
+      "team_name": "一场大雨",
       "school": "西北师范大学",
       "member1": "陈小庆",
       "member2": "曾祥涛",
@@ -18570,11 +17082,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "爆零就去玩三角洲",
-        "en": "Delta Force or AC",
-        "fallback": "Delta Force or AC"
-      },
+      "team_name": "爆零就去玩三角洲",
       "school": "山东师范大学",
       "member1": "刘郑",
       "member2": "戴文星",
@@ -18607,11 +17115,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "熔岩烤鸡",
-        "en": "Lava Chicken",
-        "fallback": "Lava Chicken"
-      },
+      "team_name": "熔岩烤鸡",
       "school": "浙大城市学院",
       "member1": "俞轩昂",
       "member2": "何鑫星",
@@ -18649,11 +17153,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "队名叫什么",
-        "en": "DLU GO",
-        "fallback": "DLU GO"
-      },
+      "team_name": "队名叫什么",
       "school": "大连大学",
       "member1": "郑卫",
       "member2": "幸豪",
@@ -18686,11 +17186,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "蛋仔派队",
-        "en": "Winwinwin",
-        "fallback": "Winwinwin"
-      },
+      "team_name": "蛋仔派队",
       "school": "河南理工大学",
       "member1": "赵彪",
       "member2": "李博",
@@ -18723,11 +17219,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "记得开long long",
-        "en": "use long long",
-        "fallback": "use long long"
-      },
+      "team_name": "记得开long long",
       "school": "中南大学",
       "member1": "王子轩",
       "member2": "王夫子",
@@ -18760,11 +17252,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "加我微信请排队",
-        "en": "cpdd",
-        "fallback": "cpdd"
-      },
+      "team_name": "加我微信请排队",
       "school": "湘潭大学",
       "member1": "王文渊",
       "member2": "邹泽林",
@@ -18802,11 +17290,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "牢码队",
-        "en": "laoma",
-        "fallback": "laoma"
-      },
+      "team_name": "牢码队",
       "school": "北京化工大学",
       "member1": "程泽华",
       "member2": "王松浩",
@@ -18844,11 +17328,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "皮蛋学长不会梦到oi学弟",
-        "en": "void",
-        "fallback": "void"
-      },
+      "team_name": "皮蛋学长不会梦到oi学弟",
       "school": "武汉轻工大学",
       "member1": "肖子龙",
       "member2": "刘俊泽",
@@ -18891,11 +17371,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "666人类进化不带我",
-        "en": "TLE@Evolution",
-        "fallback": "TLE@Evolution"
-      },
+      "team_name": "666人类进化不带我",
       "school": "长春工业大学",
       "member1": "陈柯嵩",
       "member2": "刘明昊",
@@ -18928,11 +17404,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "return inv(wa);",
-        "en": "return inv(wa);",
-        "fallback": "return inv(wa);"
-      },
+      "team_name": "return inv(wa);",
       "school": "中国传媒大学",
       "member1": "范金旭",
       "member2": "刘钰",
@@ -18970,11 +17442,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "哦飞机阿瑟东金佛爱撒娇覅",
-        "en": "I love cc",
-        "fallback": "I love cc"
-      },
+      "team_name": "哦飞机阿瑟东金佛爱撒娇覅",
       "school": "浙江农林大学",
       "member1": "黄志腾",
       "member2": "赵亭旭",
@@ -19012,11 +17480,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "不知绽放的花蕾",
-        "en": "Veiled Petals",
-        "fallback": "Veiled Petals"
-      },
+      "team_name": "不知绽放的花蕾",
       "school": "重庆城市科技学院",
       "member1": "陈民君",
       "member2": "陈季尤",
@@ -19049,11 +17513,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "重生之我在长理打A",
-        "en": "AC Afterlife: Revenge of WA",
-        "fallback": "AC Afterlife: Revenge of WA"
-      },
+      "team_name": "重生之我在长理打A",
       "school": "长沙理工大学",
       "member1": "钱昱丞",
       "member2": "黄磊",
@@ -19091,11 +17551,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "今年一定过四级",
-        "en": "uzi",
-        "fallback": "uzi"
-      },
+      "team_name": "今年一定过四级",
       "school": "吉首大学",
       "member1": "钟文振",
       "member2": "祝江宇",
@@ -19123,11 +17579,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "韬光养晦再夺天时",
-        "en": "Sleep and behave",
-        "fallback": "Sleep and behave"
-      },
+      "team_name": "韬光养晦再夺天时",
       "school": "西安邮电大学",
       "member1": "林珂华",
       "member2": "刘冠宇",
@@ -19155,11 +17607,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "香香软软白白嫩嫩可可爱爱队",
-        "en": "net minecraft server",
-        "fallback": "net minecraft server"
-      },
+      "team_name": "香香软软白白嫩嫩可可爱爱队",
       "school": "天津工业大学",
       "member1": "孙海杭",
       "member2": "宫昌禹",
@@ -19197,11 +17645,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "七维叉积",
-        "en": "7D Cross Product",
-        "fallback": "7D Cross Product"
-      },
+      "team_name": "七维叉积",
       "school": "河北工程大学",
       "member1": "姜振坤",
       "member2": "张心洋",
@@ -19234,11 +17678,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "金牌的美好混乱",
-        "en": "woc Heart of Africa",
-        "fallback": "woc Heart of Africa"
-      },
+      "team_name": "金牌的美好混乱",
       "school": "陕西师范大学",
       "member1": "王永政",
       "member2": "左祖光",
@@ -19276,11 +17716,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "地专鼠鼠不会梦到秋招offer",
-        "en": "Geo-specialized rats don't dream of autumn offers",
-        "fallback": "Geo-specialized rats don't dream of autumn offers"
-      },
+      "team_name": "地专鼠鼠不会梦到秋招offer",
       "school": "中国地质大学（北京）",
       "member1": "刘雨澈",
       "member2": "陈俊豪",
@@ -19318,11 +17754,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "哈基米哦南北路多",
-        "en": "HaJiMi",
-        "fallback": "HaJiMi"
-      },
+      "team_name": "哈基米哦南北路多",
       "school": "广州软件学院",
       "member1": "黄智源",
       "member2": "陈平俊",
@@ -19355,11 +17787,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "轮回之终末",
-        "en": "The End of the Cycle",
-        "fallback": "The End of the Cycle"
-      },
+      "team_name": "轮回之终末",
       "school": "济南大学",
       "member1": "王孜博",
       "member2": "贾甦瑞",
@@ -19397,11 +17825,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "Welcome",
-        "en": "Welcome",
-        "fallback": "Welcome"
-      },
+      "team_name": "Welcome",
       "school": "杭州师范大学",
       "member1": "贾宜儒",
       "member2": "刘彦冰",
@@ -19444,11 +17868,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "深藏blue",
-        "en": "ShenCang Blue",
-        "fallback": "ShenCang Blue"
-      },
+      "team_name": "深藏blue",
       "school": "北京师范大学",
       "member1": "李赫祥",
       "member2": "张书林",
@@ -19486,11 +17906,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "末日的时候在干什么？能不能来帮我ac",
-        "en": "What are you doing at the end of the day? Can you help me ac",
-        "fallback": "What are you doing at the end of the day? Can you help me ac"
-      },
+      "team_name": "末日的时候在干什么？能不能来帮我ac",
       "school": "集美大学",
       "member1": "刘烨冬",
       "member2": "韩斌",
@@ -19528,11 +17944,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "枚举连接大脑，暴力代替思考",
-        "en": "heard nothing but wa",
-        "fallback": "heard nothing but wa"
-      },
+      "team_name": "枚举连接大脑，暴力代替思考",
       "school": "西南财经大学",
       "member1": "张玲玲",
       "member2": "胡泽滨",
@@ -19575,11 +17987,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "到此一游",
-        "en": "Visited here",
-        "fallback": "Visited here"
-      },
+      "team_name": "到此一游",
       "school": "西华大学",
       "member1": "谢维文",
       "member2": "莫鸿",
@@ -19612,11 +18020,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "你的AC是我唯一的最优解",
-        "en": "just do it",
-        "fallback": "just do it"
-      },
+      "team_name": "你的AC是我唯一的最优解",
       "school": "成都理工大学工程技术学院",
       "member1": "孔维杰",
       "member2": "王泽君",
@@ -19644,11 +18048,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "忙着加训",
-        "en": "Busy for training",
-        "fallback": "Busy for training"
-      },
+      "team_name": "忙着加训",
       "school": "西安邮电大学",
       "member1": "杨睿帆",
       "member2": "贾濡源",
@@ -19681,11 +18081,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "大白鹅",
-        "en": "Cyrene",
-        "fallback": "Cyrene"
-      },
+      "team_name": "大白鹅",
       "school": "长沙理工大学",
       "member1": "夏昱",
       "member2": "成捷",
@@ -19723,11 +18119,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "鼠SHU不想WA",
-        "en": "want NOVA",
-        "fallback": "want NOVA"
-      },
+      "team_name": "鼠SHU不想WA",
       "school": "上海大学",
       "member1": "刘洲宏",
       "member2": "陈启鸿",
@@ -19760,11 +18152,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "取名字太难了",
-        "en": "what can I say",
-        "fallback": "what can I say"
-      },
+      "team_name": "取名字太难了",
       "school": "吉利学院",
       "member1": "王超",
       "member2": "张显悦",
@@ -19797,11 +18185,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "两个大佬带我飞",
-        "en": "I fly with two big lao",
-        "fallback": "I fly with two big lao"
-      },
+      "team_name": "两个大佬带我飞",
       "school": "东莞理工学院",
       "member1": "张宇铭",
       "member2": "伍孝轩",
@@ -19834,11 +18218,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "双翼翱翔",
-        "en": "biwing",
-        "fallback": "biwing"
-      },
+      "team_name": "双翼翱翔",
       "school": "北京工业大学",
       "member1": "刘航奇",
       "member2": "王赫",
@@ -19876,11 +18256,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "击碎黑暗",
-        "en": "shatter the darkness",
-        "fallback": "shatter the darkness"
-      },
+      "team_name": "击碎黑暗",
       "school": "大连理工大学城市学院",
       "member1": "闫屹伟",
       "member2": "高小柯",
@@ -19913,11 +18289,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "海鸥",
-        "en": "seagull",
-        "fallback": "seagull"
-      },
+      "team_name": "海鸥",
       "school": "上海大学",
       "member1": "王智翼",
       "member2": "王慧行",
@@ -19950,11 +18322,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "三世同堂",
-        "en": "Three people play together",
-        "fallback": "Three people play together"
-      },
+      "team_name": "三世同堂",
       "school": "陕西科技大学",
       "member1": "马凌峰",
       "member2": "崔宇乐",
@@ -19987,11 +18355,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "歪比巴卜",
-        "en": "Wubba Lubba Dub Dub!",
-        "fallback": "Wubba Lubba Dub Dub!"
-      },
+      "team_name": "歪比巴卜",
       "school": "武汉工程大学",
       "member1": "张天星",
       "member2": "王志伟",
@@ -20024,11 +18388,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "最后一场ICPC可以拿五杀吗",
-        "en": "I want pentakill",
-        "fallback": "I want pentakill"
-      },
+      "team_name": "最后一场ICPC可以拿五杀吗",
       "school": "北京理工大学珠海学院",
       "member1": "王雅楠",
       "member2": "蔡炆沅",
@@ -20061,11 +18421,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "白狼",
-        "en": "White Wolf",
-        "fallback": "White Wolf"
-      },
+      "team_name": "白狼",
       "school": "湖南大学",
       "member1": "程琅琅",
       "member2": "胡琪强",
@@ -20098,11 +18454,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "厂里真练技术",
-        "en": "Factory Skill Masters",
-        "fallback": "Factory Skill Masters"
-      },
+      "team_name": "厂里真练技术",
       "school": "长沙理工大学",
       "member1": "周宇",
       "member2": "曹永强",
@@ -20135,11 +18487,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "东北大学_此世轮回重启，代码证道成圣！",
-        "en": "NEU_AutoACo_0",
-        "fallback": "NEU_AutoACo_0"
-      },
+      "team_name": "东北大学_此世轮回重启，代码证道成圣！",
       "school": "东北大学",
       "member1": "徐张哲",
       "member2": "聂天一",
@@ -20177,11 +18525,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "铜牌下班",
-        "en": "if bronze，log off",
-        "fallback": "if bronze，log off"
-      },
+      "team_name": "铜牌下班",
       "school": "河南师范大学",
       "member1": "马傲博",
       "member2": "吴静轩",
@@ -20209,11 +18553,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "超大杯石山完美AC",
-        "en": "Bigshit，perfectAC",
-        "fallback": "Bigshit，perfectAC"
-      },
+      "team_name": "超大杯石山完美AC",
       "school": "杭州师范大学",
       "member1": "吴佳鹏",
       "member2": "杨兰欣",
@@ -20246,11 +18586,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "re0",
-        "en": "re0",
-        "fallback": "re0"
-      },
+      "team_name": "re0",
       "school": "西安理工大学",
       "member1": "袁振扬",
       "member2": "邹乐凡",
@@ -20283,11 +18619,7 @@
       }
     },
     {
-      "team_name": {
-        "zh-CN": "不会线性基的数学队",
-        "en": "#include<bits\\stdc++.h>",
-        "fallback": "#include<bits\\stdc++.h>"
-      },
+      "team_name": "不会线性基的数学队",
       "school": "上海师范大学",
       "member1": "李嘉晟",
       "member2": "王俊涵",
@@ -20304,11 +18636,7 @@
       "problem_scores": {}
     },
     {
-      "team_name": {
-        "zh-CN": "西信一队",
-        "en": "xixin-team1",
-        "fallback": "xixin-team1"
-      },
+      "team_name": "西信一队",
       "school": "西安信息职业大学",
       "member1": null,
       "member2": null,

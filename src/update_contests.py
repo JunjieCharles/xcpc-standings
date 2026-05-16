@@ -6,6 +6,119 @@ from datetime import datetime
 import re
 import os
 
+SERIES_YEAR_BASE = {
+    'ICPC': 1975,
+    'CCPC': 2014,
+}
+
+def parse_int(value):
+    if value is None or value == '':
+        return None
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return None
+
+def chinese_number_to_int(text):
+    text = str(text or '').strip()
+    if not text:
+        return None
+    if text.isdigit():
+        return int(text)
+
+    digit_map = {
+        '零': 0,
+        '〇': 0,
+        '一': 1,
+        '二': 2,
+        '两': 2,
+        '三': 3,
+        '四': 4,
+        '五': 5,
+        '六': 6,
+        '七': 7,
+        '八': 8,
+        '九': 9,
+    }
+    unit_map = {
+        '十': 10,
+        '百': 100,
+        '千': 1000,
+    }
+    section_unit_map = {
+        '万': 10000,
+    }
+
+    total = 0
+    section = 0
+    number = 0
+    for char in text:
+        if char in digit_map:
+            number = digit_map[char]
+        elif char in unit_map:
+            unit = unit_map[char]
+            section += (number or 1) * unit
+            number = 0
+        elif char in section_unit_map:
+            section += number
+            total += (section or 1) * section_unit_map[char]
+            section = 0
+            number = 0
+        else:
+            return None
+
+    return total + section + number
+
+def parse_ordinal_from_name(name):
+    text = str(name or '')
+    match = re.search(r'第([0-9零〇一二两三四五六七八九十百千万]+)届', text)
+    if match:
+        return chinese_number_to_int(match.group(1))
+
+    match = re.search(r'\b([0-9]+)(?:st|nd|rd|th)\b', text, re.IGNORECASE)
+    return int(match.group(1)) if match else None
+
+def parse_year_from_name(name):
+    match = re.search(r'20\d{2}', str(name or ''))
+    return int(match.group(0)) if match else None
+
+def parse_year_from_date(date_str):
+    text = str(date_str or '').strip()
+    if re.match(r'^\d{4}', text):
+        return int(text[:4])
+    return None
+
+def is_strict_series_category(series, category):
+    return series in SERIES_YEAR_BASE and category in ('Regional', 'Final')
+
+def normalize_year_ordinal(series, category, year, ordinal, date_str, name):
+    year = parse_int(year)
+    ordinal = parse_int(ordinal)
+    name_year = parse_year_from_name(name)
+    name_ordinal = parse_ordinal_from_name(name)
+    date_year = parse_year_from_date(date_str)
+
+    if is_strict_series_category(series, category):
+        if category == 'Final' and name_ordinal is not None and 'world final' in str(name or '').lower():
+            ordinal = name_ordinal
+        if ordinal is None:
+            ordinal = name_ordinal
+        if year is None:
+            year = name_year
+        if ordinal is not None:
+            year = SERIES_YEAR_BASE[series] + ordinal
+        elif year is not None:
+            ordinal = year - SERIES_YEAR_BASE[series]
+        return year, ordinal
+
+    if ordinal is None:
+        ordinal = name_ordinal
+    if year is None:
+        year = name_year
+    if year is None:
+        year = date_year
+    return year, ordinal
+
 def parse_xcpcio():
     contests = []
     try:
@@ -66,6 +179,7 @@ def parse_xcpcio():
                 
                 contests.append({
                     'source': 'xcpcio',
+                    'source_category': series,
                     'series': std_series,
                     'year': year,
                     'ordinal': ordinal,
@@ -76,7 +190,6 @@ def parse_xcpcio():
     return contests
 
 def parse_rankland():
-    contests = []
     try:
         config_text = requests.get('https://raw.githubusercontent.com/algoux/srk-collection/master/official/config.yaml').text
         data = yaml.safe_load(config_text)
@@ -84,51 +197,77 @@ def parse_rankland():
         print(f"Error fetching Rankland: {e}")
         return []
 
-    for top_level in data.get('root', {}).get('children', []):
-        cat_name = top_level.get('name', '')
-        
-        std_series = 'Other'
-        if cat_name.upper() == 'ICPC':
-            std_series = 'ICPC'
-        elif cat_name.upper() == 'CCPC':
-            std_series = 'CCPC'
-            
-        for group in top_level.get('children', []):
-            group_name = group.get('name', '')
-            
-            year = None
-            ordinal = None
-            match = re.search(r'\d{4}', group_name)
+    return parse_rankland_config(data)
+
+def parse_rankland_config(data):
+    contests = []
+
+    def update_context(node, series, source_category, year, ordinal, has_children):
+        name = str(node.get('name', '') or '')
+        path = str(node.get('path', '') or '')
+        candidates = [path.lower(), name.lower()]
+
+        for value in candidates:
+            if value == 'icpc':
+                series = 'ICPC'
+                source_category = 'icpc'
+            elif value == 'ccpc':
+                series = 'CCPC'
+                source_category = 'ccpc'
+            else:
+                normalized = normalize_source_category(value)
+                if normalized in ('provincial', 'school', 'camp'):
+                    source_category = normalized
+
+        if has_children:
+            match = re.search(r'\d{4}', name) or re.search(r'\d{4}', path)
             if match:
                 year = int(match.group())
-                if std_series == 'ICPC':
+                if series == 'ICPC':
                     ordinal = year - 1975
-                elif std_series == 'CCPC':
+                elif series == 'CCPC':
                     ordinal = year - 2014
-            
-            for child in group.get('children', []):
-                name = child.get('name', '')
-                path = child.get('path', '')
-                
-                date_str = ''
-                child_year = year
-                date_match = re.match(r'^(\d{4}-\d{2}-\d{2})', name)
-                if date_match:
-                    date_str = date_match.group(1)
-                    name = name[len(date_str):].strip()
-                    if not child_year:
-                        child_year = int(date_str[:4])
-                    
-                contests.append({
-                    'source': 'rankland',
-                    'series': std_series,
-                    'year': child_year,
-                    'ordinal': ordinal,
-                    'date': date_str,
-                    'name': name,
-                    'id': path
-                })
-                
+
+        return series, source_category, year, ordinal
+
+    def walk(node, series='Other', source_category='', year=None, ordinal=None):
+        if not isinstance(node, dict):
+            return
+
+        children = node.get('children', [])
+        has_children = isinstance(children, list) and bool(children)
+        series, source_category, year, ordinal = update_context(node, series, source_category, year, ordinal, has_children)
+        if has_children:
+            for child in children:
+                walk(child, series, source_category, year, ordinal)
+            return
+
+        path = node.get('path', '')
+        if not path:
+            return
+
+        name = node.get('name', '')
+        date_str = ''
+        date_match = re.match(r'^(\d{4}-\d{2}-\d{2})', str(name))
+        if date_match:
+            date_str = date_match.group(1)
+            name = str(name)[len(date_str):].strip()
+
+        contests.append({
+            'source': 'rankland',
+            'source_category': source_category,
+            'series': series,
+            'year': year,
+            'ordinal': ordinal,
+            'date': date_str,
+            'name': name,
+            'id': path
+        })
+
+    root = data.get('root', {}) if isinstance(data, dict) else {}
+    for top_level in root.get('children', []):
+        walk(top_level)
+
     return contests
 
 def parse_archive():
@@ -180,6 +319,7 @@ def parse_archive():
                 
                 contests.append({
                     'source': 'archive',
+                    'source_category': '',
                     'series': series,
                     'year': year,
                     'ordinal': ordinal,
@@ -201,7 +341,6 @@ def parse_pintia():
         return []
     
     contests = []
-    ord_map = {'一':1, '二':2, '三':3, '四':4, '五':5, '六':6, '七':7, '八':8, '九':9, '十':10}
     for c in data:
         name = c.get('name', '')
         if '热身赛' in name or '测试' in name:
@@ -212,8 +351,6 @@ def parse_pintia():
         if not start_at: start_at = c.get('startAt', '')
         date_str = start_at[:10] if start_at else ''
         year = None
-        if date_str:
-            year = int(date_str[:4])
             
         series = 'Other'
         if 'CCPC' in name.upper() or '中国大学生程序设计竞赛' in name:
@@ -221,31 +358,12 @@ def parse_pintia():
         elif 'ICPC' in name.upper() or '国际大学生程序设计竞赛' in name:
             series = 'ICPC'
             
-        m = re.search(r'20\d{2}', name)
-        if m:
-            year = int(m.group(0))
-            
-        ordinal = None
-        m_ord = re.search(r'第([一二三四五六七八九十]+)届', name)
-        if m_ord:
-            cn_num = m_ord.group(1)
-            val = 0
-            if cn_num == '十': val = 10
-            elif len(cn_num) == 1: val = ord_map.get(cn_num, 0)
-            elif len(cn_num) == 2 and cn_num.startswith('十'): val = 10 + ord_map.get(cn_num[1:], 0)
-            elif len(cn_num) == 2 and cn_num.endswith('十'): val = ord_map.get(cn_num[0], 0) * 10
-            elif len(cn_num) == 3 and cn_num[1] == '十': val = ord_map.get(cn_num[0], 0) * 10 + ord_map.get(cn_num[2], 0)
-            
-            if val > 0:
-                ordinal = val
-                
-        if series == 'CCPC' and ordinal:
-            year = 2014 + ordinal
-        elif series == 'ICPC' and ordinal:
-            year = 1975 + ordinal
+        year = parse_year_from_name(name)
+        ordinal = parse_ordinal_from_name(name)
             
         contests.append({
             'source': 'pta',
+            'source_category': '',
             'series': series,
             'year': year,
             'ordinal': ordinal,
@@ -255,35 +373,52 @@ def parse_pintia():
         })
     return contests
 
-def get_category(series, idx, name):
+def normalize_source_category(source_category):
+    text = str(source_category or '').strip().lower()
+    text = text.replace('_', '-').replace(' ', '-')
+    if text in ('provincial-contest', 'provincial', 'province', '省赛'):
+        return 'provincial'
+    if text in ('school-contest', 'school', 'campus', '校赛'):
+        return 'school'
+    return text
+
+def get_category(series, idx, name, source_category=''):
     lb = str(idx).lower()
     ln = str(name).lower()
+    source_category = normalize_source_category(source_category)
+
+    def has_any(keywords):
+        return any(keyword in lb or keyword in ln for keyword in keywords)
     
-    if "warmup" in lb or "热身" in ln or "dressrehearsal" in lb or "dress rehearsal" in ln or "测试" in ln:
+    if has_any(['warmup', '热身', 'dressrehearsal', 'dress rehearsal', '测试']):
         return "Warmup"
-    
-    if series == "Other":
-        if "vocational" in lb or "高职" in ln:
-            return "Vocational"
-        return "Regular"
+
+    if source_category == 'camp':
+        return "Camp"
+    if source_category == 'provincial':
+        return "Provincial"
+    if source_category == 'school':
+        return "School"
         
-    if "girl" in lb or "girl" in ln or "lad" in lb or "lad" in ln or "女生" in ln:
+    if has_any(['girl', 'lad', '女生']):
         return "Girls"
-    if "vocational" in lb or "高职" in ln:
+    if has_any(['vocational', '高职']) or lb == 'hv' or lb.endswith('hv'):
         return "Vocational"
-    if "online" in lb or "网络" in ln or "internet" in lb:
+    if has_any(['online', '网络', 'internet']):
         return "Online"
-    if "invitational" in lb or "邀请" in ln:
+    if has_any(['invitational', '邀请']):
         return "Invitational"
     
-    if "final" in lb or "总决赛" in ln:
+    if has_any(['final', '决赛']):
         return "Final"
-    if "provincial" in lb or "省" in ln:
+    if has_any(['provincial', '省', '市', '自治区', '特别行政区']):
         return "Provincial"
-    if "camp" in lb or "训练" in ln or "夏令营" in ln:
+    if has_any(['camp', '训练', '令营']):
         return "Camp"
     
-    return "Regional"
+    if series == 'CCPC' or series == 'ICPC':
+        return "Regional"
+    return "Regular"
 
 def get_chinese_to_eng():
     try:
@@ -292,6 +427,9 @@ def get_chinese_to_eng():
             return json.load(f)
     except:
         return {}
+
+def sanitize_full_name(name):
+    return re.sub(r'[/\\:*?"<>|]', '', str(name or '')).strip()
 
 def get_name_id(source, series, idx, name):
     if source in ('pta', 'archive') or str(idx).isdigit():
@@ -323,8 +461,7 @@ def get_name_id(source, series, idx, name):
     
     if source == 'pta' and series == 'Other':
         # 直接使用全名，去除可能导致文件系统问题的非法字符
-        clean_full = re.sub(r'[/\\:*?"<>|]', '', str(name))
-        return clean_full.strip()
+        return sanitize_full_name(name)
     
     for w in ['总决赛', '预选赛', '邀请赛', '省赛', '特训营', '夏令营', '热身赛', '系统测试赛', '程序设计竞赛', '计算机技能竞赛', '高职专场', '女生专场', '混合组', '组', '锦标赛', '第十一届', '第十二届', '第十届', '届', '大学生', '中国']:
         idx_cleaned = idx_cleaned.replace(w, '')
@@ -334,10 +471,21 @@ def get_name_id(source, series, idx, name):
         
     return idx_cleaned.strip()
 
+def get_default_name_id(category, name_id):
+    if str(name_id or '').strip():
+        return name_id
+    defaults = {
+        'Girls': 'girls',
+        'Vocational': 'vocational',
+    }
+    return defaults.get(category, name_id)
+
 def merge_contests(records):
     merged_dict = {}
+    pta_full_names = {}
     for r in records:
         source = r['source']
+        source_category = r.get('source_category', '')
         series = r['series']
         year = r['year'] if r['year'] is not None else ''
         ordinal = r['ordinal'] if r['ordinal'] is not None else ''
@@ -345,8 +493,12 @@ def merge_contests(records):
         name = r['name']
         cid = r['id']
         
-        sub = get_category(series, cid, name)
+        sub = get_category(series, cid, name, source_category)
+        year, ordinal = normalize_year_ordinal(series, sub, year, ordinal, date, name)
+        year = year if year is not None else ''
+        ordinal = ordinal if ordinal is not None else ''
         name_id = get_name_id(source, series, cid, name)
+        name_id = get_default_name_id(sub, name_id)
         
         # Merge by year, series, sub, name_id to avoid missing dates causing duplicates
         key = (str(year), str(series), str(sub), str(name_id))
@@ -378,6 +530,12 @@ def merge_contests(records):
             merged_dict[key]['archive_id'] = cid
         elif source == 'pta':
             merged_dict[key]['pta_id'] = cid
+            pta_full_names[key] = sanitize_full_name(name)
+
+    for key, row in merged_dict.items():
+        has_only_pta = row.get('pta_id') and not row.get('xcpcio_id') and not row.get('rankland_id') and not row.get('archive_id')
+        if has_only_pta and pta_full_names.get(key):
+            row['name'] = pta_full_names[key]
             
     return merged_dict
 

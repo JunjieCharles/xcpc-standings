@@ -92,7 +92,9 @@ flowchart LR
 
 ## 4. CLI 工作流
 
-`main.py` 使用 argparse 分发命令：
+`main.py` 保留 argparse 命令行用法；如果直接运行 `python main.py` 且不带任何参数，则进入终端交互界面，可用方向键选择功能、切换配置并执行。交互界面复用同一套业务入口，不应破坏原有命令行参数兼容性。
+
+命令行子命令包括：
 
 - `python main.py update` 调用 `src.update_contests.main()`，更新比赛列表。
 - `python main.py merge --batch --years 2025` 调用 `batch_process()`，批量生成合并榜单。
@@ -100,7 +102,7 @@ flowchart LR
 - `python main.py rating --type all` 调用 rating 模块生成个人/学校 rating。
 - `python main.py readme` 调用 README 生成器。
 
-该设计把用户操作压缩到统一入口，但各业务模块仍可独立运行，便于调试。
+该设计把用户操作压缩到统一入口，但各业务模块仍可独立运行，便于调试；交互界面主要用于日常更新、批量合并、rating 和 README 生成等常规操作。
 
 ## 5. 数据获取与比赛列表合并
 
@@ -116,11 +118,12 @@ https://board.xcpcio.com/data/index/contest_list.json
 
 解析逻辑：
 
-- 只处理 `icpc`、`ccpc`、`provincial-contest`、`camp` 等主要分组。
+- 只处理 `icpc`、`ccpc`、`provincial-contest`、`camp` 等主要分组，并把原始分组写入内部字段 `source_category`。
 - ICPC 年份与届数换算：`ordinal = year - 1975`。
 - CCPC 年份与届数换算：`ordinal = year - 2014`。
 - `start_time` 支持秒级或毫秒级时间戳，统一格式化为 `YYYY-MM-DD`。
 - `id` 使用 `board_link` 去掉开头 `/` 后的路径。
+- `provincial-contest` 和 `camp` 可直接参与类别识别，但 `Warmup` 仍优先覆盖来源类别。
 
 ### 5.2 Rankland 比赛列表
 
@@ -132,9 +135,11 @@ https://raw.githubusercontent.com/algoux/srk-collection/master/official/config.y
 
 解析逻辑：
 
-- 从 YAML 的 `root.children` 递归读取 ICPC/CCPC 分组。
-- 从组名或比赛名中识别年份。
-- 从比赛名开头的日期片段识别 `date`。
+- 从 YAML 的 `root.children` 递归读取分组，并把沿途父级 `path/name` 规范为内部 `source_category`。
+- `icpc`、`ccpc` 用于区分 `series`；`provincial`、`school` 等非 ICPC/CCPC 分组保持 `series=Other`，并可直接作为比赛类别来源。
+- 省赛、校赛等 Rankland 条目可能位于多层目录下，例如 `省赛 -> 北京市赛 -> bjcpc2026`，解析时需要继承父级 `source_category`，不能只看叶子节点的 id/name。
+- 只从带子节点的分组名/path 中继承来源年份；叶子节点比赛名开头的日期只作为 `date`，不能覆盖父级赛季年份。例如 `ICPC 2025 -> 2026-02-02 EC Final` 仍属于 2025 赛季。
+- 从比赛名开头的日期片段识别 `date`，但不会把日期年份提前写成 ICPC/CCPC 的赛季年份；赛季年份统一在合并阶段按类别规整。
 - `id` 使用 Rankland 配置中的 `path`，后续再通过 `parse_rankland_config()` 转换成实际下载路径的 `(category, year)`。
 
 ### 5.3 Archive 历史归档
@@ -159,13 +164,22 @@ https://raw.githubusercontent.com/algoux/srk-collection/master/official/config.y
 识别逻辑包括：
 
 - 从比赛名判断 CCPC/ICPC/Other。
-- 从日期或标题中的 `20xx` 提取年份。
-- 从 `第x届` 中文数字解析届数。
-- 若识别出系列与届数，则反推出年份。
+- 从标题中的 `20xx` 提取显式赛季年份；日期年份只保留为 `date`，最终是否用于 `year` 由合并阶段按类别决定。
+- 从 `第x届` 解析届数，其中中文数字解析支持 `十` 以上的常见复合写法，例如 `二十一`、`一百零三`。
+- ICPC/CCPC 的 Regional/Final 不使用日期年份推断赛季年份，避免 2025 赛季比赛在 2026 年初举行时被误归为 2026。
 
 ### 5.5 比赛类别识别
 
-`get_category()` 根据来源 id 和比赛名归类：
+`get_category()` 使用分层策略归类：
+
+1. 先用来源 id 和比赛名判断 `Warmup`，保证热身赛、测试赛可以覆盖来源自带分组。
+2. 再使用规范化后的 `source_category` 直接识别 `Camp`、`Provincial`、`School`。
+3. 对 ICPC/CCPC 或没有可靠来源类别的数据，继续用来源 id 和比赛名关键词识别细分类别。
+4. 关键词判断统一同时检查 id 与 name，避免同类规则一部分只看 id、一部分只看 name。
+
+Rankland 中 `hv` 通常表示高职专场，因此 id 为 `hv` 或以 `hv` 结尾的 CCPC 记录会归为 `Vocational`。
+
+当前类别包括：
 
 - `Warmup`
 - `Girls`
@@ -175,10 +189,18 @@ https://raw.githubusercontent.com/algoux/srk-collection/master/official/config.y
 - `Final`
 - `Provincial`
 - `Camp`
+- `School`
 - `Regional`
 - `Regular`
 
 该函数是后续批量 merge 和 rating 的关键过滤依据。
+
+年份与届数在 `merge_contests()` 中根据已识别类别统一规整：
+
+- ICPC/CCPC 的 `Regional` 与 `Final` 使用严格对应关系：`ICPC year = ordinal + 1975`，`CCPC year = ordinal + 2014`。若只拿到 year 或 ordinal 中的一项，则用对应关系补另一项；不使用日期年份推断。
+- 英文序数（如 `49th`）也可作为标题届数来源；`World Finals` 标题中的英文届数优先用于校正赛季，避免相邻届 World Finals 因同名 `worldfinals` 被误合并。
+- 统一优先级为：数据源分类/路径直接给出的 year 与 ordinal，其次是标题中的届数，其次是标题中的年份，最后才是实际比赛日期。
+- 这样可以正确处理“2025 赛季比赛在 2026 年初举办”的 Regional/Final；对于省赛、校赛、训练营等 Other 类赛事，日期只在来源结构与标题都无法提供年份时兜底。
 
 ### 5.6 赛事名规范化与多来源合并
 
@@ -188,6 +210,8 @@ https://raw.githubusercontent.com/algoux/srk-collection/master/official/config.y
 - 移除 ICPC/CCPC、年份、届数、常见赛事后缀、标点等噪声。
 - 网络赛会统一替换为 `online`。
 - PTA 的 `Other` 系列保留较完整名称，只删除文件系统非法字符。
+- 如果某场比赛只有 PTA 一个来源，则 `contests.csv` 中的 `name` 使用 PTA 原始全名的安全文件名版本，避免单源比赛被清洗成语义奇怪的短名。
+- 如果类别是 `Girls` 或 `Vocational` 且清洗后的短名为空，则分别默认写为 `girls` 或 `vocational`，避免 `contests.csv` 和后续合并输出生成空 name。
 
 `merge_contests()` 使用如下 key 合并来源：
 
@@ -612,3 +636,19 @@ CSV 是纯数据；XLSX 使用 pandas Styler 输出样式。
 8. `python main.py readme` 扫描合并 CSV，更新 README 的数据完整性概览。
 
 该仓库的核心价值在于把多个格式、多个来源、多个年份的 XCPC 榜单整理为可重复生成的统一数据资产；算法重点集中在来源标准化、学校/姓名规整、多来源冲突处理和 rating 序列更新四个环节。
+
+## 13. Agent 协作与运行约定
+
+仓库根目录的 `AGENT.md` 记录 AI 编程代理的项目级协作规则。新的 session 应先读取本文件理解架构，再根据用户 prompt 行事；若任务引入新的长期约定、架构变化或数据处理策略，结束前应把更新内容补充回本文件。
+
+本机显式 Python 解释器为：
+
+```text
+C:\ProgramData\anaconda3\python.exe
+```
+
+运行项目脚本、测试和验证时应优先使用该解释器，避免依赖 shell PATH 中的隐式 `python`。较大的数据任务，例如更新比赛列表、批量合并榜单、生成 rating 和大范围 README/数据再生成，应尽量通过 VS Code Task 执行；若尚无合适 task，应优先创建或建议创建对应 task。较小的验证，例如单元测试、`--help`、只读检查和少量文件搜索，可以直接使用命令行。
+
+`csv`、`json` 等生成数据文件应避免直接手动修改；应优先修改生成它们的代码或配置，使重新运行流程后能得到正确结果。
+
+大型任务不应优先使用 PowerShell 或 MCP 服务器执行；PowerShell 仅适合小型验证、查看文件或没有合适 VS Code Task 时的辅助操作。收尾时应运行与改动范围匹配的验证，并在最终回复中说明验证结果和未运行的较重任务。

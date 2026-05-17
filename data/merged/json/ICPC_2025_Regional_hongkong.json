@@ -1,5 +1,8 @@
 {
-  "contest_name": "The 50th ICPC Asia Hong Kong Regional Contest",
+  "contest_name": {
+    "zh-CN": "The 50th ICPC Asia Hong Kong Regional Contest",
+    "fallback": "The 50th ICPC Asia Hong Kong Regional Contest"
+  },
   "problem_ids": [
     "A",
     "B",
@@ -31,51 +34,6 @@
       "medal": "Gold",
       "coach": "Qinjian Zhang",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 7
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 33
-        },
-        "B": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 47
-        },
-        "J": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 68
-        },
-        "I": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 82
-        },
-        "F": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 122
-        },
-        "C": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 134
-        },
-        "G": {
-          "solved": false,
-          "tries": 27,
-          "time_mins": 0
-        },
-        "D": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 281
-        },
         "1": {
           "solved": true,
           "tries": 0,
@@ -120,6 +78,51 @@
           "solved": true,
           "tries": 0,
           "time_mins": 33
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 7
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 33
+        },
+        "B": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 47
+        },
+        "J": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 68
+        },
+        "I": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 82
+        },
+        "F": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 122
+        },
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 134
+        },
+        "G": {
+          "solved": false,
+          "tries": 27,
+          "time_mins": 0
+        },
+        "D": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 281
         }
       }
     },
@@ -139,51 +142,6 @@
       "medal": "Gold",
       "coach": "Weiwei Sun",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 7
-        },
-        "J": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 40
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 47
-        },
-        "B": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 91
-        },
-        "F": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 105
-        },
-        "I": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 142
-        },
-        "C": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 185
-        },
-        "G": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 235
-        },
-        "D": {
-          "solved": false,
-          "tries": 6,
-          "time_mins": 0
-        },
         "1": {
           "solved": true,
           "tries": 1,
@@ -228,6 +186,51 @@
           "solved": true,
           "tries": 0,
           "time_mins": 47
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 7
+        },
+        "J": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 40
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 47
+        },
+        "B": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 91
+        },
+        "F": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 105
+        },
+        "I": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 142
+        },
+        "C": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 185
+        },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 235
+        },
+        "D": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
         }
       }
     },
@@ -247,46 +250,6 @@
       "medal": "Gold",
       "coach": "Yong Yu",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 7
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 32
-        },
-        "B": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 111
-        },
-        "J": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 118
-        },
-        "I": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 132
-        },
-        "F": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 291
-        },
-        "G": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 252
-        },
-        "C": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 285
-        },
         "1": {
           "solved": true,
           "tries": 1,
@@ -326,6 +289,46 @@
           "solved": true,
           "tries": 0,
           "time_mins": 32
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 7
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 32
+        },
+        "B": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 111
+        },
+        "J": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 118
+        },
+        "I": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 132
+        },
+        "F": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 291
+        },
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 252
+        },
+        "C": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 285
         }
       }
     },
@@ -345,41 +348,6 @@
       "medal": "Gold",
       "coach": "Wenbo Zhao",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 4
-        },
-        "B": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 56
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 72
-        },
-        "J": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 125
-        },
-        "I": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 120
-        },
-        "F": {
-          "solved": true,
-          "tries": 6,
-          "time_mins": 219
-        },
-        "G": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 286
-        },
         "1": {
           "solved": true,
           "tries": 0,
@@ -414,6 +382,41 @@
           "solved": true,
           "tries": 0,
           "time_mins": 72
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 4
+        },
+        "B": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 56
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 72
+        },
+        "J": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 125
+        },
+        "I": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 120
+        },
+        "F": {
+          "solved": true,
+          "tries": 6,
+          "time_mins": 219
+        },
+        "G": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 286
         }
       }
     },
@@ -433,41 +436,6 @@
       "medal": "Gold",
       "coach": "Yixiang Fang",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 4
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 52
-        },
-        "J": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 64
-        },
-        "B": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 104
-        },
-        "I": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 131
-        },
-        "F": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 284
-        },
-        "C": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
         "1": {
           "solved": true,
           "tries": 0,
@@ -502,6 +470,41 @@
           "solved": true,
           "tries": 1,
           "time_mins": 52
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 4
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 52
+        },
+        "J": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 64
+        },
+        "B": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 104
+        },
+        "I": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 131
+        },
+        "F": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 284
+        },
+        "C": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
         }
       }
     },
@@ -521,41 +524,6 @@
       "medal": "Gold",
       "coach": "Weijiang Zhang",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 18
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 15
-        },
-        "J": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 48
-        },
-        "I": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 126
-        },
-        "F": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 206
-        },
-        "B": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 231
-        },
-        "G": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
         "1": {
           "solved": true,
           "tries": 0,
@@ -590,6 +558,41 @@
           "solved": true,
           "tries": 0,
           "time_mins": 15
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 18
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 15
+        },
+        "J": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 48
+        },
+        "I": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 126
+        },
+        "F": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 206
+        },
+        "B": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 231
+        },
+        "G": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
         }
       }
     },
@@ -609,41 +612,6 @@
       "medal": "Gold",
       "coach": "Qipeng Kuang",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 11
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 51
-        },
-        "B": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 135
-        },
-        "J": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 119
-        },
-        "I": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 149
-        },
-        "F": {
-          "solved": false,
-          "tries": 4,
-          "time_mins": 0
-        },
-        "C": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 280
-        },
         "1": {
           "solved": true,
           "tries": 2,
@@ -678,6 +646,41 @@
           "solved": true,
           "tries": 0,
           "time_mins": 51
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 51
+        },
+        "B": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 135
+        },
+        "J": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 119
+        },
+        "I": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 149
+        },
+        "F": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 280
         }
       }
     },
@@ -697,41 +700,6 @@
       "medal": "Gold",
       "coach": "Shuai Lyu",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 6
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 37
-        },
-        "J": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 101
-        },
-        "B": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 122
-        },
-        "I": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 145
-        },
-        "F": {
-          "solved": false,
-          "tries": 4,
-          "time_mins": 0
-        },
-        "C": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 293
-        },
         "1": {
           "solved": true,
           "tries": 0,
@@ -766,6 +734,41 @@
           "solved": true,
           "tries": 0,
           "time_mins": 37
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 6
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 37
+        },
+        "J": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 101
+        },
+        "B": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 122
+        },
+        "I": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 145
+        },
+        "F": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "C": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 293
         }
       }
     },
@@ -785,41 +788,6 @@
       "medal": "Gold",
       "coach": "Bo Tang",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 6
-        },
-        "B": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 39
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 66
-        },
-        "J": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 145
-        },
-        "I": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 150
-        },
-        "G": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 283
-        },
-        "F": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
         "1": {
           "solved": true,
           "tries": 0,
@@ -854,6 +822,41 @@
           "solved": true,
           "tries": 1,
           "time_mins": 66
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 6
+        },
+        "B": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 39
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 66
+        },
+        "J": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 145
+        },
+        "I": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 150
+        },
+        "G": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 283
+        },
+        "F": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
         }
       }
     },
@@ -873,46 +876,6 @@
       "medal": "Gold",
       "coach": "Longxiang Wang",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 10
-        },
-        "I": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 62
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 77
-        },
-        "J": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 269
-        },
-        "B": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 141
-        },
-        "F": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 192
-        },
-        "C": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "D": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
         "1": {
           "solved": true,
           "tries": 0,
@@ -952,6 +915,46 @@
           "solved": true,
           "tries": 1,
           "time_mins": 77
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 10
+        },
+        "I": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 62
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 77
+        },
+        "J": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 269
+        },
+        "B": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 141
+        },
+        "F": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 192
+        },
+        "C": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "D": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
         }
       }
     },
@@ -971,41 +974,6 @@
       "medal": null,
       "coach": "Mak Wai Ho",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 7
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 40
-        },
-        "J": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 77
-        },
-        "B": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 106
-        },
-        "I": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 128
-        },
-        "G": {
-          "solved": true,
-          "tries": 9,
-          "time_mins": 294
-        },
-        "F": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
         "1": {
           "solved": true,
           "tries": 1,
@@ -1040,6 +1008,41 @@
           "solved": true,
           "tries": 1,
           "time_mins": 40
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 7
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 40
+        },
+        "J": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 77
+        },
+        "B": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 106
+        },
+        "I": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 128
+        },
+        "G": {
+          "solved": true,
+          "tries": 9,
+          "time_mins": 294
+        },
+        "F": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
         }
       }
     },
@@ -1059,41 +1062,6 @@
       "medal": "Gold",
       "coach": "Hui Xiong",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 9
-        },
-        "J": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 38
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 50
-        },
-        "B": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 89
-        },
-        "I": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 152
-        },
-        "F": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
-        "C": {
-          "solved": false,
-          "tries": 4,
-          "time_mins": 0
-        },
         "1": {
           "solved": true,
           "tries": 0,
@@ -1128,6 +1096,41 @@
           "solved": true,
           "tries": 0,
           "time_mins": 50
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 9
+        },
+        "J": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 38
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 50
+        },
+        "B": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 89
+        },
+        "I": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 152
+        },
+        "F": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "C": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
         }
       }
     },
@@ -1147,36 +1150,6 @@
       "medal": "Gold",
       "coach": "Chunying Liu",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 5
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 48
-        },
-        "B": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 112
-        },
-        "J": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 92
-        },
-        "I": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 118
-        },
-        "F": {
-          "solved": false,
-          "tries": 6,
-          "time_mins": 0
-        },
         "1": {
           "solved": true,
           "tries": 2,
@@ -1206,6 +1179,36 @@
           "solved": true,
           "tries": 1,
           "time_mins": 48
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 5
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 48
+        },
+        "B": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 112
+        },
+        "J": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 92
+        },
+        "I": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 118
+        },
+        "F": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
         }
       }
     },
@@ -1225,31 +1228,6 @@
       "medal": "Gold",
       "coach": "You Song",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 7
-        },
-        "B": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 46
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 57
-        },
-        "J": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 164
-        },
-        "I": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 141
-        },
         "1": {
           "solved": true,
           "tries": 2,
@@ -1274,6 +1252,31 @@
           "solved": true,
           "tries": 0,
           "time_mins": 57
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 7
+        },
+        "B": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 46
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 57
+        },
+        "J": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 164
+        },
+        "I": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 141
         }
       }
     },
@@ -1293,36 +1296,6 @@
       "medal": "Silver",
       "coach": "Vincent Chau",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 9
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 47
-        },
-        "B": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 89
-        },
-        "J": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 141
-        },
-        "I": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 161
-        },
-        "F": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
         "1": {
           "solved": true,
           "tries": 2,
@@ -1352,6 +1325,36 @@
           "solved": true,
           "tries": 0,
           "time_mins": 47
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 9
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 47
+        },
+        "B": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 89
+        },
+        "J": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 141
+        },
+        "I": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 161
+        },
+        "F": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
         }
       }
     },
@@ -1371,41 +1374,6 @@
       "medal": "Silver",
       "coach": "Jun Ma",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 7
-        },
-        "L": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 66
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 64
-        },
-        "B": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 124
-        },
-        "I": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 174
-        },
-        "F": {
-          "solved": false,
-          "tries": 9,
-          "time_mins": 0
-        },
         "1": {
           "solved": true,
           "tries": 0,
@@ -1440,6 +1408,41 @@
           "solved": false,
           "tries": 1,
           "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 7
+        },
+        "L": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 66
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 64
+        },
+        "B": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 124
+        },
+        "I": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 174
+        },
+        "F": {
+          "solved": false,
+          "tries": 9,
+          "time_mins": 0
         }
       }
     },
@@ -1459,31 +1462,6 @@
       "medal": "Silver",
       "coach": "Xiaoguang Liu",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 15
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 65
-        },
-        "B": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 136
-        },
-        "J": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 219
-        },
-        "I": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 209
-        },
         "1": {
           "solved": true,
           "tries": 1,
@@ -1508,6 +1486,31 @@
           "solved": true,
           "tries": 1,
           "time_mins": 65
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 15
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 65
+        },
+        "B": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 136
+        },
+        "J": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 219
+        },
+        "I": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 209
         }
       }
     },
@@ -1527,6 +1530,36 @@
       "medal": "Silver",
       "coach": "Xiaojun Wu",
       "problem_scores": {
+        "1": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 158
+        },
+        "5": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 6
+        },
+        "8": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 190
+        },
+        "9": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 246
+        },
+        "10": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 98
+        },
         "H": {
           "solved": true,
           "tries": 0,
@@ -1586,36 +1619,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "1": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 158
-        },
-        "5": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "7": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 6
-        },
-        "8": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 190
-        },
-        "9": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 246
-        },
-        "10": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 98
         }
       }
     },
@@ -1635,36 +1638,6 @@
       "medal": "Silver",
       "coach": "Hai Wan",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 11
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 82
-        },
-        "J": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 170
-        },
-        "B": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 203
-        },
-        "I": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 268
-        },
-        "F": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
         "1": {
           "solved": true,
           "tries": 0,
@@ -1694,6 +1667,36 @@
           "solved": true,
           "tries": 2,
           "time_mins": 82
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 82
+        },
+        "J": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 170
+        },
+        "B": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 203
+        },
+        "I": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 268
+        },
+        "F": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
         }
       }
     },
@@ -1713,36 +1716,6 @@
       "medal": "Silver",
       "coach": "Yunhai Wang",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 11
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 43
-        },
-        "J": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 101
-        },
-        "B": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
-        "I": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 167
-        },
-        "F": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
         "1": {
           "solved": false,
           "tries": 5,
@@ -1772,6 +1745,36 @@
           "solved": true,
           "tries": 0,
           "time_mins": 43
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 43
+        },
+        "J": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 101
+        },
+        "B": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "I": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 167
+        },
+        "F": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
         }
       }
     },
@@ -1791,36 +1794,6 @@
       "medal": "Silver",
       "coach": "Chunran Zou",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 5
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 45
-        },
-        "J": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 98
-        },
-        "B": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
-        "I": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 195
-        },
-        "F": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
         "1": {
           "solved": false,
           "tries": 3,
@@ -1850,6 +1823,36 @@
           "solved": true,
           "tries": 0,
           "time_mins": 45
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 5
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 45
+        },
+        "J": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 98
+        },
+        "B": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "I": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 195
+        },
+        "F": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
         }
       }
     },
@@ -1869,31 +1872,6 @@
       "medal": "Silver",
       "coach": "Peng Xu",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 16
-        },
-        "J": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 105
-        },
-        "B": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 145
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 173
-        },
-        "G": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
         "1": {
           "solved": true,
           "tries": 2,
@@ -1918,6 +1896,31 @@
           "solved": true,
           "tries": 0,
           "time_mins": 173
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 16
+        },
+        "J": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 105
+        },
+        "B": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 145
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 173
+        },
+        "G": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
         }
       }
     },
@@ -1937,31 +1940,6 @@
       "medal": null,
       "coach": "Oa Yang Hau Chung",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 10
-        },
-        "J": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 117
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 113
-        },
-        "F": {
-          "solved": false,
-          "tries": 10,
-          "time_mins": 0
-        },
-        "I": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 230
-        },
         "5": {
           "solved": false,
           "tries": 10,
@@ -1986,6 +1964,31 @@
           "solved": true,
           "tries": 0,
           "time_mins": 113
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 10
+        },
+        "J": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 117
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 113
+        },
+        "F": {
+          "solved": false,
+          "tries": 10,
+          "time_mins": 0
+        },
+        "I": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 230
         }
       }
     },
@@ -2005,31 +2008,6 @@
       "medal": "Silver",
       "coach": "Peng Yang",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 8
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 70
-        },
-        "J": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 222
-        },
-        "B": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 196
-        },
-        "F": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
         "1": {
           "solved": true,
           "tries": 0,
@@ -2054,6 +2032,31 @@
           "solved": true,
           "tries": 0,
           "time_mins": 70
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 8
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 70
+        },
+        "J": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 222
+        },
+        "B": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 196
+        },
+        "F": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
         }
       }
     },
@@ -2073,26 +2076,6 @@
       "medal": "Silver",
       "coach": "Chen Ye",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 11
-        },
-        "J": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 128
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 140
-        },
-        "B": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 222
-        },
         "1": {
           "solved": true,
           "tries": 0,
@@ -2112,6 +2095,26 @@
           "solved": true,
           "tries": 1,
           "time_mins": 140
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "J": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 128
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 140
+        },
+        "B": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 222
         }
       }
     },
@@ -2131,26 +2134,6 @@
       "medal": "Silver",
       "coach": "Xiaoming Kong",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 11
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 59
-        },
-        "J": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 175
-        },
-        "B": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 252
-        },
         "1": {
           "solved": true,
           "tries": 0,
@@ -2170,6 +2153,26 @@
           "solved": true,
           "tries": 0,
           "time_mins": 59
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 59
+        },
+        "J": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 175
+        },
+        "B": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 252
         }
       }
     },
@@ -2189,26 +2192,6 @@
       "medal": "Silver",
       "coach": "Qipeng Kuang",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 6
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 97
-        },
-        "J": {
-          "solved": true,
-          "tries": 5,
-          "time_mins": 254
-        },
-        "B": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 181
-        },
         "1": {
           "solved": true,
           "tries": 0,
@@ -2228,6 +2211,26 @@
           "solved": true,
           "tries": 0,
           "time_mins": 97
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 6
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 97
+        },
+        "J": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 254
+        },
+        "B": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 181
         }
       }
     },
@@ -2247,31 +2250,6 @@
       "medal": "Silver",
       "coach": "Yong Xie",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 10
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 150
-        },
-        "J": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 106
-        },
-        "B": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 266
-        },
-        "I": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
         "1": {
           "solved": true,
           "tries": 4,
@@ -2296,6 +2274,31 @@
           "solved": true,
           "tries": 2,
           "time_mins": 150
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 10
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 150
+        },
+        "J": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 106
+        },
+        "B": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 266
+        },
+        "I": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
         }
       }
     },
@@ -2315,31 +2318,6 @@
       "medal": "Silver",
       "coach": "Zhi Chen",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 11
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 102
-        },
-        "J": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 167
-        },
-        "F": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
-        "B": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 274
-        },
         "1": {
           "solved": true,
           "tries": 2,
@@ -2364,6 +2342,31 @@
           "solved": true,
           "tries": 1,
           "time_mins": 102
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 102
+        },
+        "J": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 167
+        },
+        "F": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "B": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 274
         }
       }
     },
@@ -2383,31 +2386,6 @@
       "medal": "Silver",
       "coach": "Mak Wai Ho",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 16
-        },
-        "J": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 149
-        },
-        "B": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 96
-        },
-        "I": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 296
-        },
         "1": {
           "solved": false,
           "tries": 5,
@@ -2432,6 +2410,31 @@
           "solved": true,
           "tries": 0,
           "time_mins": 96
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 16
+        },
+        "J": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 149
+        },
+        "B": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 96
+        },
+        "I": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 296
         }
       }
     },
@@ -2451,26 +2454,6 @@
       "medal": "Silver",
       "coach": "Dehua Zhou",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 8
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 53
-        },
-        "J": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 142
-        },
-        "B": {
-          "solved": false,
-          "tries": 18,
-          "time_mins": 0
-        },
         "1": {
           "solved": false,
           "tries": 18,
@@ -2490,6 +2473,26 @@
           "solved": true,
           "tries": 0,
           "time_mins": 53
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 8
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 53
+        },
+        "J": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 142
+        },
+        "B": {
+          "solved": false,
+          "tries": 18,
+          "time_mins": 0
         }
       }
     },
@@ -2509,21 +2512,6 @@
       "medal": "Silver",
       "coach": "Bagabold Gendensuren",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 9
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 71
-        },
-        "J": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 150
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -2538,6 +2526,21 @@
           "solved": true,
           "tries": 0,
           "time_mins": 71
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 9
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 71
+        },
+        "J": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 150
         }
       }
     },
@@ -2557,31 +2560,6 @@
       "medal": null,
       "coach": "LIN Xiulan",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 9
-        },
-        "J": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 59
-        },
-        "B": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 146
-        },
-        "F": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
         "1": {
           "solved": false,
           "tries": 3,
@@ -2606,6 +2584,31 @@
           "solved": true,
           "tries": 0,
           "time_mins": 146
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 9
+        },
+        "J": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 59
+        },
+        "B": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 146
+        },
+        "F": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
         }
       }
     },
@@ -2625,26 +2628,6 @@
       "medal": "Silver",
       "coach": "Miao Chen",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 12
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 73
-        },
-        "J": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 152
-        },
-        "B": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
         "1": {
           "solved": false,
           "tries": 1,
@@ -2664,6 +2647,26 @@
           "solved": true,
           "tries": 0,
           "time_mins": 73
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 73
+        },
+        "J": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 152
+        },
+        "B": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
         }
       }
     },
@@ -2683,31 +2686,6 @@
       "medal": "Silver",
       "coach": "Li Liu",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 12
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 117
-        },
-        "J": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 127
-        },
-        "F": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "I": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
         "5": {
           "solved": false,
           "tries": 1,
@@ -2732,6 +2710,31 @@
           "solved": true,
           "tries": 0,
           "time_mins": 117
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 117
+        },
+        "J": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 127
+        },
+        "F": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "I": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
         }
       }
     },
@@ -2751,26 +2754,6 @@
       "medal": "Silver",
       "coach": "Yunlan Tan",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 10
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 60
-        },
-        "J": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 166
-        },
-        "B": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
         "1": {
           "solved": false,
           "tries": 1,
@@ -2790,6 +2773,26 @@
           "solved": true,
           "tries": 0,
           "time_mins": 60
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 10
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 60
+        },
+        "J": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 166
+        },
+        "B": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
         }
       }
     },
@@ -2809,26 +2812,6 @@
       "medal": "Silver",
       "coach": "Jie Wen",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 15
-        },
-        "J": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 90
-        },
-        "B": {
-          "solved": false,
-          "tries": 4,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 135
-        },
         "1": {
           "solved": false,
           "tries": 4,
@@ -2845,6 +2828,26 @@
           "time_mins": 90
         },
         "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 135
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 15
+        },
+        "J": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 90
+        },
+        "B": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "K": {
           "solved": true,
           "tries": 1,
           "time_mins": 135
@@ -2867,21 +2870,6 @@
       "medal": "Silver",
       "coach": "Yanggeng Fu",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 11
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 92
-        },
-        "J": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 194
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -2896,6 +2884,21 @@
           "solved": true,
           "tries": 0,
           "time_mins": 92
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 92
+        },
+        "J": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 194
         }
       }
     },
@@ -2915,6 +2918,26 @@
       "medal": "Silver",
       "coach": "Xiuying Yu",
       "problem_scores": {
+        "1": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "7": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "9": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 133
+        },
+        "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 138
+        },
         "H": {
           "solved": true,
           "tries": 0,
@@ -2939,26 +2962,6 @@
           "solved": false,
           "tries": 0,
           "time_mins": 0
-        },
-        "1": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "7": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 12
-        },
-        "9": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 133
-        },
-        "10": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 138
         }
       }
     },
@@ -2978,26 +2981,6 @@
       "medal": null,
       "coach": "Oa Yang Hau Chung",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 14
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 71
-        },
-        "J": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 159
-        },
-        "B": {
-          "solved": false,
-          "tries": 8,
-          "time_mins": 0
-        },
         "1": {
           "solved": false,
           "tries": 8,
@@ -3017,6 +3000,26 @@
           "solved": true,
           "tries": 2,
           "time_mins": 71
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 14
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 71
+        },
+        "J": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 159
+        },
+        "B": {
+          "solved": false,
+          "tries": 8,
+          "time_mins": 0
         }
       }
     },
@@ -3036,26 +3039,6 @@
       "medal": "Silver",
       "coach": "Wenyong Dong",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 11
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 110
-        },
-        "J": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 196
-        },
-        "F": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
         "5": {
           "solved": false,
           "tries": 1,
@@ -3075,6 +3058,26 @@
           "solved": true,
           "tries": 1,
           "time_mins": 110
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 110
+        },
+        "J": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 196
+        },
+        "F": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
         }
       }
     },
@@ -3094,21 +3097,6 @@
       "medal": "Silver",
       "coach": "Mingyuan Yuan",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 14
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 104
-        },
-        "J": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 180
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -3123,6 +3111,21 @@
           "solved": true,
           "tries": 2,
           "time_mins": 104
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 14
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 104
+        },
+        "J": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 180
         }
       }
     },
@@ -3142,21 +3145,6 @@
       "medal": "Silver",
       "coach": "Chuanxiang Chen",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 9
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 171
-        },
-        "J": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 129
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -3171,6 +3159,21 @@
           "solved": true,
           "tries": 1,
           "time_mins": 171
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 9
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 171
+        },
+        "J": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 129
         }
       }
     },
@@ -3190,26 +3193,6 @@
       "medal": "Bronze",
       "coach": "Kailun Qiu",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 11
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 120
-        },
-        "J": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 187
-        },
-        "F": {
-          "solved": false,
-          "tries": 4,
-          "time_mins": 0
-        },
         "5": {
           "solved": false,
           "tries": 4,
@@ -3229,6 +3212,26 @@
           "solved": true,
           "tries": 0,
           "time_mins": 120
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 11
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 120
+        },
+        "J": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 187
+        },
+        "F": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
         }
       }
     },
@@ -3248,21 +3251,6 @@
       "medal": "Bronze",
       "coach": "Chuhua Xian",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 12
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 137
-        },
-        "J": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 213
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -3277,6 +3265,21 @@
           "solved": true,
           "tries": 0,
           "time_mins": 137
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 137
+        },
+        "J": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 213
         }
       }
     },
@@ -3296,21 +3299,6 @@
       "medal": "Bronze",
       "coach": "Bagabold Gendensuren",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 13
-        },
-        "J": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 204
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 147
-        },
         "7": {
           "solved": true,
           "tries": 1,
@@ -3322,6 +3310,21 @@
           "time_mins": 204
         },
         "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 147
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 13
+        },
+        "J": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 204
+        },
+        "K": {
           "solved": true,
           "tries": 0,
           "time_mins": 147
@@ -3344,21 +3347,6 @@
       "medal": "Bronze",
       "coach": "Lan Jin",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 31
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 110
-        },
-        "J": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 204
-        },
         "7": {
           "solved": true,
           "tries": 1,
@@ -3373,6 +3361,21 @@
           "solved": true,
           "tries": 1,
           "time_mins": 110
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 31
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 110
+        },
+        "J": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 204
         }
       }
     },
@@ -3392,21 +3395,6 @@
       "medal": "Bronze",
       "coach": "Wenqiang Liu",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 9
-        },
-        "K": {
-          "solved": true,
-          "tries": 5,
-          "time_mins": 184
-        },
-        "J": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 113
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -3421,6 +3409,21 @@
           "solved": true,
           "tries": 5,
           "time_mins": 184
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 9
+        },
+        "K": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 184
+        },
+        "J": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 113
         }
       }
     },
@@ -3440,21 +3443,6 @@
       "medal": "Bronze",
       "coach": "Feng Zhou",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 11
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 139
-        },
-        "J": {
-          "solved": true,
-          "tries": 5,
-          "time_mins": 219
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -3469,6 +3457,21 @@
           "solved": true,
           "tries": 0,
           "time_mins": 139
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 139
+        },
+        "J": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 219
         }
       }
     },
@@ -3488,26 +3491,6 @@
       "medal": null,
       "coach": "WONG Sichan",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 22
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 78
-        },
-        "J": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 275
-        },
-        "B": {
-          "solved": false,
-          "tries": 7,
-          "time_mins": 0
-        },
         "1": {
           "solved": false,
           "tries": 7,
@@ -3527,6 +3510,26 @@
           "solved": true,
           "tries": 2,
           "time_mins": 78
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 22
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 78
+        },
+        "J": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 275
+        },
+        "B": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
         }
       }
     },
@@ -3546,21 +3549,6 @@
       "medal": "Bronze",
       "coach": "Yijing Guo",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 11
-        },
-        "K": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 156
-        },
-        "J": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 210
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -3575,6 +3563,21 @@
           "solved": true,
           "tries": 3,
           "time_mins": 156
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 156
+        },
+        "J": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 210
         }
       }
     },
@@ -3594,26 +3597,6 @@
       "medal": "Bronze",
       "coach": "Jiangshu Wei",
       "problem_scores": {
-        "A": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 12
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 77
-        },
-        "J": {
-          "solved": true,
-          "tries": 5,
-          "time_mins": 286
-        },
         "0": {
           "solved": false,
           "tries": 1,
@@ -3633,6 +3616,26 @@
           "solved": true,
           "tries": 0,
           "time_mins": 77
+        },
+        "A": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 12
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 77
+        },
+        "J": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 286
         }
       }
     },
@@ -3652,21 +3655,6 @@
       "medal": "Bronze",
       "coach": "Hairong Ye",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 7
-        },
-        "K": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 154
-        },
-        "J": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 231
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -3681,6 +3669,21 @@
           "solved": true,
           "tries": 4,
           "time_mins": 154
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 7
+        },
+        "K": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 154
+        },
+        "J": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 231
         }
       }
     },
@@ -3700,31 +3703,6 @@
       "medal": "Bronze",
       "coach": "Dan Li",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 13
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 147
-        },
-        "J": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 269
-        },
-        "I": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "B": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
         "1": {
           "solved": false,
           "tries": 1,
@@ -3749,6 +3727,31 @@
           "solved": true,
           "tries": 2,
           "time_mins": 147
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 13
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 147
+        },
+        "J": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 269
+        },
+        "I": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "B": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
         }
       }
     },
@@ -3768,21 +3771,6 @@
       "medal": "Bronze",
       "coach": "Bing Liang",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 11
-        },
-        "K": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 87
-        },
-        "J": {
-          "solved": true,
-          "tries": 6,
-          "time_mins": 253
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -3797,6 +3785,21 @@
           "solved": true,
           "tries": 3,
           "time_mins": 87
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 87
+        },
+        "J": {
+          "solved": true,
+          "tries": 6,
+          "time_mins": 253
         }
       }
     },
@@ -3816,31 +3819,6 @@
       "medal": "Bronze",
       "coach": "Qifeng Chen",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 12
-        },
-        "K": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 155
-        },
-        "F": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 251
-        },
-        "B": {
-          "solved": false,
-          "tries": 9,
-          "time_mins": 0
-        },
         "1": {
           "solved": false,
           "tries": 9,
@@ -3865,6 +3843,31 @@
           "solved": true,
           "tries": 3,
           "time_mins": 155
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 155
+        },
+        "F": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 251
+        },
+        "B": {
+          "solved": false,
+          "tries": 9,
+          "time_mins": 0
         }
       }
     },
@@ -3884,21 +3887,6 @@
       "medal": "Bronze",
       "coach": "Ying Qin",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 16
-        },
-        "J": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 294
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 142
-        },
         "7": {
           "solved": true,
           "tries": 1,
@@ -3910,6 +3898,21 @@
           "time_mins": 294
         },
         "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 142
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 16
+        },
+        "J": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 294
+        },
+        "K": {
           "solved": true,
           "tries": 1,
           "time_mins": 142
@@ -3932,21 +3935,6 @@
       "medal": "Bronze",
       "coach": "Feng Zhan",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 8
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 174
-        },
-        "J": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 280
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -3961,6 +3949,21 @@
           "solved": true,
           "tries": 2,
           "time_mins": 174
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 8
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 174
+        },
+        "J": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 280
         }
       }
     },
@@ -3980,26 +3983,6 @@
       "medal": "Bronze",
       "coach": "Xuejie Zhang",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 12
-        },
-        "J": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 190
-        },
-        "K": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 281
-        },
-        "B": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
         "1": {
           "solved": false,
           "tries": 3,
@@ -4019,6 +4002,26 @@
           "solved": true,
           "tries": 3,
           "time_mins": 281
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "J": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 190
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 281
+        },
+        "B": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
         }
       }
     },
@@ -4038,26 +4041,6 @@
       "medal": "Bronze",
       "coach": "Bo Li",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 8
-        },
-        "K": {
-          "solved": true,
-          "tries": 5,
-          "time_mins": 292
-        },
-        "J": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 128
-        },
-        "I": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 1,
@@ -4077,6 +4060,26 @@
           "solved": true,
           "tries": 5,
           "time_mins": 292
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 8
+        },
+        "K": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 292
+        },
+        "J": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 128
+        },
+        "I": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
         }
       }
     },
@@ -4096,26 +4099,6 @@
       "medal": "Bronze",
       "coach": "Jie Zuo",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 12
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 219
-        },
-        "J": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 231
-        },
-        "B": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
         "1": {
           "solved": false,
           "tries": 2,
@@ -4135,6 +4118,26 @@
           "solved": true,
           "tries": 2,
           "time_mins": 219
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 12
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 219
+        },
+        "J": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 231
+        },
+        "B": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
         }
       }
     },
@@ -4154,21 +4157,6 @@
       "medal": "Bronze",
       "coach": "Yi Wang",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 10
-        },
-        "K": {
-          "solved": true,
-          "tries": 5,
-          "time_mins": 130
-        },
-        "J": {
-          "solved": true,
-          "tries": 6,
-          "time_mins": 242
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -4183,6 +4171,21 @@
           "solved": true,
           "tries": 5,
           "time_mins": 130
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 10
+        },
+        "K": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 130
+        },
+        "J": {
+          "solved": true,
+          "tries": 6,
+          "time_mins": 242
         }
       }
     },
@@ -4202,21 +4205,6 @@
       "medal": "Bronze",
       "coach": "Lin Guo",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 16
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 270
-        },
-        "J": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 184
-        },
         "7": {
           "solved": true,
           "tries": 2,
@@ -4231,6 +4219,21 @@
           "solved": true,
           "tries": 2,
           "time_mins": 270
+        },
+        "H": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 16
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 270
+        },
+        "J": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 184
         }
       }
     },
@@ -4250,21 +4253,6 @@
       "medal": "Bronze",
       "coach": "Mei Yu",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 7
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 40
-        },
-        "J": {
-          "solved": true,
-          "tries": 16,
-          "time_mins": 290
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -4279,6 +4267,21 @@
           "solved": true,
           "tries": 0,
           "time_mins": 40
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 7
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 40
+        },
+        "J": {
+          "solved": true,
+          "tries": 16,
+          "time_mins": 290
         }
       }
     },
@@ -4298,21 +4301,6 @@
       "medal": "Bronze",
       "coach": "Junrui Liu",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 12
-        },
-        "K": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 275
-        },
-        "J": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 255
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -4327,6 +4315,21 @@
           "solved": true,
           "tries": 4,
           "time_mins": 275
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "K": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 275
+        },
+        "J": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 255
         }
       }
     },
@@ -4346,26 +4349,6 @@
       "medal": "Bronze",
       "coach": "Junmin Ye",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 17
-        },
-        "K": {
-          "solved": true,
-          "tries": 6,
-          "time_mins": 288
-        },
-        "D": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 269
-        },
         "3": {
           "solved": false,
           "tries": 2,
@@ -4385,6 +4368,26 @@
           "solved": true,
           "tries": 6,
           "time_mins": 288
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 17
+        },
+        "K": {
+          "solved": true,
+          "tries": 6,
+          "time_mins": 288
+        },
+        "D": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 269
         }
       }
     },
@@ -4404,31 +4407,6 @@
       "medal": "Bronze",
       "coach": "Min Jiang",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 7
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 62
-        },
-        "J": {
-          "solved": false,
-          "tries": 7,
-          "time_mins": 0
-        },
-        "F": {
-          "solved": false,
-          "tries": 14,
-          "time_mins": 0
-        },
-        "E": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
         "4": {
           "solved": false,
           "tries": 2,
@@ -4453,6 +4431,31 @@
           "solved": true,
           "tries": 0,
           "time_mins": 62
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 7
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 62
+        },
+        "J": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        },
+        "F": {
+          "solved": false,
+          "tries": 14,
+          "time_mins": 0
+        },
+        "E": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
         }
       }
     },
@@ -4472,26 +4475,6 @@
       "medal": "Bronze",
       "coach": "Ming-Chun Huang",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 24
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 76
-        },
-        "J": {
-          "solved": false,
-          "tries": 7,
-          "time_mins": 0
-        },
-        "B": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
         "1": {
           "solved": false,
           "tries": 3,
@@ -4511,6 +4494,26 @@
           "solved": true,
           "tries": 0,
           "time_mins": 76
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 24
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 76
+        },
+        "J": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        },
+        "B": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
         }
       }
     },
@@ -4530,21 +4533,6 @@
       "medal": "Bronze",
       "coach": "Qifeng Chen",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 11
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 89
-        },
-        "J": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -4559,6 +4547,21 @@
           "solved": true,
           "tries": 1,
           "time_mins": 89
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 89
+        },
+        "J": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
         }
       }
     },
@@ -4578,21 +4581,6 @@
       "medal": "Bronze",
       "coach": "Dongdong Zhao",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 18
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 104
-        },
-        "J": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -4607,6 +4595,21 @@
           "solved": true,
           "tries": 0,
           "time_mins": 104
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 18
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 104
+        },
+        "J": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
         }
       }
     },
@@ -4626,26 +4629,6 @@
       "medal": "Bronze",
       "coach": "Minming Li",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 8
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 119
-        },
-        "J": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
-        "B": {
-          "solved": false,
-          "tries": 6,
-          "time_mins": 0
-        },
         "1": {
           "solved": false,
           "tries": 6,
@@ -4665,6 +4648,26 @@
           "solved": true,
           "tries": 0,
           "time_mins": 119
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 8
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 119
+        },
+        "J": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "B": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
         }
       }
     },
@@ -4684,21 +4687,6 @@
       "medal": "Bronze",
       "coach": "Hexing Wang",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 14
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 117
-        },
-        "J": {
-          "solved": false,
-          "tries": 23,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 1,
@@ -4713,6 +4701,21 @@
           "solved": true,
           "tries": 0,
           "time_mins": 117
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 14
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 117
+        },
+        "J": {
+          "solved": false,
+          "tries": 23,
+          "time_mins": 0
         }
       }
     },
@@ -4732,26 +4735,6 @@
       "medal": "Bronze",
       "coach": "Lin Tian",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 9
-        },
-        "J": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 123
-        },
-        "K": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
-        "B": {
-          "solved": false,
-          "tries": 9,
-          "time_mins": 0
-        },
         "1": {
           "solved": false,
           "tries": 9,
@@ -4770,6 +4753,26 @@
         "10": {
           "solved": false,
           "tries": 5,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 9
+        },
+        "J": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 123
+        },
+        "K": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "B": {
+          "solved": false,
+          "tries": 9,
           "time_mins": 0
         }
       }
@@ -4790,26 +4793,6 @@
       "medal": "Bronze",
       "coach": "Zehan Lin",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 11
-        },
-        "K": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 86
-        },
-        "J": {
-          "solved": false,
-          "tries": 4,
-          "time_mins": 0
-        },
-        "B": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
         "1": {
           "solved": false,
           "tries": 2,
@@ -4829,6 +4812,26 @@
           "solved": true,
           "tries": 3,
           "time_mins": 86
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 86
+        },
+        "J": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "B": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
         }
       }
     },
@@ -4848,21 +4851,6 @@
       "medal": "Bronze",
       "coach": "Junbao Xia",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 12
-        },
-        "J": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 159
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -4874,6 +4862,21 @@
           "time_mins": 0
         },
         "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 159
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "J": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "K": {
           "solved": true,
           "tries": 0,
           "time_mins": 159
@@ -4896,21 +4899,6 @@
       "medal": "Bronze",
       "coach": "Minming Li",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 11
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 142
-        },
-        "J": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -4925,6 +4913,21 @@
           "solved": true,
           "tries": 1,
           "time_mins": 142
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 142
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
         }
       }
     },
@@ -4944,26 +4947,6 @@
       "medal": "Bronze",
       "coach": "Kewei Tu",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 9
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 133
-        },
-        "J": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
-        "B": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
         "1": {
           "solved": false,
           "tries": 1,
@@ -4983,6 +4966,26 @@
           "solved": true,
           "tries": 2,
           "time_mins": 133
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 9
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 133
+        },
+        "J": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "B": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
         }
       }
     },
@@ -5002,21 +5005,6 @@
       "medal": "Bronze",
       "coach": "Qingsheng Zhang",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 10
-        },
-        "K": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 114
-        },
-        "J": {
-          "solved": false,
-          "tries": 11,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -5031,6 +5019,21 @@
           "solved": true,
           "tries": 3,
           "time_mins": 114
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 10
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 114
+        },
+        "J": {
+          "solved": false,
+          "tries": 11,
+          "time_mins": 0
         }
       }
     },
@@ -5050,21 +5053,6 @@
       "medal": "Bronze",
       "coach": "Yan Pan",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 12
-        },
-        "J": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 173
-        },
         "7": {
           "solved": true,
           "tries": 1,
@@ -5076,6 +5064,21 @@
           "time_mins": 0
         },
         "10": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 173
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 12
+        },
+        "J": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "K": {
           "solved": true,
           "tries": 1,
           "time_mins": 173
@@ -5098,21 +5101,6 @@
       "medal": "Bronze",
       "coach": "Xianwei Zhang",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 14
-        },
-        "K": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 169
-        },
-        "J": {
-          "solved": false,
-          "tries": 6,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 1,
@@ -5127,6 +5115,21 @@
           "solved": true,
           "tries": 2,
           "time_mins": 169
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 14
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 169
+        },
+        "J": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
         }
       }
     },
@@ -5146,21 +5149,6 @@
       "medal": "Bronze",
       "coach": "Jian Jiang",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 17
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 188
-        },
-        "J": {
-          "solved": false,
-          "tries": 6,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 2,
@@ -5175,6 +5163,21 @@
           "solved": true,
           "tries": 1,
           "time_mins": 188
+        },
+        "H": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 17
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 188
+        },
+        "J": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
         }
       }
     },
@@ -5194,22 +5197,22 @@
       "medal": "Bronze",
       "coach": "Zhiying Cao",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 12
-        },
-        "J": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 186
-        },
         "7": {
           "solved": true,
           "tries": 1,
           "time_mins": 12
         },
         "9": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 186
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 12
+        },
+        "J": {
           "solved": true,
           "tries": 3,
           "time_mins": 186
@@ -5232,21 +5235,6 @@
       "medal": "Bronze",
       "coach": "Chuanxin Zhao",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 10
-        },
-        "K": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 209
-        },
-        "J": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -5261,6 +5249,21 @@
           "solved": true,
           "tries": 3,
           "time_mins": 209
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 10
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 209
+        },
+        "J": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
         }
       }
     },
@@ -5280,21 +5283,6 @@
       "medal": "Honorable",
       "coach": "Jiaxing Chen",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 24
-        },
-        "K": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 218
-        },
-        "J": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 1,
@@ -5309,6 +5297,21 @@
           "solved": true,
           "tries": 1,
           "time_mins": 218
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 24
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 218
+        },
+        "J": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
         }
       }
     },
@@ -5328,26 +5331,6 @@
       "medal": null,
       "coach": "Oa Yang Hau Chung",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 17
-        },
-        "F": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 4,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 260
-        },
         "5": {
           "solved": false,
           "tries": 3,
@@ -5364,6 +5347,26 @@
           "time_mins": 0
         },
         "10": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 260
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 17
+        },
+        "F": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "K": {
           "solved": true,
           "tries": 0,
           "time_mins": 260
@@ -5386,21 +5389,6 @@
       "medal": "Honorable",
       "coach": "Mingkai Tang",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 15
-        },
-        "K": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 228
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -5415,6 +5403,21 @@
           "solved": false,
           "tries": 3,
           "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 15
+        },
+        "K": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 228
         }
       }
     },
@@ -5434,26 +5437,6 @@
       "medal": "Honorable",
       "coach": "Xudong Lin",
       "problem_scores": {
-        "A": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 15
-        },
-        "J": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": true,
-          "tries": 3,
-          "time_mins": 231
-        },
         "0": {
           "solved": false,
           "tries": 1,
@@ -5470,6 +5453,26 @@
           "time_mins": 0
         },
         "10": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 231
+        },
+        "A": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 15
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
           "solved": true,
           "tries": 3,
           "time_mins": 231
@@ -5492,21 +5495,6 @@
       "medal": "Honorable",
       "coach": "Junwei Lyu",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 5
-        },
-        "K": {
-          "solved": true,
-          "tries": 5,
-          "time_mins": 228
-        },
-        "J": {
-          "solved": false,
-          "tries": 8,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -5521,6 +5509,21 @@
           "solved": true,
           "tries": 5,
           "time_mins": 228
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 5
+        },
+        "K": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 228
+        },
+        "J": {
+          "solved": false,
+          "tries": 8,
+          "time_mins": 0
         }
       }
     },
@@ -5540,21 +5543,6 @@
       "medal": "Honorable",
       "coach": "Hui Xu",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 12
-        },
-        "K": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 227
-        },
-        "J": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 1,
@@ -5569,6 +5557,21 @@
           "solved": true,
           "tries": 4,
           "time_mins": 227
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 12
+        },
+        "K": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 227
+        },
+        "J": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
         }
       }
     },
@@ -5588,21 +5591,6 @@
       "medal": "Honorable",
       "coach": "Lan Liu",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 11
-        },
-        "K": {
-          "solved": true,
-          "tries": 6,
-          "time_mins": 220
-        },
-        "J": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -5617,6 +5605,21 @@
           "solved": true,
           "tries": 6,
           "time_mins": 220
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "K": {
+          "solved": true,
+          "tries": 6,
+          "time_mins": 220
+        },
+        "J": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
         }
       }
     },
@@ -5636,21 +5639,6 @@
       "medal": "Honorable",
       "coach": "Yundi Guo",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 12
-        },
-        "J": {
-          "solved": true,
-          "tries": 4,
-          "time_mins": 285
-        },
-        "K": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -5662,6 +5650,21 @@
           "time_mins": 285
         },
         "10": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "J": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 285
+        },
+        "K": {
           "solved": false,
           "tries": 2,
           "time_mins": 0
@@ -5684,21 +5687,6 @@
       "medal": "Honorable",
       "coach": "Jun Liang",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 10
-        },
-        "K": {
-          "solved": true,
-          "tries": 6,
-          "time_mins": 249
-        },
-        "J": {
-          "solved": false,
-          "tries": 6,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -5713,6 +5701,21 @@
           "solved": true,
           "tries": 6,
           "time_mins": 249
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 10
+        },
+        "K": {
+          "solved": true,
+          "tries": 6,
+          "time_mins": 249
+        },
+        "J": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
         }
       }
     },
@@ -5732,21 +5735,6 @@
       "medal": "Honorable",
       "coach": "Hongcan Yan",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 13
-        },
-        "K": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": true,
-          "tries": 6,
-          "time_mins": 247
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -5761,6 +5749,21 @@
           "solved": false,
           "tries": 2,
           "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 13
+        },
+        "K": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": true,
+          "tries": 6,
+          "time_mins": 247
         }
       }
     },
@@ -5780,21 +5783,6 @@
       "medal": "Honorable",
       "coach": "Honghong Chen",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 10
-        },
-        "K": {
-          "solved": true,
-          "tries": 5,
-          "time_mins": 278
-        },
-        "J": {
-          "solved": false,
-          "tries": 7,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -5809,6 +5797,21 @@
           "solved": true,
           "tries": 5,
           "time_mins": 278
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 10
+        },
+        "K": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 278
+        },
+        "J": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
         }
       }
     },
@@ -5828,26 +5831,6 @@
       "medal": "Honorable",
       "coach": "Kun He",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 12
-        },
-        "K": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
-        "B": {
-          "solved": false,
-          "tries": 7,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": true,
-          "tries": 6,
-          "time_mins": 278
-        },
         "1": {
           "solved": false,
           "tries": 7,
@@ -5867,6 +5850,26 @@
           "solved": false,
           "tries": 5,
           "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "K": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "B": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": true,
+          "tries": 6,
+          "time_mins": 278
         }
       }
     },
@@ -5886,21 +5889,6 @@
       "medal": "Honorable",
       "coach": "Shuxia Ren",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 9
-        },
-        "K": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -5914,6 +5902,21 @@
         "10": {
           "solved": false,
           "tries": 5,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 9
+        },
+        "K": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 3,
           "time_mins": 0
         }
       }
@@ -5934,21 +5937,6 @@
       "medal": "Honorable",
       "coach": "Jianmin Han",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 9
-        },
-        "K": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 9,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -5962,6 +5950,21 @@
         "10": {
           "solved": false,
           "tries": 1,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 9
+        },
+        "K": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 9,
           "time_mins": 0
         }
       }
@@ -5982,26 +5985,6 @@
       "medal": "Honorable",
       "coach": "Yanrong Cui",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 10
-        },
-        "K": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "B": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
         "1": {
           "solved": false,
           "tries": 1,
@@ -6020,6 +6003,26 @@
         "10": {
           "solved": false,
           "tries": 5,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 10
+        },
+        "K": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "B": {
+          "solved": false,
+          "tries": 1,
           "time_mins": 0
         }
       }
@@ -6040,21 +6043,6 @@
       "medal": "Honorable",
       "coach": "Xin Huang",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 10
-        },
-        "K": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 12,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -6068,6 +6056,21 @@
         "10": {
           "solved": false,
           "tries": 2,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 10
+        },
+        "K": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 12,
           "time_mins": 0
         }
       }
@@ -6088,22 +6091,22 @@
       "medal": "Honorable",
       "coach": "Jingbo Xie",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 11
-        },
-        "K": {
-          "solved": false,
-          "tries": 7,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 0,
           "time_mins": 11
         },
         "10": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "K": {
           "solved": false,
           "tries": 7,
           "time_mins": 0
@@ -6126,31 +6129,6 @@
       "medal": null,
       "coach": "Yuen Lok Kan Ethen",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 11
-        },
-        "J": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
-        "B": {
-          "solved": false,
-          "tries": 15,
-          "time_mins": 0
-        },
-        "A": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
         "0": {
           "solved": false,
           "tries": 1,
@@ -6175,6 +6153,31 @@
           "solved": false,
           "tries": 5,
           "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "J": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "B": {
+          "solved": false,
+          "tries": 15,
+          "time_mins": 0
+        },
+        "A": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
         }
       }
     },
@@ -6194,21 +6197,6 @@
       "medal": "Honorable",
       "coach": "Xuefeng Cui",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 11
-        },
-        "K": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 7,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -6222,6 +6210,21 @@
         "10": {
           "solved": false,
           "tries": 5,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "K": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 7,
           "time_mins": 0
         }
       }
@@ -6242,22 +6245,22 @@
       "medal": "Honorable",
       "coach": "Guangzhen Pan",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 11
-        },
-        "K": {
-          "solved": false,
-          "tries": 10,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 0,
           "time_mins": 11
         },
         "10": {
+          "solved": false,
+          "tries": 10,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "K": {
           "solved": false,
           "tries": 10,
           "time_mins": 0
@@ -6280,21 +6283,6 @@
       "medal": "Honorable",
       "coach": "Xianbin Gu",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 11
-        },
-        "K": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -6308,6 +6296,21 @@
         "10": {
           "solved": false,
           "tries": 5,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "K": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 2,
           "time_mins": 0
         }
       }
@@ -6328,21 +6331,6 @@
       "medal": "Honorable",
       "coach": "Chao Yang",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 11
-        },
-        "K": {
-          "solved": false,
-          "tries": 9,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -6356,6 +6344,21 @@
         "10": {
           "solved": false,
           "tries": 9,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "K": {
+          "solved": false,
+          "tries": 9,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 2,
           "time_mins": 0
         }
       }
@@ -6376,21 +6379,6 @@
       "medal": "Honorable",
       "coach": "Zhufang Kuang",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 12
-        },
-        "K": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -6404,6 +6392,21 @@
         "10": {
           "solved": false,
           "tries": 3,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "K": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
           "time_mins": 0
         }
       }
@@ -6424,22 +6427,22 @@
       "medal": "Honorable",
       "coach": "Jianghua Xuan",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 13
-        },
-        "K": {
-          "solved": false,
-          "tries": 4,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 0,
           "time_mins": 13
         },
         "10": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 13
+        },
+        "K": {
           "solved": false,
           "tries": 4,
           "time_mins": 0
@@ -6462,22 +6465,22 @@
       "medal": "Honorable",
       "coach": "Hongyu Gao",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 13
-        },
-        "K": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 0,
           "time_mins": 13
         },
         "10": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 13
+        },
+        "K": {
           "solved": false,
           "tries": 5,
           "time_mins": 0
@@ -6500,22 +6503,22 @@
       "medal": "Honorable",
       "coach": "Ruliang Xiao",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 15
-        },
-        "J": {
-          "solved": false,
-          "tries": 8,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 0,
           "time_mins": 15
         },
         "9": {
+          "solved": false,
+          "tries": 8,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 15
+        },
+        "J": {
           "solved": false,
           "tries": 8,
           "time_mins": 0
@@ -6538,21 +6541,6 @@
       "medal": "Honorable",
       "coach": "Kaikun Dong",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 18
-        },
-        "K": {
-          "solved": false,
-          "tries": 9,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -6566,6 +6554,21 @@
         "10": {
           "solved": false,
           "tries": 9,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 18
+        },
+        "K": {
+          "solved": false,
+          "tries": 9,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
           "time_mins": 0
         }
       }
@@ -6586,21 +6589,6 @@
       "medal": "Honorable",
       "coach": "Hongshu Li",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 19
-        },
-        "K": {
-          "solved": false,
-          "tries": 4,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -6614,6 +6602,21 @@
         "10": {
           "solved": false,
           "tries": 4,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 19
+        },
+        "K": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 2,
           "time_mins": 0
         }
       }
@@ -6634,22 +6637,22 @@
       "medal": "Honorable",
       "coach": "Xianfeng Han",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 20
-        },
-        "K": {
-          "solved": false,
-          "tries": 16,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 0,
           "time_mins": 20
         },
         "10": {
+          "solved": false,
+          "tries": 16,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 20
+        },
+        "K": {
           "solved": false,
           "tries": 16,
           "time_mins": 0
@@ -6672,22 +6675,22 @@
       "medal": "Honorable",
       "coach": "Zhu Wang",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 20
-        },
-        "K": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 0,
           "time_mins": 20
         },
         "10": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 20
+        },
+        "K": {
           "solved": false,
           "tries": 2,
           "time_mins": 0
@@ -6710,21 +6713,6 @@
       "medal": "Honorable",
       "coach": "Wenfeng Li",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 21
-        },
-        "K": {
-          "solved": false,
-          "tries": 4,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -6738,6 +6726,21 @@
         "10": {
           "solved": false,
           "tries": 4,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 21
+        },
+        "K": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
           "time_mins": 0
         }
       }
@@ -6758,21 +6761,6 @@
       "medal": null,
       "coach": "LEONG Kam Wa",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 26
-        },
-        "K": {
-          "solved": false,
-          "tries": 8,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -6786,6 +6774,21 @@
         "10": {
           "solved": false,
           "tries": 8,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 26
+        },
+        "K": {
+          "solved": false,
+          "tries": 8,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 3,
           "time_mins": 0
         }
       }
@@ -6806,21 +6809,6 @@
       "medal": "Honorable",
       "coach": "Fuping Lin",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 8
-        },
-        "K": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
-        "B": {
-          "solved": false,
-          "tries": 7,
-          "time_mins": 0
-        },
         "1": {
           "solved": false,
           "tries": 7,
@@ -6834,6 +6822,21 @@
         "10": {
           "solved": false,
           "tries": 5,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 8
+        },
+        "K": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "B": {
+          "solved": false,
+          "tries": 7,
           "time_mins": 0
         }
       }
@@ -6854,21 +6857,6 @@
       "medal": "Honorable",
       "coach": "Sanshuai Cui",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 30
-        },
-        "K": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -6880,6 +6868,21 @@
           "time_mins": 0
         },
         "10": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 30
+        },
+        "K": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "J": {
           "solved": false,
           "tries": 2,
           "time_mins": 0
@@ -6902,21 +6905,6 @@
       "medal": "Honorable",
       "coach": "Qingmei Yu",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 11
-        },
-        "K": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 1,
@@ -6928,6 +6916,21 @@
           "time_mins": 0
         },
         "10": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 11
+        },
+        "K": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "J": {
           "solved": false,
           "tries": 3,
           "time_mins": 0
@@ -6950,21 +6953,6 @@
       "medal": "Honorable",
       "coach": "Zhenhuan Wu",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 11
-        },
-        "J": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 1,
@@ -6976,6 +6964,21 @@
           "time_mins": 0
         },
         "10": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 11
+        },
+        "J": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "K": {
           "solved": false,
           "tries": 2,
           "time_mins": 0
@@ -6998,21 +7001,6 @@
       "medal": "Honorable",
       "coach": "Zehan Lin",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 12
-        },
-        "K": {
-          "solved": false,
-          "tries": 4,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 1,
@@ -7026,6 +7014,21 @@
         "10": {
           "solved": false,
           "tries": 4,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 12
+        },
+        "K": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 2,
           "time_mins": 0
         }
       }
@@ -7046,22 +7049,22 @@
       "medal": "Honorable",
       "coach": "Hongming Hu",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 13
-        },
-        "K": {
-          "solved": false,
-          "tries": 8,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 1,
           "time_mins": 13
         },
         "10": {
+          "solved": false,
+          "tries": 8,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 13
+        },
+        "K": {
           "solved": false,
           "tries": 8,
           "time_mins": 0
@@ -7084,21 +7087,6 @@
       "medal": null,
       "coach": "Minming Li",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 14
-        },
-        "J": {
-          "solved": false,
-          "tries": 6,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": false,
-          "tries": 16,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 1,
@@ -7110,6 +7098,21 @@
           "time_mins": 0
         },
         "10": {
+          "solved": false,
+          "tries": 16,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 14
+        },
+        "J": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        },
+        "K": {
           "solved": false,
           "tries": 16,
           "time_mins": 0
@@ -7132,21 +7135,6 @@
       "medal": "Honorable",
       "coach": "Jun Shen",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 14
-        },
-        "J": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": false,
-          "tries": 11,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 1,
@@ -7158,6 +7146,21 @@
           "time_mins": 0
         },
         "10": {
+          "solved": false,
+          "tries": 11,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 14
+        },
+        "J": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "K": {
           "solved": false,
           "tries": 11,
           "time_mins": 0
@@ -7180,22 +7183,22 @@
       "medal": "Honorable",
       "coach": "Junyao Wang",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 36
-        },
-        "K": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 0,
           "time_mins": 36
         },
         "10": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 36
+        },
+        "K": {
           "solved": false,
           "tries": 3,
           "time_mins": 0
@@ -7218,22 +7221,22 @@
       "medal": "Honorable",
       "coach": "Xiaoli Zhang",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 17
-        },
-        "J": {
-          "solved": false,
-          "tries": 9,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 1,
           "time_mins": 17
         },
         "9": {
+          "solved": false,
+          "tries": 9,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 17
+        },
+        "J": {
           "solved": false,
           "tries": 9,
           "time_mins": 0
@@ -7256,21 +7259,6 @@
       "medal": "Honorable",
       "coach": "Hanliang Guo",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 19
-        },
-        "K": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 4,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 1,
@@ -7284,6 +7272,21 @@
         "10": {
           "solved": false,
           "tries": 3,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 19
+        },
+        "K": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 4,
           "time_mins": 0
         }
       }
@@ -7304,21 +7307,6 @@
       "medal": "Honorable",
       "coach": "Lukui Shi",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 20
-        },
-        "K": {
-          "solved": false,
-          "tries": 4,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 4,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 1,
@@ -7330,6 +7318,21 @@
           "time_mins": 0
         },
         "10": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 20
+        },
+        "K": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "J": {
           "solved": false,
           "tries": 4,
           "time_mins": 0
@@ -7352,21 +7355,6 @@
       "medal": "Honorable",
       "coach": "Ke Chen",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 20
-        },
-        "K": {
-          "solved": false,
-          "tries": 11,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 9,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 1,
@@ -7380,6 +7368,21 @@
         "10": {
           "solved": false,
           "tries": 11,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 20
+        },
+        "K": {
+          "solved": false,
+          "tries": 11,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 9,
           "time_mins": 0
         }
       }
@@ -7400,21 +7403,6 @@
       "medal": "Honorable",
       "coach": "Iderbaatar Munkhuu",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 21
-        },
-        "J": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 1,
@@ -7426,6 +7414,21 @@
           "time_mins": 0
         },
         "10": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 21
+        },
+        "J": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "K": {
           "solved": false,
           "tries": 3,
           "time_mins": 0
@@ -7448,21 +7451,6 @@
       "medal": "Honorable",
       "coach": "Altangerel KHUDER",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 21
-        },
-        "K": {
-          "solved": false,
-          "tries": 7,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 7,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 1,
@@ -7474,6 +7462,21 @@
           "time_mins": 0
         },
         "10": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 21
+        },
+        "K": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        },
+        "J": {
           "solved": false,
           "tries": 7,
           "time_mins": 0
@@ -7496,21 +7499,6 @@
       "medal": "Honorable",
       "coach": "Xiaoling Luo",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 23
-        },
-        "J": {
-          "solved": false,
-          "tries": 12,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 1,
@@ -7522,6 +7510,21 @@
           "time_mins": 0
         },
         "10": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 23
+        },
+        "J": {
+          "solved": false,
+          "tries": 12,
+          "time_mins": 0
+        },
+        "K": {
           "solved": false,
           "tries": 3,
           "time_mins": 0
@@ -7544,21 +7547,6 @@
       "medal": "Honorable",
       "coach": "Hongtao Li",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 31
-        },
-        "K": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 1,
@@ -7572,6 +7560,21 @@
         "10": {
           "solved": false,
           "tries": 2,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 31
+        },
+        "K": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
           "time_mins": 0
         }
       }
@@ -7592,21 +7595,6 @@
       "medal": "Honorable",
       "coach": "Shuping Zhang",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 1,
-          "time_mins": 35
-        },
-        "K": {
-          "solved": false,
-          "tries": 5,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 7,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 1,
@@ -7620,6 +7608,21 @@
         "10": {
           "solved": false,
           "tries": 5,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 35
+        },
+        "K": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 7,
           "time_mins": 0
         }
       }
@@ -7640,21 +7643,6 @@
       "medal": "Honorable",
       "coach": "Yongliang Hu",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 19
-        },
-        "J": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
-        "K": {
-          "solved": false,
-          "tries": 1,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 2,
@@ -7666,6 +7654,21 @@
           "time_mins": 0
         },
         "10": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 19
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
           "solved": false,
           "tries": 1,
           "time_mins": 0
@@ -7688,21 +7691,6 @@
       "medal": null,
       "coach": "LAM Kin Un",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 0,
-          "time_mins": 63
-        },
-        "K": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
-        "J": {
-          "solved": false,
-          "tries": 2,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 0,
@@ -7716,6 +7704,21 @@
         "10": {
           "solved": false,
           "tries": 3,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 63
+        },
+        "K": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 2,
           "time_mins": 0
         }
       }
@@ -7736,22 +7739,22 @@
       "medal": "Honorable",
       "coach": "Xin Huang",
       "problem_scores": {
-        "H": {
-          "solved": true,
-          "tries": 2,
-          "time_mins": 36
-        },
-        "K": {
-          "solved": false,
-          "tries": 3,
-          "time_mins": 0
-        },
         "7": {
           "solved": true,
           "tries": 2,
           "time_mins": 36
         },
         "10": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 36
+        },
+        "K": {
           "solved": false,
           "tries": 3,
           "time_mins": 0

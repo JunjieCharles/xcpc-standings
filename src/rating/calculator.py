@@ -21,7 +21,7 @@ def get_zh_to_en():
 
 def build_contest_schedule(rating_type: str = "member", year_arg: str = "2025", combine_same_day: bool = None) -> List[Dict]:
     """
-    Reads contests.csv, filters for Regional/Final/Invitational category (based on requirement to include only relevant ones),
+    Reads contests.csv, filters for categories included in rating calculations,
     groups by date, and builds the schedule order.
     Returns:
        [
@@ -62,7 +62,7 @@ def build_contest_schedule(rating_type: str = "member", year_arg: str = "2025", 
             if name.lower() == 'srni':
                 continue
 
-            if sub not in ['Regional', 'Final', 'Invitational', 'Preliminary', 'Online', 'Girls', 'Vocational']:
+            if sub not in ['Regional', 'Final', 'Preliminary', 'Online']:
                 continue
 
             if not name:
@@ -96,10 +96,10 @@ def build_contest_schedule(rating_type: str = "member", year_arg: str = "2025", 
     schedule = []
     for d in sorted_dates:
         items = grouped[d]
-        # Priority: Vocational < Girls < Online = Invitational < Regional < Final
+        # Priority: Online < Preliminary < Regional < Final
         # Series: CCPC (0) < ICPC (1)
         def get_priority(x):
-            sub_p = {'Vocational': 0, 'Girls': 1, 'Online': 2, 'Preliminary': 3, 'Invitational': 4, 'Regional': 5, 'Final': 6}.get(x['sub'], 2)
+            sub_p = {'Online': 0, 'Preliminary': 1, 'Regional': 2, 'Final': 3}.get(x['sub'], 2)
             series_p = 1 if x['series'] == 'ICPC' else 0
             return (sub_p, series_p, x['name'])
 

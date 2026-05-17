@@ -393,7 +393,7 @@ def batch_process(year_arg="2025"):
 
     year_mask = df.apply(lambda row: contest_matches_year_arg(row.to_dict(), year_arg), axis=1)
 
-    target_categories = ['Regional', 'Final', 'Invitational', 'Online', 'Girls', 'Vocational']
+    target_categories = ['Regional', 'Final', 'Online']
     target_df = df[year_mask & (df['category'].isin(target_categories)) & (df['name'].str.lower() != 'worldfinals')]
     
     if target_df.empty:
@@ -446,10 +446,10 @@ def batch_process(year_arg="2025"):
         jsons = []
         
         providers = [
-            ArchiveProvider(archive_id, name),
-            PTAProvider(pta_id, name),
-            XCPCIOProvider(xcpcio_id, name),
             RanklandProvider(rankland_id, name, rl_lookup.get(rankland_id)),
+            XCPCIOProvider(xcpcio_id, name),
+            PTAProvider(pta_id, name),
+            ArchiveProvider(archive_id, name),
             PDFProvider(pdf_id, name),
         ]
         
@@ -470,12 +470,8 @@ def batch_process(year_arg="2025"):
             jsons = pdf_jsons
             pdf_jsons = []
 
-        # Merge them
-        # Let's use XCPCIO as base if available, else Archive, else Rankland
-        # Actually jsons has whatever we loaded in order. Let's just fold right.
-        # Let's sort jsons priority: 1. XCPCIO 2. Rankland 3. Archive
         # This determines BASE.
-        priority = {"XCPCIO": 1, "Rankland": 2, "Archive": 3}
+        priority = {"Rankland": 1, "XCPCIO": 2, "PTA": 3, "Archive": 4, "PDF": 5}
         jsons.sort(key=lambda x: priority.get(x[0], 99))
         
         # Resolve ambiguous schools before merging

@@ -1,36 +1,40 @@
-# ICPC/CCPC 区域赛终榜汇总
+# XCPC Standings
 
 ## 使用说明
 
-本项目使用 `main.py` 作为统一入口，提供以下命令行功能：
+本项目汇�?ICPC/CCPC �?XCPC 赛事终榜，并生成统一 CSV/JSON 与个人、学�?Rating。`main.py` 是统一入口；年份支持完整写法和短写，例�?`2025`、`25`、`25-26`。半年度范围按比赛日期筛选，可写�?`25下半�?26上半年` �?`25H2-26H1`�?
 
-- **更新比赛列表数据**
-  ```bash
-  python main.py update
-  ```
-- **合并比赛榜单并生成 CSV** (支持批量处理特定年份)
-  ```bash
-  python main.py merge --batch --years 2025
-  # 处理多范围或全量： python main.py merge --batch --years 2021-2025 
-  # （也可设为 all 获取全部年份）
-  ```
-- **生成/更迭 Rating 双榜单**
-  ```bash
-  python main.py rating --type all  # --type 选项：member, school, all
-  ```
-- **更新 README 状态**
-  ```bash
-  python main.py readme
-  ```
+```bash
+# 更新比赛列表
+python main.py update
 
-- 原始文件在 `data/raw/cache` 文件夹下，解析并合并后的文件在 `data/merged/csv` 文件夹下
-- 特别鸣谢：[xcpcio](https://github.com/xcpcio/xcpcio)、[RankLand](https://rl.algoux.org/collection/official)
+# 批量合并榜单，输出到 data/merged/json �?data/merged/csv
+python main.py merge --batch --years 25下半�?26上半�?
 
-## 数据完整性
+# 生成个人和学�?Rating，输出到 data/rating/csv �?data/rating/xlsx
+python main.py rating --type all --years 25下半�?26上半�?
+
+# 重新生成本说明和下方数据完整性表
+python main.py readme
+```
+
+常用输出位置�?
+
+- 原始缓存：`data/raw/cache`
+- 合并榜单：`data/merged/csv`、`data/merged/json`
+- PDF 参赛手册：`data/raw/cache/pdf`（作为名单补充源�?
+- Rating CSV：`data/rating/csv`
+- Rating XLSX：`data/rating/xlsx`
+
+特别鸣谢：[xcpcio](https://github.com/xcpcio/xcpcio)、[RankLand](https://rl.algoux.org/collection/official)
+
+## 数据完整�?
 
 |Series|Year|Ordinal|Category|Name|Date|XCPCIO|Rankland|PTA|Rank|School|Team|Solved|Penalty|Medal|Problems|Members|
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+|ICPC|2026|51|Invitational|西安邀请赛|2026/05/02|✅|✅||✅|✅|✅|✅|✅|✅|✅|✅|
 |CCPC|2025|11|Final|总决赛|2026/04/26||✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|
+|ICPC|2026|51|Invitational|深圳邀请赛|2026/04/11|✅|✅||✅|✅|✅|✅|✅|✅|✅|✅|
 |ICPC|2025|50|Final|ECFinal|2026/02/02|✅|✅||✅|✅|✅|✅|✅|✅|✅|✅|
 |ICPC|2025|50|Regional|香港|2025/11/30|✅|✅||✅|✅|✅|✅|✅|✅|✅|✅|
 |CCPC|2025|11|Regional|重庆|2025/11/30|✅|✅||✅|✅|✅|✅|✅|✅|✅|✅|
@@ -42,7 +46,10 @@
 |CCPC|2025|11|Regional|哈尔滨|2025/11/09|✅|✅||✅|✅|✅|✅|✅|✅|✅|✅|
 |ICPC|2025|50|Regional|武汉|2025/11/02|✅|✅||✅|✅|✅|✅|✅|✅|✅|✅|
 |ICPC|2025|50|Regional|成都|2025/10/26|✅|✅||✅|✅|✅|✅|✅|✅|✅|✅|
+|CCPC|2025|11|Girls|女生赛|2025/10/26||✅|✅|✅|✅|✅|✅|✅|✅|✅|✅|
+|CCPC|2025|11|Vocational|高职赛|2025/10/26|||✅|✅|✅|✅|✅|✅|✅|✅|✅|
 |ICPC|2025|50|Regional|西安|2025/10/19|✅|✅||✅|✅|✅|✅|✅|✅|✅|✅|
 |CCPC|2025|11|Online|网络赛|2025/09/20|||✅|✅|✅|✅|✅|✅|✅|✅|✅|
-|ICPC|2025|50|Online|online2|2025/09/14|||✅|✅|✅|✅|✅|✅|✅|✅|✅|
-|ICPC|2025|50|Online|online1|2025/09/07|||✅|✅|✅|✅|✅|✅|✅|✅|✅|
+|ICPC|2025|50|Online|网络�?|2025/09/14|||✅|✅|✅|✅|✅|✅|✅|✅|✅|
+|CCPC|2025|11|Invitational|南昌邀请赛|2025/09/13|✅|✅||✅|✅|✅|✅|✅|✅|✅|✅|
+|ICPC|2025|50|Online|网络�?|2025/09/07|||✅|✅|✅|✅|✅|✅|✅|✅|✅|

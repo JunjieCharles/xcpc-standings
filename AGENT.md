@@ -7,6 +7,7 @@
 - 新的 session 开头先读取 `ARCHITECTURE.md`，理解当前架构、数据流、合并策略和 rating 逻辑。
 - 读取架构文档后，根据用户 prompt 行事；不要在没有需求的情况下主动重跑大型数据任务。
 - 如果任务涉及新增流程、重要规则、架构变化、数据处理策略或长期约定，结束前把更新内容补充回 `ARCHITECTURE.md`。
+- 每次更新 `ARCHITECTURE.md` 后，也要检查 `README.md` / `src/readme.py` 是否需要同步；README 面向普通用户，说明应尽可能简洁明了，避免塞入代理内部细节。
 
 ## Python 环境
 
@@ -35,6 +36,7 @@
 - `csv`、`json` 等生成数据文件应避免直接手动修改；优先修改生成它们的代码或配置，使重新运行流程后能得到正确结果。
 - 批量合并默认仍应保持严格 rank 对齐，不要擅自启用实体匹配兜底。
 - 对会改变可重复生成结果的规则，尽量补充轻量级测试或可复现验证。
+- 仓库文本文件应保持 LF 换行。修改或生成文本文件后，主动检查 touched 文件；已跟踪文件用 `git ls-files --eol -- <file>`，未跟踪生成文件用 `git ls-files --others --exclude-standard` 找到后检查/归一化。若批量排查，不能只看 tracked 文件；应同时检查已跟踪文件的 `w/crlf`/`w/mixed` 和未跟踪文本文件中的 CRLF。遇到 `CRLF will be replaced by LF` 时，只归一化对应文本文件为 LF，不改文本内容，并用 `git diff --check -- <file>` 或 `git diff --check` 验证。
 
 ## 收尾要求
 

@@ -1,9 +1,12 @@
 import os
+import csv
+import json
+import tempfile
 import unittest
 
 from src.merge_standings import merge_pdf_roster, merge_standings
 from src.models import TeamStanding, calculate_canonical_ranks
-from src.rating.calculator import build_contest_schedule, build_contest_tag
+from src.rating.calculator import build_contest_schedule, build_contest_tag, collect_member_userrank, collect_school_userrank
 from src.sources.pdf_source import PDFDataSource, find_pdf_identifier
 from src.sources.pta_source import PTAStandingsGenerator
 from src.update_contests import chinese_number_to_int, get_category, merge_contests, parse_ordinal_from_name, parse_rankland_config
@@ -30,6 +33,102 @@ def problem(solved, tries=0, time_mins=0):
 
 
 class CoreBehaviorTests(unittest.TestCase):
+    def test_rating_counts_zero_solved_teams_with_submissions(self):
+        headers = [
+            "Rank", "School Rank", "School", "Team Name", "Member1", "Member2", "Member3",
+            "Coach", "Girl", "Official", "Solved", "Penalty", "Medal", "A", "B"
+        ]
+        rows = [
+            [1, 1, "提交大学", "ZeroSolvedSubmitted", "甲", "乙", "丙", "", "", "True", 0, 0, "", "-1", ""],
+            [2, 2, "空交大学", "ZeroSolvedNoSubmit", "丁", "戊", "己", "", "", "True", 0, 0, "", "", ""],
+            [3, 3, "通过大学", "Solved", "庚", "辛", "壬", "", "", "True", 1, 10, "", "+(10)", ""],
+        ]
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            path = os.path.join(tmpdir, "rating.csv")
+            with open(path, "w", encoding="utf-8", newline="") as f:
+                writer = csv.writer(f, lineterminator="\n")
+                writer.writerow(headers)
+                writer.writerows(rows)
+
+            member_userrank = collect_member_userrank(path)
+            school_userrank = collect_school_userrank(path)
+
+        self.assertEqual(member_userrank[("提交大学", "甲")], 1)
+        self.assertEqual(member_userrank[("提交大学", "乙")], 1)
+        self.assertEqual(member_userrank[("提交大学", "丙")], 1)
+        self.assertEqual(member_userrank[("通过大学", "庚")], 3)
+        self.assertNotIn(("空交大学", "丁"), member_userrank)
+
+        self.assertEqual(school_userrank["提交大学"], 1)
+        self.assertEqual(school_userrank["通过大学"], 3)
+        self.assertNotIn("空交大学", school_userrank)
+
+    def test_json_rating_counts_zero_solved_teams_with_submissions(self):
+        standings = {
+            "contest_name": "rating fixture",
+            "problem_ids": ["A", "B"],
+            "standings": [
+                {
+                    "team_name": "ZeroSolvedSubmitted",
+                    "school": "提交大学",
+                    "member1": "甲",
+                    "member2": "乙",
+                    "member3": "丙",
+                    "rank": 1,
+                    "school_rank": 1,
+                    "score": 0,
+                    "penalty": 0,
+                    "is_official": True,
+                    "problem_scores": {"A": {"solved": False, "tries": 1, "time_mins": 0}},
+                },
+                {
+                    "team_name": "ZeroSolvedNoSubmit",
+                    "school": "空交大学",
+                    "member1": "丁",
+                    "member2": "戊",
+                    "member3": "己",
+                    "rank": 2,
+                    "school_rank": 2,
+                    "score": 0,
+                    "penalty": 0,
+                    "is_official": True,
+                    "problem_scores": {},
+                },
+                {
+                    "team_name": "Solved",
+                    "school": "通过大学",
+                    "member1": "庚",
+                    "member2": "辛",
+                    "member3": "壬",
+                    "rank": 3,
+                    "school_rank": 3,
+                    "score": 1,
+                    "penalty": 10,
+                    "is_official": True,
+                    "problem_scores": {"A": {"solved": True, "tries": 0, "time_mins": 10}},
+                },
+            ],
+        }
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            path = os.path.join(tmpdir, "rating.json")
+            with open(path, "w", encoding="utf-8", newline="\n") as f:
+                json.dump(standings, f, ensure_ascii=False)
+
+            member_userrank = collect_member_userrank(path)
+            school_userrank = collect_school_userrank(path)
+
+        self.assertEqual(member_userrank[("提交大学", "甲")], 1)
+        self.assertEqual(member_userrank[("提交大学", "乙")], 1)
+        self.assertEqual(member_userrank[("提交大学", "丙")], 1)
+        self.assertEqual(member_userrank[("通过大学", "庚")], 3)
+        self.assertNotIn(("空交大学", "丁"), member_userrank)
+
+        self.assertEqual(school_userrank["提交大学"], 1)
+        self.assertEqual(school_userrank["通过大学"], 3)
+        self.assertNotIn("空交大学", school_userrank)
+
     def test_short_year_arguments_are_expanded(self):
         self.assertEqual(normalize_year_arg("25"), "2025")
         self.assertEqual(normalize_year_arg("25-26"), "2025-2026")

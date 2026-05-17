@@ -38,7 +38,7 @@ flowchart LR
 - `src/providers.py` 封装不同数据源的获取、缓存、解析流程。
 - `src/sources/*.py` 负责把各来源原始格式解析为统一 standings JSON。
 - `src/merge_standings.py` 负责多来源榜单合并、冲突检测、学校名歧义处理、最终 CSV/JSON 输出。
-- `src/rating/calculator.py` 基于合并 CSV 计算个人榜和学校榜 rating。
+- `src/rating/calculator.py` 基于合并 JSON（CSV 兜底）计算个人榜和学校榜 rating。
 - `src/rating/utils.py` 实现 rating 数学模型、姓名规范化和颜色分级。
 - `src/readme.py` 扫描合并 CSV，重新生成 README 的数据完整性表。
 - `src/utils/http.py` 提供带重试的 HTTP 文本/JSON 获取。
@@ -499,7 +499,7 @@ Rating 由 `src/rating/calculator.py` 和 `src/rating/utils.py` 实现，分为�
 Regional, Final, Online
 ```
 
-只有对应合并 CSV 存在时才纳入日程。Invitational、Girls、Vocational 不参与 merged 批处理与 rating 计算。
+只有对应合并 JSON 或 CSV 存在时才纳入日程，优先读取 `data/merged/json`，缺少 JSON 时回退到 `data/merged/csv`。Invitational、Girls、Vocational 不参与 merged 批处理与 rating 计算。
 
 日程按日期升序排列。同一天的比赛会根据类别和系列排序：
 
@@ -546,16 +546,17 @@ seed = 1 + sum(1 / (1 + 10 ^ ((rating - opponent_rating) / 400))) - self_term
 `generate_member_rating()` 的流程：
 
 1. 构建 member 日程。
-2. 对每个日期组遍历其中 CSV。
-3. 跳过全空行、非官方队伍、零解队伍。
+2. 对每个日期组遍历其中 standings 文件，优先读取合并 JSON，CSV 仅作兜底。
+3. 跳过非官方队伍、没有任何有效提交的队伍；0 题但有提交的队伍仍视为参赛并计入 rating。JSON 通过 `problem_scores` 的 `solved/tries/time_mins` 判断提交，CSV 通过题目列格子判断提交。
 4. 取学校名并标准化。
 5. 读取 `Member1-3`，过滤空值、教练后缀。
 6. 港澳学校或姓名包含港澳特征时做繁转简。
 7. 每名成员以 `(school, member)` 作为唯一用户。
 8. 用户 rank 使用队伍 `Rank`。
 9. 调用 `calculateRating()` 更新当前 rating。
-10. 同一天多场比赛时，用 `pending_diff` 累积 delta，最后以一个日期列展示。
-11. 输出 `data/rating/rating_member.csv` 和 `data/rating/rating_member.xlsx`。
+10. CSV 输出使用逐场比赛列，不合并同一天的多个比赛，也不写 `Δ` 列。
+11. XLSX 输出保留同一天多场比赛合并为一个展示列的形式，并用当日累计 delta 写入 `Δ`。
+12. 输出到 `data/rating/csv` 和 `data/rating/xlsx`。
 
 个人榜的特点是同队三名成员共享同一队伍 rank，但作为三个独立用户更新 rating。
 
@@ -564,13 +565,14 @@ seed = 1 + sum(1 / (1 + 10 ^ ((rating - opponent_rating) / 400))) - self_term
 `generate_school_rating()` 的流程：
 
 1. 构建 school 日程。
-2. 对每个比赛 CSV 单独处理。
+2. 对每个比赛 standings 文件单独处理，优先读取合并 JSON，CSV 仅作兜底。
 3. 若 CSV 中是 `Organization`/`Organization Rank`，会重命名为 `School`/`School Rank`。
-4. 如果缺少 `School Rank`，按 CSV 中每所学校首次出现顺序生成学校 rank。
-5. 跳过全空行、非官方队伍、无 school rank 队伍、零解队伍。
+4. 如果缺少 `School Rank`，按每所学校首次出现顺序生成学校 rank。
+5. 跳过非官方队伍、无 school rank 队伍、没有任何有效提交的队伍；0 题但有提交的队伍仍视为参赛并计入 rating。
 6. 学校名标准化后，以学校名作为用户。
 7. 每所学校使用其 `School Rank` 更新 rating。
-8. 输出 `data/rating/rating_school.csv` 和 `data/rating/rating_school.xlsx`。
+8. CSV 输出不写 `Δ` 列；XLSX 输出保留 `Δ` 着色展示。
+9. 输出到 `data/rating/csv` 和 `data/rating/xlsx`。
 
 学校榜本质上把学校作为选手，使用每场比赛的学校排名参与同一套 rating 更新。
 
@@ -636,7 +638,7 @@ CSV 是纯数据；XLSX 使用 pandas Styler 输出样式。
 4. 合并器按来源优先级选择 base，用 rank 和冲突规则折叠其他来源。
 5. 冲突写入 `data/merged/resolutions.csv`，人工填 Resolution 后可重复运行修正。
 6. 合并结果输出到 `data/merged/json` 和 `data/merged/csv`。
-7. `python main.py rating --type all` 读取合并 CSV，按赛程顺序更新个人和学校 rating。
+7. `python main.py rating --type all` 优先读取合并 JSON，缺失时回退到合并 CSV，按赛程顺序更新个人和学校 rating。
 8. `python main.py readme` 扫描合并 CSV，更新 README 的数据完整性概览。
 
 该仓库的核心价值在于把多个格式、多个来源、多个年份的 XCPC 榜单整理为可重复生成的统一数据资产；算法重点集中在来源标准化、学校/姓名规整、多来源冲突处理和 rating 序列更新四个环节。

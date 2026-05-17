@@ -11,6 +11,13 @@ from src.rating.utils import calculateRating, normalize, rating_color
 from src.utils.school import normalize_school_name
 from src.utils.text import contains_chinese
 from src.utils.years import contest_matches_year_arg, normalize_year_arg
+from src.models import ContestStandings, TeamStanding
+
+STANDING_METADATA_COLUMNS = {
+    'Rank', 'School Rank', 'Organization Rank', 'School', 'Organization',
+    'Team Name', 'Member1', 'Member2', 'Member3', 'Coach', 'Girl', 'Official',
+    'Unofficial', 'Solved', 'Penalty', 'Medal'
+}
 
 def get_zh_to_en():
     json_path = 'data/config/zh_to_en.json'
@@ -71,10 +78,12 @@ def build_contest_schedule(rating_type: str = "member", year_arg: str = "2025", 
                 elif sub == 'Vocational':
                     name = 'vocational'
 
-            csv_filename = f"{series}_{year}_{sub}_{name}.csv"
-            csv_path = os.path.join('data/merged/csv', csv_filename)
+            base_filename = f"{series}_{year}_{sub}_{name}"
+            json_path = os.path.join('data/merged/json', f"{base_filename}.json")
+            csv_path = os.path.join('data/merged/csv', f"{base_filename}.csv")
+            standings_path = json_path if os.path.exists(json_path) else csv_path
 
-            if not os.path.exists(csv_path):
+            if not os.path.exists(standings_path):
                 continue
 
             if date_str not in grouped:
@@ -84,7 +93,7 @@ def build_contest_schedule(rating_type: str = "member", year_arg: str = "2025", 
                 'series': series,
                 'name': name,
                 'sub': sub,
-                'file': csv_path
+                'file': standings_path
             })
 
     # Sort by date
@@ -168,32 +177,100 @@ def make_unique_tags(tags: List[str]) -> List[str]:
     return unique_tags
 
 
-def collect_member_userrank(file: str) -> Dict:
+def get_problem_columns(columns) -> List[str]:
+    columns = list(columns)
+    if 'Medal' in columns:
+        return columns[columns.index('Medal') + 1:]
+
+    problem_columns = []
+    for ip in range(26):
+        problem = chr(ord('A') + ip)
+        if problem not in columns:
+            break
+        problem_columns.append(problem)
+    if problem_columns:
+        return problem_columns
+
+    return [col for col in columns if col not in STANDING_METADATA_COLUMNS]
+
+
+def cell_has_submission(value) -> bool:
+    if pd.isnull(value):
+        return False
+    text = str(value).strip()
+    return text and text != '-' and text.lower() not in ('nan', 'none')
+
+
+def row_has_submission(row, problem_columns: List[str]) -> bool:
+    if problem_columns:
+        return any(cell_has_submission(row.get(problem)) for problem in problem_columns)
+
+    solved = row.get('Solved')
+    if pd.isnull(solved) or not str(solved).strip():
+        return False
+    try:
+        return int(float(solved)) > 0
+    except ValueError:
+        return False
+
+
+def team_has_submission(team: TeamStanding) -> bool:
+    if team.problem_scores:
+        return any(status.solved or status.tries > 0 or status.time_mins > 0 for status in team.problem_scores.values())
+    return team.score > 0
+
+
+def row_is_official(row) -> bool:
+    if 'Unofficial' in row and pd.notnull(row['Unofficial']):
+        value = str(row['Unofficial']).strip().lower()
+        if value and value not in ('n', 'false', '0'):
+            return False
+    if 'Official' in row and pd.notnull(row['Official']):
+        value = str(row['Official']).strip().lower()
+        if value and value not in ('true', '1', 'yes', 'y'):
+            return False
+    return True
+
+
+def collect_member_userrank_from_json(file: str) -> Dict:
+    with open(file, 'r', encoding='utf-8') as f:
+        contest = ContestStandings.from_dict(json.load(f))
+
+    userrank = {}
+    for team in contest.standings:
+        if not team.is_official:
+            continue
+        if team.rank is None:
+            continue
+        if not team_has_submission(team):
+            continue
+
+        school = normalize_school_name(team.school)
+        for member_value in (team.member1, team.member2, team.member3):
+            if not member_value:
+                continue
+            member = normalize(member_value, '港' in school or '澳' in school)
+            if member.endswith('教练') or member.endswith('coach'):
+                continue
+            if not member:
+                continue
+            userrank[(school, member)] = int(team.rank)
+
+    return userrank
+
+
+def collect_member_userrank_from_csv(file: str) -> Dict:
     df = pd.read_csv(file, encoding='utf-8')
+    problem_columns = get_problem_columns(df.columns)
     userrank = {}
     for _, row in df.iterrows():
         if row.isnull().all():
             continue
-        if 'Unofficial' in row and (row['Unofficial'] != 'N' and row['Unofficial'] != False):
+        if not row_is_official(row):
             continue
 
-        if 'Solved' in row and pd.notnull(row['Solved']) and str(row['Solved']).strip():
-            try:
-                if int(float(row['Solved'])) == 0:
-                    continue
-            except ValueError:
-                pass
-        elif 'A' in row:
-            cnt = 0
-            for ip in range(26):
-                problem = chr(ord('A') + ip)
-                if problem not in row:
-                    break
-                val = str(row[problem]).strip()
-                if pd.notnull(row[problem]) and val not in ['-', '', 'nan', 'NaN']:
-                    cnt += 1
-            if cnt == 0:
-                continue
+        if not row_has_submission(row, problem_columns):
+            continue
 
         school_str = row['School'] if 'School' in row else str(row.get('Organization', ''))
         school = normalize_school_name(school_str)
@@ -211,6 +288,96 @@ def collect_member_userrank(file: str) -> Dict:
                 if pd.notnull(rank):
                     userrank[user] = int(rank)
     return userrank
+
+
+def collect_member_userrank(file: str) -> Dict:
+    if str(file).lower().endswith('.json'):
+        return collect_member_userrank_from_json(file)
+    return collect_member_userrank_from_csv(file)
+
+
+def collect_school_userrank_from_json(file: str) -> Dict:
+    with open(file, 'r', encoding='utf-8') as f:
+        contest = ContestStandings.from_dict(json.load(f))
+
+    userrank = {}
+    has_school_ranks = any(team.school_rank is not None for team in contest.standings)
+    next_school_rank = 1
+    seen_schools = set()
+
+    for team in contest.standings:
+        if not team.is_official:
+            continue
+        if not team_has_submission(team):
+            continue
+
+        school = normalize_school_name(team.school)
+        if not school:
+            continue
+
+        if has_school_ranks:
+            if team.school_rank is None:
+                continue
+            userrank[school] = int(team.school_rank)
+            continue
+
+        if school not in seen_schools:
+            userrank[school] = next_school_rank
+            seen_schools.add(school)
+            next_school_rank += 1
+
+    return userrank
+
+
+def collect_school_userrank_from_csv(file: str) -> Dict:
+    df = pd.read_csv(file, encoding='utf-8')
+    if 'Organization' in df.columns and 'School' not in df.columns:
+        df.rename(columns={'Organization': 'School'}, inplace=True)
+    if 'Organization Rank' in df.columns and 'School Rank' not in df.columns:
+        df.rename(columns={'Organization Rank': 'School Rank'}, inplace=True)
+
+    problem_columns = get_problem_columns(df.columns)
+
+    if 'School Rank' not in df.columns:
+        school_ranks = {}
+        for _, row in df.iterrows():
+            if row.isnull().all():
+                continue
+            if not row_is_official(row):
+                continue
+            if not row_has_submission(row, problem_columns):
+                continue
+
+            school = normalize_school_name(str(row['School']))
+            if school not in school_ranks:
+                school_ranks[school] = len(school_ranks) + 1
+
+        school_norm = df['School'].apply(lambda x: normalize_school_name(str(x)))
+        df['School Rank'] = school_norm.map(school_ranks)
+
+    userrank = {}
+    for _, row in df.iterrows():
+        if row.isnull().all():
+            continue
+        if not row_is_official(row):
+            continue
+
+        schoolrank = row.get('School Rank')
+        if pd.isnull(schoolrank):
+            continue
+        if not row_has_submission(row, problem_columns):
+            continue
+
+        school = normalize_school_name(str(row['School']))
+        userrank[school] = int(schoolrank)
+
+    return userrank
+
+
+def collect_school_userrank(file: str) -> Dict:
+    if str(file).lower().endswith('.json'):
+        return collect_school_userrank_from_json(file)
+    return collect_school_userrank_from_csv(file)
 
 
 def build_member_dataframe(users, ratings_history, tags, diff=None, include_delta=True):
@@ -316,54 +483,7 @@ def generate_school_rating(rating_type="school", year_arg="2025"):
         # old logic says "Process exactly sequentially".
 
         for file in day_group['files']:
-            df = pd.read_csv(file, encoding='utf-8')
-            if 'Organization' in df.columns and 'School' not in df.columns:
-                df.rename(columns={'Organization': 'School'}, inplace=True)
-            if 'Organization Rank' in df.columns and 'School Rank' not in df.columns:
-                df.rename(columns={'Organization Rank': 'School Rank'}, inplace=True)
-
-            userrank = {}
-
-            if 'School Rank' not in df.columns:
-                school_ranks = {}
-                df_school = df.drop_duplicates(subset=['School'], keep='first').reset_index(drop=True)
-                for _, row in df_school.iterrows():
-                    if row.isnull().all():
-                        continue
-                    if 'Unofficial' in row and (row['Unofficial'] != 'N' and row['Unofficial'] != False):
-                        continue
-
-                    school = normalize_school_name(str(row['School']))
-                    if school not in school_ranks:
-                        school_ranks[school] = len(school_ranks) + 1
-
-                school_norm = df['School'].apply(lambda x: normalize_school_name(str(x)))
-                df['School Rank'] = school_norm.map(school_ranks)
-
-            for _, row in df.iterrows():
-                if row.isnull().all():
-                    continue
-                if 'Unofficial' in row and (row['Unofficial'] != 'N' and row['Unofficial'] != False):
-                    continue
-
-                schoolrank = row.get('School Rank')
-                if pd.isnull(schoolrank):
-                    continue
-
-                if 'A' in row:
-                    cnt = 0
-                    for ip in range(26):
-                        problem = chr(ord('A') + ip)
-                        if problem not in row:
-                            break
-                        if not pd.isnull(row[problem]) and str(row[problem]) != '-':
-                            cnt += 1
-                    if cnt == 0:
-                        continue
-
-                school = normalize_school_name(str(row['School']))
-                userrank[school] = int(schoolrank)
-
+            userrank = collect_school_userrank(file)
             newrating = calculateRating(userrank, curratings)
             diff = {s: newrating[s] - curratings.get(s, 1400) for s in newrating}
             curratings.update(newrating)

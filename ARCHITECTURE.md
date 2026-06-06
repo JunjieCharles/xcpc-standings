@@ -666,3 +666,16 @@ C:\ProgramData\anaconda3\python.exe
 `csv`、`json` 等生成数据文件应避免直接手动修改；应优先修改生成它们的代码或配置，使重新运行流程后能得到正确结果。
 
 大型任务不应优先使用 PowerShell 或 MCP 服务器执行；PowerShell 仅适合小型验证、查看文件或没有合适 VS Code Task 时的辅助操作。收尾时应运行与改动范围匹配的验证，并在最终回复中说明验证结果和未运行的较重任务。
+
+## 14. Shared Core Package
+
+The reusable source-fetching and standardization layer now lives in the sibling repository `../xcpc-core`.
+
+`xcpc-core` exposes the import package `xcpc` and contains:
+
+- `xcpc.models`: `ProblemStatus`, `TeamStanding`, `ContestStandings`, and `calculate_canonical_ranks()`.
+- `xcpc.sources`: XCPCIO, Rankland, PTA, Archive CSV, and registered PDF roster data sources/generators.
+- `xcpc.providers`: provider classes that combine validation, raw fetch/cache, standardization, and JSON output.
+- `xcpc.utils.http`: retrying HTTP text/JSON helpers.
+
+`xcpc-standings/src/models.py`, `src/providers.py`, `src/sources/*`, and `src/utils/http.py` are compatibility shims. They first try an installed `xcpc` package, then fall back to the sibling `../xcpc-core` path for local development. New shared source logic should be added to `xcpc-core`; standings-specific merge, contest-index, school-normalization, README, and rating logic should remain in this repository.

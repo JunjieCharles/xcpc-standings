@@ -31,7 +31,48 @@
       "is_girl": false,
       "medal": "Gold",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 232
+        },
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 7
+        },
+        "E": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 146
+        },
+        "F": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 47
+        },
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 113
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 172
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 40
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 119
+        }
+      }
     },
     {
       "team_name": "Euphonium",
@@ -48,7 +89,53 @@
       "is_girl": false,
       "medal": "Gold",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 288
+        },
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 10
+        },
+        "E": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 281
+        },
+        "F": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 242
+        },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 137
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 94
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 27
+        },
+        "L": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 125
+        }
+      }
     },
     {
       "team_name": "Dolls in Pseudo Paradise",
@@ -65,7 +152,48 @@
       "is_girl": false,
       "medal": "Gold",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 184
+        },
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 13
+        },
+        "E": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "F": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 80
+        },
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 214
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 110
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 36
+        },
+        "L": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 154
+        }
+      }
     },
     {
       "team_name": "HDU-T01",
@@ -82,7 +210,43 @@
       "is_girl": false,
       "medal": "Gold",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 142
+        },
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "F": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 294
+        },
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 82
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 74
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 16
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 189
+        }
+      }
     },
     {
       "team_name": "Mako, suki",
@@ -99,7 +263,43 @@
       "is_girl": false,
       "medal": "Gold",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 268
+        },
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 10
+        },
+        "F": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 298
+        },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 201
+        },
+        "H": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 206
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 40
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 150
+        }
+      }
     },
     {
       "team_name": "Path to the Peak",
@@ -116,7 +316,43 @@
       "is_girl": false,
       "medal": "Gold",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 288
+        },
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "F": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 230
+        },
+        "G": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 272
+        },
+        "H": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 205
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 40
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 104
+        }
+      }
     },
     {
       "team_name": "BUG",
@@ -133,7 +369,38 @@
       "is_girl": false,
       "medal": "Gold",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 7
+        },
+        "F": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 110
+        },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 179
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 172
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 56
+        },
+        "L": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 215
+        }
+      }
     },
     {
       "team_name": "Hot Kpop Union",
@@ -150,7 +417,38 @@
       "is_girl": false,
       "medal": "Gold",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 273
+        },
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 6
+        },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 116
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 53
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 65
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 234
+        }
+      }
     },
     {
       "team_name": "Modification Only",
@@ -167,7 +465,43 @@
       "is_girl": false,
       "medal": "Gold",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 85
+        },
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 10
+        },
+        "F": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 211
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 155
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 93
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 184
+        }
+      }
     },
     {
       "team_name": "Solar Express",
@@ -184,7 +518,38 @@
       "is_girl": false,
       "medal": "Gold",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 157
+        },
+        "C": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 36
+        },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 127
+        },
+        "H": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 194
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 71
+        },
+        "L": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 288
+        }
+      }
     },
     {
       "team_name": "HKUST2",
@@ -201,7 +566,73 @@
       "is_girl": false,
       "medal": "Gold",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "A": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "B": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 276
+        },
+        "C": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 15
+        },
+        "D": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "E": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "F": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 292
+        },
+        "H": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 153
+        },
+        "I": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 36
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 208
+        },
+        "M": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "Xitao Village Team of Silk-road City",
@@ -218,7 +649,43 @@
       "is_girl": false,
       "medal": "Gold",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 233
+        },
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 14
+        },
+        "F": {
+          "solved": true,
+          "tries": 6,
+          "time_mins": 284
+        },
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 176
+        },
+        "H": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 264
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 58
+        },
+        "L": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "SUSTech-Southern Breeze",
@@ -235,7 +702,43 @@
       "is_girl": false,
       "medal": "Gold",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "D": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "F": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 254
+        },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 138
+        },
+        "H": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 55
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 74
+        }
+      }
     },
     {
       "team_name": "sha1+6deZ blackF4n-Club",
@@ -252,7 +755,38 @@
       "is_girl": false,
       "medal": "Gold",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 13
+        },
+        "F": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 224
+        },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 234
+        },
+        "H": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 43
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 71
+        }
+      }
     },
     {
       "team_name": "Good Problems!!!",
@@ -269,7 +803,73 @@
       "is_girl": false,
       "medal": "Gold",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "A": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "B": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "C": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 29
+        },
+        "D": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "E": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "F": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 283
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 222
+        },
+        "I": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 56
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 248
+        },
+        "M": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "GDUT_Playing Kasuga Shadow",
@@ -286,7 +886,38 @@
       "is_girl": false,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 133
+        },
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 16
+        },
+        "H": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 69
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 93
+        },
+        "L": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "M": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "Firebird Chan Lay Harder",
@@ -303,7 +934,33 @@
       "is_girl": false,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 150
+        },
+        "H": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 21
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 211
+        }
+      }
     },
     {
       "team_name": "My new dream GO!!!",
@@ -320,7 +977,38 @@
       "is_girl": false,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "F": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 115
+        },
+        "H": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 58
+        },
+        "L": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 233
+        }
+      }
     },
     {
       "team_name": "Only chance of lifetime",
@@ -337,7 +1025,38 @@
       "is_girl": false,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 14
+        },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 255
+        },
+        "H": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 46
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 152
+        }
+      }
     },
     {
       "team_name": "MyLittle_sql",
@@ -354,7 +1073,33 @@
       "is_girl": false,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 18
+        },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 236
+        },
+        "H": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 84
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 165
+        }
+      }
     },
     {
       "team_name": "Grass near home",
@@ -371,7 +1116,33 @@
       "is_girl": false,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "F": {
+          "solved": false,
+          "tries": 8,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 211
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 48
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 272
+        }
+      }
     },
     {
       "team_name": "Meow Meow Meow",
@@ -388,7 +1159,33 @@
       "is_girl": false,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 16
+        },
+        "G": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 222
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 92
+        },
+        "L": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 162
+        }
+      }
     },
     {
       "team_name": "little sweety",
@@ -405,7 +1202,28 @@
       "is_girl": false,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "G": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 248
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 55
+        },
+        "L": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 232
+        }
+      }
     },
     {
       "team_name": "Learning Algo Tmr",
@@ -422,7 +1240,38 @@
       "is_girl": false,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "F": {
+          "solved": false,
+          "tries": 9,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 247
+        },
+        "H": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 143
+        },
+        "L": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 180
+        }
+      }
     },
     {
       "team_name": "UESTC_DebugSimulator",
@@ -439,7 +1288,33 @@
       "is_girl": false,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 13
+        },
+        "F": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 73
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 124
+        }
+      }
     },
     {
       "team_name": "TJU : Try Jumping Up",
@@ -456,7 +1331,23 @@
       "is_girl": false,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 61
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 167
+        }
+      }
     },
     {
       "team_name": "Tle or not",
@@ -473,7 +1364,33 @@
       "is_girl": false,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "F": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 43
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 215
+        }
+      }
     },
     {
       "team_name": "HKTV",
@@ -490,7 +1407,33 @@
       "is_girl": false,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 14
+        },
+        "F": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 48
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 192
+        }
+      }
     },
     {
       "team_name": "I-MAB",
@@ -507,7 +1450,28 @@
       "is_girl": false,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 10
+        },
+        "H": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 50
+        },
+        "L": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 228
+        }
+      }
     },
     {
       "team_name": "Just Do It",
@@ -524,7 +1488,38 @@
       "is_girl": false,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "A": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "B": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 15
+        },
+        "F": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 52
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 248
+        }
+      }
     },
     {
       "team_name": "give @AC McFlurry",
@@ -541,7 +1536,28 @@
       "is_girl": false,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "H": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 41
+        },
+        "L": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 205
+        }
+      }
     },
     {
       "team_name": "Team name ddl today",
@@ -558,7 +1574,28 @@
       "is_girl": false,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 8
+        },
+        "G": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 103
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 129
+        }
+      }
     },
     {
       "team_name": "Senren * Banka",
@@ -575,7 +1612,28 @@
       "is_girl": false,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 37
+        },
+        "H": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 66
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 204
+        }
+      }
     },
     {
       "team_name": "Beaten by o1-preview (mini)",
@@ -592,7 +1650,33 @@
       "is_girl": false,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 8
+        },
+        "F": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 60
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 249
+        }
+      }
     },
     {
       "team_name": "SYSU_BreakingSky",
@@ -609,7 +1693,28 @@
       "is_girl": false,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 7
+        },
+        "G": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 279
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 36
+        },
+        "L": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "Stellar Melodies",
@@ -626,7 +1731,28 @@
       "is_girl": false,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "H": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 96
+        },
+        "L": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 217
+        }
+      }
     },
     {
       "team_name": "I'll write it, you guys don't go",
@@ -643,7 +1769,33 @@
       "is_girl": false,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 23
+        },
+        "G": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 75
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 229
+        }
+      }
     },
     {
       "team_name": "Man! What can I accept",
@@ -660,7 +1812,53 @@
       "is_girl": false,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "A": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "B": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        },
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 13
+        },
+        "E": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "F": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 73
+        },
+        "L": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 264
+        }
+      }
     },
     {
       "team_name": "NUM-TTTs",
@@ -677,7 +1875,23 @@
       "is_girl": false,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 66
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 258
+        }
+      }
     },
     {
       "team_name": "Mr. Guo is Shining",
@@ -694,7 +1908,33 @@
       "is_girl": false,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 13
+        },
+        "F": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 35
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 251
+        }
+      }
     },
     {
       "team_name": "the exciting AC moment",
@@ -711,7 +1951,28 @@
       "is_girl": false,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 10
+        },
+        "H": {
+          "solved": false,
+          "tries": 10,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 113
+        },
+        "L": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 239
+        }
+      }
     },
     {
       "team_name": "one paper of pure white kites",
@@ -728,7 +1989,33 @@
       "is_girl": false,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "A": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 24
+        },
+        "G": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 285
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 16
+        },
+        "L": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "Cute White-Furred Loli",
@@ -745,7 +2032,23 @@
       "is_girl": false,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 55
+        },
+        "L": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 208
+        }
+      }
     },
     {
       "team_name": "UESTC_StarStorm",
@@ -762,7 +2065,28 @@
       "is_girl": false,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 20
+        },
+        "H": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 63
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 283
+        }
+      }
     },
     {
       "team_name": "Fly",
@@ -779,7 +2103,28 @@
       "is_girl": false,
       "medal": "Silver",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 13
+        },
+        "H": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 51
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 287
+        }
+      }
     },
     {
       "team_name": "Dream of the Sky",
@@ -796,7 +2141,28 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "E": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": true,
+          "tries": 6,
+          "time_mins": 280
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 58
+        }
+      }
     },
     {
       "team_name": "We are really vegetables",
@@ -813,7 +2179,28 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 17
+        },
+        "H": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 61
+        },
+        "L": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 289
+        }
+      }
     },
     {
       "team_name": "Sunsetting Stars",
@@ -830,7 +2217,28 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 17
+        },
+        "H": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 178
+        },
+        "L": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 299
+        }
+      }
     },
     {
       "team_name": "Team Is Powerful",
@@ -847,7 +2255,28 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 24
+        },
+        "H": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 6,
+          "time_mins": 110
+        },
+        "L": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 281
+        }
+      }
     },
     {
       "team_name": "DBL",
@@ -864,7 +2293,23 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 13
+        },
+        "F": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 38
+        }
+      }
     },
     {
       "team_name": "West Lake Fish in Vinegar Gravy",
@@ -881,7 +2326,23 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 9
+        },
+        "G": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 43
+        }
+      }
     },
     {
       "team_name": "_Applied Stochastic Processes",
@@ -898,7 +2359,23 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 14
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 41
+        },
+        "L": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "MacArthur never dead",
@@ -915,7 +2392,28 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 14
+        },
+        "F": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 43
+        },
+        "L": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "SYSU_Check_Function",
@@ -932,7 +2430,28 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "F": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 29
+        },
+        "L": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "QQHRU is best school",
@@ -949,7 +2468,18 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 54
+        }
+      }
     },
     {
       "team_name": "XiXi",
@@ -966,7 +2496,23 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 14
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 54
+        },
+        "L": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "Bulk recombination",
@@ -983,7 +2529,23 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 13
+        },
+        "F": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 56
+        }
+      }
     },
     {
       "team_name": "Darling",
@@ -1000,7 +2562,23 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 10
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 59
+        },
+        "L": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "Nonnoncopper",
@@ -1017,7 +2595,23 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 13
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 63
+        },
+        "L": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "Three Day Tour",
@@ -1034,7 +2628,23 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 15
+        },
+        "I": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 28
+        }
+      }
     },
     {
       "team_name": "She said she would be with me if I solve another problem",
@@ -1051,7 +2661,18 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 20
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 65
+        }
+      }
     },
     {
       "team_name": "Can I blitz Hong Kong if I fail in ICPC?",
@@ -1068,7 +2689,18 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 19
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 70
+        }
+      }
     },
     {
       "team_name": "Hebut Team 3",
@@ -1085,7 +2717,23 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 17
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 53
+        },
+        "L": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "idle imagination",
@@ -1102,7 +2750,23 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 17
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 54
+        },
+        "L": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "BREaK!BREaK!BREaK!",
@@ -1119,7 +2783,33 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 15
+        },
+        "G": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 56
+        },
+        "L": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "Good Night",
@@ -1136,7 +2826,23 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 14
+        },
+        "H": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 79
+        }
+      }
     },
     {
       "team_name": "Taboo Laevatein",
@@ -1153,7 +2859,23 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 18
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 77
+        },
+        "L": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "This is TKK, we're not scared",
@@ -1170,7 +2892,18 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 20
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 77
+        }
+      }
     },
     {
       "team_name": "Secure three-party computation",
@@ -1187,7 +2920,33 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 16
+        },
+        "F": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 42
+        },
+        "L": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "tomorrow is another day",
@@ -1204,7 +2963,18 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 13
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 65
+        }
+      }
     },
     {
       "team_name": "Walking with those who change customs",
@@ -1221,7 +2991,23 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "E": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 47
+        }
+      }
     },
     {
       "team_name": "New Folder",
@@ -1238,7 +3024,23 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 48
+        },
+        "L": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "Beaver Hunting Squad",
@@ -1255,7 +3057,23 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 10
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 80
+        },
+        "L": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "Rose",
@@ -1272,7 +3090,23 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 34
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 81
+        },
+        "L": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "ShitCoding",
@@ -1289,7 +3123,23 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 17
+        },
+        "H": {
+          "solved": false,
+          "tries": 9,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 98
+        }
+      }
     },
     {
       "team_name": "Gold Chef",
@@ -1306,7 +3156,23 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 25
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 72
+        },
+        "L": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "Know your defenders",
@@ -1323,7 +3189,23 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 13
+        },
+        "H": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 84
+        }
+      }
     },
     {
       "team_name": "Red and White",
@@ -1340,7 +3222,23 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 15
+        },
+        "H": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 64
+        }
+      }
     },
     {
       "team_name": "Team Name Loading 99%",
@@ -1357,7 +3255,28 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "F": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 52
+        },
+        "L": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "Name The Team Whatever You Want",
@@ -1374,7 +3293,18 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 19
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 66
+        }
+      }
     },
     {
       "team_name": "To the Abyss",
@@ -1391,7 +3321,23 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 15
+        },
+        "H": {
+          "solved": false,
+          "tries": 9,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 70
+        }
+      }
     },
     {
       "team_name": "Be AKed by ICPC",
@@ -1408,7 +3354,23 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 16
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 55
+        },
+        "L": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "Invincible zero warrior",
@@ -1425,7 +3387,23 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 14
+        },
+        "H": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 59
+        }
+      }
     },
     {
       "team_name": "O(n)sort",
@@ -1442,7 +3420,33 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 13
+        },
+        "F": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 100
+        },
+        "L": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "Howtowin",
@@ -1459,7 +3463,33 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 8
+        },
+        "F": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 69
+        },
+        "L": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "hua hua and Ma",
@@ -1476,7 +3506,23 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 22
+        },
+        "H": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 76
+        }
+      }
     },
     {
       "team_name": "Sparkling Spring Sunlight",
@@ -1493,7 +3539,33 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "D": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        },
+        "F": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 87
+        }
+      }
     },
     {
       "team_name": "Three Palus' Grand Adventure",
@@ -1510,7 +3582,23 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 25
+        },
+        "H": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 95
+        }
+      }
     },
     {
       "team_name": "Reborn As SXR",
@@ -1527,7 +3615,23 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 13
+        },
+        "H": {
+          "solved": false,
+          "tries": 8,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 70
+        }
+      }
     },
     {
       "team_name": "what captain npy buy today",
@@ -1544,7 +3648,28 @@
       "is_girl": false,
       "medal": "Bronze",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 14
+        },
+        "E": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "F": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 109
+        }
+      }
     },
     {
       "team_name": "Nah, I'd AC.",
@@ -1561,7 +3686,23 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "H": {
+          "solved": false,
+          "tries": 8,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 75
+        }
+      }
     },
     {
       "team_name": "Carrying the Fate of ACM",
@@ -1578,7 +3719,23 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 20
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 69
+        },
+        "L": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "All Fine",
@@ -1595,7 +3752,23 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 18
+        },
+        "H": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 91
+        }
+      }
     },
     {
       "team_name": "Just one shot",
@@ -1612,7 +3785,28 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 22
+        },
+        "F": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 70
+        },
+        "L": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "SZU_MouTai19937",
@@ -1629,7 +3823,18 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 16
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 119
+        }
+      }
     },
     {
       "team_name": "i++",
@@ -1646,7 +3851,18 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 15
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 121
+        }
+      }
     },
     {
       "team_name": "SZU_Wrong answer on test 2",
@@ -1663,7 +3879,28 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 25
+        },
+        "E": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "F": {
+          "solved": false,
+          "tries": 13,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 72
+        }
+      }
     },
     {
       "team_name": "chicken chicken chicken",
@@ -1680,7 +3917,28 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 21
+        },
+        "F": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 78
+        },
+        "L": {
+          "solved": false,
+          "tries": 10,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "The lost city",
@@ -1697,7 +3955,33 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "F": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 91
+        },
+        "L": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "NYU Shanghai Team 3",
@@ -1714,7 +3998,23 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 17
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 126
+        },
+        "L": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "dreamchaser",
@@ -1731,7 +4031,28 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 14
+        },
+        "H": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 156
+        },
+        "L": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "Impact of the Shanghai Master-hu ye chong ji",
@@ -1748,7 +4069,28 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "A": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "C": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 15
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 76
+        },
+        "L": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "Algorithm Nomads",
@@ -1765,7 +4107,23 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 22
+        },
+        "H": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 90
+        }
+      }
     },
     {
       "team_name": "Thousands of nights of flying sakuras and cats",
@@ -1782,7 +4140,23 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 121
+        },
+        "L": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "Man What Can AC",
@@ -1799,7 +4173,23 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 17
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 119
+        },
+        "L": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "yorozuya",
@@ -1816,7 +4206,28 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 16
+        },
+        "H": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 129
+        },
+        "L": {
+          "solved": false,
+          "tries": 12,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "Push through hell and RISE",
@@ -1833,7 +4244,58 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "A": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "B": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 22
+        },
+        "D": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "E": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "F": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "G": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "I": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "J": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 167
+        }
+      }
     },
     {
       "team_name": "Nap Now",
@@ -1850,7 +4312,28 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 18
+        },
+        "F": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 112
+        }
+      }
     },
     {
       "team_name": "/give cup&cat minecraft:sticky_piston 1e6",
@@ -1867,7 +4350,23 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 24
+        },
+        "H": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 151
+        }
+      }
     },
     {
       "team_name": "The most unreliable",
@@ -1884,7 +4383,18 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 21
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 137
+        }
+      }
     },
     {
       "team_name": "Teammates will AC and I will sleep",
@@ -1901,7 +4411,18 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 32
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 133
+        }
+      }
     },
     {
       "team_name": "How to sort",
@@ -1918,7 +4439,18 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 33
+        },
+        "K": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 140
+        }
+      }
     },
     {
       "team_name": "Dynamic Infinity",
@@ -1935,7 +4467,18 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 36
+        },
+        "K": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 159
+        }
+      }
     },
     {
       "team_name": "LoveLiBoPQ",
@@ -1952,7 +4495,18 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 30
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 192
+        }
+      }
     },
     {
       "team_name": "No Segment Fault",
@@ -1969,7 +4523,18 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 12
+        },
+        "K": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 175
+        }
+      }
     },
     {
       "team_name": "Meet The Dawn",
@@ -1986,7 +4551,23 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "F": {
+          "solved": false,
+          "tries": 40,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 179
+        }
+      }
     },
     {
       "team_name": "a failure and his team of failures",
@@ -2003,7 +4584,18 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 11
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 236
+        }
+      }
     },
     {
       "team_name": "China Publishing University",
@@ -2020,7 +4612,18 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 21
+        },
+        "K": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 212
+        }
+      }
     },
     {
       "team_name": "Around with you",
@@ -2037,7 +4640,23 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 21
+        },
+        "H": {
+          "solved": false,
+          "tries": 9,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 194
+        }
+      }
     },
     {
       "team_name": "Realize your dream",
@@ -2054,7 +4673,23 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 13
+        },
+        "K": {
+          "solved": true,
+          "tries": 4,
+          "time_mins": 223
+        },
+        "L": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "DUI DUI DUI",
@@ -2071,7 +4706,23 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "A": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "C": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 54
+        },
+        "K": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 258
+        }
+      }
     },
     {
       "team_name": "There's a Naloong among us",
@@ -2088,7 +4739,18 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 10
+        },
+        "K": {
+          "solved": true,
+          "tries": 5,
+          "time_mins": 257
+        }
+      }
     },
     {
       "team_name": "ZhuGeliang",
@@ -2105,7 +4767,18 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 25
+        },
+        "K": {
+          "solved": true,
+          "tries": 3,
+          "time_mins": 285
+        }
+      }
     },
     {
       "team_name": "Guessing to Au",
@@ -2122,7 +4795,23 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 17
+        },
+        "K": {
+          "solved": true,
+          "tries": 6,
+          "time_mins": 246
+        },
+        "L": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "two big one small",
@@ -2139,7 +4828,18 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 13
+        },
+        "K": {
+          "solved": true,
+          "tries": 11,
+          "time_mins": 215
+        }
+      }
     },
     {
       "team_name": "a teamname should be here",
@@ -2156,7 +4856,23 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 14
+        },
+        "E": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 10,
+          "time_mins": 288
+        }
+      }
     },
     {
       "team_name": "SDUFE_TEAM_01",
@@ -2173,7 +4889,18 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 25
+        },
+        "K": {
+          "solved": true,
+          "tries": 14,
+          "time_mins": 205
+        }
+      }
     },
     {
       "team_name": "sry bro, I feel horribly strong right now.",
@@ -2190,7 +4917,38 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "A": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 17
+        },
+        "F": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": true,
+          "tries": 18,
+          "time_mins": 274
+        },
+        "L": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "icy_firefly",
@@ -2207,7 +4965,28 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 10
+        },
+        "F": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": false,
+          "tries": 11,
+          "time_mins": 0
+        },
+        "L": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "You always only think about yourself!",
@@ -2224,7 +5003,28 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 15
+        },
+        "F": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        },
+        "L": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "Black Myth: Wu Neng",
@@ -2241,7 +5041,23 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 16
+        },
+        "K": {
+          "solved": false,
+          "tries": 20,
+          "time_mins": 0
+        },
+        "L": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "Too Young Too Simple",
@@ -2258,7 +5074,28 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 17
+        },
+        "E": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "H": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "GODDOG",
@@ -2275,7 +5112,23 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 18
+        },
+        "H": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": false,
+          "tries": 9,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "GDUTJY_EndlBand",
@@ -2292,7 +5145,23 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "B": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        },
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 19
+        },
+        "K": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "CodeCrushers",
@@ -2309,7 +5178,18 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 27
+        },
+        "K": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "reverse",
@@ -2326,7 +5206,18 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 27
+        },
+        "K": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "Running on test2",
@@ -2343,7 +5234,18 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 28
+        },
+        "K": {
+          "solved": false,
+          "tries": 7,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "537 so cute",
@@ -2360,7 +5262,18 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 28
+        },
+        "K": {
+          "solved": false,
+          "tries": 13,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "Fight the tiger tonight",
@@ -2377,7 +5290,18 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 29
+        },
+        "K": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "VGod is coming",
@@ -2394,7 +5318,23 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 30
+        },
+        "H": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        },
+        "K": {
+          "solved": false,
+          "tries": 2,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "but look at the time!",
@@ -2411,7 +5351,18 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 32
+        },
+        "K": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "Teletubbies",
@@ -2428,7 +5379,18 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 18
+        },
+        "K": {
+          "solved": false,
+          "tries": 4,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "sict3",
@@ -2445,7 +5407,18 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 43
+        },
+        "K": {
+          "solved": false,
+          "tries": 11,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "AC the example",
@@ -2462,7 +5435,18 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 45
+        },
+        "K": {
+          "solved": false,
+          "tries": 8,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "good good study,day day up!",
@@ -2479,7 +5463,18 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 0,
+          "time_mins": 46
+        },
+        "K": {
+          "solved": false,
+          "tries": 6,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "qjitna",
@@ -2496,7 +5491,18 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 31
+        },
+        "K": {
+          "solved": false,
+          "tries": 1,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "If I get a medal, she'll come back to me",
@@ -2513,7 +5519,18 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 39
+        },
+        "K": {
+          "solved": false,
+          "tries": 5,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "A Two-Day Trip to Hong Kong",
@@ -2530,7 +5547,18 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 1,
+          "time_mins": 105
+        },
+        "K": {
+          "solved": false,
+          "tries": 10,
+          "time_mins": 0
+        }
+      }
     },
     {
       "team_name": "perfectHansome",
@@ -2547,7 +5575,18 @@
       "is_girl": false,
       "medal": "Honorable",
       "coach": null,
-      "problem_scores": {}
+      "problem_scores": {
+        "C": {
+          "solved": true,
+          "tries": 2,
+          "time_mins": 109
+        },
+        "K": {
+          "solved": false,
+          "tries": 3,
+          "time_mins": 0
+        }
+      }
     }
   ]
 }

@@ -59,16 +59,22 @@ def is_ambiguous_school(school: str) -> bool:
     """Check if the normalized school name is ambiguous."""
     return school in _ambiguous_school_mappings
 
+def strip_school_legal_suffix(school: str) -> str:
+    text = str(school)
+    for suffix in ("（非独立法人）", "(非独立法人)", "（非独立）", "(非独立)"):
+        text = text.replace(suffix, "")
+    return text.replace("非独立法人", "").replace("非独立", "")
+
 def get_canonical_school_name(school: str) -> str:
     """Return canonical display name if available, else original."""
-    school = str(school).replace("非独立法人", "")
+    school = strip_school_legal_suffix(school)
     init_school_mapping()
     norm = normalize_text(school)
     return _display_school_mapping.get(norm, school)
 
 def normalize_school_name(school: str) -> str:
     """Return normalized short mapping if available, else normalized form."""
-    school = str(school).replace("非独立法人", "")
+    school = strip_school_legal_suffix(school)
     init_school_mapping()
     norm_school = normalize_text(school)
     return _school_mapping.get(norm_school, norm_school)

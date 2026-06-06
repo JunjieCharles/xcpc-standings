@@ -3,6 +3,7 @@ import sys
 import json
 import os
 from dataclasses import dataclass
+from datetime import date
 from typing import Callable, Optional
 
 from src.update_contests import main as update_contests_main
@@ -11,6 +12,9 @@ from src.sources.xcpcio_source import ICPCStandingsGenerator
 from src.readme import main as readme_main
 from src.rating.calculator import main as rating_main
 from src.utils.years import normalize_year_arg
+
+
+DEFAULT_RATING_HISTORY_START = "2024H2"
 
 
 @dataclass
@@ -33,6 +37,7 @@ def build_parser():
     parser_merge = subparsers.add_parser("merge", help="Merge standings into unified CSVs and JSONs")
     parser_merge.add_argument("--batch", action="store_true", help="Batch process Regional and Final contests")
     parser_merge.add_argument("--years", help="Year or range for batch (e.g. 2025, 25, 25-26, 25H2-26H1, 25下半年-26上半年, all)")
+    parser_merge.add_argument("--contest", help="Single batch output name to process, e.g. CCPC_2024_Online_online")
     parser_merge.add_argument("base", nargs="?", help="Base JSON file (only used if --batch is not specified)")
     parser_merge.add_argument("comp", nargs="?", help="Complement JSON file (only used if --batch is not specified)")
     parser_merge.add_argument("out", nargs="?", help="Output name (only used if --batch is not specified)")
@@ -43,9 +48,36 @@ def build_parser():
     # 4. Rating
     parser_rating = subparsers.add_parser("rating", help="Generate rating CSVs and XLSX based on current standings")
     parser_rating.add_argument("--type", choices=['member', 'school', 'all'], default='all', help="Type of rating calculation to perform")
-    parser_rating.add_argument("--years", help="Year or range for rating (e.g. 2025, 25, 25-26, 25H2-26H1, 25下半年-26上半年, all)", required=True)
+    rating_period = parser_rating.add_mutually_exclusive_group(required=True)
+    rating_period.add_argument("--years", help="Year or range for rating (e.g. 2025, 25, 25-26, 25H2-26H1, 25下半年-26上半年, all)")
+    rating_period.add_argument("--current", action="store_true", help="Generate rating for the current rating season based on today's date")
+    rating_period.add_argument("--history", action="store_true", help="Generate rating from --history-start through the current rating season")
+    parser_rating.add_argument("--history-start", default=DEFAULT_RATING_HISTORY_START, help=f"Earliest half-year for --history (default: {DEFAULT_RATING_HISTORY_START})")
 
     return parser, parser_merge
+
+
+def current_rating_season(today: date | None = None) -> str:
+    today = today or date.today()
+    if today.month <= 6:
+        return f"{today.year - 1}H2-{today.year}H1"
+    return f"{today.year}H2-{today.year + 1}H1"
+
+
+def rating_history_range(start: str = DEFAULT_RATING_HISTORY_START, today: date | None = None) -> str:
+    start_period = normalize_year_arg(start)
+    if "H" not in start_period or "-" in start_period or start_period == "all":
+        raise ValueError("Rating history start must be a single half-year, such as 24H2.")
+    current_season = current_rating_season(today)
+    return normalize_year_arg(f"{start_period}-{current_season.split('-', 1)[1]}")
+
+
+def resolve_rating_years(args) -> str:
+    if args.current:
+        return current_rating_season()
+    if args.history:
+        return rating_history_range(args.history_start)
+    return normalize_year_arg(args.years)
 
 
 def run_manual_merge(base, comp, out=None):
@@ -90,7 +122,7 @@ def dispatch_args(args, parser, parser_merge):
                 print(exc)
                 return 1
             print(f"Running batch merge for years: {years}...")
-            batch_process(years)
+            batch_process(years, args.contest or "")
             return 0
 
         if not args.base or not args.comp:
@@ -107,7 +139,7 @@ def dispatch_args(args, parser, parser_merge):
 
     if args.command == "rating":
         try:
-            years = normalize_year_arg(args.years)
+            years = resolve_rating_years(args)
         except ValueError as exc:
             print(exc)
             return 1
@@ -213,6 +245,7 @@ def run_terminal_ui():
     state = {
         "batch_years": "",
         "rating_years": "",
+        "rating_history_start": DEFAULT_RATING_HISTORY_START,
         "rating_index": 0,
     }
 
@@ -240,6 +273,20 @@ def run_terminal_ui():
             edit_rating_years()
         rating_main(current_rating_type(), state["rating_years"])
 
+    def edit_rating_history_start():
+        clear_screen()
+        state["rating_history_start"] = prompt_years("Rating history start")
+
+    def run_current_season_rating_prompt():
+        years = current_rating_season()
+        print(f"Running rating for current season: {years}")
+        rating_main(current_rating_type(), years)
+
+    def run_history_rating_prompt():
+        years = rating_history_range(state["rating_history_start"])
+        print(f"Running rating history: {years}")
+        rating_main(current_rating_type(), years)
+
     items = [
         MenuItem(
             title=lambda: "Update contests",
@@ -248,7 +295,7 @@ def run_terminal_ui():
         ),
         MenuItem(
             title=lambda: f"Batch merge standings   years={state['batch_years'] or '<required>'}",
-            description="Use data/contests/contests.csv to generate merged JSON and CSV standings.",
+            description="Use the rated contest index to generate merged JSON and CSV standings.",
             run=run_batch_merge_prompt,
             edit=edit_batch_years,
         ),
@@ -258,6 +305,19 @@ def run_terminal_ui():
             run=run_rating_prompt,
             adjust=adjust_rating,
             edit=edit_rating_years,
+        ),
+        MenuItem(
+            title=lambda: f"Generate current rating  type={current_rating_type()} years={current_rating_season()}",
+            description="Generate rating for the current rating season based on today's date.",
+            run=run_current_season_rating_prompt,
+            adjust=adjust_rating,
+        ),
+        MenuItem(
+            title=lambda: f"Generate history rating  type={current_rating_type()} start={state['rating_history_start']}",
+            description="Generate rating from the configured history start through the current rating season.",
+            run=run_history_rating_prompt,
+            adjust=adjust_rating,
+            edit=edit_rating_history_start,
         ),
         MenuItem(
             title=lambda: "Regenerate README",

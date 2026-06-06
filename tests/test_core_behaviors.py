@@ -3,13 +3,17 @@ import csv
 import json
 import tempfile
 import unittest
+from datetime import date
 
+from main import current_rating_season, rating_history_range
 from src.merge_standings import merge_pdf_roster, merge_standings
 from src.models import TeamStanding, calculate_canonical_ranks
 from src.rating.calculator import build_contest_schedule, build_contest_tag, collect_member_userrank, collect_school_userrank
 from src.sources.pdf_source import PDFDataSource, find_pdf_identifier
 from src.sources.pta_source import PTAStandingsGenerator
-from src.update_contests import chinese_number_to_int, get_category, merge_contests, parse_ordinal_from_name, parse_rankland_config
+from src.sources.xcpcio_source import ICPCStandingsGenerator
+from src.update_contests import chinese_number_to_int, get_category, is_rating_contest, merge_contests, parse_ordinal_from_name, parse_rankland_config
+from src.utils.school import normalize_school_name, strip_school_legal_suffix
 from src.utils.years import contest_matches_year_arg, normalize_year_arg, years_in_arg
 
 
@@ -33,6 +37,13 @@ def problem(solved, tries=0, time_mins=0):
 
 
 class CoreBehaviorTests(unittest.TestCase):
+    def test_school_legal_suffix_is_stripped(self):
+        expected = "江西理工大学南昌校区"
+        for suffix in ["（非独立法人）", "（非独立）", "(非独立法人)", "(非独立)"]:
+            school = f"{expected}{suffix}"
+            self.assertEqual(strip_school_legal_suffix(school), expected)
+            self.assertEqual(normalize_school_name(school), expected)
+
     def test_rating_counts_zero_solved_teams_with_submissions(self):
         headers = [
             "Rank", "School Rank", "School", "Team Name", "Member1", "Member2", "Member3",
@@ -147,6 +158,39 @@ class CoreBehaviorTests(unittest.TestCase):
     def test_invalid_year_range_is_rejected(self):
         with self.assertRaises(ValueError):
             normalize_year_arg("26-25")
+
+    def test_current_rating_season_uses_cross_year_season(self):
+        self.assertEqual(current_rating_season(date(2026, 5, 17)), "2025H2-2026H1")
+        self.assertEqual(current_rating_season(date(2026, 9, 1)), "2026H2-2027H1")
+
+    def test_rating_history_range_starts_from_configured_half_year(self):
+        self.assertEqual(rating_history_range("24H2", date(2026, 5, 17)), "2024H2-2026H1")
+        with self.assertRaises(ValueError):
+            rating_history_range("2024", date(2026, 5, 17))
+
+    def test_xcpcio_numeric_chinese_group_marks_official(self):
+        data = {
+            "config": {"groups": {"1": "正式", "2": "打星", "3": "女队"}, "problem_id": ["A"]},
+            "team": [
+                {"id": "t1", "name": "Official", "organization": "北京大学", "group": ["1"]},
+                {"id": "t2", "name": "Unofficial", "organization": "北京大学", "group": ["2"]},
+            ],
+            "run": [],
+        }
+        standings = ICPCStandingsGenerator(data).generate()["standings"]
+        by_name = {team["team_name"]: team for team in standings}
+        self.assertTrue(by_name["Official"]["is_official"])
+        self.assertFalse(by_name["Unofficial"]["is_official"])
+
+    def test_rating_contest_filter_matches_merge_scope(self):
+        self.assertTrue(is_rating_contest({"category": "Regional", "name": "nanjing"}))
+        self.assertTrue(is_rating_contest({"category": "Final", "name": "ecfinal"}))
+        self.assertTrue(is_rating_contest({"category": "Online", "name": "online1"}))
+        self.assertFalse(is_rating_contest({"series": "Other", "category": "Regional", "name": "ucup"}))
+        self.assertFalse(is_rating_contest({"category": "Invitational", "name": "xian"}))
+        self.assertFalse(is_rating_contest({"category": "Girls", "name": "girls"}))
+        self.assertFalse(is_rating_contest({"category": "Vocational", "name": "vocational"}))
+        self.assertFalse(is_rating_contest({"category": "Final", "name": "worldfinals"}))
 
     def test_srni_is_excluded_from_rating_schedule(self):
         schedule = build_contest_schedule("member", "25下半年-26上半年", combine_same_day=False)
@@ -670,7 +714,7 @@ class CoreBehaviorTests(unittest.TestCase):
         base = {
             "contest_name": "test",
             "problem_ids": [],
-            "standings": [standing("*Daida", "Peking University", 1, 10)],
+            "standings": [standing("Daida★", "Peking University", 1, 10)],
         }
         complement = {
             "contest_name": "test",
@@ -716,7 +760,7 @@ class CoreBehaviorTests(unittest.TestCase):
         self.assertEqual(team.problem_scores["A"].tries, 1)
         self.assertEqual(team.problem_scores["B"].tries, 3)
 
-    def test_problem_time_conflict_is_reported(self):
+    def test_problem_status_conflict_is_reported_as_one_cell(self):
         base = {
             "contest_name": "test",
             "problem_ids": ["A"],
@@ -730,7 +774,7 @@ class CoreBehaviorTests(unittest.TestCase):
 
         merged, warnings = merge_standings(base, complement, contest_name="test")
 
-        self.assertTrue(any(w["Field"] == "problem:A:time_mins" for w in warnings))
+        self.assertEqual([w["Field"] for w in warnings], ["problem:A"])
         self.assertEqual(merged["standings"][0]["problem_scores"]["A"]["time_mins"], 30)
 
     def test_problem_resolution_can_apply_full_cell_value(self):
@@ -744,13 +788,13 @@ class CoreBehaviorTests(unittest.TestCase):
             "problem_ids": ["A"],
             "standings": [standing("Team", "School", 1, 30, problem_scores={"A": problem(True, 1, 31)})],
         }
-        resolutions = {("test", "1", "problem:A:time_mins"): "+1(31)"}
+        resolutions = {("test", "1", "problem:A"): "+1(31)"}
 
         merged, warnings = merge_standings(base, complement, contest_name="test", resolutions=resolutions)
         status = merged["standings"][0]["problem_scores"]["A"]
 
         self.assertEqual(status, {"solved": True, "tries": 1, "time_mins": 31})
-        self.assertTrue(any(w["Field"] == "problem:A:time_mins" and w["Resolution"] == "+1(31)" for w in warnings))
+        self.assertTrue(any(w["Field"] == "problem:A" and w["Resolution"] == "+1(31)" for w in warnings))
 
     def test_problem_solved_conflict_prefers_ac_without_resolution(self):
         base = {
@@ -766,7 +810,7 @@ class CoreBehaviorTests(unittest.TestCase):
 
         merged, warnings = merge_standings(base, complement, contest_name="test")
 
-        self.assertTrue(any(w["Field"] == "problem:A:solved" for w in warnings))
+        self.assertTrue(any(w["Field"] == "problem:A" for w in warnings))
         self.assertEqual(merged["standings"][0]["problem_scores"]["A"], {"solved": True, "tries": 1, "time_mins": 50})
 
     def test_unsolved_problem_tries_conflict_is_reported(self):
@@ -783,7 +827,7 @@ class CoreBehaviorTests(unittest.TestCase):
 
         _merged, warnings = merge_standings(base, complement, contest_name="test")
 
-        self.assertTrue(any(w["Field"] == "problem:A:tries" for w in warnings))
+        self.assertTrue(any(w["Field"] == "problem:A" for w in warnings))
 
     def test_complement_problem_ids_are_appended(self):
         base = {

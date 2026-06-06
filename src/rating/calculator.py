@@ -12,6 +12,7 @@ from src.utils.school import normalize_school_name
 from src.utils.text import contains_chinese
 from src.utils.years import contest_matches_year_arg, normalize_year_arg
 from src.models import ContestStandings, TeamStanding
+from src.update_contests import CONTESTS_FILE, RATED_CONTESTS_FILE, is_rating_contest
 
 STANDING_METADATA_COLUMNS = {
     'Rank', 'School Rank', 'Organization Rank', 'School', 'Organization',
@@ -28,7 +29,7 @@ def get_zh_to_en():
 
 def build_contest_schedule(rating_type: str = "member", year_arg: str = "2025", combine_same_day: bool = None) -> List[Dict]:
     """
-    Reads contests.csv, filters for categories included in rating calculations,
+    Reads rated_contests.csv when present, filters for contests included in rating calculations,
     groups by date, and builds the schedule order.
     Returns:
        [
@@ -41,7 +42,7 @@ def build_contest_schedule(rating_type: str = "member", year_arg: str = "2025", 
        ]
     """
     year_arg = normalize_year_arg(year_arg)
-    contests_file = 'data/contests/contests.csv'
+    contests_file = RATED_CONTESTS_FILE if os.path.exists(RATED_CONTESTS_FILE) else CONTESTS_FILE
     if not os.path.exists(contests_file):
         print(f"Error: {contests_file} not found.")
         return []
@@ -60,16 +61,13 @@ def build_contest_schedule(rating_type: str = "member", year_arg: str = "2025", 
             sub = row.get('category', '')
             name = row.get('name', '')
 
-            if series == 'Other':
+            if not is_rating_contest(row):
                 continue
 
             if not contest_matches_year_arg(row, year_arg):
                 continue
 
             if name.lower() == 'srni':
-                continue
-
-            if sub not in ['Regional', 'Final', 'Preliminary', 'Online']:
                 continue
 
             if not name:

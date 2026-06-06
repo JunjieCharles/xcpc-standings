@@ -1,16 +1,66 @@
-﻿Contest,Rank,School,Team Name,Field,Archive,PTA,Rankland,XCPCIO,Resolution
-ICPC_2025_Regional_hongkong,106,五邑大学,The Doctor's team and there ape-man captain,school,,,Wuyi University,Wuyi University,五邑大学
-ICPC_2025_Regional_hongkong,125,台州大学,Long may the sun shine,school,台州学院,,台州大学,台州大学,台州大学
-ICPC_2025_Regional_wuhan,U19,香港科技大学（广州）,请输入文本,member1,苏泓燃,,梁君豪,梁君豪,梁君豪
-ICPC_2025_Regional_wuhan,U19,香港科技大学（广州）,请输入文本,member2,陆梓炀,,刘秋悦,刘秋悦,刘秋悦
-ICPC_2025_Regional_wuhan,U19,香港科技大学（广州）,请输入文本,member3,刘佳未,,张思达,张思达,张思达
-ICPC_2025_Regional_wuhan,U19,香港科技大学（广州）,请输入文本,coach,罗国杰,,,熊辉,熊辉
-ICPC_2025_Regional_xian,89,重庆大学,三模哈希米,member2,周骁坤,,杨展途,周骁坤,杨展途
-ICPC_2025_Regional_xian,89,重庆大学,三模哈希米,member3,杨展途,,葛轩铭,杨展途,葛轩铭
-ICPC_2025_Regional_xian,120,哈尔滨工业大学,长崎不爽世,medal,Silver,,,Bronze,Silver
-ICPC_2025_Regional_xian,121,北京交通大学,交一发先,medal,Bronze,,,Silver,Bronze
-CCPC_2025_Online_online,763,中国矿业大学,矿兵出击,member2,赵 际云,赵 际云,,,赵际云
-ICPC_2025_Regional_hongkong,64,香港科技大学,HKUST5,member2,AWADALLA,,AWADALLA,"AWADALLA, bdelrahman HossamEldin A. A.","AWADALLA, bdelrahman HossamEldin A. A."
-ICPC_2025_Regional_hongkong,64,香港科技大学,HKUST5,member3,bdelrahman HossamEldin A. A.,,bdelrahman HossamEldin A. A.,Vu Duy Tung,Vu Duy Tung
-ICPC_2025_Regional_xian,185,浙江财经大学,不吃香菜,team_name,不吃香菜,,不吃香菜(acm版),不吃香菜,不吃香菜
-ICPC_2025_Regional_xian,185,浙江财经大学,不吃香菜(acm版),team_name,不吃香菜,,不吃香菜(acm版),不吃香菜,不吃香菜
+﻿Contest,Rank,School,Team Name,Field,Rankland,XCPCIO,PTA,Archive,PDF,Resolution
+ICPC_2025_Regional_hongkong,106,五邑大学,The Doctor's team and there ape-man captain,school,Wuyi University,Wuyi University,,,,五邑大学
+ICPC_2025_Regional_hongkong,125,台州大学,Long may the sun shine,school,台州大学,台州大学,,台州学院,,台州大学
+ICPC_2025_Regional_wuhan,U19,香港科技大学（广州）,请输入文本,member1,梁君豪,梁君豪,,苏泓燃,,梁君豪
+ICPC_2025_Regional_wuhan,U19,香港科技大学（广州）,请输入文本,member2,刘秋悦,刘秋悦,,陆梓炀,,刘秋悦
+ICPC_2025_Regional_wuhan,U19,香港科技大学（广州）,请输入文本,member3,张思达,张思达,,刘佳未,,张思达
+ICPC_2025_Regional_wuhan,U19,香港科技大学（广州）,请输入文本,coach,,熊辉,,罗国杰,,熊辉
+ICPC_2025_Regional_xian,89,重庆大学,三模哈希米,member2,杨展途,周骁坤,,周骁坤,,杨展途
+ICPC_2025_Regional_xian,89,重庆大学,三模哈希米,member3,葛轩铭,杨展途,,杨展途,,葛轩铭
+ICPC_2025_Regional_xian,120,哈尔滨工业大学,长崎不爽世,medal,,Bronze,,Silver,,Silver
+ICPC_2025_Regional_xian,121,北京交通大学,交一发先,medal,,Silver,,Bronze,,Bronze
+CCPC_2025_Online_online,763,中国矿业大学,矿兵出击,member2,,,赵 际云,赵 际云,,赵际云
+ICPC_2025_Regional_hongkong,64,香港科技大学,HKUST5,member2,AWADALLA,"AWADALLA, bdelrahman HossamEldin A. A.",,AWADALLA,,"AWADALLA, bdelrahman HossamEldin A. A."
+ICPC_2025_Regional_hongkong,64,香港科技大学,HKUST5,member3,bdelrahman HossamEldin A. A.,Vu Duy Tung,,bdelrahman HossamEldin A. A.,,Vu Duy Tung
+ICPC_2025_Regional_xian,185,浙江财经大学,不吃香菜,team_name,不吃香菜(acm版),不吃香菜,,不吃香菜,,不吃香菜
+ICPC_2025_Regional_xian,185,浙江财经大学,不吃香菜(acm版),team_name,不吃香菜(acm版),不吃香菜,,不吃香菜,,不吃香菜
+ICPC_2024_Regional_hongkong,7,南京航空航天大学,BUG,member2,Junqi Lyu,Junqi Lyu,,吕俊琪,,
+ICPC_2024_Regional_hongkong,28,香港中文大学,HKTV,school,The Chinese University of Hong Kong,The Chinese University of Hong Kong,,香港中文大學,,
+ICPC_2024_Regional_hongkong,42,Guangdong Technion Israel Institute of Technology,one paper of pure white kites,school,Guangdong Technion Israel Institute of Technology,Guangdong Technion Israel Institute of Technology,,广东以色列理工学院,,
+ICPC_2024_Regional_hongkong,47,Guangxi University of Foreign Languages,We are really vegetables,school,Guangxi University of Foreign Languages,Guangxi University of Foreign Languages,,广西外国语学院,,
+ICPC_2024_Regional_hongkong,50,"Beijing Jiaotong University, Weihai",DBL,school,"Beijing Jiaotong University, Weihai","Beijing Jiaotong University, Weihai",,北京交通大学威海校区,,
+ICPC_2024_Regional_hongkong,67,江南大学,Taboo Laevatein,member1,Wanli Dong,Wanli Dong,,唐宇喆,,
+ICPC_2024_Regional_hongkong,67,江南大学,Taboo Laevatein,member3,Chuanzheng Shi,Chuanzheng Shi,,董万里,,
+ICPC_2024_Regional_hongkong,70,Hankou University,tomorrow is another day,school,Hankou University,Hankou University,,汉口学院,,
+ICPC_2024_Regional_hongkong,72,香港中文大学（深圳）,New Folder,member2,Huu Quyen Dang,Huu Quyen Dang,,邓有权,,
+ICPC_2024_Regional_hongkong,75,Guangdong University of Finance,ShitCoding ,school,Guangdong University of Finance,Guangdong University of Finance,,广东金融学院,,
+ICPC_2024_Regional_hongkong,88,Zhuhai College of Science and Technology,Three Palus' Grand Adventure,school,Zhuhai College of Science and Technology,Zhuhai College of Science and Technology,,珠海科技学院,,
+ICPC_2024_Regional_hongkong,90,西安交通大学,what captain npy buy today,member1,Mut Fei Lin,Mut Fei Lin,,林沫非,,
+ICPC_2024_Regional_hongkong,108,西安交通大学,Nap Now,member3,Jimmy Wang,Jimmy Wang,,王君睿,,
+ICPC_2024_Regional_hongkong,109,西南财经大学,/give cup&cat minecraft:sticky_piston 1e6,school,Southwestern University of Finance and Economics,Southwestern University of Finance and Economics,,安阳工学院,,
+ICPC_2024_Regional_hongkong,116,Chongqing Metropolitan College of Science and Technology,Meet The Dawn,school,Chongqing Metropolitan College of Science and Technology,Chongqing Metropolitan College of Science and Technology,,重庆城市科技学院,,
+ICPC_2024_Regional_hongkong,119,Guangdong University of Finance,Around with you,school,Guangdong University of Finance,Guangdong University of Finance,,广东金融学院,,
+ICPC_2024_Regional_hongkong,121,Xiamen University Malaysia,DUI DUI DUI,school,Xiamen University Malaysia,Xiamen University Malaysia,,厦门大学马来西亚分校,,
+ICPC_2024_Regional_hongkong,136,Guangdong Technology College,reverse,school,Guangdong Technology College,Guangdong Technology College,,广东理工学院,,
+ICPC_2024_Regional_hongkong,140,Hubei University of Economics,VGod is coming,school,Hubei University of Economics,Hubei University of Economics,,湖北经济学院,,
+ICPC_2024_Regional_hongkong,145,Jiangsu Ocean University,"good good study,day day up!",school,Jiangsu Ocean University,Jiangsu Ocean University,,江苏海洋大学,,
+ICPC_2024_Regional_hongkong,146,Shanghai Jian Qiao University,qjitna,school,Shanghai Jian Qiao University,Shanghai Jian Qiao University,,上海建桥学院,,
+ICPC_2024_Regional_hongkong,147,重庆交通大学,"If I get a medal, she'll come back to me",school,Chongqing Jiaotong University,Chongqing Jiaotong University,,南京大学,,
+ICPC_2024_Regional_hongkong,148,Shanghai Lixin University of Accounting and Finance,A Two-Day Trip to Hong Kong,school,Shanghai Lixin University of Accounting and Finance,Shanghai Lixin University of Accounting and Finance,,上海立信会计金融学院,,
+ICPC_2024_Regional_kunming,174,湘潭大学,horizon,member1,资刘宇凡,资刘宇凡,,欧鹏夫,,
+ICPC_2024_Regional_kunming,174,湘潭大学,horizon,member2,陈翔,陈翔,,曾鸿文,,
+ICPC_2024_Regional_kunming,174,湘潭大学,horizon,member3,许秋宇,许秋宇,,贺正高,,
+ICPC_2024_Regional_kunming,259,山西大学,败犬Acmer太多了,medal,,Bronze,,Disqualified,,
+ICPC_2024_Regional_kunming,271,上海理工大学,千音迭奏 群星赋格,medal,,Honorable,,Bronze,,
+CCPC_2024_Regional_zhengzhou,278,重庆对外经贸学院,摆手不是拒绝而是无须多言,team_name,摆手不是拒绝而是无须多言,摆手不是拒绝而是无须多言,,ACM真豪玩,,
+CCPC_2024_Regional_zhengzhou,278,重庆对外经贸学院,摆手不是拒绝而是无须多言,member1,田嘉焕,田嘉焕,,郭铭星,,
+CCPC_2024_Regional_zhengzhou,278,重庆对外经贸学院,摆手不是拒绝而是无须多言,member2,詹宇腾,詹宇腾,,鄢迅,,
+CCPC_2024_Regional_zhengzhou,278,重庆对外经贸学院,摆手不是拒绝而是无须多言,member3,沈玉霖,沈玉霖,,钟鹏,,
+CCPC_2024_Regional_zhengzhou,279,闽南师范大学,没有以前那么喜欢你了,school,闽南师范大学,闽南师范大学,,重庆对外经贸学院,,
+CCPC_2024_Regional_zhengzhou,279,闽南师范大学,没有以前那么喜欢你了,team_name,没有以前那么喜欢你了,没有以前那么喜欢你了,,摆手不是拒绝而是无须多言,,
+CCPC_2024_Regional_zhengzhou,279,闽南师范大学,没有以前那么喜欢你了,member1,李灿,李灿,,田嘉焕,,
+CCPC_2024_Regional_zhengzhou,279,闽南师范大学,没有以前那么喜欢你了,member2,黄咏珂,黄咏珂,,詹宇腾,,
+CCPC_2024_Regional_zhengzhou,279,闽南师范大学,没有以前那么喜欢你了,member3,庄瑜,庄瑜,,沈玉霖,,
+CCPC_2024_Regional_zhengzhou,280,浙江育英职业技术学院,育英九队,school,浙江育英职业技术学院,浙江育英职业技术学院,,闽南师范大学,,
+CCPC_2024_Regional_zhengzhou,280,浙江育英职业技术学院,育英九队,team_name,育英九队,育英九队,,没有以前那么喜欢你了,,
+CCPC_2024_Regional_zhengzhou,280,浙江育英职业技术学院,育英九队,member1,潘永胜,潘永胜,,李灿,,
+CCPC_2024_Regional_zhengzhou,280,浙江育英职业技术学院,育英九队,member2,卢哲涵,卢哲涵,,黄咏珂,,
+CCPC_2024_Regional_zhengzhou,280,浙江育英职业技术学院,育英九队,member3,包鑫远,包鑫远,,庄瑜,,
+ICPC_2024_Regional_hangzhou,366,嘉兴大学,幻想成为ICPC糕手,school,嘉兴大学,嘉兴大学,,香港城市大学（东莞）,,
+ICPC_2024_Regional_hangzhou,366,嘉兴大学,幻想成为ICPC糕手,team_name,幻想成为ICPC糕手,幻想成为ICPC糕手,,先輩愛♪♡,,
+ICPC_2024_Regional_hangzhou,366,嘉兴大学,幻想成为ICPC糕手,member1,张安逸,张安逸,,叶睿明,,
+ICPC_2024_Regional_hangzhou,366,嘉兴大学,幻想成为ICPC糕手,member2,罗润基,罗润基,,张哲萌,,
+ICPC_2024_Regional_hangzhou,366,嘉兴大学,幻想成为ICPC糕手,member3,黄仁炫,黄仁炫,,董浩正,,
+ICPC_2024_Regional_hangzhou,366,嘉兴大学,幻想成为ICPC糕手,problem:A,,-4,,-3,,
+CCPC_2024_Regional_chongqing,1,中山大学,中山大学2队,penalty,1306,1306,,1286,,
+CCPC_2024_Regional_chongqing,1,中山大学,中山大学2队,problem:F,,+3(286),,+2(286),,

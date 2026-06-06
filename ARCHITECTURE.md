@@ -98,8 +98,11 @@ flowchart LR
 
 - `python main.py update` 调用 `src.update_contests.main()`，更新比赛列表。
 - `python main.py merge --batch --years 2025` 调用 `batch_process()`，批量生成合并榜单。
+- `python main.py merge --batch --years 2024 --contest CCPC_2024_Online_online` 只处理指定输出名的一场比赛，用于逐场排查冲突或验证配置。
 - `python main.py merge base comp out` 手工合并两个标准 JSON。
-- `python main.py rating --type all` 调用 rating 模块生成个人/学校 rating。
+- `python main.py rating --type all --years 25H2-26H1` 调用 rating 模块生成指定范围的个人/学校 rating。
+- `python main.py rating --type all --current` 根据当前日期生成当前赛季 rating，例如 2026 年 5 月对应 `2025H2-2026H1`。
+- `python main.py rating --type all --history --history-start 24H2` 从配置的最早半年度起生成历史 rating，默认起点为 `2024H2`。
 - `python main.py readme` 调用 README 生成器。
 
 该设计把用户操作压缩到统一入口，但各业务模块仍可独立运行，便于调试；交互界面主要用于日常更新、批量合并、rating 和 README 生成等常规操作。
@@ -223,11 +226,14 @@ Rankland 中 `hv` 通常表示高职专场，因此 id 为 `hv` 或以 `hv` 结�
 
 ### 5.7 输出
 
-比赛列表最终写入：
+比赛列表最终写入两份 CSV：
 
 ```text
 data/contests/contests.csv
+data/contests/rated_contests.csv
 ```
+
+其中 `contests.csv` 保留所有合并后的赛事索引；`rated_contests.csv` 只保留后续需要 merge 并参与 rating 的赛事，目前包括非 `Other` 系列的 `Regional`、`Final`、`Online`，并排除 `worldfinals`。后续批量 merge 和 rating 默认优先读取 `rated_contests.csv`；如果该文件不存在，则回退到 `contests.csv` 并应用同一过滤规则。
 
 字段包括：
 
@@ -365,7 +371,7 @@ https://pintia.cn/api/competitions/{contest_id}/xcpc-rankings/public
 
 ### 8.1 批量处理范围
 
-`batch_process(year_arg)` 读取 `data/contests/contests.csv` 后按年份或半年度范围过滤：
+`batch_process(year_arg)` 优先读取 `data/contests/rated_contests.csv`，缺失时回退到 `data/contests/contests.csv`，再按年份或半年度范围过滤：
 
 - 单年：`2025`
 - 单年短写：`25`
@@ -405,6 +411,8 @@ Rankland -> XCPCIO -> PTA -> Archive -> PDF
 ```
 
 PDF 不参与普通 rank 对齐；如果同场比赛还有成绩来源，则先按正常来源合并成绩，再调用 `merge_pdf_roster()` 用 `(school, team_name)` 精确匹配补齐 `member1-3` 和 coach。这样可以避免名单 PDF 因没有成绩 rank 而造成错位。如果某场比赛只有 PDF 来源，则仍可输出 roster-only CSV/JSON。
+
+批量合并会读取 `data/config/untrusted_sources.json`，按输出名配置不可信来源并在 Provider 获取前排除它们。配置格式为 `{ "CCPC_2024_Online_online": ["XCPCIO", "Archive"] }`，来源名使用 `Rankland`、`XCPCIO`、`PTA`、`Archive`、`PDF`。该机制用于已确认某场比赛某个来源数据明显失真的情况；未配置的比赛继续使用默认来源优先级。
 
 ### 8.3 学校名规范化与歧义处理
 
@@ -493,7 +501,7 @@ Rating 由 `src/rating/calculator.py` 和 `src/rating/utils.py` 实现，分为�
 
 ### 9.1 比赛日程构建
 
-`build_contest_schedule(rating_type, year_arg, combine_same_day)` 读取 `data/contests/contests.csv`，先按规范化后的年份或半年度范围过滤，并排除 `Other` 系列和 name 为 `srni` 的比赛，再筛选：
+`build_contest_schedule(rating_type, year_arg, combine_same_day)` 优先读取 `data/contests/rated_contests.csv`，缺失时回退到 `data/contests/contests.csv`，再按规范化后的年份或半年度范围过滤，并排除 name 为 `srni` 的比赛：
 
 ```text
 Regional, Final, Online
@@ -638,7 +646,7 @@ CSV 是纯数据；XLSX 使用 pandas Styler 输出样式。
 4. 合并器按来源优先级选择 base，用 rank 和冲突规则折叠其他来源。
 5. 冲突写入 `data/merged/resolutions.csv`，人工填 Resolution 后可重复运行修正。
 6. 合并结果输出到 `data/merged/json` 和 `data/merged/csv`。
-7. `python main.py rating --type all` 优先读取合并 JSON，缺失时回退到合并 CSV，按赛程顺序更新个人和学校 rating。
+7. `python main.py rating --type all --current` 或 `--history` 优先读取合并 JSON，缺失时回退到合并 CSV，按赛程顺序更新个人和学校 rating。
 8. `python main.py readme` 扫描合并 CSV，更新 README 的数据完整性概览。
 
 该仓库的核心价值在于把多个格式、多个来源、多个年份的 XCPC 榜单整理为可重复生成的统一数据资产；算法重点集中在来源标准化、学校/姓名规整、多来源冲突处理和 rating 序列更新四个环节。

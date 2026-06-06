@@ -100,6 +100,26 @@ class ICPCStandingsGenerator:
             return value / 1000.0
         return value
 
+    def _team_group_names(self, team_groups: List[Any]) -> List[str]:
+        configured_groups = self.config.get("groups", {}) or self.config.get("group", {}) or {}
+        names = []
+        for group in team_groups:
+            group_text = str(group).strip()
+            names.append(group_text.lower())
+            group_name = configured_groups.get(group_text) if isinstance(configured_groups, dict) else None
+            if group_name:
+                names.append(get_xcpcio_name(group_name).strip().lower())
+        return names
+
+    def _is_official_group(self, group_names: List[str]) -> bool:
+        if not group_names:
+            return True
+        unofficial_tokens = ("unofficial", "打星", "星队", "star", "observer")
+        if any(any(token in name for token in unofficial_tokens) for name in group_names):
+            return False
+        official_tokens = ("official", "正式")
+        return any(any(token in name for token in official_tokens) for name in group_names)
+
     def _accumulates_penalty_in_seconds(self) -> bool:
         return self.penalty_mode == "accumulate_in_seconds_and_finally_to_the_minute"
 
@@ -135,9 +155,10 @@ class ICPCStandingsGenerator:
                     coaches_list.append(name)
 
             team_groups = t.get("group", [])
+            group_names = self._team_group_names(team_groups)
 
             is_girl_flag = None
-            if "girl" in team_groups or "girls" in team_groups or "women" in team_groups:
+            if any(name in ("girl", "girls", "women", "女队") for name in group_names):
                 is_girl_flag = True
 
             teams[tid] = {
@@ -149,7 +170,7 @@ class ICPCStandingsGenerator:
                 "member3": members_list[2] if len(members_list) > 2 else "",
                 "coach": "、".join(coaches_list),
                 "is_girl": is_girl_flag,
-                "is_official": "official" in team_groups,
+                "is_official": self._is_official_group(group_names),
                 "solved": 0,
                 "penalty_mins": 0,
                 "penalty_seconds": 0.0,

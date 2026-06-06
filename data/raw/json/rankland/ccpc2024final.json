@@ -2955,7 +2955,7 @@
       "score": 3,
       "penalty": 377,
       "is_official": true,
-      "is_girl": true,
+      "is_girl": null,
       "medal": null,
       "coach": null,
       "problem_scores": {

@@ -185,6 +185,10 @@ python main.py merge --batch --years 25下半年-26上半年
 # 生成个人和学校 Rating，输出到 data/rating/csv 和 data/rating/xlsx
 python main.py rating --type all --years 25下半年-26上半年
 
+# 生成当前赛季 Rating，或从 24H2 起生成历史 Rating
+python main.py rating --type all --current
+python main.py rating --type all --history --history-start 24H2
+
 # 重新生成本说明和下方数据完整性表
 python main.py readme
 ```
@@ -192,6 +196,7 @@ python main.py readme
 常用输出位置：
 
 - 原始缓存：`data/raw/cache`
+- 比赛索引：`data/contests/contests.csv`、`data/contests/rated_contests.csv`
 - 合并榜单：`data/merged/csv`、`data/merged/json`
 - PDF 参赛手册：`data/raw/cache/pdf`（作为名单补充源）
 - Rating CSV：`data/rating/csv`

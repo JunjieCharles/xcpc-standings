@@ -19,6 +19,41 @@ import logging
 from src.utils.text import normalize_text, get_name_pinyin_set
 from src.utils.school import normalize_school_name, get_canonical_school_name, init_school_mapping, is_ambiguous_school
 from src.utils.years import contest_matches_year_arg, normalize_year_arg
+from src.update_contests import CONTESTS_FILE, RATED_CONTESTS_FILE, is_rating_contest
+
+SOURCE_PRIORITY = ["Rankland", "XCPCIO", "PTA", "Archive", "PDF"]
+UNTRUSTED_SOURCES_FILE = "data/config/untrusted_sources.json"
+
+def load_untrusted_sources() -> Dict[str, set]:
+    if not os.path.exists(UNTRUSTED_SOURCES_FILE):
+        return {}
+
+    with open(UNTRUSTED_SOURCES_FILE, 'r', encoding='utf-8-sig') as f:
+        raw = json.load(f)
+
+    if not isinstance(raw, dict):
+        return {}
+
+    config = {}
+    for contest_name, sources in raw.items():
+        if isinstance(sources, dict):
+            sources = sources.get("sources", [])
+        if not isinstance(sources, list):
+            continue
+        config[str(contest_name)] = {str(source).strip().lower() for source in sources if str(source).strip()}
+    return config
+
+def get_untrusted_sources(untrusted_sources: Dict[str, set], contest_name: str) -> set:
+    return untrusted_sources.get(contest_name, set())
+
+def get_output_name(row: dict) -> str:
+    name = row.get('name', '')
+    if not name:
+        if row.get('category') == 'Girls':
+            name = 'girls'
+        elif row.get('category') == 'Vocational':
+            name = 'vocational'
+    return f"{row.get('series', '')}_{row.get('year', '')}_{row.get('category', '')}_{name}"
 
 def matches_members(t1: TeamStanding, t2: TeamStanding) -> bool:
     m1 = [t1.member1, t1.member2, t1.member3]
@@ -59,7 +94,7 @@ def is_same_team(t1: TeamStanding, t2: TeamStanding) -> bool:
     return matches_members(t1, t2)
 
 def strip_team_name_marker(name: str) -> str:
-    return re.sub(r'^[*★]+\s*', '', str(name or '').strip())
+    return re.sub(r'^[*\u2605]+\s*|\s*[*\u2605]+$', '', str(name or '').strip())
 
 def get_display_rank(team_dict: dict) -> str:
     is_official = team_dict.get('is_official', True)
@@ -74,6 +109,8 @@ def is_problem_field(field: str) -> bool:
 
 def split_problem_field(field: str):
     parts = str(field or '').split(':', 2)
+    if len(parts) == 2 and parts[0] == 'problem':
+        return parts[1], 'status'
     if len(parts) != 3 or parts[0] != 'problem':
         return None, None
     return parts[1], parts[2]
@@ -149,7 +186,7 @@ def apply_resolution(team_dict: dict, field: str, resolution: str):
     problem_scores = team_dict.setdefault('problem_scores', {})
     current = normalize_problem_status(problem_scores.get(problem_id, {}))
     text = str(resolution or '').strip()
-    if text.startswith(('+', '-')) or not text:
+    if problem_attr == 'status' or text.startswith(('+', '-')) or not text:
         problem_scores[problem_id] = parse_problem_status_cell(text, current)
         return
     if problem_attr == 'solved':
@@ -247,7 +284,9 @@ def merge_standings(base_json: dict, complement_json: dict, source_name: str = "
                     
                     if f == "team_name" and strip_team_name_marker(val_base) == strip_team_name_marker(val_comp):
                         is_team_marker_match = True
-                        if str(val_base).strip().startswith(("*", "★")) and not str(val_comp).strip().startswith(("*", "★")):
+                        if str(val_base).strip() != strip_team_name_marker(val_base):
+                            merged_t[f] = strip_team_name_marker(val_base)
+                        if str(val_comp).strip() == strip_team_name_marker(val_comp):
                             merged_t[f] = val_comp
                     
                     if f in ["member1", "member2", "member3"]:
@@ -315,17 +354,16 @@ def merge_standings(base_json: dict, complement_json: dict, source_name: str = "
                 continue
 
             if base_status['solved'] != comp_status['solved']:
-                is_resolved = append_conflict_warning(warnings, contest_name, merged_t, f"problem:{p_id}:solved", resolutions)
+                is_resolved = append_conflict_warning(warnings, contest_name, merged_t, f"problem:{p_id}", resolutions)
                 if not is_resolved and not normalize_problem_status(base_probs.get(p_id, {}))['solved'] and comp_status['solved']:
                     base_probs[p_id] = comp_status
                 continue
 
-            if base_status['tries'] != comp_status['tries']:
-                append_conflict_warning(warnings, contest_name, merged_t, f"problem:{p_id}:tries", resolutions)
-
             current_base_status = normalize_problem_status(base_probs.get(p_id, {}))
-            if current_base_status['solved'] and comp_status['solved'] and current_base_status['time_mins'] != comp_status['time_mins']:
-                append_conflict_warning(warnings, contest_name, merged_t, f"problem:{p_id}:time_mins", resolutions)
+            if current_base_status['tries'] != comp_status['tries'] or (
+                current_base_status['solved'] and comp_status['solved'] and current_base_status['time_mins'] != comp_status['time_mins']
+            ):
+                append_conflict_warning(warnings, contest_name, merged_t, f"problem:{p_id}", resolutions)
         merged_t["problem_scores"] = base_probs
         merged_teams.append(merged_t)
         
@@ -387,17 +425,20 @@ def parse_rankland_config():
                         lookup[path_id] = (cat, y)
     return lookup
 
-def batch_process(year_arg="2025"):
+def batch_process(year_arg="2025", contest_name=""):
     year_arg = normalize_year_arg(year_arg)
-    df = pd.read_csv('data/contests/contests.csv', dtype=str).fillna('')
+    contests_file = RATED_CONTESTS_FILE if os.path.exists(RATED_CONTESTS_FILE) else CONTESTS_FILE
+    df = pd.read_csv(contests_file, dtype=str).fillna('')
 
     year_mask = df.apply(lambda row: contest_matches_year_arg(row.to_dict(), year_arg), axis=1)
-
-    target_categories = ['Regional', 'Final', 'Online']
-    target_df = df[year_mask & (df['category'].isin(target_categories)) & (df['name'].str.lower() != 'worldfinals')]
+    rating_mask = df.apply(lambda row: is_rating_contest(row.to_dict()), axis=1)
+    target_df = df[year_mask & rating_mask]
+    if contest_name:
+        target_df = target_df[target_df.apply(lambda row: get_output_name(row.to_dict()) == contest_name, axis=1)]
     
     if target_df.empty:
-        print(f"No mergeable records found for year(s): {year_arg}.")
+        suffix = f", contest: {contest_name}" if contest_name else ""
+        print(f"No mergeable records found for year(s): {year_arg}{suffix}.")
         return
 
     os.makedirs("data/merged/json", exist_ok=True)
@@ -405,6 +446,7 @@ def batch_process(year_arg="2025"):
     
     print("Fetching Rankland Config for lookup...")
     rl_lookup = parse_rankland_config()
+    untrusted_sources = load_untrusted_sources()
 
     resolutions_file = "data/merged/resolutions.csv"
     resolutions = {}
@@ -419,6 +461,7 @@ def batch_process(year_arg="2025"):
                     resolutions[key] = row['Resolution']
 
     all_warnings = []
+    processed_contests = []
     
     for idx, row in target_df.iterrows():
         name = row['name']
@@ -438,6 +481,7 @@ def batch_process(year_arg="2025"):
         out_name = f"{row['series']}_{row['year']}_{row['category']}_{name}"
         out_json = f"data/merged/json/{out_name}.json"
         out_csv = f"data/merged/csv/{out_name}.csv"
+        processed_contests.append(out_name)
         
 
             
@@ -452,6 +496,12 @@ def batch_process(year_arg="2025"):
             ArchiveProvider(archive_id, name),
             PDFProvider(pdf_id, name),
         ]
+        skipped_sources = get_untrusted_sources(untrusted_sources, out_name)
+        if skipped_sources:
+            skipped_names = [p.source_name for p in providers if p.source_name.lower() in skipped_sources]
+            if skipped_names:
+                print(f"  [SKIP SOURCES] Untrusted for {out_name}: {', '.join(skipped_names)}")
+            providers = [p for p in providers if p.source_name.lower() not in skipped_sources]
         
         for p in providers:
             if p.is_valid():
@@ -471,7 +521,7 @@ def batch_process(year_arg="2025"):
             pdf_jsons = []
 
         # This determines BASE.
-        priority = {"Rankland": 1, "XCPCIO": 2, "PTA": 3, "Archive": 4, "PDF": 5}
+        priority = {source: index for index, source in enumerate(SOURCE_PRIORITY)}
         jsons.sort(key=lambda x: priority.get(x[0], 99))
         
         # Resolve ambiguous schools before merging
@@ -590,7 +640,8 @@ def batch_process(year_arg="2025"):
     resolutions_file = "data/merged/resolutions.csv"
 
     # Write resolutions.csv
-    if all_warnings:
+    processed_contest_set = set(processed_contests)
+    if all_warnings or processed_contest_set:
         resolved = [w for w in all_warnings if w.get('Resolution')]
         unresolved = [w for w in all_warnings if not w.get('Resolution')]
         
@@ -611,14 +662,16 @@ def batch_process(year_arg="2025"):
 
         # Merge existing rows with new warnings
         final_rows = {}
-        # Load existing first, keeping only those that have a manual resolution saved
+        # Preserve rows for contests that were not part of this run. Processed contests
+        # are replaced by the current warnings, which also clears stale rows.
         for row in existing_rows:
-            if row.get('Resolution'):
-                k = (row.get('Contest', ''), row.get('Rank', ''), row.get('Field', ''), row.get('Team Name', ''))
-                final_rows[k] = row
+            if row.get('Contest', '') in processed_contest_set:
+                continue
+            k = (row.get('Contest', ''), row.get('Rank', ''), row.get('Field', ''), row.get('Team Name', ''))
+            final_rows[k] = row
             
         # Update with new runs
-        all_sources = ["XCPCIO", "Rankland", "Archive", "PTA"]
+        all_sources = SOURCE_PRIORITY
         for w in all_warnings:
             k = (w['Contest'], w['Rank'], w['Field'], w['Team Name'])
             out = {
@@ -635,13 +688,15 @@ def batch_process(year_arg="2025"):
             
         with open(resolutions_file, 'w', encoding='utf-8-sig', newline='') as csvfile:
             # Reconstruct fieldnames from data because existing rows might have extra source columns
-            all_sources_set = set(["XCPCIO", "Rankland", "Archive", "PTA"])
+            all_sources_set = set(SOURCE_PRIORITY)
             for row in final_rows.values():
                 for k in row.keys():
                     if k not in ['Contest', 'Rank', 'School', 'Team Name', 'Field', 'Resolution']:
                         all_sources_set.add(k)
                         
-            fieldnames = ['Contest', 'Rank', 'School', 'Team Name', 'Field'] + sorted(list(all_sources_set)) + ['Resolution']
+            source_fieldnames = [source for source in SOURCE_PRIORITY if source in all_sources_set]
+            source_fieldnames.extend(sorted(source for source in all_sources_set if source not in SOURCE_PRIORITY))
+            fieldnames = ['Contest', 'Rank', 'School', 'Team Name', 'Field'] + source_fieldnames + ['Resolution']
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames, lineterminator='\n')
             writer.writeheader()
             for r in final_rows.values():
@@ -652,7 +707,7 @@ def batch_process(year_arg="2025"):
         # Create empty template if none exist
         if not os.path.exists(resolutions_file):
             with open(resolutions_file, 'w', encoding='utf-8-sig', newline='') as csvfile:
-                all_sources = ["XCPCIO", "Rankland", "Archive", "PTA"]
+                all_sources = SOURCE_PRIORITY
                 fieldnames = ['Contest', 'Rank', 'School', 'Team Name', 'Field'] + all_sources + ['Resolution']
                 writer = csv.writer(csvfile, lineterminator='\n')
                 writer.writerow(fieldnames)
@@ -661,6 +716,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--batch", action="store_true", help="Batch process Regional and Final contests")
     parser.add_argument("--years", help="Year or range for batch (e.g. 2025, 25, 25-26, 25H2-26H1, 25下半年-26上半年, all)", default="2025")
+    parser.add_argument("--contest", help="Single batch output name to process, e.g. CCPC_2024_Online_online")
     parser.add_argument("base", nargs="?", help="Base JSON file")
     parser.add_argument("comp", nargs="?", help="Complement JSON file")
     parser.add_argument("out", nargs="?", help="Output name")
@@ -668,7 +724,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     
     if args.batch:
-        batch_process(args.years)
+        batch_process(args.years, args.contest or "")
     else:
         if not args.base or not args.comp:
             parser.print_help()

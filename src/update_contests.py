@@ -12,6 +12,17 @@ SERIES_YEAR_BASE = {
 }
 
 PROVINCIAL_NAME_YEARS = {'2025', '2026'}
+CONTESTS_FILE = 'data/contests/contests.csv'
+RATED_CONTESTS_FILE = 'data/contests/rated_contests.csv'
+MERGE_RATING_CATEGORIES = {'Regional', 'Final', 'Online'}
+CONTEST_FIELDS = ['series', 'year', 'ordinal', 'date', 'category', 'name', 'rankland_id', 'xcpcio_id', 'pta_id', 'archive_id']
+
+def is_rating_contest(row):
+    return (
+        str(row.get('series', '')).strip().lower() != 'other'
+        and str(row.get('category', '')) in MERGE_RATING_CATEGORIES
+        and str(row.get('name', '')).lower() != 'worldfinals'
+    )
 
 def parse_int(value):
     if value is None or value == '':
@@ -603,26 +614,37 @@ def main():
     print(f"Merged into unique events: {len(merged_dict)}")
     
     os.makedirs('data/contests', exist_ok=True)
-    out_path = 'data/contests/contests.csv'
-    
-    out_fields = ['series', 'year', 'ordinal', 'date', 'category', 'name', 'xcpcio_id', 'rankland_id', 'pta_id', 'archive_id']
+
+    sorted_keys = sorted(
+        merged_dict.keys(),
+        key=lambda x: (
+            merged_dict[x]['date'] if merged_dict[x]['date'] else '0000-00-00',
+            merged_dict[x]['year'] if merged_dict[x]['year'] else 0,
+        ),
+        reverse=True,
+    )
+    all_rows = [merged_dict[k] for k in sorted_keys]
+    rating_rows = [row for row in all_rows if is_rating_contest(row)]
+
+    def write_rows(path, rows):
+        with open(path, 'w', encoding='utf-8-sig', newline='') as f:
+            writer = csv.DictWriter(f, fieldnames=CONTEST_FIELDS, lineterminator='\n')
+            writer.writeheader()
+            for row in rows:
+                writer.writerow(row)
+
     try:
-        with open(out_path, 'w', encoding='utf-8-sig', newline='') as f:
-            writer = csv.DictWriter(f, fieldnames=out_fields, lineterminator='\n')
-            writer.writeheader()
-            sorted_keys = sorted(merged_dict.keys(), key=lambda x: (merged_dict[x]['date'] if merged_dict[x]['date'] else '0000-00-00', merged_dict[x]['year'] if merged_dict[x]['year'] else 0), reverse=True)
-            for k in sorted_keys:
-                writer.writerow(merged_dict[k])
-        print(f"Saved merged contests to {out_path}")
+        write_rows(CONTESTS_FILE, all_rows)
+        write_rows(RATED_CONTESTS_FILE, rating_rows)
+        print(f"Saved all contests to {CONTESTS_FILE} ({len(all_rows)} rows)")
+        print(f"Saved rated contests to {RATED_CONTESTS_FILE} ({len(rating_rows)} rows)")
     except PermissionError:
-        out_path = 'data/contests/contests_new.csv'
-        with open(out_path, 'w', encoding='utf-8-sig', newline='') as f:
-            writer = csv.DictWriter(f, fieldnames=out_fields, lineterminator='\n')
-            writer.writeheader()
-            sorted_keys = sorted(merged_dict.keys(), key=lambda x: (merged_dict[x]['date'] if merged_dict[x]['date'] else '0000-00-00', merged_dict[x]['year'] if merged_dict[x]['year'] else 0), reverse=True)
-            for k in sorted_keys:
-                writer.writerow(merged_dict[k])
-        print(f"Saved merged contests to {out_path} (original was blocked)")
+        all_out_path = 'data/contests/contests_new.csv'
+        rating_out_path = 'data/contests/rated_contests_new.csv'
+        write_rows(all_out_path, all_rows)
+        write_rows(rating_out_path, rating_rows)
+        print(f"Saved all contests to {all_out_path} (original was blocked)")
+        print(f"Saved rated contests to {rating_out_path} (original was blocked)")
 
 if __name__ == '__main__':
     main()
